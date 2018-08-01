@@ -4,11 +4,11 @@ return array(
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
+    "add_ticket_note"           => "Añadir nota al ticket",
+    "add_ticket_reply"          => "Añadir respuesta al ticket",
+    "add_tag"                   => "Añadir etiqueta",
+    "assign_operator"           => "Asignar operador al ticket",
+    "remove_tag"                => "Eliminar etiqueta",
     "email_operators"           => "Send email to operators",
     "email_operator_group"      => "Send email to an operator group",
     "email_user"                => "Send email to user",
