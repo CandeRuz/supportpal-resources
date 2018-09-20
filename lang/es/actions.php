@@ -11,13 +11,13 @@ return array(
     "remove_tag"                => "Eliminar etiqueta",
     "email_operators"           => "Enviar correo a los operadores",
     "email_operator_group"      => "Enviar correo al grupo de operadores",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
+    "email_user"                => "Enviar correo al usuario",
+    "email_user_group"          => "Enviar correo al grupo de usuarios",
     "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
-    
+    "update_department"         => "Actualizar departamento",
+    "update_priority"           => "Actualizar prioridad",
+    "update_status"             => "Actualizar estado",
+
     /*
      * 2.0.3
      */
@@ -26,21 +26,21 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Delete ticket",
-    "delete_ticket_and_block"   => "Delete ticket and block user",
-    "increase_due_time"         => "Increase due time",
+    "delete_ticket"             => "Eliminar ticket",
+    "delete_ticket_and_block"   => "Eliminar etiqueta y bloquear usuario",
+    "increase_due_time"         => "Ampliar el plazo",
     "close_and_lock_ticket"     => "Close and lock ticket",
-    "pause_due_time"            => "Pause due time",
-    "reduce_due_time"           => "Reduce due time",
-    "set_due_time"              => "Set due time",
+    "pause_due_time"            => "Pausar el plazo",
+    "reduce_due_time"           => "Reducir el plazo",
+    "set_due_time"              => "Establecer el plazo",
     "unlock_ticket"             => "Unlock ticket",
     "update_sla_plan"           => "Update SLA plan",
     "update_subject"            => "Update subject",
-    "add_user_to_group"         => "Add user to user group",
-    "remove_user_from_group"    => "Remove user from user group",
-    "authenticated_operator"    => "Authenticated operator",
+    "add_user_to_group"         => "Añadir usuario al grupo de usuarios",
+    "remove_user_from_group"    => "Eliminar usuario del grupo de usuarios",
+    "authenticated_operator"    => "Operador autentificado",
     "all_assigned_operators"    => "All assigned operators",
-    "all_tags"                  => "All tags",
+    "all_tags"                  => "Todas las etiquetas",
     "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
     "hours_to_be_added"         => "hours to be added to the current due time.",
     "hours_to_be_removed"       => "hours to be removed from the current due time.",
@@ -51,15 +51,15 @@ return array(
     /*
      * 2.3.0
      */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
+    "add_cc"                    => "Añadir dirección de correo CC",
+    "remove_cc"                 => "Eliminar dirección de correo CC",
     "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
 
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Exclude CC email addresses",
-    
+    "exclude_cc"                => "Excluir direcciones de correo CC",
+
     /*
      * 2.4.0
      */
