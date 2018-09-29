@@ -44,16 +44,16 @@ return array(
     "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
     "hours_to_be_added"         => "horas para añadir al plazo actual.",
     "hours_to_be_removed"       => "horas para quitar del plazo actual.",
-    "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
-    "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
-    "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
+    "hours_to_be_set"           => "horas para añadir a la hora actual y establecer el nuevo plazo del ticket.",
+    "only_with_due_time"        => "Solo se aplica a los tickets con un plazo actualmente establecido.",
+    "set_due_time_desc"         => "Elimina el plazo actual dejando el campo en blanco. También se puede establecer un plazo en el pasado utilizando un número negativo.",
 
     /*
      * 2.3.0
      */
     "add_cc"                    => "Añadir dirección de correo CC",
     "remove_cc"                 => "Eliminar dirección de correo CC",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
+    "remove_cc_desc"            => "Dejar/lo *** en blanco para eliminar todas las direcciones de correo CC del ticket.",
 
     /*
      * 2.3.1
