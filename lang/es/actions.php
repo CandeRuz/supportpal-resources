@@ -39,7 +39,7 @@ return array(
     "add_user_to_group"         => "Añadir usuario al grupo de usuarios",
     "remove_user_from_group"    => "Eliminar usuario del grupo de usuarios",
     "authenticated_operator"    => "Operador autentificado",
-    "all_assigned_operators"    => "All assigned operators",
+    "all_assigned_operators"    => "Todos los operadores designados",
     "all_tags"                  => "Todas las etiquetas",
     "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
     "hours_to_be_added"         => "horas para añadir al plazo actual.",
