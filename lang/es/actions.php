@@ -53,7 +53,7 @@ return array(
      */
     "add_cc"                    => "Añadir dirección de correo CC",
     "remove_cc"                 => "Eliminar dirección de correo CC",
-    "remove_cc_desc"            => "Dejar/lo *** en blanco para eliminar todas las direcciones de correo CC del ticket.",
+    "remove_cc_desc"            => "Dejar el campo en blanco para eliminar todas las direcciones de correo CC del ticket.",
 
     /*
      * 2.3.1
