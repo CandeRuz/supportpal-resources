@@ -28,11 +28,11 @@ return array(
      */
     "delete_ticket"             => "Eliminar ticket",
     "delete_ticket_and_block"   => "Eliminar ticket y bloquear usuario",
-    "increase_due_time"         => "Ampliar plazo",
+    "increase_due_time"         => "Ampliar hora de entrega",
     "close_and_lock_ticket"     => "Cerrar y bloquear ticket",
-    "pause_due_time"            => "Pausar plazo",
-    "reduce_due_time"           => "Reducir plazo",
-    "set_due_time"              => "Establecer plazo",
+    "pause_due_time"            => "Pausar hora de entrega",
+    "reduce_due_time"           => "Reducir hora de entrega",
+    "set_due_time"              => "Establecer hora de entrega",
     "unlock_ticket"             => "Desbloquear ticket",
     "update_sla_plan"           => "Actualizar plan ANS",
     "update_subject"            => "Actualizar asunto",
@@ -42,11 +42,11 @@ return array(
     "all_assigned_operators"    => "Todos los operadores designados",
     "all_tags"                  => "Todas las etiquetas",
     "subject_placeholder"       => "{{ ticket.subject }} es el campo para el asunto del ticket existente si desea añadir algo antes o después.",
-    "hours_to_be_added"         => "horas para añadir al plazo actual.",
-    "hours_to_be_removed"       => "horas para quitar del plazo actual.",
-    "hours_to_be_set"           => "horas para añadir a la hora actual y establecer el nuevo plazo del ticket.",
-    "only_with_due_time"        => "Solo se aplica a los tickets con un plazo actualmente establecido.",
-    "set_due_time_desc"         => "Elimina el plazo actual dejando el campo en blanco. También se puede establecer un plazo en el pasado utilizando un número negativo.",
+    "hours_to_be_added"         => "horas para añadir a la actual hora de entrega.",
+    "hours_to_be_removed"       => "horas para quitar de la actual hora de entrega.",
+    "hours_to_be_set"           => "horas para añadir a la hora actual y establecer la nueva hora de entrega del ticket.",
+    "only_with_due_time"        => "Solo se aplica a los tickets con una hora de entrega actualmente establecida.",
+    "set_due_time_desc"         => "Elimina la hora de entrega actual dejando el campo en blanco. También se puede establecer una hora de entrega en el pasado utilizando un número negativo.",
 
     /*
      * 2.3.0
