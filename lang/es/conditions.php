@@ -37,8 +37,8 @@ return array(
     /*
      * 2.2.0
      */
-    "hours_since_last_reply"            => "Hours since last reply",
-    "hours_since_last_reply_exc_notes"  => "Hours since last reply (excluding notes)",
+    "hours_since_last_reply"            => "Horas desde la última respuesta",
+    "hours_since_last_reply_exc_notes"  => "Horas desde la última respuesta (excluyendo notas)",
     "hours_until_due"                   => "Hours until due",
     "last_ticket_replier_exc_notes"     => "Last ticket replier (excluding notes)",
     "ticket_department_email"           => "Ticket department email",
@@ -51,10 +51,10 @@ return array(
     "ticket_number"                     => "Ticket number",
     "ticket_reopened_time"              => "Ticket reopened time",
     "ticket_resolved_time"              => "Ticket resolved time",
-    "user_account_active"               => "User account active",
-    "user_country"                      => "User country",
-    "user_language"                     => "User language",
-    "user_timezone"                     => "User timezone",
+    "user_account_active"               => "Cuenta activa del usuario",
+    "user_country"                      => "País del usuario",
+    "user_language"                     => "Lengua del usuario",
+    "user_timezone"                     => "Zona horaria del usuario",
 
     /*
      * 2.3.0
