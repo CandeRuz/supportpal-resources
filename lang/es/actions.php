@@ -41,7 +41,7 @@ return array(
     "authenticated_operator"    => "Operador autentificado",
     "all_assigned_operators"    => "Todos los operadores designados",
     "all_tags"                  => "Todas las etiquetas",
-    "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
+    "subject_placeholder"       => "{{ ticket.subject }} es el campo para el asunto del ticket existente si desea añadir algo antes o después.",
     "hours_to_be_added"         => "horas para añadir al plazo actual.",
     "hours_to_be_removed"       => "horas para quitar del plazo actual.",
     "hours_to_be_set"           => "horas para añadir a la hora actual y establecer el nuevo plazo del ticket.",
