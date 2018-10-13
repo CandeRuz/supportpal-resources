@@ -59,7 +59,7 @@ return array(
     /*
      * 2.3.0
      */
-    "ticket_cc"                         => "Ticket CC",
+    "ticket_cc"                         => "CC del ticket",
     "ticket_custom_field"               => "Ticket custom field",
     "user_custom_field"                 => "User custom field",
     "user_organisation_custom_field"    => "User organisation custom field",
