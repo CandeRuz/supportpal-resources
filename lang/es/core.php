@@ -8,7 +8,7 @@ return array(
     "operator_panel"            => "Operator Panel",
     "helpdesk_software"         => "Help Desk Software by",
     "carefully_crafted"         => "Carefully crafted by",
-    "welcome"                   => "Welcome to SupportPal",
+    "welcome"                   => "Bienvenido a SupportPal",
     "welcome_desc"              => "You've made a smart decision. Click start to begin a quick product tour of our settings and features.",
 
     // Dashboard
