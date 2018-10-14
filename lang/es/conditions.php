@@ -51,7 +51,7 @@ return array(
     "ticket_number"                     => "Número del ticket",
     "ticket_reopened_time"              => "Hora de reapertura del ticket",
     "ticket_resolved_time"              => "Hora de resolución del ticket",
-    "user_account_active"               => "Cuenta activa del usuario",
+    "user_account_active"               => "Cuenta de usuario activa",
     "user_country"                      => "País del usuario",
     "user_language"                     => "Lengua del usuario",
     "user_timezone"                     => "Zona horaria del usuario",
