@@ -60,8 +60,8 @@ return array(
      * 2.3.0
      */
     "ticket_cc"                         => "CC del ticket",
-    "ticket_custom_field"               => "Ticket custom field",
-    "user_custom_field"                 => "User custom field",
+    "ticket_custom_field"               => "Campo personalizado del ticket",
+    "user_custom_field"                 => "Campo personalizado del usuario",
     "user_organisation_custom_field"    => "User organisation custom field",
     "user_organisation"                 => "User organisation name",
     "user_organisation_brand"           => "User organisation brand",
