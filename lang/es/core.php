@@ -295,7 +295,7 @@ return array(
     "brand_lang_toggle_desc"    => "If the language dropdown should show on this brand's frontend.",
     "brand_groups_desc"         => "Operators in the selected groups will be able to create, update and delete (depending on role permissions) tickets and other content in this brand.",
     "select_brand"              => "Select a brand...",
-    "add_another_language"      => "Add another language...",
+    "add_another_language"      => "Añadir otra lengua...",
     "mass_email_brand_desc"     => "Please select which brand the email will be sent from. It will be used to set the sending from name and address, load the correct email template and in the merge fields. If you send to a user group, only users who belong to the selected brand will be emailed.",
     "brand_limit_exceeded"      => "Your license is only permitted to use :allowed brand(s) simultaneously. To purchase additional brands please visit our client area.",
     "additional_brands"         => "Additional Brands",
@@ -331,8 +331,8 @@ return array(
      */
     "reply_to"                  => "Reply To",
     "and_number_others"         => "and :number other|and :number others",
-    "user_templates"            => "User Templates",
-    "operator_templates"        => "Operator Templates",
+    "user_templates"            => "Plantillas del usuario",
+    "operator_templates"        => "Plantillas del operador",
     
     /*
      * 2.2.0
@@ -342,9 +342,9 @@ return array(
     "attachment_limit_reached"  => "Cumulative file limit reached (:size). Please consider sending files via another medium (such as a download URL).",
     "upload_unknown_error"      => "The file \":file\" was not uploaded due to a server-side error.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
-    "translations"              => "Translations",
-    "no_existing_translations"  => "No existing translations.",
-    "add_translation"           => "Add Translation",
+    "translations"              => "Traducciones",
+    "no_existing_translations"  => "No existen traducciones",
+    "add_translation"           => "Añadir traducción",
     "todo_list"                 => "To Do List",
     "version_check"             => "Version Check",
     "system_overview"           => "System Overview",
@@ -374,8 +374,8 @@ return array(
     "favicon_desc"              => "The favicon image appears in the address bar and is used to identify your website. For the best results, ensure the icon contains a range of sizes from 32x32px to 310x310px, is square and ICO/PNG format.",
     "operator_icon"             => "Operator Icon",
     "operator_icon_desc"        => "Change the default icon on the operator interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image. We recommend a white-filled icon that is transparent and scales from 32x32px to 80x80px well.",
-    "view_original"             => "View Original",
-    "download_original"         => "Download Original",
+    "view_original"             => "Ver original",
+    "download_original"         => "Descargar original",
     "consume_all"               => "Optionally enter a department email address  with \"Consume All\" enabled.",
     "reprocess_email"           => "Reprocess Email",
     "reprocess_email_desc"      => "We recommend to review what originally blocked the email and make any necessary changes before attempting to reprocess.",
