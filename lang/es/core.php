@@ -4,18 +4,18 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "SupportPal, smart and simple.",
-    "operator_panel"            => "Operator Panel",
-    "helpdesk_software"         => "Help Desk Software by",
+    "slogan"                    => "SupportPal, fácil y eficaz.",
+    "operator_panel"            => "Panel del operador",
+    "helpdesk_software"         => "Software de asistencia técnica por",
     "carefully_crafted"         => "Carefully crafted by",
     "welcome"                   => "Bienvenido a SupportPal",
     "welcome_desc"              => "You've made a smart decision. Click start to begin a quick product tour of our settings and features.",
 
     // Dashboard
-    "welcome_back"              => "Welcome back",
+    "welcome_back"              => "Bienvenido de nuevo",
     "search_placeholder"        => "Search our help desk...",
-    "submit_ticket"             => "Submit Ticket",
-    "submit_ticket_desc"        => "Use this form to submit a support ticket to our highly trained staff.",
+    "submit_ticket"             => "Enviar ticket",
+    "submit_ticket_desc"        => "Utiliza este formulario para enviar un ticket a nuestra plantilla de operadores especializados.",
     "track_ticket"              => "Track a Ticket",
     "track_ticket_desc"         => "Not Registered? Use your email address and ticket number to track the status of your ticket.",
     "my_tickets"                => "My Tickets",
