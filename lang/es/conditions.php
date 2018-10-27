@@ -17,7 +17,7 @@ return array(
     "ticket_department"                 => "Departamento del ticket",
     "ticket_due_time"                   => "Hora de entrega del ticket",
     "ticket_message_content"            => "Contenido del mensaje del ticket",
-    "ticket_message_count"              => "Ticket message count",
+    "ticket_message_count"              => "Número de mensajes del ticket",
     "ticket_priority"                   => "Prioridad del ticket",
     "ticket_sla_plan"                   => "Plan ANS del ticket",
     "ticket_status"                     => "Estado del ticket",
@@ -31,8 +31,8 @@ return array(
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Ticket brand",
-    "user_brand"                        => "User brand",
+    "ticket_brand"                      => "Marca del ticket",
+    "user_brand"                        => "Marca del usuario",
 
     /*
      * 2.2.0
@@ -45,9 +45,9 @@ return array(
     "ticket_has_attachments"            => "El ticket contiene archivos adjuntos",
     "ticket_has_drafts"                 => "El ticket contiene borradores",
     "ticket_locked"                     => "Ticket bloqueado",
-    "ticket_merged"                     => "Ticket merged",
-    "ticket_message_count_exc_notes"    => "Ticket message count (excluding notes)",
-    "ticket_note_count"                 => "Ticket note count",
+    "ticket_merged"                     => "Ticket combinado",
+    "ticket_message_count_exc_notes"    => "Número de mensajes del ticket (excluyendo notas)",
+    "ticket_note_count"                 => "Número de notas del ticket",
     "ticket_number"                     => "Número del ticket",
     "ticket_reopened_time"              => "Hora de reapertura del ticket",
     "ticket_resolved_time"              => "Hora de resolución del ticket",
