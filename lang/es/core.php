@@ -78,15 +78,15 @@ return array(
     // Company
     "company"                   => "Compañía(s)",
     "company_name"              => "Nombre de la compañía",
-    "your_company"              => "Your Company",
+    "your_company"              => "Tu compañía",
 
     // Email
     "default_email_addr"        => "Dirección de correo por defecto",
-    "default_email_addr_desc"   => "The email that will be used in the sender field in most emails sent by the system.",
+    "default_email_addr_desc"   => "El correo electrónico que se utilizará en el campo del remitente en la mayoría de los correos enviados por el sistema.",
     "include_operator_name"     => "Incluir nombre del operador",
     "include_operator_name_desc" => "Include the operators name in the email 'From' field for ticket reply emails. For example: From: Joe Bloggs (YourCompany Support)",
     "include_dept_name"         => "Incluir nombre del departamento",
-    "include_dept_name_desc"    => "Include the department name in the 'From' field of any ticket related emails. Note that this will typically create a new email thread if a given ticket changes departments.",
+    "include_dept_name_desc"    => "Incluir el nombre del departamento en el campo "De" de cualquier correo relacionado con el ticket. Tenga en cuenta que esto normalmente creará un nuevo hilo de correos si un determinado ticket cambia de departamento." ,
     "global_email_header"       => "Global Email Header",
     "global_email_header_desc"  => "Add a header to all emails sent out by the system. HTML is accepted.",
     "global_email_footer"       => "Global Email Footer",
