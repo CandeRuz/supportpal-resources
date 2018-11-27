@@ -4,7 +4,7 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "SupportPal, fácil y eficaz.",
+    "slogan"                    => "Atención al cliente, fácil y eficaz.",
     "operator_panel"            => "Panel del operador",
     "helpdesk_software"         => "Software de asistencia técnica por",
     "carefully_crafted"         => "Carefully crafted by",
