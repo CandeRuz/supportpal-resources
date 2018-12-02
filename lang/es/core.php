@@ -107,19 +107,19 @@ return array(
     "ssl"                       => "SSL",
     "tls"                       => "TLS",
     "validate_smtp"             => "Validar SMTP",
-    "email_content"             => "Email Content",
-    "email_content_desc"        => "Enter a default subject and email content for this template, you can also write the template in other languages. If a template is not set in another language, it will use the default data.",
+    "email_content"             => "Contenido del correo",
+    "email_content_desc"        => "Insertar un asunto por defecto y contenido del correo para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará --, it will use the default data.",
     "outgoing"                  => "Outgoing",
     "incoming"                  => "Incoming",
     "incoming_spam"             => "Incoming (Rejected - Spam)",
     "incoming_throttled"        => "Incoming (Rejected - Throttled)",
-    "email_subject"             => "Email Subject",
-    "twig_html_warning"         => "Twig is not allowed inside HTML tags/attributes and will be automatically removed on save.",
+    "email_subject"             => "Asunto del correo",
+    "twig_html_warning"         => "No se permite Twig dentro de etiquetas o atributos HTML y será automáticamente eliminado al guardar.",
 
     // Modules
-    "modules"                   => "Module|Modules",
-    "modules_desc"              => "Below is a list of all the available modules, click the edit icon to update the settings for that module.",
-    "module_disable"            => "Disabled modules will be removed from the frontend and operator interface.",
+    "modules"                   => "Sección|Secciones",
+    "modules_desc"              => "Debajo se encuentra una lista con todas las secciones dispoinibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
+    "module_disable"            => "Las secciones desactivadas se elimarán del frontend y la interfaz del operador.",
 
     // Scheduled tasks
     "scheduled_task"            => "Tarea programada|Tareas programadas",
