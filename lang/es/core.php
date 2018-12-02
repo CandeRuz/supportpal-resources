@@ -147,10 +147,10 @@ return array(
     "utilities"                 => "Utilities",
 
     // System Cleanup
-    "system_cleanup"            => "System Cleanup",
-    "system_cleanup_desc"       => "Use the available options to remove data that may no longer be needed or wanted.",
+    "system_cleanup"            => "Limpieza del sistema",
+    "system_cleanup_desc"       => "Utiliza las opciones disponibles para eliminar información que ya no sirva o sea necesaria.",
     "files"                     => "Files",
-    "files_desc"                => "The following items are stored as files on the file system.",
+    "files_desc"                => "Los siguientes items se almacenan como archivos en el sistema de archivos.",
     "logs"                      => "Logs",
     "logs_desc"                 => "The following items are stored as records in the database.",
     "empty"                     => "Empty",
