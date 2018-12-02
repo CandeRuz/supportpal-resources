@@ -62,13 +62,13 @@ return array(
     "ticket_cc"                         => "CC del ticket",
     "ticket_custom_field"               => "Campo personalizado del ticket",
     "user_custom_field"                 => "Campo personalizado del usuario",
-    "user_organisation_custom_field"    => "User organisation custom field",
-    "user_organisation"                 => "User organisation name",
-    "user_organisation_brand"           => "User organisation brand",
-    "user_organisation_country"         => "User organisation country",
-    "user_organisation_language"        => "User organisation language",
-    "user_organisation_notes"           => "User organisation notes",
-    "user_organisation_timezone"        => "User organisation timezone",
+    "user_organisation_custom_field"    => "Campo personalizado de la organización del usuario",
+    "user_organisation"                 => "Nombre de la organización del usuario",
+    "user_organisation_brand"           => "Marca de la organización del usuario",
+    "user_organisation_country"         => "País de la organización del usuario",
+    "user_organisation_language"        => "Lengua de la organización del usuario",
+    "user_organisation_notes"           => "Notas de la organización del usuario",
+    "user_organisation_timezone"        => "Zona horaria de la organización del usuario",
 
     /*
      * 2.4.0
