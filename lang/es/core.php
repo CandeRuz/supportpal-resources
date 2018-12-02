@@ -118,7 +118,7 @@ return array(
 
     // Modules
     "modules"                   => "Sección|Secciones",
-    "modules_desc"              => "Debajo se encuentra una lista con todas las secciones dispoinibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
+    "modules_desc"              => "Debajo se encuentra una lista con todas las secciones disponibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
     "module_disable"            => "Las secciones desactivadas se elimarán del frontend y la interfaz del operador.",
 
     // Scheduled tasks
