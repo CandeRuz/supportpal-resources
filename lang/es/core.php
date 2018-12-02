@@ -123,19 +123,19 @@ return array(
 
     // Scheduled tasks
     "scheduled_task"            => "Tarea programada|Tareas programadas",
-    "interval_desc"             => "Set how often this task runs, for example setting 5 minutes will mean that the task runs every 5 minutes if the cron is active and running.",
-    "cron_settings"             => "Cron Settings",
-    "cron_makesure"             => "Please create a cron job with the following entry: ",
-    "cron_running"              => "Running",
-    "cron_not_running"          => "Not Running",
+    "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, estableciendo 5 minutos significará que  la tarea se ejecutará cada 5 minutos si el cronograma está activo y funcionando.",
+    "cron_settings"             => "Ajustes del cronograma",
+    "cron_makesure"             => "Por favor, crea una tarea del cronograma con la siguiente entrada: ",
+    "cron_running"              => "Ejecutándose",
+    "cron_not_running"          => "No ejecutándose",
     "task_ran"                  => "Successfully ran scheduled task manually.",
     "task_failed"               => "Failed trying to run scheduled task manually.",
 
     // Plugins
     "plugins"                   => "Plugin|Plugins",
-    "installed_plugins"         => "Installed Plugins",
-    "visit_plugin"              => "Visit Plugin Site",
-    "uninstall_plugin_warning"  => "Uninstalling the plugin will delete all associated files and data. We recommend to deactivate the plugin instead.",
+    "installed_plugins"         => "Plugins instalados",
+    "visit_plugin"              => "Visitar Plugin Site",
+    "uninstall_plugin_warning"  => "Al desinstalar el plugin se eliminarán todas las carpetas y la información asociada, por lo que en su lugar recomendamos simplemente desactivar el plugin.",
 
     // Messages
     "last_activity"             => "Actividad reciente",
