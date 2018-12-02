@@ -60,7 +60,7 @@ return array(
     "read_only"                 => "Solo lectura",
 
     // Spam Rules & Filtering
-    "spam_rule"                 => "Regla(s) de spam",
+    "spam_rule"                 => "Regla de spam|Reglas de spam",
     "containing_text"           => "Que contenga el texto",
     "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
     "ip_filtering"              => "Filtro de IP",
@@ -76,7 +76,7 @@ return array(
     "content_sender"            => "Contenido y remitente",
 
     // Company
-    "company"                   => "Compañía(s)",
+    "company"                   => "Compañía|Compañías",
     "company_name"              => "Nombre de la compañía",
     "your_company"              => "Tu compañía",
 
@@ -91,7 +91,7 @@ return array(
     "global_email_header_desc"  => "Añadir una cabecera a todos los correos electrónicos enviados por el sistema. Se acepta HTML.",
     "global_email_footer"       => "Pie de página",
     "global_email_footer_desc"  => "Añadir un pie de página a todos los correos electrónicos enviados por le sistema. Se acepta HTML.",
-    "email_template"            => "Plantilla de correo(s)",
+    "email_template"            => "Plantilla de correo|Plantillas de correo",
     "email_log"                 => "Email Log",
     "email_queue"               => "Email Queue",
     "email_queue_desc"          => "Debajo se encuentran los correos en cola para ser enviados pronto por el cronograma.",
@@ -122,7 +122,7 @@ return array(
     "module_disable"            => "Disabled modules will be removed from the frontend and operator interface.",
 
     // Scheduled tasks
-    "scheduled_task"            => "Tarea(s) programada(s)",
+    "scheduled_task"            => "Tarea programada|Tareas programadas",
     "interval_desc"             => "Set how often this task runs, for example setting 5 minutes will mean that the task runs every 5 minutes if the cron is active and running.",
     "cron_settings"             => "Cron Settings",
     "cron_makesure"             => "Please create a cron job with the following entry: ",
