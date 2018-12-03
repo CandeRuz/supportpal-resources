@@ -9,7 +9,6 @@ return array(
     "supportpal_installer"      => "SupportPal Installer",
     "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
     "select_language"           => "Select Language:",
-    "begin_installation"        => "Begin Installation",
     "install_type"              => "Installation Type",
     "install"                   => "Fresh Install",
     "upgrade"                   => "Upgrade Existing Installation",
@@ -91,15 +90,9 @@ return array(
     "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
     "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
     "disabled_functions"        => "Disabled Functions",
-    "mysql_version_is"          => "Your MySQL Version is :version.",
     "help_mysql_version"        => "For assistance installing a new version of MySQL please contact your hosting provider or server administrator.",
     "mysql_version"             => "MySQL Version",
     "mysql_version_not_found"   => "Not available, found MySQL version: :version",
-
-    /*
-     * 2.0.3
-     */
-    "support_expired_error"     => "An error occurred while contacting the license server with message: ':error'.<br /> Please contact support quoting this message.",
 
     /*
      * 2.1.0
@@ -120,9 +113,7 @@ return array(
     "allow_url_fopen_failure"   => "Enable 'allow_url_fopen' in your php.ini file to use Gravatar and other features.",
     "allowed_methods"           => "HTTP Allowed Methods",
     "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
-    "view_log"                  => "View Log",
-    "unexpected_response"       => "Unexpected response.",
-    
+
     /*
      * 2.4.0
      */

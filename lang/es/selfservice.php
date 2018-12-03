@@ -24,9 +24,6 @@ return array(
     "published"                 => "Published",
     "spam"                      => "Spam",
 
-    "show_text"                 => "Show Text",
-    "hide_text"                 => "Hide Text",
-
     "hierarchical"              => "Hierarchical",
     "list"                      => "List",
 
@@ -49,7 +46,6 @@ return array(
     "login_comment"             => "You must be logged in to submit a comment.",
     "incorrect_captcha"         => "The captcha was incorrect.",
     "comment_blocked"           => "The comment was blocked due to spam.",
-    "comment_error"             => "Could not post comment.",
     "comment_success"           => "Your comment was submitted!",
     "comment_success_moderated" => "Your comment has been submitted for moderation by a member of our team.",
 
@@ -104,8 +100,6 @@ return array(
      * 2.0.3
      */
     "auth_required"             => "Please login or register an account to view the article.",
-    "download_auth_required"    => "Please login or register an account to download the article attachment",
-    "auth_required"             => "Please login or register an account to view the article.",
 
     /*
      * 2.1.0
@@ -119,7 +113,7 @@ return array(
     "article_brand_warning"     => "This article exists in a brand that you are not assigned to, any changes you make will also be visible under that brand.",
     "viewing_article"           => "Viewing Article",
     "article_count"             => "Article Count",
-    
+
     /*
      * 2.2.0
      */

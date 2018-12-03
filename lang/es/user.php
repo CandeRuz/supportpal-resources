@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Account Active",
     "account_active_desc"           => "Toggle to enable and disable access to authenticated sections.",
 
-    "operator_settings"             => "Operator Settings",
     "op_settings_dept_desc"         => "Select which departments the operator can view and reply to tickets in.",
 
     "organisation"                  => "Organisation|Organisations",
@@ -32,12 +31,7 @@ return array(
     "send_password_reset"           => "Send Password Reset Link",
 
     "profile"                       => "Profile",
-    "address"                       => "Address",
-    "city"                          => "City",
-    "state"                         => "State",
-    "postcode"                      => "Postcode",
     "phone"                         => "Phone Number",
-    "website"                       => "Website URL",
 
     "login"                         => "Login",
     "remember_me"                   => "Remember me",
@@ -78,11 +72,9 @@ return array(
     "formatted_name"                => "Formatted Name",
     "country"                       => "Country",
     "avatar"                        => "Avatar",
-    "generate_password"             => "Generate Random Password",
     "confirm_password"              => "Confirm Password",
 
     "confirmed"                     => "Confirmed",
-    "confirmed_desc"                => "Toggle to enable and disable access to authenticated sections.",
     "unconfirmed"                   => "Unconfirmed",
 
     "group"                         => "User Group|User Groups",
@@ -180,18 +172,16 @@ return array(
     "password_reset_invalid"        => "Invalid token, please verify details are correct or try to reset again.",
     "password_reset_success"        => "Password reset successfully!",
     "password_reset_already"        => "You have already confirmed your account, you may proceed to login.",
-    "password_not_valid"            => "Passwords not valid or not the same.",
-    "invalid_reset_request"         => "Invalid password reset request.",
 
     "simpleauth_token_expired"      => "The access token has expired.",
     "simpleauth_token_invalid"      => "The access token provided is invalid.",
     "simpleauth_invalid_guard"      => "Cannot login as not a valid user.",
     "simpleauth_not_allowed"        => "Operators cannot currently login with SimpleAuth.",
-    
+
     /*
      * 2.0.2
      */
-    
+
     "email_history"                 => "Email History",
     "view_email"                    => "View Email",
 
@@ -201,7 +191,7 @@ return array(
     "ban_length"                    => "Length of IP Ban",
     "ban_length_desc"               => "The length of the IP ban when they reach the configured number of failed logins in a single day.",
     "n_failed_logins"               => ":count failed logins within 24 hours",
-    
+
     /*
      * 2.0.3
      */
@@ -223,7 +213,7 @@ return array(
     "manager_email_notifications_desc" => "If they should receive email notifications of updates to tickets opened by other users in the organisation.",
     "organisation_notifications_desc" => "If you'd like to receive email notifications of updates to tickets opened by other users in your organisation.",
     "select_operator_group_desc"    => "Please select at least one operator group for this operator.",
-    
+
     /*
      * 2.1.0
      */
@@ -276,7 +266,7 @@ return array(
      */
     "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
     "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
-    
+
     /*
      * 2.3.0
      */

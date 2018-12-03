@@ -6,13 +6,11 @@ return array(
     "product_name"              => "SupportPal",
     "slogan"                    => "Atención al cliente, fácil y eficaz.",
     "operator_panel"            => "Panel del operador",
-    "helpdesk_software"         => "Software de asistencia técnica por",
     "carefully_crafted"         => "Cuidadosamente elaborado por",
     "welcome"                   => "Bienvenido a SupportPal",
     "welcome_desc"              => "Has tomado la mejor decisión. Pulsa comenzar para disfrutar de un recorrido a través de las prestaciones y características de nuestro producto.",
 
     // Dashboard
-    "welcome_back"              => "Bienvenido de nuevo",
     "search_placeholder"        => "Busca nuestra asistencia técnica...",
     "submit_ticket"             => "Enviar ticket",
     "submit_ticket_desc"        => "Utiliza este formulario para enviar un ticket a nuestra plantilla de operadores especializados.",
@@ -30,8 +28,6 @@ return array(
     "maintenance_active"        => "El modo de mantenimiento se encuentra activo",
 
     // About
-    "development_license"       => "¡Licencia de desarrollo!",
-    "development_license_desc"  => "Esta instalación utiliza una licencia de desarrollo que solo es válida en direcciones RFC1918. No está permitido utilizarla en producción.",
     "license_status"            => "Estado de la licencia",
     "license_code"              => "Código de la licencia",
     "change_license"            => "Cambiar licencia",
@@ -43,7 +39,6 @@ return array(
     "branding"                  => "Branding",
     "license_expires"           => "La licencia expira",
     "license_valid_ip"          => "IP(s) válidos de la licencia",
-    "license_valid_domain"      => "Dominio(s) válidos de la licencia",
     "support_status"            => "Estado de la asistencia",
     "support_expires"           => "La asistencia expira",
     "version_info"              => "Información sobre esta versión",
@@ -63,9 +58,6 @@ return array(
     "spam_rule"                 => "Regla de spam|Reglas de spam",
     "containing_text"           => "Que contenga el texto",
     "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
-    "ip_filtering"              => "Filtro de IP",
-    "content_filtering"         => "Filtro de contenido",
-    "filter_description"        => "Por favor, selecciona un filtro de contenido adecuado",
     "filter_new_message"        => "Nuevo mensaje del ticket (del usuario)",
     "filter_new_comment"        => "Nuevo comentario de auto-servicio (del usuario)",
     "filter_user_login"         => "Acceso del usuario",
@@ -78,7 +70,6 @@ return array(
     // Company
     "company"                   => "Compañía|Compañías",
     "company_name"              => "Nombre de la compañía",
-    "your_company"              => "Tu compañía",
 
     // Email
     "default_email_addr"        => "Dirección de correo por defecto",
@@ -172,7 +163,6 @@ return array(
     // Widgety
     "dashboard"                 => "Escritorio",
     "add_remove_widget"         => "Añadir / Eliminar Widgets",
-    "todo_record"               => "to do record",
     "enable_tour"               => "Habilitar el recorrido del producto",
 
     // Product Tour
@@ -218,14 +208,11 @@ return array(
     "no_enabled_languages"      => "Fallo intentando actualizar el/la :item. Siempre debe haber una lengua habilitada como mínimo.",
 
     // General Settings
-    "website"                   => "Website",
     "locale"                    => "Locale",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Admin Folder",
     "admin_folder_desc"         => "Set the folder name to visit for the operator panel. It is recommended to change from the default \"admin\" name from a security point of view.",
     "enable_ssl"                => "Enable SSL",
-    "force_ssl"                 => "Force SSL for Operators",
-    "force_ssl_desc"            => "Force all operators to use the secure version of your website for the operator panel.",
     "frontend_template"         => "Frontend Template",
     "operator_template"         => "Operator Template",
     "maintenance_mode"          => "Maintenance Mode",
@@ -302,7 +289,6 @@ return array(
     "purchase_more"             => "Purchase more",
     "brand_limit_allowed"       => "Your license is currently permitted to use :allowed brand simultaneously.|Your license is currently permitted to use :allowed brands simultaneously.",
     "brand_limit_purchase"      => "If this is incorrect, please <strong>reissue</strong> your license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> and visit the <a href=':route'>License Information</a> page to synchronise your help desk with our license server.<br />To purchase additional brands, please <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
-    "support_no_expiry"         => "Your support and updates are valid.",
     "support_expiry"            => "Your support and updates subscription is valid until :date.",
     "support_status_desc"       => "Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> in order to get the latest support and updates from SupportPal.",
     "ip_ban"                    => "IP Ban|IP Bans",
