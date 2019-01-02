@@ -57,7 +57,7 @@ return array(
     // Spam Rules & Filtering
     "spam_rule"                 => "Regla de spam|Reglas de spam",
     "containing_text"           => "Que contenga el texto",
-    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
+    "containing_text_desc"      => "Por favor, introduzca una palabra o frase específica. En estas no se hará distinción entre mayúsculas y minúsculas. <br /> También pueden beneficiarse de <a href='http://www.regular-expressions.info/'>expresiones regulares</a>, un ejemplo de esto sería: 's.{1,}p.{1,}a.{1,}m'. No hace falta tener en cuenta los delimitadores.",
     "filter_new_message"        => "Nuevo mensaje del ticket (del usuario)",
     "filter_new_comment"        => "Nuevo comentario de auto-servicio (del usuario)",
     "filter_user_login"         => "Acceso del usuario",
@@ -83,7 +83,7 @@ return array(
     "global_email_footer"       => "Pie de página",
     "global_email_footer_desc"  => "Añadir un pie de página a todos los correos electrónicos enviados por le sistema. Se acepta HTML.",
     "email_template"            => "Plantilla de correo|Plantillas de correo",
-    "email_log"                 => "Email Log",
+    "email_log"                 => "Registro de correos",
     "email_queue"               => "Cola de correos",
     "email_queue_desc"          => "Debajo se encuentran los correos en cola para ser enviados pronto por el cronograma.",
     "email_method"              => "Método de correo electrónico",
