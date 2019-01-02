@@ -119,8 +119,8 @@ return array(
     "cron_makesure"             => "Por favor, crea una tarea del cronograma con la siguiente entrada: ",
     "cron_running"              => "Ejecutándose",
     "cron_not_running"          => "No ejecutándose",
-    "task_ran"                  => "Successfully ran scheduled task manually.",
-    "task_failed"               => "Failed trying to run scheduled task manually.",
+    "task_ran"                  => "Tarea programada ejecutada con éxito manualmente.",
+    "task_failed"               => "Error al intentar ejecutar la tarea programada manualmente.",
 
     // Plugins
     "plugins"                   => "Plugin|Plugins",
@@ -142,7 +142,7 @@ return array(
     "system_cleanup_desc"       => "Utiliza las opciones disponibles para eliminar información que ya no sirva o sea necesaria.",
     "files"                     => "Archivos",
     "files_desc"                => "Los siguientes elementos están almacenados como archivos en el sistema de archivos.",
-    "logs"                      => "Logs",
+    "logs"                      => "Registros",
     "logs_desc"                 => "Los siguientes elementos están registrados en la base de datos.",
     "empty"                     => "Vacío",
     "prune"                     => "Prune",
@@ -194,7 +194,7 @@ return array(
     "ticket_toolbar"            => "Barra de herramientas",
     "ticket_desc3"              => "La mayor parte de las acciones sobre los tickets se pueden llevar a cabo usando la barra de herramientas de los tickets.",
     "tour_complete"             => "¡Recorrido completado!",
-    "tour_complete_desc"        => "Gracias por usar SupportPal.<br /><br />We now recommend that you follow the getting started guide below to configure your help desk.",
+    "tour_complete_desc"        => "Gracias por usar SupportPal.<br /><br /> Ahora te recomendamos que sigas la guía de inicio mostrada abajo para configurar tu help desk.",
 
     // IP Ban
     "ip_ban_time_desc"          => "If the ban is permanent or temporary.",
@@ -205,7 +205,7 @@ return array(
     "permanent"                 => "Permanente",
 
     // Languages
-    "no_enabled_languages"      => "Fallo intentando actualizar el/la :item. Siempre debe haber una lengua habilitada como mínimo.",
+    "no_enabled_languages"      => "Error al intentar actualizar el/la :item. Siempre debe haber una lengua habilitada como mínimo.",
 
     // General Settings
     "locale"                    => "Locale",
