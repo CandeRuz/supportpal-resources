@@ -99,7 +99,7 @@ return array(
     "tls"                       => "TLS",
     "validate_smtp"             => "Validar SMTP",
     "email_content"             => "Contenido del correo",
-    "email_content_desc"        => "Insertar un asunto por defecto y contenido del correo para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará --, it will use the default data.",
+    "email_content_desc"        => "Insertar un asunto por defecto y contenido del correo para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará la información por defecto.",
     "outgoing"                  => "Outgoing",
     "incoming"                  => "Incoming",
     "incoming_spam"             => "Incoming (Rejected - Spam)",
