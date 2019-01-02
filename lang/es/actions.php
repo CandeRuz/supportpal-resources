@@ -63,10 +63,10 @@ return array(
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
+    "trigger_webhook"           => "Activar webhook",
+    "forward_ticket"            => "Reenviar ticket",
+    "watch_ticket"              => "Habilitar operador para ver el ticket",
+    "unwatch_ticket"            => "Deshabilitar operador para ver el ticket",
+    "all_watching_operators"    => "Todos los operadores habilitados para ver",
 
 );
