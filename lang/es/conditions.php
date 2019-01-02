@@ -73,12 +73,12 @@ return array(
     /*
      * 2.4.0
      */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+    "watching_operator"                 => "Operador que ve",
+    "exact_search_quotes"               => "Para realizar una búsqueda exacta de la frase, insértelo en comillas como \"my phrase\".",
 
     /*
      * 2.4.1
      */
-    "last_message_content"              => "Last message content",
+    "last_message_content"              => "Contenido del último mensaje",
 
 );
