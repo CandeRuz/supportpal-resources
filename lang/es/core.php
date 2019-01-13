@@ -266,27 +266,27 @@ return array(
      * 2.1.0
      */
     "generalsetting_desc"       => "Edita los ajustes que se aplican a todo SupportPal. Si deseas editar ajustes para una sección específica, por ejemplo Tickets, abre la sección en la barra lateral para ver ajustes disponibles para ese sección. Puedes encontrar los ajustes relacionados con tu(s) marca(s) al hacer click en Marcas en la barra lateral.",
-    "brand"                     => "Brand|Brands",
+    "brand"                     => "Marca|Marcas",
     "brand_desc"                => "A brand is your customer-facing identity within SupportPal, allowing several channels of communication. Several brands can be operated seamlessly under a single, unified operator panel.",
-    "brand_name"                => "Brand Name",
-    "default_brand"             => "Default Brand",
+    "brand_name"                => "Nombre de la marca",
+    "default_brand"             => "Marca por defecto",
     "default_brand_desc"        => "Select the brand that will be used by default when visitors visit the frontend and a matching brand cannot be found.",
     "brand_name_desc"           => "The name of the brand as seen by end-users.",
     "brand_enabled_desc"        => "Toggle to enable or disable the brand. Disabled brands cannot be utilised and won't count as part of the brands allowed on your license, disabling can be used to temporarily hide a brand and/or retain information. Deleting a brand will remove all information including users and tickets that are related to it.",
     "inherit_global_setting"    => "Inherit Global Setting",
     "brand_date_format_desc"    => "The date format used for this brand's frontend.",
     "brand_time_format_desc"    => "The time format used for this brand's frontend.",
-    "brand_timezone"            => "Brand Timezone",
+    "brand_timezone"            => "Zona horaria de la marca",
     "brand_timezone_desc"       => "The timezone that is used by default on this brand's frontend, users will have the option to select their own timezone.",
     "brand_default_lang_desc"   => "The language that is used by default on this brand's frontend.",
     "brand_lang_toggle_desc"    => "If the language dropdown should show on this brand's frontend.",
     "brand_groups_desc"         => "Operators in the selected groups will be able to create, update and delete (depending on role permissions) tickets and other content in this brand.",
-    "select_brand"              => "Select a brand...",
+    "select_brand"              => "Selecciona una marca...",
     "add_another_language"      => "Añadir otra lengua...",
     "mass_email_brand_desc"     => "Please select which brand the email will be sent from. It will be used to set the sending from name and address, load the correct email template and in the merge fields. If you send to a user group, only users who belong to the selected brand will be emailed.",
     "brand_limit_exceeded"      => "Your license is only permitted to use :allowed brand(s) simultaneously. To purchase additional brands please visit our client area.",
-    "additional_brands"         => "Additional Brands",
-    "purchase_more"             => "Purchase more",
+    "additional_brands"         => "Marcas adicionales",
+    "purchase_more"             => "Comprar más",
     "brand_limit_allowed"       => "Your license is currently permitted to use :allowed brand simultaneously.|Your license is currently permitted to use :allowed brands simultaneously.",
     "brand_limit_purchase"      => "If this is incorrect, please <strong>reissue</strong> your license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> and visit the <a href=':route'>License Information</a> page to synchronise your help desk with our license server.<br />To purchase additional brands, please <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
     "support_expiry"            => "Your support and updates subscription is valid until :date.",
@@ -296,10 +296,10 @@ return array(
     "whitelisted_ip"            => "Whitelisted IP",
     "frontend_logo_desc"        => "Change the default logo on the frontend interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
     "license_path"              => "Installation Path",
-    "php_info"                  => "PHP Information",
+    "php_info"                  => "Información PHP",
     "log"                       => "Log|Logs",
-    "invalid_department_brand"  => "Department is not assigned to ticket brand.",
-    "incoming_rejected"         => "Incoming (Rejected)",
+    "invalid_department_brand"  => "El departamento no está asignado a la marca del ticket.",
+    "incoming_rejected"         => "Recibidos (Rechazados)",
 
     /*
      * 2.1.1
@@ -315,7 +315,7 @@ return array(
     /*
      * 2.1.2
      */
-    "reply_to"                  => "Reply To",
+    "reply_to"                  => "Responder a",
     "and_number_others"         => "and :number other|and :number others",
     "user_templates"            => "Plantillas del usuario",
     "operator_templates"        => "Plantillas del operador",
