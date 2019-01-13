@@ -179,7 +179,7 @@ return array(
     "department_email"          => "Direcciones de correo electrónico de departamento",
     "dept_email_desc"           => "Múltiples direcciones de correo se pueden asignar a un departamento determinado. Los correos electrónicos se descargarán de cada dirección y se importarán al panel de asistencia técnica.",
     "dept_tmpl"                 => "Plantillas de correo de departamento",
-    "dept_tmpl_desc"            => "A veces puede que quieras cambiar o inhabilitar por completo plantillas de correos de departamento. Puedes definir plantillas de correos de departamento específicas y habilitarlas aquí.",
+    "dept_tmpl_desc"            => "A veces puede que quieras cambiar o deshabilitar por completo plantillas de correos de departamento. Puedes definir plantillas de correos de departamento específicas y habilitarlas aquí.",
     "schedule_task_desc"        => "Las tareas programadas se usan para automatizar varios procesos dentro de SupportPal, incluyendo la recopilación de los tickets basados en correos.",
     "schedule_task_2"           => "Las tareas programadas necesitan que se cree un Cron Job para funcionar. El intervalo para cada tarea llevada a cabo por el cron job se puede ajustar a través del formulario para editar.",
     "schedule_task_cron"        => "Cron Job",
@@ -233,34 +233,34 @@ return array(
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
     "debug"                     => "Depurar",
     "debug_mode"                => "Modo de depuración",
-    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, como único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los logs en /storage/logs.",
+    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, con un único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los logs en /storage/logs.",
     "pretty_urls"               => "URLs amigables",
     "pretty_urls_desc"          => "Enabling will remove index.php from URLs, only enable if you are able to access the operator panel without index.php. Disable if you do not have mod_rewrite installed, .htaccess files are not allowed or haven't converted the Apache .htaccess rewrite rules to work with your alternative web server.",
 
     /*
      * 2.0.1
      */
-    "incoming_rejected"         => "Incoming (Rejected)",
+    "incoming_rejected"         => "Recibidos (Rechazados)",
 
     /*
      * 2.0.2
      */
-    "cron_makesure"             => "For assistance registering the cron job, please see <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Cron Job Help</a>.",
+    "cron_makesure"             => "Para ayuda al registrar el Cron Job, vea por favor <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Cron Job Help</a>.",
     "widget"                    => "Widget|Widgets",
 
     /*
      * 2.0.3
      */
-    "enable_ssl_desc"           => "Enabling this will force the whole frontend and operator area to use secure connections, a recommended setting. Please ensure HTTPS functions correctly on your server before enabling.",
+    "enable_ssl_desc"           => "Al habilitar esto, se obligará a todo el frontend y al área del operador a usar conexiones seguras, lo cual es un ajuste que recomendamos.Por favor, asegúrate de que HTTPS funciona correctamente en tu servidor antes de activarlo.",
     "unexpected_template_error" => "An unexpected error occurred while syntax checking the template. Please try again.",
-    "empty_template_preview"    => "Please provide a valid template in order to use the preview function.",
-    "no_department_address"     => "Failed to find a department address in the recipient list.",
-    "email_loop_detected"       => "Loop detected - email sent from a department address.",
-    "email_ticket_locked"       => "Ticket locked. User has been asked to open a new ticket via email.",
-    "email_no_body"             => "Failed to identify the email message body.",
-    "email_runtime_error"       => "A runtime error occurred while creating the ticket/reply.",
-    "email_reply_disabled"      => "User email replies have been disabled for this department.",
-    "email_throttled"           => "Too many incoming emails from user. The limit is :max_requests emails every :decay_time minutes.",
+    "empty_template_preview"    => "Por favor, utiliza una plantilla válida para poder usar la función de previsualización.",
+    "no_department_address"     => "Error al intentar encontrar una dirección de departamento en la lista de destinatarios.",
+    "email_loop_detected"       => "Bucle detectado - correo enviado desde una dirección de departamento.",
+    "email_ticket_locked"       => "Ticket bloqueado. Se le ha pedido al usuario que abra un nuevo ticket a través del correo electrónico.",
+    "email_no_body"             => "Error al identificar el cuerpo del mensaje del correo electrónico.",
+    "email_runtime_error"       => "Se ha producido un error de ejecución al crear el ticket/la respuesta.",
+    "email_reply_disabled"      => "Las respuestas al correo del usuario han sido desactivadas para este departamento.",
+    "email_throttled"           => "Demasiados correos entrantes del usuario. El límite es :max_requests correos cada :decay_time minutos.",
 
     /*
      * 2.1.0
