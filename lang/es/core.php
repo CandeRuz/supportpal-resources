@@ -265,7 +265,7 @@ return array(
     /*
      * 2.1.0
      */
-    "generalsetting_desc"       => "Edit the settings that apply to all of SupportPal. If you wish to edit settings for a specific section, e.g. Tickets, open the section in the sidebar to view available settings for that module. Settings related to your brand(s) can be found by clicking Brands in the sidebar.",
+    "generalsetting_desc"       => "Edita los ajustes que se aplican a todo SupportPal. Si deseas editar ajustes para una sección específica, por ejemplo Tickets, abre la sección en la barra lateral para ver ajustes disponibles para ese module. Settings related to your brand(s) can be found by clicking Brands in the sidebar.",
     "brand"                     => "Brand|Brands",
     "brand_desc"                => "A brand is your customer-facing identity within SupportPal, allowing several channels of communication. Several brands can be operated seamlessly under a single, unified operator panel.",
     "brand_name"                => "Brand Name",
