@@ -233,7 +233,7 @@ return array(
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
     "debug"                     => "Depurar",
     "debug_mode"                => "Modo de depuración",
-    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, con un único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los logs en /storage/logs.",
+    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, con un único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los registros en /storage/logs.",
     "pretty_urls"               => "URLs amigables",
     "pretty_urls_desc"          => "Enabling will remove index.php from URLs, only enable if you are able to access the operator panel without index.php. Disable if you do not have mod_rewrite installed, .htaccess files are not allowed or haven't converted the Apache .htaccess rewrite rules to work with your alternative web server.",
 
