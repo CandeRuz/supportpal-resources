@@ -48,10 +48,10 @@ return array(
     "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
     "regex_error_message"       => "Validation Error Message",
     "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
+    "custom_field_values"       => "Valores del campo personalizado",
+    "depends_on"                => "Depende de",
     "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
+    "select_option"             => "Selecciona una opción...",
     "purge"                     => "Purge",
     "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
 
