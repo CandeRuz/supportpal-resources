@@ -18,6 +18,6 @@ return array(
     "update_user"           => "Usuario actualizado",
     "update_brand"          => "Marca actualizada",
     "update_subject"        => "Asunto actualizado",
-    "update_watching"       => "Watching operators updated",
+    "update_watching"       => "Operadores que ven actualizados",
 
 );
