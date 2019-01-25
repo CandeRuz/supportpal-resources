@@ -379,34 +379,34 @@ return array(
     "export_data_scheduled"     => "La exportación se está generando, lo cual puede tardar. Te enviaremos un correo cuando esté disponible para descargar.",
     "database"                  => "Base de datos",
     "database_desc"             => "Los siguientes items están almacenados en la base de datos.",
-    "prune_users"               => "Inactive user records can be automatically pruned. A user is considered inactive if they have not logged in or have any other activity for a given amount of time.",
-    "prune_tickets"             => "Inactive tickets can be automatically pruned. A ticket is considered inactive if it is resolved and has not had any activity for a given amount of time.",
-    "prune_organisations"       => "Inactive organisations can be automatically pruned. An organisation is considered inactive if it has no users linked with it and has not had any activity for a given amount of time.",
-    "prune_export"              => "User data exports are stored on the file system but may take up room, you can prune export files generated before a certain date.",
-    "automatically_prune"       => "Automatically delete",
-    "days_after_saved"          => "Records after",
-    "days_after_last_activity"  => "Inactive records after",
-    "record_permanent_delete"   => "The records will be permanently deleted. This will impact reports.",
-    "record_delete_relations"   => "The records will be permanently deleted along with the following related data: :relations. This will impact reports.",
-    "manually_prune"            => "Manually delete records created before",
+    "prune_users"               => "Los registros de usuarios inactivos se pueden eliminar automáticamente. Un usuario se considera inactivo cuando no ha iniciado sesión o registrado ningún tipo de actividad en un período de tiempo determinado.",
+    "prune_tickets"             => "Los tickets inactivos se pueden eliminar automáticamente. Un ticket se considera inactivo si se ha solucionado y no ha registrado ningún tipo de actividad en un período de tiempo determinado.",
+    "prune_organisations"       => "Las organizaciónes inactivas se pueden eliminar automáticamente. Una organización se considera inactiva si no tiene ningún usuario vinculado y no ha registrado ningún tipo de actividad en un período de tiempo determinado.",
+    "prune_export"              => "La información exportada del usuario se almacena en el sistema de archivos pero puede ocupar espacio, por lo que puedes eliminar archivos exportados generados antes de una fecha determinada.",
+    "automatically_prune"       => "Eliminar automáticamente",
+    "days_after_saved"          => "Registros después de",
+    "days_after_last_activity"  => "Registros inactivos después de",
+    "record_permanent_delete"   => "Los registros se eliminarán permanentemente, lo que tendrá un impacto en los informes.",
+    "record_delete_relations"   => "Los registros se eliminarán permanentemente junto con la siguiente información relacionada: :relations. Esto tendrá un impacto en los informes.",
+    "manually_prune"            => "Eliminar registros manualmente creados antes de",
 
     /*
      * 2.4.0
      */
     "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
-    "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
+    "verify_frontend_loads"     => "Por favor, verifica que el frontend carga correctamente debajo.",
     "query_logs_desc"           => "These logs contain all MySQL queries that are run when utilising the help desk. The logs are only stored when debug mode is manually enabled in the app configuration file.",
     "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.4.1
      */
-    "additional_brands_desc"    => "Allows running other brands on your SupportPal installation.",
+    "additional_brands_desc"    => "Permite ejecutar otras marcas en tu instalación de SupportPal.",
     "no_branding"               => "No Branding",
     "no_branding_desc"          => "Removes SupportPal branding from the client-facing end of the help desk.",
-    "multi_ip"                  => "Multi-IP Support",
+    "multi_ip"                  => "Asistencia multi-IP",
     "multi_ip_desc"             => "Allows locking SupportPal to more than one internal/external IP.",
-    "purchase"                  => "Purchase",
+    "purchase"                  => "Comprar",
     "ticket_number_missing"     => "For ticket related emails, the {{ ticket.number }} merge field should be present in the email subject and must be wrapped in either <em>[#{{ ticket.number }}]</em> or <em>(#{{ ticket.number }})</em> in order to route replies to the correct ticket. If you would like to remove the ticket number, please consider enabling <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
 
 );
