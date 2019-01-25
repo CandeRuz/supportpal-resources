@@ -2,43 +2,43 @@
 
 return array(
 
-    "customfield"               => "Custom Field|Custom Fields",
+    "customfield"               => "Campo personalizado|Campos personalizados",
 
     // Options
     "boolean"                   => "Boolean",
     "checkbox"                  => "Checkbox",
     "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "password"                  => "Password",
+    "date"                      => "Fecha",
+    "multiple"                  => "Múltiples opciones",
+    "options"                   => "Opciones",
+    "password"                  => "Contraseña",
     "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
+    "rating"                    => "Rating (de 1 a 5)",
     "text"                      => "Text",
     "textarea"                  => "Textarea",
 
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
+    "public"                    => "Público",
+    "public_desc"               => "si el campo personalizado se muestra públicamente en el frontend o es solo visible para el personal.",
+    "encrypted"                 => "Encriptado",
+    "purge_desc"                => "Si el valor del campo pesronalizado debería ser automátiacmente eliminado cuando se resuelve el ticket.",
+    "locked"                    => "Bloqueado",
+    "locked_desc"               => "Si el valor del campo personalizado no puede cambiar una vez establecido por el usuario.",
+    "department_desc"           => "Selecciona en qué departamentos está disponible el campo.",
 
     /*
      * 2.0.2
      */
-    "please_select"             => "Please select...",
+    "please_select"             => "Por favor, selecciona...",
 
     /*
      * 2.0.3
      */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
+    "description_desc"          => "El texto de ayuda que aparece debajo del campo personalizado y puede, opcionalmente, dejarse en blanco.",
 
     /*
      * 2.1.0
      */
-    "brand_desc"                => "Choose which brands the field is available in.",
+    "brand_desc"                => "Selecciona en qué marcas está disponible el campo.",
     
     /*
      * 2.3.0
