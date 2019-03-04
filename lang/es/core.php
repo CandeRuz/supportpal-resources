@@ -161,12 +161,12 @@ return array(
     "show_captcha"              => "Mostrar Captcha",
 
     // Widgety
-    "dashboard"                 => "Escritorio",
+    "dashboard"                 => "Panel",
     "add_remove_widget"         => "Añadir / Eliminar Widgets",
     "enable_tour"               => "Habilitar el recorrido del producto",
 
     // Product Tour
-    "dashboard_desc"            => "Tu escritorio personal. ¡Los widgets se pueden eliminar, minimizar y mover donde quieras!",
+    "dashboard_desc"            => "Tu panel personal. ¡Los widgets se pueden eliminar, minimizar y mover donde quieras!",
     "private_messages"          => "Mensajes privados",
     "messages_desc"             => "Los mensajes privados son muy útiles para conversaciones privadas con otros operadores de asistencia técnica.",
     "configure"                 => "Configura tu panel de asistencia técnica.",
