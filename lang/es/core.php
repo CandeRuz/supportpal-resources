@@ -114,7 +114,7 @@ return array(
 
     // Scheduled tasks
     "scheduled_task"            => "Tarea programada|Tareas programadas",
-    "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, estableciendo 5 minutos significará que  la tarea se ejecutará cada 5 minutos si el cronograma está activo y funcionando.",
+    "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, estableciendo 5 minutos significará que la tarea se ejecutará cada 5 minutos si el cronograma está activo y funcionando.",
     "cron_settings"             => "Ajustes del cronograma",
     "cron_makesure"             => "Por favor, crea un Cron Job con la siguiente entrada: ",
     "cron_running"              => "Ejecutándose",
@@ -126,7 +126,7 @@ return array(
     "plugins"                   => "Plugin|Plugins",
     "installed_plugins"         => "Plugins instalados",
     "visit_plugin"              => "Visitar Plugin Site",
-    "uninstall_plugin_warning"  => "Al desinstalar el plugin se eliminarán todos los archivos y la información asociada, por lo que en su lugar recomendamos simplemente desactivar el plugin.",
+    "uninstall_plugin_warning"  => "Al desinstalar el plugin se eliminarán todos los archivos y la información asociada, por lo que en su lugar recomendamos simplemente desactivarlo.",
 
     // Messages
     "last_activity"             => "Actividad reciente",
