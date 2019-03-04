@@ -351,7 +351,7 @@ return array(
      * 2.3.1
      */
     "javascript_required"       => "Por favor, habilita JavaScript para poder utilizar esta página.",
-    "go_to_dashboard"           => "Ir al escritorio",
+    "go_to_dashboard"           => "Ir al panel",
     "brand_colour_desc"         => "Selecciona un color para tu marca que se utilizará para el esquema de colores tanto en el frontend como en la plantilla del operador. Deja el campo en blanco para utilizar el esquema de colores por defecto.",
     "new_brand_preview"         => "Para marcas nuevas, la opción de previsualización utilizará la información de marcas por defecto.",
     "frontend_logo_url"         => "URL del logo del frontend",
