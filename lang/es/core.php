@@ -252,7 +252,7 @@ return array(
      * 2.0.3
      */
     "enable_ssl_desc"           => "Al habilitar esto, se obligará a todo el frontend y al área del operador a usar conexiones seguras, lo cual es un ajuste que recomendamos.Por favor, asegúrate de que HTTPS funciona correctamente en tu servidor antes de activarlo.",
-    "unexpected_template_error" => "An unexpected error occurred while syntax checking the template. Please try again.",
+    "unexpected_template_error" => "Se ha producido un error inesperado mientras la sintaxis comprobaba la plantilla. Por favor, inténtalo de nuevo.",
     "empty_template_preview"    => "Por favor, utiliza una plantilla válida para poder usar la función de previsualización.",
     "no_department_address"     => "Error al intentar encontrar una dirección de departamento en la lista de destinatarios.",
     "email_loop_detected"       => "Bucle detectado - correo enviado desde una dirección de departamento.",
