@@ -305,12 +305,12 @@ return array(
      * 2.1.1
      */
     "file_manager"              => "Log File Manager",
-    "file_manager_desc"         => "Below you can download or delete the logs that are stored by the system during operation, they can be used for debugging purposes. The log files are automatically cycled, storing only up to the latest 5 days of entries.",
-    "app_logs"                  => "Application Logs",
+    "file_manager_desc"         => "Debajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
+    "app_logs"                  => "Registros de la aplicación",
     "app_logs_desc"             => "All warnings and errors from general usage of the help desk are logged here. You may be asked to provide one or more of these logs when requesting support.",
-    "email_logs"                => "Email Logs",
+    "email_logs"                => "Registros de correos",
     "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
-    "query_logs"                => "SQL Query Logs",
+    "query_logs"                => "Registros de consulta SQL",
 
     /*
      * 2.1.2
