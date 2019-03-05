@@ -295,7 +295,7 @@ return array(
     "ip_whitelist"              => "IP Whitelist",
     "whitelisted_ip"            => "Whitelisted IP",
     "frontend_logo_desc"        => "Change the default logo on the frontend interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
-    "license_path"              => "Installation Path",
+    "license_path"              => "Ruta de instalación",
     "php_info"                  => "Información PHP",
     "log"                       => "Registro|Registros",
     "invalid_department_brand"  => "El departamento no está asignado a la marca del ticket.",
