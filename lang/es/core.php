@@ -271,7 +271,7 @@ return array(
     "brand_name"                => "Nombre de la marca",
     "default_brand"             => "Marca por defecto",
     "default_brand_desc"        => "Selecciona la marca que se utilizará por defecto cuando los visitantes visiten el frontend y no se pueda encontrar una marca correspondiente.",
-    "brand_name_desc"           => "El nombre de la marca visto por end-users.",
+    "brand_name_desc"           => "El nombre de la marca visto por los usuarios finales.",
     "brand_enabled_desc"        => "Alterna para activar o desactivar la marca. Las marcas desactivadas no se pueden utilizar y no formarán parte de las marcas permitidas en tu licencia. La opción de desactivar se puede utilizar para ocultar una marca temporalmente y/o retener información. Al eliminar una marca se borrará toda la información, incluyendo los usuarios y los tickets relacionados con ella.",
     "inherit_global_setting"    => "Inherit Global Setting",
     "brand_date_format_desc"    => "El formato de fecha utilizado para el frontend de esta marca.",
