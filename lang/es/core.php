@@ -307,9 +307,9 @@ return array(
     "file_manager"              => "Log File Manager",
     "file_manager_desc"         => "Debajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
     "app_logs"                  => "Registros de la aplicación",
-    "app_logs_desc"             => "All warnings and errors from general usage of the help desk are logged here. You may be asked to provide one or more of these logs when requesting support.",
+    "app_logs_desc"             => "Todas las advertencias y errores del uso general del help desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
     "email_logs"                => "Registros de correos",
-    "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
+    "email_logs_desc"           => "Los detalles sobre los correos recibidos se almacenan en estos archivos cuando son analizados e importados como tickets.",
     "query_logs"                => "Registros de consulta SQL",
 
     /*
