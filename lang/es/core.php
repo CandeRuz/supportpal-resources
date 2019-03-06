@@ -395,7 +395,7 @@ return array(
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
     "verify_frontend_loads"     => "Por favor, verifica que el frontend carga correctamente debajo.",
-    "query_logs_desc"           => "These logs contain all MySQL queries that are run when utilising the help desk. The logs are only stored when debug mode is manually enabled in the app configuration file.",
+    "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el help desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
     "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
