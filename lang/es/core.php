@@ -332,7 +332,7 @@ return array(
     "no_existing_translations"  => "No existen traducciones",
     "add_translation"           => "Añadir traducción",
     "todo_list"                 => "Lista de tareas pendientes",
-    "version_check"             => "Version Check",
+    "version_check"             => "Comprobación de versión",
     "system_overview"           => "Visión general del sistema",
     "getting_started"           => "Comenzar",
     "operator_notes"            => "Notas del operador",
