@@ -345,7 +345,7 @@ return array(
     /*
      * 2.3.0
      */
-    "disabling_default_language" => "This is currently set as a default language. Disabling the language will set another enabled language as the default language instead.",
+    "disabling_default_language" => "Esta es la lengua por defecto establecida actualmente. Al deshabilitarla se establecerá otra lengua habilitada como lengua por defecto en su lugar.",
 
     /*
      * 2.3.1
