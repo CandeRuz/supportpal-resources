@@ -103,7 +103,7 @@ return array(
     "outgoing"                  => "Enviados",
     "incoming"                  => "Recibidos",
     "incoming_spam"             => "Recibidos (Rechazados - Spam)",
-    "incoming_throttled"        => "Recibidos (Rechazados - Throttled)",
+    "incoming_throttled"        => "Recibidos (Rechazados - Limitados)",
     "email_subject"             => "Asunto del correo",
     "twig_html_warning"         => "No se permite Twig dentro de etiquetas o atributos HTML y será automáticamente eliminado al guardar.",
 
