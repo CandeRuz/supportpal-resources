@@ -353,7 +353,7 @@ return array(
     "go_to_dashboard"           => "Ir al panel",
     "brand_colour_desc"         => "Selecciona un color para tu marca que se utilizará para el esquema de colores tanto en el frontend como en la plantilla del operador. Deja el campo en blanco para utilizar el esquema de colores por defecto.",
     "new_brand_preview"         => "Para marcas nuevas, la opción de previsualización utilizará la información de marcas por defecto.",
-    "frontend_logo_url"         => "URL del logo del frontend",
+    "frontend_logo_url"         => "URL del logo del front-end",
     "frontend_logo_url_desc"    => "Página web a donde se redireccionará al usuario al hacer click en el logo. Por defecto, redirige a la página de inicio del portal de asistencia.",
     "favicon"                   => "Favicon",
     "favicon_desc"              => "La imagen del favicon aparece en la barra de direcciones y se utiliza para identificar tu página web. Para conseguir los mejores resultados, asegúrate de que el icono tenga un tamaño de entre 32x32px a 310x310px, sea cuadrado y tenga un formato ICO/PNG.",
@@ -395,17 +395,17 @@ return array(
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
     "verify_frontend_loads"     => "Por favor, verifica que el frontend carga correctamente debajo.",
     "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el help desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
-    "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
     /*
      * 2.4.1
      */
     "additional_brands_desc"    => "Permite ejecutar otras marcas en tu instalación de SupportPal.",
-    "no_branding"               => "No Branding",
-    "no_branding_desc"          => "Removes SupportPal branding from the client-facing end of the help desk.",
+    "no_branding"               => "No mostrar marca",
+    "no_branding_desc"          => "Elimina la marca de SupportPal de lo que ve el cliente en el Help Desk.",
     "multi_ip"                  => "Asistencia multi-IP",
     "multi_ip_desc"             => "Allows locking SupportPal to more than one internal/external IP.",
     "purchase"                  => "Comprar",
-    "ticket_number_missing"     => "For ticket related emails, the {{ ticket.number }} merge field should be present in the email subject and must be wrapped in either <em>[#{{ ticket.number }}]</em> or <em>(#{{ ticket.number }})</em> in order to route replies to the correct ticket. If you would like to remove the ticket number, please consider enabling <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
+    "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
 
 );
