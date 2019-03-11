@@ -373,7 +373,7 @@ return array(
     "recaptcha_desc"            => "Please register a new site at <a target='_blank' href=\"https://www.google.com/recaptcha/admin\">https://www.google.com/recaptcha/admin</a>, select the correct type of reCAPTCHA and ensure to add each brand domain. Copy the site and secret key above.",
     "enter_code"                => "Introducir código",
     "export_data"               => "Exportar información",
-    "export_data_desc"          => "Generate a downloadable export of data belonging to this user.",
+    "export_data_desc"          => "Generar una exportación de información descargable perteneciente a este usuario.",
     "export_data_select"        => "Por favor, selecciona qué información te gustaría exportar.",
     "export_data_scheduled"     => "La exportación se está generando, lo cual puede tardar. Te enviaremos un correo cuando esté disponible para descargar.",
     "database"                  => "Base de datos",
