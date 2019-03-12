@@ -282,7 +282,7 @@ return array(
     "brand_groups_desc"         => "Los operadores en los grupos seleccionados serán capaces de crear, actualizar y eliminar (dependiendo de los permisos que posean) tickets y otro contenido en esta marca.",
     "select_brand"              => "Selecciona una marca...",
     "add_another_language"      => "Añadir otra lengua...",
-    "mass_email_brand_desc"     => "Por favor, selecciona desde qué marca se enviará el correo. Se utilizará para establecer el envío de un nombre y dirección, cargar la plantilla de correo correcta y en los campos fusionados. Si lo mandas a un grupo de usuarios, solo los usuarios que pertenecen a la marca seleccionada recibirán el correo.",
+    "mass_email_brand_desc"     => "Por favor, selecciona desde qué marca se enviará el correo. Se utilizará para establecer el envío de un nombre y dirección, cargar la plantilla de correo correcta y en los campos de combinación. Si lo mandas a un grupo de usuarios, solo los usuarios que pertenecen a la marca seleccionada recibirán el correo.",
     "brand_limit_exceeded"      => "Tu licencia solo puede utilizar :allowed marca(s) de manera simultánea. Para comprar marcas adicionales, por favor, visite nuestro área de cliente.",
     "additional_brands"         => "Marcas adicionales",
     "purchase_more"             => "Comprar más",
