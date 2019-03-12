@@ -11,7 +11,7 @@ return array(
     "welcome_desc"              => "Has tomado la mejor decisión. Pulsa comenzar para disfrutar de un recorrido a través de las prestaciones y características de nuestro producto.",
 
     // Dashboard
-    "search_placeholder"        => "Busca nuestra asistencia técnica...",
+    "search_placeholder"        => "Busca en nuestro Help Desk...",
     "submit_ticket"             => "Enviar ticket",
     "submit_ticket_desc"        => "Utiliza este formulario para enviar un ticket a nuestra plantilla de operadores especializados.",
     "track_ticket"              => "Comprobar el estado del ticket",
@@ -24,7 +24,7 @@ return array(
 
     // Maintenance
     "maintenance"               => "Ahora mismo estamos trabajando en el mantenimiento de la página",
-    "maintenance_desc"          => "Nuestro servicio de asistencia técnica no se encuentra disponible en este momento debido a que estamos realizando tareas de mantenimiento. Le agradecemos su paciencia mientras las llevamos a cabo. ¡Volveremos enseguida!.",
+    "maintenance_desc"          => "Nuestro Help Desk no se encuentra disponible en este momento debido a que estamos realizando tareas de mantenimiento. Le agradecemos su paciencia mientras las llevamos a cabo. ¡Volveremos enseguida!.",
     "maintenance_active"        => "El modo de mantenimiento se encuentra activo",
 
     // About
@@ -85,7 +85,7 @@ return array(
     "email_template"            => "Plantilla de correo|Plantillas de correo",
     "email_log"                 => "Registro de correos",
     "email_queue"               => "Cola de correos",
-    "email_queue_desc"          => "Debajo se encuentran los correos en cola para ser enviados pronto por el cronograma.",
+    "email_queue_desc"          => "Debajo se encuentran los correos en cola para ser enviados pronto por el Cron.",
     "email_method"              => "Método de correo electrónico",
     "php_mail_function"         => "PHP mail() función",
     "smtp"                      => "SMTP",
@@ -110,12 +110,12 @@ return array(
     // Modules
     "modules"                   => "Sección|Secciones",
     "modules_desc"              => "Debajo se encuentra una lista con todas las secciones disponibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
-    "module_disable"            => "Las secciones desactivadas se elimarán del frontend y la interfaz del operador.",
+    "module_disable"            => "Las secciones desactivadas se elimarán del front-end y la interfaz del operador.",
 
     // Scheduled tasks
     "scheduled_task"            => "Tarea programada|Tareas programadas",
-    "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, estableciendo 5 minutos significará que la tarea se ejecutará cada 5 minutos si el cronograma está activo y funcionando.",
-    "cron_settings"             => "Ajustes del cronograma",
+    "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, estableciendo 5 minutos significará que la tarea se ejecutará cada 5 minutos si el Cron está activo y funcionando.",
+    "cron_settings"             => "Ajustes del Cron",
     "cron_makesure"             => "Por favor, crea un Cron Job con la siguiente entrada: ",
     "cron_running"              => "Ejecutándose",
     "cron_not_running"          => "No ejecutándose",
@@ -168,20 +168,20 @@ return array(
     // Product Tour
     "dashboard_desc"            => "Tu panel personal. ¡Los widgets se pueden eliminar, minimizar y mover donde quieras!",
     "private_messages"          => "Mensajes privados",
-    "messages_desc"             => "Los mensajes privados son muy útiles para conversaciones privadas con otros operadores de asistencia técnica.",
-    "configure"                 => "Configura tu panel de asistencia técnica.",
-    "configure_desc"            => "SupportPal ofrece una serie de ajustes que te permiten configurar el help desk de acuerdo con tus preferencias personales.",
+    "messages_desc"             => "Los mensajes privados son muy útiles para conversaciones privadas con otros operadores del Help Desk.",
+    "configure"                 => "Configura tu Help Desk.",
+    "configure_desc"            => "SupportPal ofrece una serie de ajustes que te permiten configurar el Help Desk de acuerdo con tus preferencias personales.",
     "company_name_desc"         => "El nombre de tu compañía se usa para toda la correspondencia con los usuarios.",
     "default_email"             => "Dirección de correo electrónico por defecto",
     "default_email_desc"        => "La dirección de correo electrónico por defecto para utilizar para toda la correspondencia saliente para los usuarios.",
     "dept_settings_desc"        => "Nos hemos dado cuenta de que los departamentos dentro de tu organización funcionan de manera diferente. Los ajustes de departamento te permiten cancelar los ajustes globales.",
     "department_desc"           => "Los departamentos son exactamente iguales que los de tu organización. Son útiles para asegurar que las consultas de los clientes se dirigen a el personal adecuado rápidamente.",
     "department_email"          => "Direcciones de correo electrónico de departamento",
-    "dept_email_desc"           => "Múltiples direcciones de correo se pueden asignar a un departamento determinado. Los correos electrónicos se descargarán de cada dirección y se importarán al panel de asistencia técnica.",
+    "dept_email_desc"           => "Múltiples direcciones de correo se pueden asignar a un departamento determinado. Los correos electrónicos se descargarán de cada dirección y se importarán al Help Desk.",
     "dept_tmpl"                 => "Plantillas de correo de departamento",
     "dept_tmpl_desc"            => "A veces puede que quieras cambiar o deshabilitar por completo plantillas de correos de departamento. Puedes definir plantillas de correos de departamento específicas y habilitarlas aquí.",
     "schedule_task_desc"        => "Las tareas programadas se usan para automatizar varios procesos dentro de SupportPal, incluyendo la recopilación de los tickets basados en correos.",
-    "schedule_task_2"           => "Las tareas programadas necesitan que se cree un Cron Job para funcionar. El intervalo para cada tarea llevada a cabo por el cron job se puede ajustar a través del formulario para editar.",
+    "schedule_task_2"           => "Las tareas programadas necesitan que se cree un Cron Job para funcionar. El intervalo para cada tarea llevada a cabo por el Cron Job se puede ajustar a través del formulario para editar.",
     "schedule_task_cron"        => "Cron Job",
     "schedule_task_3"           => "Crea un Cron Job similar al ejemplo mostrado abajo de tu servidor para que las tareas programadas se ejecuten automáticamente.",
     "ticket_channel_desc"       => "Los canales de ticket son métodos de creación de ticket. Estos se pueden extender fácilmente para inlcuir tus propios canales, por ejemplo tickets abiertos a través de Instagram.",
@@ -194,7 +194,7 @@ return array(
     "ticket_toolbar"            => "Barra de herramientas",
     "ticket_desc3"              => "La mayor parte de las acciones sobre los tickets se pueden llevar a cabo usando la barra de herramientas de los tickets.",
     "tour_complete"             => "¡Recorrido completado!",
-    "tour_complete_desc"        => "Gracias por usar SupportPal.<br /><br /> Ahora te recomendamos que sigas la guía de inicio mostrada abajo para configurar tu help desk.",
+    "tour_complete_desc"        => "Gracias por usar SupportPal.<br /><br /> Ahora te recomendamos que sigas la guía de inicio mostrada abajo para configurar tu Help Desk.",
 
     // IP Ban
     "ip_ban_time_desc"          => "Si el baneo es permanente o temporal.",
@@ -213,10 +213,10 @@ return array(
     "admin_folder"              => "Carpeta del administrador",
     "admin_folder_desc"         => "Establece el nombre de la carpeta para el panel del operador. Por motivos de seguridad, se recomienda cambiarle el nombre por defecto \"admin\".",
     "enable_ssl"                => "Habilitar SSL",
-    "frontend_template"         => "Plantilla de Frontend",
+    "frontend_template"         => "Plantilla de Front-end",
     "operator_template"         => "Plantilla del operador",
     "maintenance_mode"          => "Modo de mantenimiento",
-    "maintenance_mode_desc"     => "Inhabilita la función de asistencia técnica pública y muestra un aviso de mantenimiento. Edita resources/templates/frontend/[template]/core/maintenance.twig para cambiar el mensaje que se muestra a los usuarios.",
+    "maintenance_mode_desc"     => "Inhabilita la función pública del Help Desk y muestra un aviso de mantenimiento. Edita resources/templates/frontend/[template]/core/maintenance.twig para cambiar el mensaje que se muestra a los usuarios.",
     "default_user_country"      => "País del usuario por defecto",
     "default_user_country_desc" => "El país que se seleccionará por defecto cuando se registren los usuarios.",
     "system_timezone"           => "Zona horaria del sistema",
@@ -228,7 +228,7 @@ return array(
     "simpleauth_key"            => "Clave de SimpleAuth",
     "simpleauth_key_desc"       => "la clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
     "simpleauth_operators"      => "Permitir para operadores",
-    "frontend_logo"             => "Logo del Frontend",
+    "frontend_logo"             => "Logo del Front-end",
     "base_url"                  => "URL del sistema",
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
     "debug"                     => "Depurar",
@@ -251,7 +251,7 @@ return array(
     /*
      * 2.0.3
      */
-    "enable_ssl_desc"           => "Al habilitar esto, se obligará a todo el frontend y al área del operador a usar conexiones seguras, lo cual es un ajuste que recomendamos.Por favor, asegúrate de que HTTPS funciona correctamente en tu servidor antes de activarlo.",
+    "enable_ssl_desc"           => "Al habilitar esto, se obligará a todo el front-end y al área del operador a usar conexiones seguras, lo cual es un ajuste que recomendamos.Por favor, asegúrate de que HTTPS funciona correctamente en tu servidor antes de activarlo.",
     "unexpected_template_error" => "Se ha producido un error inesperado mientras la sintaxis comprobaba la plantilla. Por favor, inténtalo de nuevo.",
     "empty_template_preview"    => "Por favor, utiliza una plantilla válida para poder usar la función de previsualización.",
     "no_department_address"     => "Error al intentar encontrar una dirección de departamento en la lista de destinatarios.",
@@ -270,15 +270,15 @@ return array(
     "brand_desc"                => "Una marca es tu identidad de cara al cliente con Supportpal, permitiendo varios canales de comunicación. Varias marcas pueden funcionar a la perfección a través de un único y unificado panel de operador.",
     "brand_name"                => "Nombre de la marca",
     "default_brand"             => "Marca por defecto",
-    "default_brand_desc"        => "Selecciona la marca que se utilizará por defecto cuando los visitantes visiten el frontend y no se pueda encontrar una marca correspondiente.",
+    "default_brand_desc"        => "Selecciona la marca que se utilizará por defecto cuando los visitantes visiten el front-end y no se pueda encontrar una marca correspondiente.",
     "brand_name_desc"           => "El nombre de la marca visto por los usuarios finales.",
     "brand_enabled_desc"        => "Alterna para activar o desactivar la marca. Las marcas desactivadas no se pueden utilizar y no formarán parte de las marcas permitidas en tu licencia. La opción de desactivar se puede utilizar para ocultar una marca temporalmente y/o retener información. Al eliminar una marca se borrará toda la información, incluyendo los usuarios y los tickets relacionados con ella.",
     "inherit_global_setting"    => "Inherit Global Setting",
-    "brand_date_format_desc"    => "El formato de fecha utilizado para el frontend de esta marca.",
-    "brand_time_format_desc"    => "El formato de hora utilizado para el frontend de esta marca.",
+    "brand_date_format_desc"    => "El formato de fecha utilizado para el front-end de esta marca.",
+    "brand_time_format_desc"    => "El formato de hora utilizado para el front-end de esta marca.",
     "brand_timezone"            => "Zona horaria de la marca",
-    "brand_timezone_desc"       => "La zona horaria utilizada por defecto en el frontend de esta marca, los usuarios tendrán la opcion de seleccionar su propia zona horaria.",
-    "brand_default_lang_desc"   => "La lengua utilizada por defecto en el frontend de esta marca.",
+    "brand_timezone_desc"       => "La zona horaria utilizada por defecto en el front-end de esta marca, los usuarios tendrán la opcion de seleccionar su propia zona horaria.",
+    "brand_default_lang_desc"   => "La lengua utilizada por defecto en el front-end de esta marca.",
     "brand_groups_desc"         => "Los operadores en los grupos seleccionados serán capaces de crear, actualizar y eliminar (dependiendo de los permisos que posean) tickets y otro contenido en esta marca.",
     "select_brand"              => "Selecciona una marca...",
     "add_another_language"      => "Añadir otra lengua...",
@@ -287,7 +287,7 @@ return array(
     "additional_brands"         => "Marcas adicionales",
     "purchase_more"             => "Comprar más",
     "brand_limit_allowed"       => "Tu licencia actual puede utilizar :allowed marca de manera simultánea.|Tu licencia actual puede utilizar :allowed marcas de manera simultánea.",
-    "brand_limit_purchase"      => "Si esto no es correcto, por favor <strong>reissue</strong> tu licencia en nuestro <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> y visita la página <a href=':route'>License Information</a> para sincronizar tu help desk con nuestro servidor de licencia.<br />Para comprar marcas adicionales, por favor <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
+    "brand_limit_purchase"      => "Si esto no es correcto, por favor <strong>reissue</strong> tu licencia en nuestro <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> y visita la página <a href=':route'>License Information</a> para sincronizar tu Help Desk con nuestro servidor de licencia.<br />Para comprar marcas adicionales, por favor <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
     "support_expiry"            => "Tu suscripción de asistencia y actualizaciones es válida hasta :date.",
     "support_status_desc"       => "Por favor <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> para conseguir las actualizaciones y asistencia más recientes de SupportPal.",
     "ip_ban"                    => "Baneo de IP|Baneos de IP",
@@ -306,7 +306,7 @@ return array(
     "file_manager"              => "Log File Manager",
     "file_manager_desc"         => "Debajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
     "app_logs"                  => "Registros de la aplicación",
-    "app_logs_desc"             => "Todas las advertencias y errores del uso general del help desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
+    "app_logs_desc"             => "Todas las advertencias y errores del uso general del Help Desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
     "email_logs"                => "Registros de correos",
     "email_logs_desc"           => "Los detalles sobre los correos recibidos se almacenan en estos archivos cuando son analizados e importados como tickets.",
     "query_logs"                => "Registros de consulta SQL",
@@ -323,7 +323,7 @@ return array(
      * 2.2.0
      */
     "attachment_size"           => "Límite de tamaño de archivos adjuntos",
-    "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes), otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del help desk.",
+    "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes), otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del help Desk.",
     "attachment_limit_reached"  => "Se ha alcanzado el límite de tamaño de archivos adjuntos (:size). Por favor, considera otros medios para enviar los archivos (como por ejemplo una URL para descargar).",
     "upload_unknown_error"      => "El archivo \":file\" no se ha actualizado debido a un error del lado del servidor.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
@@ -351,7 +351,7 @@ return array(
      */
     "javascript_required"       => "Por favor, habilita JavaScript para poder utilizar esta página.",
     "go_to_dashboard"           => "Ir al panel",
-    "brand_colour_desc"         => "Selecciona un color para tu marca que se utilizará para el esquema de colores tanto en el frontend como en la plantilla del operador. Deja el campo en blanco para utilizar el esquema de colores por defecto.",
+    "brand_colour_desc"         => "Selecciona un color para tu marca que se utilizará para el esquema de colores tanto en el front-end como en la plantilla del operador. Deja el campo en blanco para utilizar el esquema de colores por defecto.",
     "new_brand_preview"         => "Para marcas nuevas, la opción de previsualización utilizará la información de marcas por defecto.",
     "frontend_logo_url"         => "URL del logo del front-end",
     "frontend_logo_url_desc"    => "Página web a donde se redireccionará al usuario al hacer click en el logo. Por defecto, redirige a la página de inicio del portal de asistencia.",
@@ -393,8 +393,8 @@ return array(
      * 2.4.0
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
-    "verify_frontend_loads"     => "Por favor, verifica que el frontend carga correctamente debajo.",
-    "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el help desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
+    "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente debajo.",
+    "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el Help Desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
     "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
     /*
