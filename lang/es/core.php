@@ -323,7 +323,7 @@ return array(
      * 2.2.0
      */
     "attachment_size"           => "Límite de tamaño de archivos adjuntos",
-    "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes), otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del help Desk.",
+    "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes), otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del Help Desk.",
     "attachment_limit_reached"  => "Se ha alcanzado el límite de tamaño de archivos adjuntos (:size). Por favor, considera otros medios para enviar los archivos (como por ejemplo una URL para descargar).",
     "upload_unknown_error"      => "El archivo \":file\" no se ha actualizado debido a un error del lado del servidor.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
@@ -344,7 +344,7 @@ return array(
     /*
      * 2.3.0
      */
-    "disabling_default_language" => "Esta es la lengua por defecto establecida actualmente. Al deshabilitarla se establecerá otra lengua habilitada como lengua por defecto en su lugar.",
+    "disabling_default_language" => "Esta es la lengua por defecto establecida actualmente. Al deshabilitarla, se establecerá otra lengua habilitada como lengua por defecto en su lugar.",
 
     /*
      * 2.3.1
