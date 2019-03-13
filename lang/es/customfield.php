@@ -14,7 +14,7 @@ return array(
     "password"                  => "Contraseña",
     "radio"                     => "Botones de opción",
     "rating"                    => "Rating (de 1 a 5)",
-    "text"                      => "Text",
+    "text"                      => "Texto",
     "textarea"                  => "Área de texto",
 
     "public"                    => "Público",
