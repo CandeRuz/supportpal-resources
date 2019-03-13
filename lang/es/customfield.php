@@ -47,17 +47,17 @@ return array(
     "regex_basic_desc"          => "Opcionalmente, especifica una expresión regular para validar el valor del campo personalizado.",
     "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
     "regex_error_message"       => "Mensaje de error de validación",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
+    "regex_error_message_desc"  => "Opcionalmente, especifica un mensaje de error personalizado que se mostrará si el valor no corresponde con la validación de expresiones regulares. Si no, se mostrará un mensaje genérico. El mensaje se mostrará exactamente como se introduzca, por lo que recomendamos incluir el nombre del campo personalizado para hacer el mensaje de error más obvio.",
     "custom_field_values"       => "Valores del campo personalizado",
     "depends_on"                => "Depende de",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
+    "depends_on_desc"           => "Si se selecciona, este campo solo se mostrará al usuario cuando el valor del campo específico se seleccione. La visibilidad del campo y el departamento se heredarán automáticamente del campo del que dependen.",
     "select_option"             => "Selecciona una opción...",
     "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
+    "encrypted_desc"            => "Si el valor del campo personalizado es confidencial y debería guardarse en la base de datos encriptada. Esto no se puede cambiar una vez que el campo personalizado haya sido creado.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+    "required_desc"             => "Si el campo personalizado se debe rellenar. Para la casilla, la lista de comprobación o los tipos de múltiples opciones, se requerirá que el usuario seleccione al menos una opción.",
 
 );
