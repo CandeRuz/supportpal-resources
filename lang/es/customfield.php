@@ -18,7 +18,7 @@ return array(
     "textarea"                  => "Área de texto",
 
     "public"                    => "Público",
-    "public_desc"               => "si el campo personalizado se muestra públicamente en el front-end o es solo visible para el personal.",
+    "public_desc"               => "Si el campo personalizado se muestra públicamente en el front-end o es solo visible para el personal.",
     "encrypted"                 => "Encriptado",
     "purge_desc"                => "Si el valor del campo personalizado debería ser automátiacmente eliminado cuando se resuelve el ticket.",
     "locked"                    => "Bloqueado",
@@ -46,7 +46,7 @@ return array(
     "option_warning"            => "Al eliminar opciones existentes se borrarán los campos guardados que actualmente tienen esos valores seleccionados.",
     "regex_basic_desc"          => "Opcionalmente, especifica una expresión regular para validar el valor del campo personalizado.",
     "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
+    "regex_error_message"       => "Mensaje de error de validación",
     "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
     "custom_field_values"       => "Valores del campo personalizado",
     "depends_on"                => "Depende de",
