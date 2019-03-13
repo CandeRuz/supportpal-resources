@@ -20,7 +20,7 @@ return array(
     "public"                    => "Público",
     "public_desc"               => "Si el campo personalizado se muestra públicamente en el front-end o es solo visible para el personal.",
     "encrypted"                 => "Encriptado",
-    "purge_desc"                => "Si el valor del campo personalizado debería ser automátiacmente eliminado cuando se resuelve el ticket.",
+    "purge_desc"                => "Si el valor del campo personalizado debería ser automáticamente eliminado cuando se resuelve el ticket.",
     "locked"                    => "Bloqueado",
     "locked_desc"               => "Si el valor del campo personalizado no puede cambiar una vez establecido por el usuario.",
     "department_desc"           => "Selecciona en qué departamentos está disponible el campo.",
