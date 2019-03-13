@@ -52,7 +52,7 @@ return array(
     "depends_on"                => "Depende de",
     "depends_on_desc"           => "Si se selecciona, este campo solo se mostrará al usuario cuando el valor del campo específico se seleccione. La visibilidad del campo y el departamento se heredarán automáticamente del campo del que dependen.",
     "select_option"             => "Selecciona una opción...",
-    "purge"                     => "Purge",
+    "purge"                     => "Eliminar",
     "encrypted_desc"            => "Si el valor del campo personalizado es confidencial y debería guardarse en la base de datos encriptada. Esto no se puede cambiar una vez que el campo personalizado haya sido creado.",
 
     /*
