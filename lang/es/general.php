@@ -2,9 +2,9 @@
 
 return array(
 
-    "clear"                     => "Clear",
-    "begin"                     => "Begin",
-    "documentation"             => "Documentation",
+    "clear"                     => "Borrar",
+    "begin"                     => "Comenzar",
+    "documentation"             => "Documentación",
     "good"                      => "Good",
     "bad"                       => "Bad",
     "expire"                    => "Expire",
