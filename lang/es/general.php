@@ -123,41 +123,41 @@ return array(
     "reset"                     => "Resetear",
     "interval"                  => "Intervalo",
     "content"                   => "Contenido",
-    "sender"                    => "Sender",
+    "sender"                    => "Remitente",
     "content_sender"            => "Content &amp; Sender",
-    "permissions"               => "Permissions",
-    "no_permissions_found"      => "No permissions found",
+    "permissions"               => "Permisos",
+    "no_permissions_found"      => "No se han encontrado permisos",
     "first"                     => "First",
     "second"                    => "Second",
     "third"                     => "Third",
     "forth"                     => "Forth",
     "last"                      => "Last",
-    "from"                      => "From",
-    "subject"                   => "Subject",
-    "preview"                   => "Preview",
+    "from"                      => "De",
+    "subject"                   => "Asunto",
+    "preview"                   => "Previsualizar",
     "is"                        => "Is",
     "is_not"                    => "Is not",
     "equals"                    => "Equals",
-    "contains"                  => "Contains",
-    "begins_with"               => "Begins with",
-    "ends_with"                 => "Ends with",
-    "before"                    => "Before",
-    "after"                     => "After",
+    "contains"                  => "Contiene",
+    "begins_with"               => "Comienza con",
+    "ends_with"                 => "Termina con",
+    "before"                    => "Antes",
+    "after"                     => "Después",
     "greater_than"              => "Greater than",
     "less_than"                 => "Less than",
-    "does_not_contain"          => "Does not contain",
+    "does_not_contain"          => "no contiene",
     "viewing_operator"          => "Viewing Operator",
     "due"                       => "Due",
     "overdue"                   => "Overdue",
     "hours_before_overdue"      => "Hours before overdue",
-    "transfer"                  => "Transfer",
-    "view_all"                  => "View All",
+    "transfer"                  => "Transferir",
+    "view_all"                  => "Ver todo",
     "manage"                    => "Manage",
-    "search"                    => "Search",
-    "activate"                  => "Activate",
-    "deactivate"                => "Deactivate",
-    "uninstall"                 => "Uninstall",
-    "version"                   => "Version",
+    "search"                    => "Buscar",
+    "activate"                  => "Activar",
+    "deactivate"                => "Desactivar",
+    "uninstall"                 => "Desinstalar",
+    "version"                   => "Versión",
 
     "by"                        => "by",
     "record"                    => "record",
@@ -168,47 +168,47 @@ return array(
     "to"                        => "to",            // Used in a range e.g. 2 to 5
 
     // Languages
-    "language"                  => "Language|Languages",
-    "default_language"          => "Default Language",
+    "language"                  => "Lengua|Lenguas",
+    "default_language"          => "Lengua por defecto",
     "language_toggle"           => "Language Dropdown",
 
     // Date/Time
-    "never"                     => "Never",
-    "always"                    => "Always",
-    "minute"                    => "Min|Mins",
-    "hour"                      => "Hour|Hours",
-    "custom_hours"              => "Custom Hours",
-    "day"                       => "Day|Days",
-    "month"                     => "Month|Months",
-    "year"                      => "Year|Years",
+    "never"                     => "Nunca",
+    "always"                    => "Siempre",
+    "minute"                    => "Minuto|Minutos",
+    "hour"                      => "Hora|Horas",
+    "custom_hours"              => "Horas del cliente",
+    "day"                       => "Día|Días",
+    "month"                     => "Mes|Meses",
+    "year"                      => "Año|Años",
 
     "editor"                    => "Editor",
 
     /*
      * 2.0.1
      */
-    "download"                  => "Download",
+    "download"                  => "Descargar",
 
     /*
      * 2.0.2
      */
-    "show_details"              => "Show details",
-    "hide_details"              => "Hide details",
+    "show_details"              => "Mostrar detalles",
+    "hide_details"              => "Ocultar detalles",
     "welcome"                   => "Welcome",
 
     /*
      * 2.0.3
      */
     "sort_by"                   => "Sort by",
-    "frequently_used"           => "Frequently Used",
-    "recently_used"             => "Recently Used",
-    "recently_created"          => "Recently Created",
-    "load_more"                 => "Load more",
-    "clear_selected"            => "clear selected",
+    "frequently_used"           => "Usado frecuentemente",
+    "recently_used"             => "Usado recientemente",
+    "recently_created"          => "Creado recientemente",
+    "load_more"                 => "Cargar más",
+    "clear_selected"            => "Eliminar seleccionado",
     "expand_all"                => "Expand All",
     "collapse_all"              => "Collapse All",
-    "show_more"                 => "Show More",
-    "custom_fields"             => "Custom Fields",
+    "show_more"                 => "Mostrar más",
+    "custom_fields"             => "",
 
     /*
      * 2.1.0
@@ -221,26 +221,26 @@ return array(
     "edit_item"                 => "Edit :item",
     "any"                       => "Any",
     "module_generalsetting"     => ":module General Settings",
-    "field"                     => "Field",
-    "rule"                      => "Rule",
+    "field"                     => "Campo",
+    "rule"                      => "Regla",
     "start_date"                => "Start Date",
     "end_date"                  => "End Date",
     "submitted_by"              => "Submitted by",
-    "every_minutes"             => "Every :minutes",
+    "every_minutes"             => "Cada :minutes",
 
     /*
      * 2.1.1
      */
-    "or"                        => "or",
-    "size"                      => "size",
-    "edited"                    => "edited",
+    "or"                        => "o",
+    "size"                      => "tamaño",
+    "edited"                    => "editado",
     "scheduled_for"             => "Scheduled For",
-    "drag_and_drop"             => "Drag and drop your attachments here.",
+    "drag_and_drop"             => "Arrastra y suelta tus archivos adjuntos aquí.",
 
     /*
      * 2.1.2
      */
-    "just_now"                  => "just now",
+    "just_now"                  => "justo ahora",
     "minutes_ago"               => ":number minute ago|:number minutes ago",
     "hours_ago"                 => ":number hour ago|:number hours ago",
     "days_ago"                  => ":number day ago|:number days ago",
@@ -265,14 +265,14 @@ return array(
     /*
      * 2.2.0
      */
-    "monday"                    => "Monday",
-    "tuesday"                   => "Tuesday",
-    "wednesday"                 => "Wednesday",
-    "thursday"                  => "Thursday",
-    "friday"                    => "Friday",
-    "saturday"                  => "Saturday",
-    "sunday"                    => "Sunday",
-    "inactive"                  => "Inactive",
+    "monday"                    => "Lunes",
+    "tuesday"                   => "Martes",
+    "wednesday"                 => "Miércoles",
+    "thursday"                  => "Jueves",
+    "friday"                    => "Viernes",
+    "saturday"                  => "Sábado",
+    "sunday"                    => "Domingo",
+    "inactive"                  => "Inactivo",
     "run"                       => "Run",
 
     /*
@@ -282,7 +282,7 @@ return array(
     "check_all"                 => "Check All",
     "uncheck_all"               => "Uncheck All",
     "after_and_including"       => "After (and including)",
-    "add_link"                  => "Add Link",
+    "add_link"                  => "Añadir Link",
     "unlink"                    => "Unlink",
     "link"                      => "Link",
 
@@ -290,24 +290,24 @@ return array(
      * 2.3.1
      */
     "clone"                     => "Clone",
-    "created_date"              => "Created Date",
+    "created_date"              => "Fecha creada",
     "alphabetical"              => "Alphabetical",
-    "random"                    => "Random",
-    "blocked"                   => "Blocked",
+    "random"                    => "Aleatorio",
+    "blocked"                   => "Bloqueado",
     "private_to"                => "Private to",
     "refresh"                   => "Refresh",
-    "provider"                  => "Provider|Providers",
+    "provider"                  => "Proveedor|Proveedores",
     "export"                    => "Export|Exports",
-    "generate"                  => "Generate",
+    "generate"                  => "Generar",
 
     /*
      * 2.4.0
      */
-    "show_count_more"           => "Show :count more...",
+    "show_count_more"           => "Mostrar :count more...",
     "manual"                    => "Manual",
-    "automatic"                 => "Automatic",
+    "automatic"                 => "Automático",
     "hook"                      => "Hook",
-    "event"                     => "Event|Events",
+    "event"                     => "Evento|Eventos",
     "test"                      => "Test",
 
 );
