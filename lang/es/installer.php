@@ -86,7 +86,7 @@ return array(
     "memory_limit_error"        => "Tu límite de memoria es ':limit'.",
     "permission_denied"         => "Permiso denegado",
     "writable"                  => "Writable",
-    "help_php_version"          => "For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
+    "help_php_version"          => "Para asistencia al instalar una versión nueva de PHP, por favor, contacta For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
     "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
     "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
     "disabled_functions"        => "Disabled Functions",
