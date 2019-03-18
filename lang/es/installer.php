@@ -55,14 +55,14 @@ return array(
     // Step 6
     "step_6"                    => "Paso 6 de 7: Configuración rápida",
     "step_6_desc"               => "Introduce los detalles de tu compañía y sitio web más abajo.",
-    "locale_desc"               => "Set the locale settings for your system.",
-    "operator_success"          => "Your administrator account has been created.",
+    "locale_desc"               => "Establece los ajustes de localización para tu sistema.",
+    "operator_success"          => "Tu cuenta de administrador ha sido creada.",
 
     // Step 7
-    "step_7"                    => "Step 7 of 7: Installed!",
-    "successfully_installed"    => "Congratulations, SupportPal has been successfully installed.",
-    "operator_panel"            => "Operator Panel",
-    "help_desc"                 => "Should you need any help in configuring or using SupportPal, we have two main sources of information:",
+    "step_7"                    => "Paso 7 de 7: ¡Instalado!",
+    "successfully_installed"    => "Enhorabuena, SupportPal se ha instalado con éxito.",
+    "operator_panel"            => "Panel del operador",
+    "help_desc"                 => "Si necesitaras alguna ayuda para configurar o utilizar SupportPal, tenemos dos fuentes principales de información:",
     "submit_a_ticket"           => "Submit a Ticket",
 
     /*
