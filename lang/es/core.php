@@ -85,7 +85,7 @@ return array(
     "email_template"            => "Plantilla de correo|Plantillas de correo",
     "email_log"                 => "Registro de correos",
     "email_queue"               => "Cola de correos",
-    "email_queue_desc"          => "Debajo se encuentran los correos en cola para ser enviados pronto por el Cron.",
+    "email_queue_desc"          => "Más abajo se encuentran los correos en cola para ser enviados pronto por el Cron.",
     "email_method"              => "Método de correo electrónico",
     "php_mail_function"         => "PHP mail() función",
     "smtp"                      => "SMTP",
@@ -109,7 +109,7 @@ return array(
 
     // Modules
     "modules"                   => "Sección|Secciones",
-    "modules_desc"              => "Debajo se encuentra una lista con todas las secciones disponibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
+    "modules_desc"              => "Más abajo se encuentra una lista con todas las secciones disponibles. Haz click en el icono de editar para actualizar los ajustes de esa sección.",
     "module_disable"            => "Las secciones desactivadas se elimarán del front-end y la interfaz del operador.",
 
     // Scheduled tasks
@@ -304,7 +304,7 @@ return array(
      * 2.1.1
      */
     "file_manager"              => "Log File Manager",
-    "file_manager_desc"         => "Debajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
+    "file_manager_desc"         => "Más abajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
     "app_logs"                  => "Registros de la aplicación",
     "app_logs_desc"             => "Todas las advertencias y errores del uso general del Help Desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
     "email_logs"                => "Registros de correos",
@@ -393,7 +393,7 @@ return array(
      * 2.4.0
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
-    "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente debajo.",
+    "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente más abajo.",
     "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el Help Desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
     "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
