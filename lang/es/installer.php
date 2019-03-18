@@ -47,7 +47,7 @@ return array(
 
     // Step 5
     "step_5"                    => "Paso 5 de 7: Cuenta del operador",
-    "step_5_desc"               => "SupportPal requires a valid license to function, please enter one below.",
+    "step_5_desc"               => "SupportPal requiere una licencia válida para funcionar. Por favor, introduce una más abajo.",
     "license_desc"              => "Your SupportPal license key is 23 characters long and begins with SP-",
     "operator_desc"             => "Please create an administrator account for the operator panel by entering all of the details below.",
     "validating_license"        => "Validating License...",
