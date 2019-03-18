@@ -69,22 +69,22 @@ return array(
      * 2.0.1
      */
 
-    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
+    "post_install"              => "Para que el sistema funcione correctamente, se debe configurar un Cron Job. Por favor, lee nuestro <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> para más detalles sobre este tema y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
 
     /*
      * 2.0.2
      */
-    "required_requirements"     => "You meet :required of :total required requirements.",
-    "optional_requirements"     => "You meet :optional of :total optional requirements.",
-    "both_requirements"         => "You meet :required of :total_required required requirements and :optional of :total_optional optional requirements.",
-    "php_version_is"            => "Your PHP Version is :version.",
-    "enabled"                   => "Enabled",
-    "disabled"                  => "Disabled",
-    "php_settings"              => "PHP Settings",
+    "required_requirements"     => "Cumples :required de los :total requisitos necesarios.",
+    "optional_requirements"     => "Cumples :optional de los :total requisitos opcionales.",
+    "both_requirements"         => "Cumples :required de los :total_required requisitos necesarios y :optional de :total_optional requisitos opcionales.",
+    "php_version_is"            => "Tu versión PHP es :version.",
+    "enabled"                   => "Habilitado",
+    "disabled"                  => "Deshabilitado",
+    "php_settings"              => "Ajustes PHP",
     "ipv6_support"              => "IPv6 Support",
     "memory_limit"              => ">= 128MB Memory",
-    "memory_limit_error"        => "Your memory limit is ':limit'.",
-    "permission_denied"         => "Permission Denied",
+    "memory_limit_error"        => "Tu límite de memoria es ':limit'.",
+    "permission_denied"         => "Permiso denegado",
     "writable"                  => "Writable",
     "help_php_version"          => "For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
     "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
