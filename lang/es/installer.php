@@ -63,7 +63,7 @@ return array(
     "successfully_installed"    => "Enhorabuena, SupportPal se ha instalado con éxito.",
     "operator_panel"            => "Panel del operador",
     "help_desc"                 => "Si necesitaras alguna ayuda para configurar o utilizar SupportPal, tenemos dos fuentes principales de información:",
-    "submit_a_ticket"           => "Submit a Ticket",
+    "submit_a_ticket"           => "Enviar un ticket",
 
     /*
      * 2.0.1
