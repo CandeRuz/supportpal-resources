@@ -48,13 +48,13 @@ return array(
     // Step 5
     "step_5"                    => "Paso 5 de 7: Cuenta del operador",
     "step_5_desc"               => "SupportPal requiere una licencia válida para funcionar. Por favor, introduce una más abajo.",
-    "license_desc"              => "Your SupportPal license key is 23 characters long and begins with SP-",
-    "operator_desc"             => "Please create an administrator account for the operator panel by entering all of the details below.",
-    "validating_license"        => "Validating License...",
+    "license_desc"              => "La clave de tu licencia de SupportPal tiene 23 caracteres de largo y empieza con SP-",
+    "operator_desc"             => "Por favor, crea una cuenta de administrador para el panel del operador introduciendo todos los detalles más abajo.",
+    "validating_license"        => "Validando licencia...",
 
     // Step 6
-    "step_6"                    => "Step 6 of 7: Quick Set-Up",
-    "step_6_desc"               => "Enter your company and website details below.",
+    "step_6"                    => "Paso 6 de 7: Configuración rápida",
+    "step_6_desc"               => "Introduce los detalles de tu compañía y sitio web más abajo.",
     "locale_desc"               => "Set the locale settings for your system.",
     "operator_success"          => "Your administrator account has been created.",
 
