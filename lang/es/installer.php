@@ -3,50 +3,50 @@
 return array(
 
     // Pre installation check
-    "requirements_failed"       => "System Requirements Failed",
+    "requirements_failed"       => "Error en los requisitos del sistema",
 
     // Index
-    "supportpal_installer"      => "SupportPal Installer",
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
-    "select_language"           => "Select Language:",
-    "install_type"              => "Installation Type",
+    "supportpal_installer"      => "Instalador SupportPal",
+    "index_desc"                => "Gracias por escoger SupportPal. Por favor, verifica que el tipo de instalación más abajo es correcto y continúa.",
+    "select_language"           => "Selecciona una lengua:",
+    "install_type"              => "Tipo de instalación",
     "install"                   => "Fresh Install",
-    "upgrade"                   => "Upgrade Existing Installation",
+    "upgrade"                   => "Actualizar una instalación existente",
     "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
 
     // Upgrade
-    "successfully_updated"      => "Congratulations, SupportPal has been successfully upgraded.",
+    "successfully_updated"      => "Enhorabuena, SupportPal se ha actualizado con éxito.",
 
     // Install
     // Step 1
-    "step_1"                    => "Step 1 of 7: Accept EULA",
-    "step_1_desc"               => "Please read our software license agreement below. By continuing, you are agreeing to the license.",
-    "i_accept_and_continue"     => "I Accept and Continue",
+    "step_1"                    => "Paso 1 de 7: Aceptar EULA",
+    "step_1_desc"               => "Por favor, lee nuestro contrato de licencia de software más abajo. Al continuar, estarás aceptando el contrato.",
+    "i_accept_and_continue"     => "Acepto y continúo",
 
     // Step 2
-    "step_2"                    => "Step 2 of 7: System Requirements",
-    "not_available"             => "Not available",
-    "php_version"               => "PHP Version",
-    "php_version_not_found"     => "Not available, found PHP version: :version",
-    "php_extensions"            => "PHP Extensions",
-    "file_writeable"            => "File Permissions",
+    "step_2"                    => "Paso 2 de 7: Requisitos del sistema",
+    "not_available"             => "No está disponible",
+    "php_version"               => "Versión PHP",
+    "php_version_not_found"     => "No está disponible, encontrada versión PHP: :version",
+    "php_extensions"            => "Extensiones PHP",
+    "file_writeable"            => "Permisos de archivo",
     "file_writeable_desc"       => "All of the below should be writable by the web server. We recommend using 755 file permissions, though some systems may require 777 if the files are not owned by the web server user. Directories should be recursively writable.",
 
     // Step 3
-    "step_3"                    => "Step 3 of 7: Database",
-    "step_3_desc"               => "Please enter the details of the database that you have set up for SupportPal.",
-    "hostname"                  => "Hostname",
-    "port"                      => "Port",
+    "step_3"                    => "Paso 3 de 7: Base de datos",
+    "step_3_desc"               => "Por favor, introduce los detalles de la base de datos que has configurado para SupportPal.",
+    "hostname"                  => "Nombre de host",
+    "port"                      => "Puerto",
     "port_desc"                 => "(Only change if not default port 3306)",
-    "database"                  => "Database",
-    "database_not_empty"        => "The database must not contain any tables.",
+    "database"                  => "Base de datos",
+    "database_not_empty"        => "La base de datos no puede contener tablas.",
 
     // Step 4
-    "step_4"                    => "Step 4 of 7: Create Tables",
+    "step_4"                    => "Paso 4 de 7: Crear tablas",
     "step_4_desc"               => "The migration will be performed in the background and a verbose log written below, this may take several minutes. Once complete, please click the continue button that will appear.",
 
     // Step 5
-    "step_5"                    => "Step 5 of 7: Operator Account",
+    "step_5"                    => "Paso 5 de 7: Cuenta del operador",
     "step_5_desc"               => "SupportPal requires a valid license to function, please enter one below.",
     "license_desc"              => "Your SupportPal license key is 23 characters long and begins with SP-",
     "operator_desc"             => "Please create an administrator account for the operator panel by entering all of the details below.",
