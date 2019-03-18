@@ -87,18 +87,18 @@ return array(
     "permission_denied"         => "Permiso denegado",
     "writable"                  => "Writable",
     "help_php_version"          => "Para asistencia al instalar una versión nueva de PHP, por favor, contacta con tu proveedor de host o el administrador de servidor.",
-    "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
-    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
-    "disabled_functions"        => "Disabled Functions",
-    "help_mysql_version"        => "For assistance installing a new version of MySQL please contact your hosting provider or server administrator.",
-    "mysql_version"             => "MySQL Version",
-    "mysql_version_not_found"   => "Not available, found MySQL version: :version",
+    "help_php_extensions"       => "Las extensiones PHP pueden ser diferentes dependiendo de tu servidor, tu host y otras variables del sistema. Para asistencia al instalar missing extensions, por favor, contacta con tu proveedor de host o el administrador de servidor.",
+    "help_php_settings"         => "Para asistencia adicional, por favor, lee <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
+    "disabled_functions"        => "Funciones deshabilitadas",
+    "help_mysql_version"        => "Para asistencia al instalar una versión nueva de MySQL, por favor, contacta con tu proveedor de host o el administrador de servidor.",
+    "mysql_version"             => "Versión MySQL",
+    "mysql_version_not_found"   => "No está disponible, encontrada versión MySQL: :version",
 
     /*
      * 2.1.0
      */
     "ipv6_failure"              => "If your server has IPv6 networking support, please install the php-sockets extension.",
-    "email_address_desc"        => "Enter your main company email address, this will be set up as the default sending email address and the email address on your first department. You will be able to add other email addresses later.",
+    "email_address_desc"        => "Introduce la principal dirección de correo electrónico de tu compañía. Esta se configurará como la dirección de correo electrónico por defecto y la de tu primer departamento. department. Podrás añadir otras direcciones de correo electrónico más tarde.",
 
     /*
      * 2.2.0
@@ -122,12 +122,12 @@ return array(
     "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
     "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
 
-    "upgrade_step"              => "Step :num of :total: ",
+    "upgrade_step"              => "Paso :num de :total: ",
     "accept_eula"               => "Accept EULA",
-    "system_requirements"       => "System Requirements",
-    "update_database"           => "Update Database",
-    "upgrade_complete"          => "Upgrade Complete",
+    "system_requirements"       => "Requisitos del sistema",
+    "update_database"           => "Actualizar base de datos",
+    "upgrade_complete"          => "Actualización completada",
 
-    "upgrade_support"           => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
+    "upgrade_support"           => "Si tuvieras algún problema o necesidad al utilizar las nuevas características de SupportPal, por favor, lee nuestra documentación o abre un ticket con nosotros.",
 
 );
