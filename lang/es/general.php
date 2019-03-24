@@ -159,10 +159,10 @@ return array(
     "uninstall"                 => "Desinstalar",
     "version"                   => "Versión",
 
-    "by"                        => "by",
-    "record"                    => "record",
-    "views"                     => "views",
-    "if_exists"                 => "if exists",
+    "by"                        => "por",
+    "record"                    => "registro",
+    "views"                     => "vistas",
+    "if_exists"                 => "si existe",
     "of"                        => "of",            // Used in group e.g. Last Thursday of November
     "out_of"                    => "out of",
     "to"                        => "to",            // Used in a range e.g. 2 to 5
@@ -170,7 +170,7 @@ return array(
     // Languages
     "language"                  => "Lengua|Lenguas",
     "default_language"          => "Lengua por defecto",
-    "language_toggle"           => "Language Dropdown",
+    "language_toggle"           => "Menú desplegable de lenguas",
 
     // Date/Time
     "never"                     => "Nunca",
@@ -217,15 +217,15 @@ return array(
     "total"                     => "Total",
     "disabled"                  => "Disabled",
     "not_set"                   => "not set",
-    "add_item"                  => "Add :item",
-    "edit_item"                 => "Edit :item",
+    "add_item"                  => "Añadir :item",
+    "edit_item"                 => "Editar :item",
     "any"                       => "Any",
-    "module_generalsetting"     => ":module General Settings",
+    "module_generalsetting"     => ":module Ajustes generales",
     "field"                     => "Campo",
     "rule"                      => "Regla",
-    "start_date"                => "Start Date",
-    "end_date"                  => "End Date",
-    "submitted_by"              => "Submitted by",
+    "start_date"                => "Fecha de comienzo",
+    "end_date"                  => "Fecha de fin",
+    "submitted_by"              => "Enviado por",
     "every_minutes"             => "Cada :minutes",
 
     /*
@@ -234,7 +234,7 @@ return array(
     "or"                        => "o",
     "size"                      => "tamaño",
     "edited"                    => "editado",
-    "scheduled_for"             => "Scheduled For",
+    "scheduled_for"             => "Programado para",
     "drag_and_drop"             => "Arrastra y suelta tus archivos adjuntos aquí.",
 
     /*
@@ -246,7 +246,7 @@ return array(
     "days_ago"                  => ":number day ago|:number days ago",
     "months_ago"                => ":number month ago|:number months ago",
     "years_ago"                 => ":number year ago|:number years ago",
-    "shortly"                   => "shortly",
+    "shortly"                   => "rápidamente",
     "in_minutes"                => "in :number minute|in :number minutes",
     "in_hours"                  => "in :number hour|in :number hours",
     "in_days"                   => "in :number day|in :number days",
@@ -257,10 +257,10 @@ return array(
     "number_days"               => ":number day|:number days",
     "number_months"             => ":number month|:number months",
     "number_years"              => ":number year|:number years",
-    "recipients"                => "Recipient|Recipients",
+    "recipients"                => "Destinatario|Destinatarios",
     "posted"                    => "Posted",
     "locked"                    => "Locked",
-    "draft"                     => "Draft",
+    "draft"                     => "Borrador",
 
     /*
      * 2.2.0
@@ -273,7 +273,7 @@ return array(
     "saturday"                  => "Sábado",
     "sunday"                    => "Domingo",
     "inactive"                  => "Inactivo",
-    "run"                       => "Run",
+    "run"                       => "Ejecutar",
 
     /*
      * 2.3.0
@@ -303,7 +303,7 @@ return array(
     /*
      * 2.4.0
      */
-    "show_count_more"           => "Mostrar :count more...",
+    "show_count_more"           => "Mostrar :count más...",
     "manual"                    => "Manual",
     "automatic"                 => "Automático",
     "hook"                      => "Hook",
