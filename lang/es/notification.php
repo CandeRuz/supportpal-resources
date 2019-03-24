@@ -2,26 +2,26 @@
 
 return array(
 
-    "new_ticket"            => "New Ticket Opened",
+    "new_ticket"            => "Nuevo Ticket abierto",
     "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
 
     "new_reply"             => "New Ticket Reply",
-    "new_reply_text"        => "A new reply has been posted by :name in ticket #:item.",
+    "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
 
-    "operator_login"        => "Operator Logged In",
-    "operator_login_text"   => ":name has logged in to the operator panel.",
+    "operator_login"        => "Inicio de sesión del operador",
+    "operator_login_text"   => ":name ha iniciado sesión en el panel del operador.",
 
-    "failed_logins"         => "Failed Operator Logins",
-    "new_comments"          => "New Comments",
+    "failed_logins"         => "Error en el inicio de sesión del operador",
+    "new_comments"          => "Nuevos comentarios",
 
     /*
      * 2.0.2
      */
-    "private_message"       => "New Private Message",
+    "private_message"       => "Nuevo mensaje privado",
 
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name te ha enviado un nuevo <a href=':route'>private message</a>.",
 
 );
