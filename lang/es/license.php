@@ -17,10 +17,10 @@ return array(
     "license_invalid"   => "Licencia inválida",
     "invalid"           => "Invalid",
 
-    "incorrect_license" => "An incorrect license key has been used.",
+    "incorrect_license" => "La clave de licencia que se ha utilizado es incorrecta.",
     "ip_changed"        => "La dirección IP que tu sistema utiliza ha cambiado.",
     "domain_changed"    => "El dominio que utilizas ha cambiado.",
-    "reason_1_desc"     => "If your license key is correct please try re-issuing it from the client area before contacting support.",
+    "reason_1_desc"     => "Si tu clave de licencia es correcta, por favor, intenta volver a emitirla desde el área del cliente antes de buscar asistencia.",
 
     /*
      * 2.1.0
@@ -31,7 +31,7 @@ return array(
     /*
      * 2.2.0
      */
-    "enter_new_key"     => "Enter New License Key",
+    "enter_new_key"     => "Introduce la nueva clave de licencia",
 
     /*
      * 2.3.1
@@ -41,6 +41,6 @@ return array(
     /*
      * 2.4.1
      */
-    "multi_ip_support"  => "Consider enabling <a href=':href' target='_blank'>Multi-IP support</a> in the client area to define additional IP addresses.",
+    "multi_ip_support"  => "Considera activar <a href=':href' target='_blank'>Multi-IP support</a> en el área del cliente para definir direcciones IP adicionales.",
 
 );
