@@ -235,7 +235,7 @@ return array(
     "debug_mode"                => "Modo de depuración",
     "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, con un único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los registros en /storage/logs.",
     "pretty_urls"               => "URLs amigables",
-    "pretty_urls_desc"          => "Enabling will remove index.php from URLs, only enable if you are able to access the operator panel without index.php. Disable if you do not have mod_rewrite installed, .htaccess files are not allowed or haven't converted the Apache .htaccess rewrite rules to work with your alternative web server.",
+    "pretty_urls_desc"          => "La habilitación eliminará index.php de las URLs, habilítalo solo si puedes acceder al panel del operador sin index.php. Deshabilítalo si no tienes mod_rewrite instalado, si los archivos .htaccess no se permiten o no has convertido las reglas de reescritura de Apache .htaccess para funcionar con tu servidor de web alternativo.",
 
     /*
      * 2.0.1
@@ -273,7 +273,7 @@ return array(
     "default_brand_desc"        => "Selecciona la marca que se utilizará por defecto cuando los visitantes visiten el front-end y no se pueda encontrar una marca correspondiente.",
     "brand_name_desc"           => "El nombre de la marca visto por los usuarios finales.",
     "brand_enabled_desc"        => "Alterna para activar o desactivar la marca. Las marcas desactivadas no se pueden utilizar y no formarán parte de las marcas permitidas en tu licencia. La opción de desactivar se puede utilizar para ocultar una marca temporalmente y/o retener información. Al eliminar una marca se borrará toda la información, incluyendo los usuarios y los tickets relacionados con ella.",
-    "inherit_global_setting"    => "Inherit Global Setting",
+    "inherit_global_setting"    => "Heredar ajuste global",
     "brand_date_format_desc"    => "El formato de fecha utilizado para el front-end de esta marca.",
     "brand_time_format_desc"    => "El formato de hora utilizado para el front-end de esta marca.",
     "brand_timezone"            => "Zona horaria de la marca",
@@ -291,8 +291,8 @@ return array(
     "support_expiry"            => "Tu suscripción de asistencia y actualizaciones es válida hasta :date.",
     "support_status_desc"       => "Por favor <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> para conseguir las actualizaciones y asistencia más recientes de SupportPal.",
     "ip_ban"                    => "Baneo de IP|Baneos de IP",
-    "ip_whitelist"              => "IP Whitelist",
-    "whitelisted_ip"            => "Whitelisted IP",
+    "ip_whitelist"              => "Lista blanca de IP",
+    "whitelisted_ip"            => "IP de la lista blanca",
     "frontend_logo_desc"        => "Cambia el logo por defecto de la interfaz del front-end para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes el logo en resources/assets/folder) o una URL directa a la imagen. Recomendamos un icono blanco que sea transaprente y que tenga un tamaño de 32x32px a 80x80px.",
     "license_path"              => "Ruta de instalación",
     "php_info"                  => "Información PHP",
@@ -303,7 +303,7 @@ return array(
     /*
      * 2.1.1
      */
-    "file_manager"              => "Log File Manager",
+    "file_manager"              => "Archivos de registro",
     "file_manager_desc"         => "Más abajo puedes descargar o eliminar los registros que almacena el sistema durante la operación, se pueden utilizar con propósitos de depuración. Los archivos de registro se almacenan en ciclos, conservando únicamente los archivos de los 5 últimos días.",
     "app_logs"                  => "Registros de la aplicación",
     "app_logs_desc"             => "Todas las advertencias y errores del uso general del Help Desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
@@ -358,7 +358,7 @@ return array(
     "favicon"                   => "Favicon",
     "favicon_desc"              => "La imagen del favicon aparece en la barra de direcciones y se utiliza para identificar tu página web. Para conseguir los mejores resultados, asegúrate de que el icono tenga un tamaño de entre 32x32px a 310x310px, sea cuadrado y tenga un formato ICO/PNG.",
     "operator_icon"             => "Icono del operador",
-    "operator_icon_desc"        => "Change the default icon on the operator interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image. We recommend a white-filled icon that is transparent and scales from 32x32px to 80x80px well.",
+    "operator_icon_desc"        => "Cambia el icono por defecto de la interfaz del operador para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes tu logo en resources/assets/folder) o una URL directa a la imagen. Recomendamos un icono blanco que sea transparente y que tenga un tamaño de 32x32px a 80x80px.",
     "view_original"             => "Ver original",
     "download_original"         => "Descargar original",
     "consume_all"               => "Opcionalmente, introduce una dirección de correo electrónico de departamento con \"Consume All\" habilitado.",
@@ -368,9 +368,9 @@ return array(
     "captcha_type"              => "Tipo de Captcha",
     "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema. Te recomendamos que utilices el Google reCAPTCHA, el cual requiere configuración adicional.",
     "default_captcha"           => "Captcha por defecto",
-    "recaptcha_site_key"        => "Site Key",
-    "recaptcha_secret_key"      => "Secret Key",
-    "recaptcha_desc"            => "Please register a new site at <a target='_blank' href=\"https://www.google.com/recaptcha/admin\">https://www.google.com/recaptcha/admin</a>, select the correct type of reCAPTCHA and ensure to add each brand domain. Copy the site and secret key above.",
+    "recaptcha_site_key"        => "Clave del sitio web",
+    "recaptcha_secret_key"      => "Clave secreta",
+    "recaptcha_desc"            => "Por favor, registra un nuevo sitio web en <a target='_blank' href=\"https://www.google.com/recaptcha/admin\">https://www.google.com/recaptcha/admin</a>, selecciona el tipo correcto de reCAPTCHA y asegúrate de añadir cada dominio de marca. Copia el sitio y la clave secreta de arriba.",
     "enter_code"                => "Introducir código",
     "export_data"               => "Exportar información",
     "export_data_desc"          => "Generar una exportación de información descargable perteneciente a este usuario.",
