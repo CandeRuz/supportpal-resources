@@ -13,7 +13,7 @@ return array(
     "options"                   => "Opciones",
     "password"                  => "Contraseña",
     "radio"                     => "Botones de opción",
-    "rating"                    => "Rating (de 1 a 5)",
+    "rating"                    => "Valoración (de 1 a 5)",
     "text"                      => "Texto",
     "textarea"                  => "Área de texto",
 
