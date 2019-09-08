@@ -30,7 +30,7 @@ return array(
     "php_version_not_found"     => "No está disponible, encontrada versión PHP: :version",
     "php_extensions"            => "Extensiones PHP",
     "file_writeable"            => "Permisos de archivo",
-    "file_writeable_desc"       => "All of the below should be writable by the web server. We recommend using 755 file permissions, though some systems may require 777 if the files are not owned by the web server user. Directories should be recursively writable.",
+    "file_writeable_desc"       => "Todo lo de abajo debería poder ser editado por el servidor web. Recomendamos utilizar permisos de archivo 755, aunque algunos sistemas puede que requieran 777 si el usuario del servidor web no es el dueño de los archivos. Los directorios deberían ser editables de manera recurrente.",
 
     // Step 3
     "step_3"                    => "Paso 3 de 7: Base de datos",
@@ -43,7 +43,7 @@ return array(
 
     // Step 4
     "step_4"                    => "Paso 4 de 7: Crear tablas",
-    "step_4_desc"               => "The migration will be performed in the background and a verbose log written below, this may take several minutes. Once complete, please click the continue button that will appear.",
+    "step_4_desc"               => "La migración se llevará a cabo en segundo plano y se hará un registro detallado escrito abajo. Esto puede tardar various minutos. Una vez completado, haz click en el botón de continuar que aparecerá.",
 
     // Step 5
     "step_5"                    => "Paso 5 de 7: Cuenta del operador",
@@ -81,8 +81,8 @@ return array(
     "enabled"                   => "Habilitado",
     "disabled"                  => "Deshabilitado",
     "php_settings"              => "Ajustes PHP",
-    "ipv6_support"              => "IPv6 Support",
-    "memory_limit"              => ">= 128MB Memory",
+    "ipv6_support"              => "Asistencia IPv6",
+    "memory_limit"              => ">= 128MB de memoria",
     "memory_limit_error"        => "Tu límite de memoria es ':limit'.",
     "permission_denied"         => "Permiso denegado",
     "writable"                  => "Editable",
@@ -108,22 +108,22 @@ return array(
     /*
      * 2.3.0
      */
-    "png_jpg_support"           => "PNG & JPEG Support",
-    "allow_url_fopen"           => "'allow_url_fopen' Enabled",
-    "allow_url_fopen_failure"   => "Enable 'allow_url_fopen' in your php.ini file to use Gravatar and other features.",
+    "png_jpg_support"           => "Asistencia PNG & JPEG",
+    "allow_url_fopen"           => "'allow_url_fopen' Habilitado",
+    "allow_url_fopen_failure"   => "Habilitar 'allow_url_fopen' en tu archivo php.ini para usar Gravatar y otras características.",
     "allowed_methods"           => "HTTP Allowed Methods",
     "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
 
     /*
      * 2.4.0
      */
-    "mysql_server_version"      => "Server Version >= :min",
-    "mysql_server_version_desc" => "MySQL :min or greater is required to run SupportPal. Found: ':version'.",
-    "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
+    "mysql_server_version"      => "Versión del servidor >= :min",
+    "mysql_server_version_desc" => "MySQL :min o más se requieren para ejecutar SupportPal. Found: ':version'.",
+    "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min for MySQLnd)",
+    "mysql_client_version_desc" => "MySQL versión del cliente :min o más (:mysqlnd_min for MySQLnd) se requieren para ejecutar SupportPal. Found: ':version'.",
 
     "upgrade_step"              => "Paso :num de :total: ",
-    "accept_eula"               => "Accept EULA",
+    "accept_eula"               => "Aceptar EULA",
     "system_requirements"       => "Requisitos del sistema",
     "update_database"           => "Actualizar base de datos",
     "upgrade_complete"          => "Actualización completada",
