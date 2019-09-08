@@ -194,21 +194,21 @@ return array(
      */
     "show_details"              => "Mostrar detalles",
     "hide_details"              => "Ocultar detalles",
-    "welcome"                   => "Welcome",
+    "welcome"                   => "Bienvenido",
 
     /*
      * 2.0.3
      */
-    "sort_by"                   => "Sort by",
+    "sort_by"                   => "Ordenar por",
     "frequently_used"           => "Usado frecuentemente",
     "recently_used"             => "Usado recientemente",
     "recently_created"          => "Creado recientemente",
     "load_more"                 => "Cargar más",
     "clear_selected"            => "Eliminar seleccionado",
-    "expand_all"                => "Expand All",
-    "collapse_all"              => "Collapse All",
+    "expand_all"                => "Expandir todo",
+    "collapse_all"              => "Contraer todo",
     "show_more"                 => "Mostrar más",
-    "custom_fields"             => "",
+    "custom_fields"             => "Campos personalizados",
 
     /*
      * 2.1.0
