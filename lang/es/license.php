@@ -15,7 +15,7 @@ return array(
 
     "no_license"        => "No se ha encontrado ninguna licencia.",
     "license_invalid"   => "Licencia inválida",
-    "invalid"           => "Invalid",
+    "invalid"           => "Inválida",
 
     "incorrect_license" => "La clave de licencia que se ha utilizado es incorrecta.",
     "ip_changed"        => "La dirección IP que tu sistema utiliza ha cambiado.",
