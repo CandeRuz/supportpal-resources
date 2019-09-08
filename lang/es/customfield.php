@@ -45,7 +45,7 @@ return array(
      */
     "option_warning"            => "Al eliminar opciones existentes se borrarán los campos guardados que actualmente tienen esos valores seleccionados.",
     "regex_basic_desc"          => "Opcionalmente, especifica una expresión regular para validar el valor del campo personalizado.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
+    "regex_desc"                => "Las expresiones regulares (regex) hacen distinción entre mayúsculas y minúsculas, no es necesario especificar delimitadores regex, y el uso de barras (/) hará que automáticamente adopte carácter de escape. Por ejemplo: ^[a-z0-9_-]{6,18}$ implicaría que el valor fuera de 6 a 18 caracteres y contuviera solo una mezcla de caracteres alfanuméricos, guiones bajos y rayas.",
     "regex_error_message"       => "Mensaje de error de validación",
     "regex_error_message_desc"  => "Opcionalmente, especifica un mensaje de error personalizado que se mostrará si el valor no corresponde con la validación de expresiones regulares. Si no, se mostrará un mensaje genérico. El mensaje se mostrará exactamente como se introduzca, por lo que recomendamos incluir el nombre del campo personalizado para hacer el mensaje de error más obvio.",
     "custom_field_values"       => "Valores del campo personalizado",
