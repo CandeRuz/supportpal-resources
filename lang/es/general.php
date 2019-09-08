@@ -73,7 +73,7 @@ return array(
     "show"                      => "Mostrar",
     "hide"                      => "Ocultar",
     "category"                  => "Categoría|Categorías",
-    "parent"                    => "Parent",
+    "parent"                    => "Principal",
     "none"                      => "Ninguno/a",
     "default"                   => "Por defecto",
     "disable"                   => "Deshabilitar",
