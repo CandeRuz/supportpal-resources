@@ -152,7 +152,7 @@ return array(
     "hours_before_overdue"      => "Horas antes del vencimiento",
     "transfer"                  => "Transferir",
     "view_all"                  => "Ver todo",
-    "manage"                    => "Manage",
+    "manage"                    => "Administrar",
     "search"                    => "Buscar",
     "activate"                  => "Activar",
     "deactivate"                => "Desactivar",
