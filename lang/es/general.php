@@ -61,7 +61,7 @@ return array(
     "type"                      => "Tipo",
     "option"                    => "Opción",
     "remove"                    => "Eliminar",
-    "required"                  => "Required",
+    "required"                  => "Obligatorio",
     "enabled"                   => "Enabled",
     "registered"                => "Registered",
     "username"                  => "Nombre de usuario",
