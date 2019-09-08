@@ -10,7 +10,7 @@ return array(
     "index_desc"                => "Gracias por escoger SupportPal. Por favor, verifica que el tipo de instalación más abajo es correcto y continúa.",
     "select_language"           => "Selecciona una lengua:",
     "install_type"              => "Tipo de instalación",
-    "install"                   => "Fresh Install",
+    "install"                   => "Instalado reciente",
     "upgrade"                   => "Actualizar una instalación existente",
     "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
 
