@@ -117,7 +117,7 @@ return array(
     "select_value"              => "Seleccionar valor",
     "type_to_filter"            => "Escribir para filtrar",
     "enter_exact_ip"            => "Introducir dirección IP exacta",
-    "form"                      => "Form",
+    "form"                      => "Formulario",
     "support_portal"            => "Support Portal",
     "previous_page"             => "Página anterior",
     "reset"                     => "Resetear",
