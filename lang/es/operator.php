@@ -18,7 +18,7 @@ return array(
      * 2.4.0
      */
     "merge_field"               => "Campo de combinación",
-    "merge_field_canned_desc"   => "The unique merge field to use can be found when editing a canned response (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Copy the above to use this canned response as a merge field.",
+    "merge_field_canned_desc"   => "Puedes encontrar el único campo de combinación que usar cuando edites una respuesta predefinida (Ajustes -> Tickets -> Respuestas predefinidas).",
+    "response_merge_field"      => "Copia lo de arriba para utilizar esta respuesta predefinida como campo de combinación.",
 
 );
