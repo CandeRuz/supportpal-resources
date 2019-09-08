@@ -3,7 +3,7 @@
 return array(
 
     "new_ticket"            => "Nuevo Ticket abierto",
-    "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
+    "new_ticket_text"       => "Un nuevo Ticket #:item ha sido abierto por :name.",
 
     "new_reply"             => "New Ticket Reply",
     "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
