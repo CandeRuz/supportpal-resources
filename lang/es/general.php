@@ -215,8 +215,8 @@ return array(
      */
     "na"                        => 'N/A',
     "total"                     => "Total",
-    "disabled"                  => "Disabled",
-    "not_set"                   => "not set",
+    "disabled"                  => "Deshabilitado",
+    "not_set"                   => "no establecido",
     "add_item"                  => "Añadir :item",
     "edit_item"                 => "Editar :item",
     "any"                       => "Cualquiera",
@@ -258,8 +258,8 @@ return array(
     "number_months"             => ":number mes|:number meses",
     "number_years"              => ":number año|:number años",
     "recipients"                => "Destinatario|Destinatarios",
-    "posted"                    => "Posted",
-    "locked"                    => "Locked",
+    "posted"                    => "Publicado",
+    "locked"                    => "Bloqueado",
     "draft"                     => "Borrador",
 
     /*
@@ -278,18 +278,18 @@ return array(
     /*
      * 2.3.0
      */
-    "regex"                     => "Regex Validation",
+    "regex"                     => "Validación de expresiones regulares (regex)",
     "check_all"                 => "Seleccionar todo",
     "uncheck_all"               => "Deseleccionar todo",
-    "after_and_including"       => "After (and including)",
-    "add_link"                  => "Añadir Link",
-    "unlink"                    => "Unlink",
-    "link"                      => "Link",
+    "after_and_including"       => "Después (e incluyendo)",
+    "add_link"                  => "Añadir vínculo",
+    "unlink"                    => "Desvincular",
+    "link"                      => "Vincular",
 
     /*
      * 2.3.1
      */
-    "clone"                     => "Clone",
+    "clone"                     => "Clonar",
     "created_date"              => "Fecha creada",
     "alphabetical"              => "Alfabéticamente",
     "random"                    => "Aleatorio",
