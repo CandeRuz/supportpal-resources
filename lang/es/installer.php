@@ -111,7 +111,7 @@ return array(
     "png_jpg_support"           => "Asistencia PNG & JPEG",
     "allow_url_fopen"           => "'allow_url_fopen' Habilitado",
     "allow_url_fopen_failure"   => "Habilitar 'allow_url_fopen' en tu archivo php.ini para usar Gravatar y otras características.",
-    "allowed_methods"           => "HTTP Allowed Methods",
+    "allowed_methods"           => "Métodos permitidos HTTP",
     "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
 
     /*
