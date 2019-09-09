@@ -59,8 +59,8 @@ return array(
     "selfservicetype"   => "Administrar tipos",
 
     // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+    "report"            => "Ver informes",
+    "reportdashboard"   => "Ver panel",
 
     // General
     "tag"               => "Administrar etiquetas",
@@ -81,19 +81,19 @@ return array(
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
+    "brand"             => "Administrar marcas",
     "phpinfo"           => "Ver información PHP",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield"   => "Administrar campos personalizados del usuario",
+    "organisationcustomfield" => "Administrar campos personalizados de la organización",
+    "operatorsignature" => "Administrar firmas del operador",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
+    "logfiles"          => "Administrar archivos de registro",
 
     /*
      * 2.4.0
