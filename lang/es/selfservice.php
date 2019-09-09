@@ -117,7 +117,7 @@ return array(
     /*
      * 2.2.0
      */
-    "article_desc"              => "El artículo se puede escribir en varias lenguas. The article can be written in several languages. The appropriate article will be shown automatically based on the user's language preference.",
+    "article_desc"              => "El artículo se puede escribir en varias lenguas. El artículo apropiado se mostrará automáticamente en base a las preferencias de lengua del usuario.",
     "no_author"                 => "Sin autor",
 
     /*
