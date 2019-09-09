@@ -50,39 +50,39 @@ return array(
     "ticket_add"        => "Abrir Tickets",
     "ticket_edit"       => "Actualizar Tickets",
     "ticket_delete"     => "Eliminar Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+    "ticketcustomfield" => "Administrar campos personalizados",
 
     // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+    "article"           => "Administrar artículos",
+    "category"          => "Administrar categorías",
+    "comment"           => "Administrar comentarios",
+    "selfservicetype"   => "Administrar tipos",
 
     // Report
     "report"            => "View Reports",
     "reportdashboard"   => "View Dashboard",
 
     // General
-    "tag"               => "Manage Tags",
+    "tag"               => "Administrar etiquetas",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "View Plugins",
+    "plugin"            => "Ver Plugins",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Manage Operators",
+    "operator"          => "Administrar operadores",
     
     /*
      * 2.1.0
      */
     // Core
     "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "phpinfo"           => "Ver información PHP",
 
     // User
     "usercustomfield"   => "Manage User Custom Fields",
