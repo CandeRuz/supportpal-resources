@@ -2,22 +2,22 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Actualizar ajustes generales",
 
     // Core
-    "apitoken"          => "Manage API Tokens",
-    "company"           => "Manage Companies",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+    "apitoken"          => "Administrar API Tokens",
+    "company"           => "Administrar compañías",
+    "emailtemplate"     => "Administrar plantillas de correo",
+    "ipban"             => "Administrar baneos de IP",
+    "ipwhitelist"       => "Administrar lista blanca de IP",
+    "language"          => "Administrar lenguas",
+    "license"           => "Ver información sobre la licencia",
+    "module"            => "Administrar secciones",
+    "scheduledtask"     => "Administrar tareas programadas",
+    "spamrule"          => "Administrar reglas de spam",
+    "emaillog"          => "Ver registro de correos",
+    "emailqueue"        => "Ver cola de correos",
+    "systemcleanup"     => "Realizar limpieza del sistema",
 
     // User
     "operatorgroup"     => "Manage Operator Groups",
