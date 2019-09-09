@@ -3,35 +3,35 @@
 return array(
 
     // Standard messages
-    "item_created"                      => "Created new :item :rel.",
-    "item_updated"                      => "Updated :item :rel.",
-    "item_deleted"                      => "Deleted :item :rel.",
+    "item_created"                      => "Creado nuevo :item :rel.",
+    "item_updated"                      => "Actualizado :item :rel.",
+    "item_deleted"                      => "Eliminado :item :rel.",
 
     // Custom messages
-    "ip_ban_created"                    => "Created new ban on IP :rel.",
-    "ip_ban_updated"                    => "Updated ban on IP :rel.",
-    "ip_ban_deleted"                    => "Deleted ban on IP :rel.",
-    "banned_ip_on_login"                => "Banned IP :rel for 15 minutes.",
+    "ip_ban_created"                    => "Creado nuevo baneo en IP :rel.",
+    "ip_ban_updated"                    => "Actualizado baneo en IP :rel.",
+    "ip_ban_deleted"                    => "Eliminado baneo en IP :rel.",
+    "banned_ip_on_login"                => "Baneo de IP :rel durante 15 minutos.",
 
-    "ip_whitelist_created"              => "Added IP :rel to whitelist.",
-    "ip_whitelist_updated"              => "Updated IP :rel on whitelist.",
-    "ip_whitelist_deleted"              => "Deleted IP :rel from whitelist.",
+    "ip_whitelist_created"              => "Añadida IP :rel a la lista blanca.",
+    "ip_whitelist_updated"              => "Actualizada IP :rel a la lista blanca.",
+    "ip_whitelist_deleted"              => "Eliminada IP :rel de la lista blanca.",
 
     "system_cleanup"                    => "Ran system cleanup on :rel.",
 
-    "api_failed_login"                  => "IP :rel failed to authenticate to API.",
+    "api_failed_login"                  => "IP :rel fallo al autenticar al API.",
 
-    "user_successful_login"             => "Logged in to help desk.",
-    "user_failed_login"                 => "Failed to authenticate.",
-    "user_successful_logout"            => "Logged out of help desk.",
+    "user_successful_login"             => "Sesión iniciada en el Help Desk.",
+    "user_failed_login"                 => "Error al autenticar.",
+    "user_successful_logout"            => "Sesión cerrada del Help Desk.",
 
     "user_registered"                   => "Registered an account.",
     "user_confirmed"                    => "Confirmed their account.",
     "user_password_set"                 => "Set a password for their account.",
     "user_password_reset"               => "Reset the password for their account.",
 
-    "user_added_to_organisation"        => "User :rel added to organisation :new_value.",
-    "user_removed_from_organisation"    => "User :rel removed from organisation :old_value.",
+    "user_added_to_organisation"        => "Usuario :rel añadido a la organización :new_value.",
+    "user_removed_from_organisation"    => "Usuario :rel eliminado de la organización :old_value.",
     "user_profile_updated"              => "Updated account profile.",
     "user_left_organisation"            => "Left organisation :rel.",
     "user_organisation_emptied"         => "Removed all users from organisation :rel.",
