@@ -2,27 +2,27 @@
 
 return array(
 
-    "report"                    => "Report|Reports",
+    "report"                    => "Informe|Informes",
 
-    "dashboard"                 => "Dashboard",
-    "tickets_opened"            => "Tickets Opened",
-    "ticket_messages"           => "Ticket Messages",
-    "confirmed_users"           => "Confirmed Users",
-    "total_users"               => "Total Users",
-    "daily_stats"               => "Daily Statistics",
+    "dashboard"                 => "Panel",
+    "tickets_opened"            => "Tickets abiertos",
+    "ticket_messages"           => "Mensajes del Ticket",
+    "confirmed_users"           => "Usuarios confirmados",
+    "total_users"               => "Total usuarios",
+    "daily_stats"               => "Estadísticas diarias",
 
-    "all_time"                  => "All Time",
-    "specific_range"            => "Specific Range",
-    "filtering"                 => "Filtering",
+    "all_time"                  => "Siempre",
+    "specific_range"            => "Intervalo específico",
+    "filtering"                 => "Filtrado",
 
     "chart"                     => "Chart",
     "table"                     => "Table",
     "pie"                       => "Pie",
     "bar"                       => "Bar",
-    "column"                    => "Column",
-    "histogram"                 => "Histogram",
+    "column"                    => "Columna",
+    "histogram"                 => "Histograma",
     "line"                      => "Line",
-    "area"                      => "Area",
+    "area"                      => "Área",
     "stacked"                   => "Stacked",
     "stepped"                   => "Stepped",
     "geo"                       => "Geo",
@@ -30,8 +30,8 @@ return array(
     /*
      * 2.0.3
      */
-    "operator_ticket_replies"   => "Operator Ticket Replies",
-    "operator_replies_desc"     => "The number of ticket replies by a given operator over a timeframe.",
+    "operator_ticket_replies"   => "Respuestas del Ticket del operador",
+    "operator_replies_desc"     => "El número de respuestas del ticket de un operador determinado durante un período de tiempo.",
     "first_response_time"       => "First Response Time",
     "first_response_time_desc"  => "The amount of time it took operators to first reply to a ticket.",
     "first_reply_time"          => "First Reply Time",
