@@ -2,30 +2,30 @@
 
 return array(
 
-    "deleted"               => "Deleted!",
-    "success"               => "Success",
+    "deleted"               => "¡Eliminado!",
+    "success"               => "Éxito",
     "error"                 => "Error",
-    "in_progress"           => "In Progress",
+    "in_progress"           => "En progreso",
 
     "save_order"            => "Attempting to save the updated order of the items",
 
-    "show_all_results"      => "Show all results &raquo;",
+    "show_all_results"      => "Mostrar todos los resultados &raquo;",
 
-    "are_you_sure"          => "Are you sure?",
-    "yes_im_sure"           => "Yes, I'm sure",
+    "are_you_sure"          => "¿Estás seguro/a?",
+    "yes_im_sure"           => "Sí, estoy seguro/a",
 
-    "success_created"       => "Successfully created new :item!",
-    "error_created"         => "Failed trying to create new :item.",
+    "success_created"       => "¡Éxito al crear nuevo :item!",
+    "error_created"         => "Error al intentar crear nuevo :item.",
 
-    "success_deleted"       => "Successfully deleted the :item!",
-    "error_deleted"         => "Failed trying to delete the :item.",
+    "success_deleted"       => "¡Éxito al eliminar el :item!",
+    "error_deleted"         => "Error al intentar eliminar el :item.",
 
-    "success_updated"       => "Successfully updated the :item!",
-    "error_updated"         => "Failed trying to update the :item.",
+    "success_updated"       => "¡Éxito al actualizar el :item!",
+    "error_updated"         => "Error al intentar actualizar el :item.",
 
-    "error_notfound"        => "The :item with given ID was not found.",
-    "error_notfound_name"   => "The :item with given name was not found.",
-    "report_notfound"       => "The report with given category and name was not found.",
+    "error_notfound"        => "El :item con ese ID no se ha podido encontrar.",
+    "error_notfound_name"   => "El :item con ese nombre no se ha podido encontrar.",
+    "report_notfound"       => "El informe con esa categoría y nombre no se ha podido encontrar.",
 
     "success_ordering"      => "Successfully updated the ordering!",
     "error_ordering"        => "Failed trying to update the ordering.",
