@@ -124,11 +124,11 @@ return array(
      * 2.3.1
      */
     "slug"                      => "Slug",
-    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+    "slug_desc"                 => "La versión URL amigable del nombre. Normalmente es toda en minúsculas y solo contiene letras, números y guiones.",
     "change_slug"               => "Change Slug",
-    "published_date"            => "Published Date",
-    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
-    "content_options"           => "Content Options",
+    "published_date"            => "Fecha de publicación",
+    "published_date_desc"       => "La fecha y hora en la que se publicó el artículo como visto para los usuarios del frontend.",
+    "content_options"           => "Opciones de contenido",
     "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
     "external_link"             => "External Link",
     "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
