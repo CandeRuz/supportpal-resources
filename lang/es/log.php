@@ -17,7 +17,7 @@ return array(
     "ip_whitelist_updated"              => "Actualizada IP :rel a la lista blanca.",
     "ip_whitelist_deleted"              => "Eliminada IP :rel de la lista blanca.",
 
-    "system_cleanup"                    => "Ran system cleanup on :rel.",
+    "system_cleanup"                    => "Limpieza del sistema ejecutada el :rel.",
 
     "api_failed_login"                  => "IP :rel fallo al autenticar al API.",
 
@@ -32,7 +32,7 @@ return array(
 
     "user_added_to_organisation"        => "Usuario :rel añadido a la organización :new_value.",
     "user_removed_from_organisation"    => "Usuario :rel eliminado de la organización :old_value.",
-    "user_profile_updated"              => "Updated account profile.",
+    "user_profile_updated"              => "Perfil de cuenta actualizado.",
     "user_left_organisation"            => "Left organisation :rel.",
     "user_organisation_emptied"         => "Removed all users from organisation :rel.",
     "user_organisation_updated"         => ":rel's organisation access level changed from :old_value to :new_value.",
@@ -60,9 +60,9 @@ return array(
     "ticket_opened_email"               => "Imported email as new ticket #:rel.",
     "ticket_deleted"                    => "Deleted ticket ':old_value' (#:rel).",
 
-    "ticket_followup_set"               => "A follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "The follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "The follow up on ticket #:rel has been deleted.",
+    "ticket_followup_set"               => "Se ha establecido un seguimiento en el Ticket #:rel.",
+    "ticket_followup_updated"           => "El seguimiento en el Ticket #:rel se ha actualizado.",
+    "ticket_followup_deleted"           => "El seguimiento en el Ticket #:rel se ha eliminado.",
 
     "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
     "ticket_message_note"               => "Posted a new note to ticket #:rel.",
