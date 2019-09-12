@@ -33,25 +33,25 @@ return array(
     "error_login"           => "Error al intentar iniciar sesión.",
     "success_logout"        => "Sesión cerrada con éxito.",
 
-    "please_correct"        => "Please correct the following errors and try again.",
+    "please_correct"        => "Por favor, corrige los siguientes errores e inténtalo de nuevo.",
 
-    "success_settings"      => "Successfully updated the settings!",
-    "error_settings"        => "Failed trying to update the settings.",
+    "success_settings"      => "¡Ajustes actualizados con éxito!",
+    "error_settings"        => "Error al intentar actualizar los ajustes.",
 
-    "success_action"        => "Successfully performed the action!",
-    "error_action"          => "Failed to perform the action.",
+    "success_action"        => "¡Acción llevada a cabo con éxito!",
+    "error_action"          => "Error al llevar a cabo la acción.",
 
-    "success_sending"       => "Successfully sent the :item!",
-    "error_sending"         => "Failed trying to send the :item.",
+    "success_sending"       => "Éxito al enviar el :item!",
+    "error_sending"         => "Error al intentar enviar el :item.",
 
-    "error_embed_image"     => "Failed trying to upload the image.",
+    "error_embed_image"     => "Error al intentar subir la imagen.",
 
-    "unauthorised"          => "Unauthorised",
-    "not_authorised"        => "Not authorised to complete this action.",
-    "not_permitted"         => "You are not permitted to view this page. If you think this has been displayed in error, please speak to your application administrator.",
+    "unauthorised"          => "Sin autorización",
+    "not_authorised"        => "No estás autorizado para completar esta acción.",
+    "not_permitted"         => "No tienes permiso para ver esta página. Si crees que esto es un error, por favor, habla con tu administrador de la aplicación.",
 
-    "page_not_found"        => "Page Not Found",
-    "cant_find_page"        => "We can't find the page that you're looking for.",
+    "page_not_found"        => "Página no encontrada",
+    "cant_find_page"        => "No podemos encontrar la página que estás buscando.",
 
     "please_report"         => "Please report to an administrator if this was unexpected.",
 
