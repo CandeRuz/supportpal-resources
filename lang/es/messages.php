@@ -7,7 +7,7 @@ return array(
     "error"                 => "Error",
     "in_progress"           => "En progreso",
 
-    "save_order"            => "Attempting to save the updated order of the items",
+    "save_order"            => "Intentando guardar el orden actualizado de los items",
 
     "show_all_results"      => "Mostrar todos los resultados &raquo;",
 
@@ -27,11 +27,11 @@ return array(
     "error_notfound_name"   => "El :item con ese nombre no se ha podido encontrar.",
     "report_notfound"       => "El informe con esa categoría y nombre no se ha podido encontrar.",
 
-    "success_ordering"      => "Successfully updated the ordering!",
-    "error_ordering"        => "Failed trying to update the ordering.",
+    "success_ordering"      => "¡Orden actualizado con éxito!",
+    "error_ordering"        => "Error al intentar actualizar el orden.",
 
-    "error_login"           => "Login attempt failed.",
-    "success_logout"        => "Successfully logged out.",
+    "error_login"           => "Error al intentar iniciar sesión.",
+    "success_logout"        => "Sesión cerrada con éxito.",
 
     "please_correct"        => "Please correct the following errors and try again.",
 
