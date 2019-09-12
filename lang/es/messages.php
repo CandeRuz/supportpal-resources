@@ -53,92 +53,92 @@ return array(
     "page_not_found"        => "Página no encontrada",
     "cant_find_page"        => "No podemos encontrar la página que estás buscando.",
 
-    "please_report"         => "Please report to an administrator if this was unexpected.",
+    "please_report"         => "Por favor, si esto ha sido inesperado, repórtalo a un administrador.",
 
-    "return_to"             => "Return to the :page.",
+    "return_to"             => "Volver a :page.",
 
-    "session_expired"       => "Your session expired, please login again.",
-    "session_refresh"       => "Your session expired, please refresh the page and then try again.",
+    "session_expired"       => "Tu sesión ha expirado. Por favor, vuelve a iniciar sesión.",
+    "session_refresh"       => "Tu sesión ha expirado. Por favor, actualiza la página e inténtalo de nuevo.",
 
-    "general_error"         => "An error occurred. Please try again.",
+    "general_error"         => "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
 
-    "no_results"            => "No results.",
+    "no_results"            => "Sin resultados.",
 
-    "assign_incomplete"     => "The action could not be completed in full. :names could not be assigned to some tickets.",
+    "assign_incomplete"     => "La acción no se ha podido completar del todo. :names no se han podido asignar a algunos tickets.",
 
-    "maintenance_mode"      => "Maintenance mode is active. The help desk is currently inaccessible by users, please remember to turn maintenance mode off when finished.",
+    "maintenance_mode"      => "El modo de mantenimiento está activo. Los usuarios no pueden acceder al help desk. Por favor, recuerda desactivar el modo de mantenimiento cuando finalice.",
 
-    "invalid_captcha"       => "The captcha code entered was invalid or incorrect, please try again.",
-    "blocked_as_spam"       => "Your request was detected as spam. Please contact an administrator if you feel this has been shown in error.",
-    "account_exists"        => "An active account already exists with this email address. Please login or use the forgotten password feature if you cannot remember your password.",
-    "error_loading_comments" => "There was a problem loading the comments.",
+    "invalid_captcha"       => "El código captcha es inválido o incorrecto. Por favor, inténtalo de nuevo.",
+    "blocked_as_spam"       => "Tu petición se ha identificado como spam. Por favor, ponte en contacto con un administrador si consideras que ha sido un error.",
+    "account_exists"        => "Ya existe una cuenta activa con esta dirección de correo. Por favor, inicia sesión o utiliza la opción de haber olvidado la contraseña si no puedes recordarla.",
+    "error_loading_comments" => "Ha habido un problema al cargar los comentarios.",
 
-    "invalid_auth"          => "Invalid authentication credentials.",
+    "invalid_auth"          => "Credenciales de autenticación inválidos.",
 
-    "forbidden"             => "Forbidden",
+    "forbidden"             => "Prohibido",
 
-    "not_logged_exception"  => "<strong>Whoops! Something went wrong.</strong><br />Please notify the system administrator if the error persists.",
+    "not_logged_exception"  => "<strong>¡Ups! Algo no ha ido bien.</strong><br />Por favor, notifícaselo al administrador del sistema si el error persiste.",
 
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
+    "too_many_ticket_reqs"  => "Demasiadas solicitudes de tickets hechas por :email. El límite son :max en :decay minutos.",
 
-    "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
+    "not_operator"          => "Algo no ha ido bien. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
 
     // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
+    "datatable_error"       => "<strong>¡Ups! Algo no ha ido bien.</strong><br />Se ha producido un error al cargar los datos de la tabla. Por favor, notifícaselo al administrador del sistema si el error persiste.",
 
-    "missing_extension"     => "Missing Extension",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
+    "missing_extension"     => "Extensión ausente",
+    "php_ldap_missing"      => "Se requiere la extensión php-ldap para usar la autenticación LDAP. Por favor, habilítala y actualiza la página.",
+    "php_imap_missing"      => "Se requiere la extensión php-imap para utilizar Email Download. Si deseas utilizar Email Download, por favor, habilita la extensión y actualiza la página.",
 
     /*
      * 2.0.3
      */
-    "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
-    "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
-    "error_loading_message" => "An error occurred while loading the message. Please try again.",
-    "please_refresh"        => "Please refresh the page.",
+    "only_ssl_connections"  => "Solo se permiten conexiones SSL. Deberías actualizar tu petición a una conexión segura.",
+    "queued_emails"         => "¡Éxito! - Los correos empezarán a ponerse en cola y se enviarán brevemente.",
+    "error_loading_message" => "Se ha producido un error al cargar el mensaje. Por favor, inténtalo de nuevo.",
+    "please_refresh"        => "Por favor, actualiza la página.",
 
     /*
      * 2.1.0
      */
-    "unable_to_connect_db"  => "<strong>Service currently unavailable.</strong><br />Unable to connect to the database.",
-    "category_required"     => "The article must belong to one or more categories.",
-    "warning"               => "Warning",
+    "unable_to_connect_db"  => "<strong>Servicio no disponible en este momento.</strong><br />Imposible conectarse a la base de datos.",
+    "category_required"     => "El artículo tiene que pertenecer a una o más categorías.",
+    "warning"               => "Advertencia",
     "note"                  => "Note",
-    "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
+    "brand_invalid_dept"    => "La acción no se ha podido completar del todo. El departamento no ha podido actualizar algunos tickets debido a su marca.",
 
     /*
      * 2.1.1
      */
-    "upload_error"          => "Failed to upload attachment \":filename\", reason: \":reason\"",
-    "upload_max_size"       => "File must be smaller than :size",
-    "upload_wrong_type"     => "File type is not allowed",
+    "upload_error"          => "Error al subir el archivo adjunto \":filename\", razón: \":reason\"",
+    "upload_max_size"       => "El archivo debe ser más pequeño que :size",
+    "upload_wrong_type"     => "No se permite ese tipo de archivo",
 
     /*
      * 2.3.0
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
+    "delete_record"         => "Eliminar :record?",
+    "cannot_be_undone"      => "Esta acción no se puede deshacer.",
+    "warn_delete"           => "Esto eliminará permanentemente el <strong>:name</strong> :record del sistema.",
+    "delete_confirm"        => "Sí, eliminar :record",
+    "keep_record"           => "No, mantener :record",
+    "delete_relations"      => "Al eliminar el <strong>:name</strong> :record también se eliminará permanentemente toda esta información relacionada:",
+    "please_check"          => "Debes marcar todas las casillas arriba para confirmar que comprendes el resultado de esta acción irreversible.",
+    "failed_attachments"    => "Error al adjuntar algunos archivos.",
 
     /*
      * 2.3.1
      */
-    "sent_email"            => "Success - the email has been sent.",
+    "sent_email"            => "Éxito - el correo se ha enviado.",
     "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+    "linked_account"        => "La cuenta social se ha asociado con tu cuenta con total éxito.",
+    "already_linked"        => "La cuenta social ya está asociada con otra cuenta. Por favor, inicia sesión con la otra cuenta y desasóciala.",
 
     /*
      * 2.4.0
      */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
+    "does_look_correct"     => "¿Esto está correcto?",
+    "no_revert"             => "¡No! Revertir",
+    "attachment_not_found"  => "No se ha podido encontrar el archivo adjunto.",
 
 );
