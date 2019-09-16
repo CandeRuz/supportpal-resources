@@ -404,7 +404,7 @@ return array(
     "no_branding"               => "No mostrar marca",
     "no_branding_desc"          => "Elimina la marca de SupportPal de lo que ve el cliente en el Help Desk.",
     "multi_ip"                  => "Asistencia multi-IP",
-    "multi_ip_desc"             => "Allows locking SupportPal to more than one internal/external IP.",
+    "multi_ip_desc"             => "Permite asociar SupportPal a más de una IP interna/externa.",
     "purchase"                  => "Comprar",
     "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
 
