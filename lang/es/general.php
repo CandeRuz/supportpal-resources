@@ -165,7 +165,7 @@ return array(
     "if_exists"                 => "si existe",
     "of"                        => "de",            // Used in group e.g. Last Thursday of November
     "out_of"                    => "de",
-    "to"                        => "to",            // Used in a range e.g. 2 to 5
+    "to"                        => "a",            // Used in a range e.g. 2 to 5
 
     // Languages
     "language"                  => "Lengua|Lenguas",
