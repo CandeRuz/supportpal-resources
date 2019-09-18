@@ -32,9 +32,9 @@ return array(
      */
     "operator_ticket_replies"   => "Respuestas del Ticket del operador",
     "operator_replies_desc"     => "El número de respuestas del ticket de un operador determinado durante un período de tiempo.",
-    "first_response_time"       => "First Response Time",
+    "first_response_time"       => "Hora de la primera respuesta",
     "first_response_time_desc"  => "El tiempo que tardaron los operadores en responder a un ticket.",
-    "first_reply_time"          => "First Reply Time",
+    "first_reply_time"          => "Hora de la primera respuesta",
     "ticket_count"              => "Recuento de tickets",
     "lt_1_hour"                 => "<1 Hora",
     "1-3_hour"                  => "1-3 Horas",
