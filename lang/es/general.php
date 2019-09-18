@@ -124,7 +124,7 @@ return array(
     "interval"                  => "Intervalo",
     "content"                   => "Contenido",
     "sender"                    => "Remitente",
-    "content_sender"            => "Content &amp; Sender",
+    "content_sender"            => "Contenido &amp; Remitente",
     "permissions"               => "Permisos",
     "no_permissions_found"      => "No se han encontrado permisos",
     "first"                     => "Primero",
