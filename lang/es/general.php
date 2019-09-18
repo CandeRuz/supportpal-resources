@@ -146,7 +146,7 @@ return array(
     "greater_than"              => "Mayor que",
     "less_than"                 => "Menor que",
     "does_not_contain"          => "no contiene",
-    "viewing_operator"          => "Viewing Operator",
+    "viewing_operator"          => "Operador que visualiza",
     "due"                       => "Vencimiento",
     "overdue"                   => "Vencido",
     "hours_before_overdue"      => "Horas antes del vencimiento",
