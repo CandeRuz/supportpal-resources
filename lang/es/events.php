@@ -9,7 +9,7 @@ return array(
     "user_reply"            => "Respuesta del usuario publicada",
     "operator_reply"        => "Respueta del operador publicada",
     "operator_note"         => "Nota del operador publicada",
-    "operator_forward"      => "Operator forward posted",
+    "operator_forward"      => "Reenvío del operador publicado",
     "update_department"     => "Departamento actualizado",
     "update_status"         => "Estado actualizado",
     "update_priority"       => "Prioridad actualizada",
