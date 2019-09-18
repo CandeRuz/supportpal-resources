@@ -20,7 +20,7 @@ return array(
     "no_categories"             => ":type actualmente no tiene categorías. Por favor, crea una antes de añadir un artículo.",
     "no_categories_frontend"    => "No hay categorías que mostrar.",
 
-    "awaiting_moderation"       => "Awaiting Moderation",
+    "awaiting_moderation"       => "Esperando moderación",
     "published"                 => "Publicado",
     "spam"                      => "Spam",
 
@@ -37,7 +37,7 @@ return array(
     "associate_tag"             => "Asociar artículo con una etiqueta...",
     "associate_category"        => "Asociar artículo con una categoría...",
     "published_desc"            => "Si el artículo puede verse públicamente. Si no está publicado, todavía podría verse a través de una URL directa siempre que una de las categorías sea pública.",
-    "registered_users_desc"     => "Toggle to show article only to logged in users.",
+    "registered_users_desc"     => "Alterna para mostrar el artículo solo a usuarios conectados.",
 
     "comment_by"                => "Comentario de",
     "replying_to"               => "Respondiendo a",
@@ -84,8 +84,8 @@ return array(
     "show_captcha_desc"         => "Cuando se debería mostrar captcha a los usuarios escribiendo comentarios..",
     "comment_moderation"        => "Moderación de comentarios",
     "comment_moderation_desc"   => "Si los comentarios deben ser moderados cuando se envían, antes de ser publicados, o si se publican automáticamente.",
-    "moderated"                 => "Moderated",
-    "unmoderated"               => "Unmoderated",
+    "moderated"                 => "Moderado",
+    "unmoderated"               => "Sin moderar",
     "comment_threshold"         => "Comment Threshold",
     "comment_threshold_desc"    => "Se reducirá la visibilidad en los comentarios valorados en menos (y no igual) de este valor y se tendrá que hacer click para poder verlos.",
 
@@ -111,7 +111,7 @@ return array(
     "visibility"                => "Visibilidad",
     "reply_to_comment"          => "Responder al comentario",
     "article_brand_warning"     => "Este artículo existe en una marca en la que no estás asignado. Cualquier cambio que hagas también se verá en esa marca.",
-    "viewing_article"           => "Viewing Article",
+    "viewing_article"           => "Artículo en vista",
     "article_count"             => "Recuento de artículos",
 
     /*
