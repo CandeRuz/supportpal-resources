@@ -3,19 +3,19 @@
 return array(
 
     // Standard messages
-    "item_created"                      => "Creado nuevo :item :rel.",
-    "item_updated"                      => "Actualizado :item :rel.",
-    "item_deleted"                      => "Eliminado :item :rel.",
+    "item_created"                      => "Creó nuevo :item :rel.",
+    "item_updated"                      => "Actualizó :item :rel.",
+    "item_deleted"                      => "Eliminó :item :rel.",
 
     // Custom messages
-    "ip_ban_created"                    => "Creado nuevo baneo en IP :rel.",
-    "ip_ban_updated"                    => "Actualizado baneo en IP :rel.",
-    "ip_ban_deleted"                    => "Eliminado baneo en IP :rel.",
+    "ip_ban_created"                    => "Creó nuevo baneo en IP :rel.",
+    "ip_ban_updated"                    => "Actualizó baneo en IP :rel.",
+    "ip_ban_deleted"                    => "Eliminó baneo en IP :rel.",
     "banned_ip_on_login"                => "Baneo de IP :rel durante 15 minutos.",
 
-    "ip_whitelist_created"              => "Añadida IP :rel a la lista blanca.",
-    "ip_whitelist_updated"              => "Actualizada IP :rel a la lista blanca.",
-    "ip_whitelist_deleted"              => "Eliminada IP :rel de la lista blanca.",
+    "ip_whitelist_created"              => "Añadió IP :rel a la lista blanca.",
+    "ip_whitelist_updated"              => "Actualizó IP :rel a la lista blanca.",
+    "ip_whitelist_deleted"              => "Eliminó IP :rel de la lista blanca.",
 
     "system_cleanup"                    => "Limpieza del sistema ejecutada el :rel.",
 
@@ -25,48 +25,48 @@ return array(
     "user_failed_login"                 => "Error al autenticar.",
     "user_successful_logout"            => "Sesión cerrada del Help Desk.",
 
-    "user_registered"                   => "Registered an account.",
-    "user_confirmed"                    => "Confirmed their account.",
-    "user_password_set"                 => "Set a password for their account.",
-    "user_password_reset"               => "Reset the password for their account.",
+    "user_registered"                   => "Registró una cuenta.",
+    "user_confirmed"                    => "Confirmó su cuenta.",
+    "user_password_set"                 => "Estableció una contraseña para su cuenta.",
+    "user_password_reset"               => "Reestableció la contraseña de su cuenta.",
 
     "user_added_to_organisation"        => "Usuario :rel añadido a la organización :new_value.",
     "user_removed_from_organisation"    => "Usuario :rel eliminado de la organización :old_value.",
     "user_profile_updated"              => "Perfil de cuenta actualizado.",
-    "user_left_organisation"            => "Left organisation :rel.",
-    "user_organisation_emptied"         => "Removed all users from organisation :rel.",
-    "user_organisation_updated"         => ":rel's organisation access level changed from :old_value to :new_value.",
-    "organisation_membership_updated"   => "Updated user membership of organisation :rel.",
-    "organisation_profile_updated"      => "Updated profile of organisation :rel.",
-    "organisation_owner_updated"        => "Transferred organisation :rel ownership to :new_value.",
+    "user_left_organisation"            => "Dejó la organización :rel.",
+    "user_organisation_emptied"         => "Eliminó todos los usuarios de la organización :rel.",
+    "user_organisation_updated"         => "El nivel de acceso de la organización de :rel ha cambiado de :old_value a :new_value.",
+    "organisation_membership_updated"   => "Actualizó la suscripción del usuario de la organización :rel.",
+    "organisation_profile_updated"      => "Actualizó el perfil de la organización :rel.",
+    "organisation_owner_updated"        => "Transfirió la propiedad de la organización :rel a :new_value.",
 
-    "user_emailed"                      => "Sent an email to :rel.",
+    "user_emailed"                      => "Envió un correo a :rel.",
 
-    "mass_email_queued"                 => "Queued :new_value emails in batches to be sent.",
-    "mass_email_sent"                   => "Sent :new_value emails in queue.",
+    "mass_email_queued"                 => "Puso en cola correos :new_value en secciones para ser enviados.",
+    "mass_email_sent"                   => "Envió correos :new_value en cola.",
 
-    "email_queue_deleted"               => "Deleted queued email to :rel.",
+    "email_queue_deleted"               => "Eliminó correos en cola a :rel.",
 
-    "scheduled_task_run"                => "Scheduled task :rel has been run manually.",
+    "scheduled_task_run"                => "Las tareas programadas :rel se han ejecutado manualmente.",
 
-    "selfservice_article_upvoted"       => "Positively rated article :rel.",
-    "selfservice_article_downvoted"     => "Negatively rated article :rel.",
-    "selfservice_comment_posted"        => "Posted a new :rel.",
+    "selfservice_article_upvoted"       => "Valoró positivamente el artículo :rel.",
+    "selfservice_article_downvoted"     => "Valoró negativamente el artículo :rel.",
+    "selfservice_comment_posted"        => "Publicó un nuevo :rel.",
     "selfservice_comment_upvoted"       => "Up-voted :rel rating from :old_value to :new_value.",
     "selfservice_comment_downvoted"     => "Down-voted :rel rating from :old_value to :new_value.",
 
-    "ticket_opened"                     => "Opened new ticket #:rel.",
-    "ticket_opened_on_behalf"           => "Opened new ticket #:rel on behalf of :new_value.",
-    "ticket_opened_email"               => "Imported email as new ticket #:rel.",
-    "ticket_deleted"                    => "Deleted ticket ':old_value' (#:rel).",
+    "ticket_opened"                     => "Abrió un nuevo ticket #:rel.",
+    "ticket_opened_on_behalf"           => "Abrió un nuevo ticket #:rel en nombre de :new_value.",
+    "ticket_opened_email"               => "Importó correo como nuevo ticket #:rel.",
+    "ticket_deleted"                    => "Eliminó ticket ':old_value' (#:rel).",
 
     "ticket_followup_set"               => "Se ha establecido un seguimiento en el Ticket #:rel.",
     "ticket_followup_updated"           => "El seguimiento en el Ticket #:rel se ha actualizado.",
     "ticket_followup_deleted"           => "El seguimiento en el Ticket #:rel se ha eliminado.",
 
-    "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
-    "ticket_message_note"               => "Posted a new note to ticket #:rel.",
-    "ticket_message_deleted"            => "Deleted a message in ticket #:rel.",
+    "ticket_message_reply"              => "Publicó una nueva respuesta al ticket #:rel.",
+    "ticket_message_note"               => "Publicó una nota nueva al tickett #:rel.",
+    "ticket_message_deleted"            => "Eliminó un mensaje en el ticket #:rel.",
 
     "ticket_user_updated"               => "Updated the user on ticket #:rel from :old_value to :new_value.",
     "ticket_subject_updated"            => "Updated the subject on ticket #:rel.",
