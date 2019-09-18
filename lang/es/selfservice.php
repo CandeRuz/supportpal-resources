@@ -57,7 +57,7 @@ return array(
     "article_rated_success"     => "El artículo ha sido valorado con éxito.",
     "article_rated_error"       => "El artículo no se ha podido valorar.",
 
-    "comment_below_threshold"   => "(Comment below score threshold, click to show)",
+    "comment_below_threshold"   => "(Este comentario se encuentra bajo el umbral de puntuación, haz click para mostrar)",
     "view_all_replies"          => "Ver todas las respuestas",
     "show_more_comments"        => "Mostrar más comentarios",
     "highest_rated"             => "Mejor valorados",
@@ -86,7 +86,7 @@ return array(
     "comment_moderation_desc"   => "Si los comentarios deben ser moderados cuando se envían, antes de ser publicados, o si se publican automáticamente.",
     "moderated"                 => "Moderado",
     "unmoderated"               => "Sin moderar",
-    "comment_threshold"         => "Comment Threshold",
+    "comment_threshold"         => "Umbral de comentarios",
     "comment_threshold_desc"    => "Se reducirá la visibilidad en los comentarios valorados en menos (y no igual) de este valor y se tendrá que hacer click para poder verlos.",
 
     "enable_ratings"            => "Habilitar valoración de artículos.",
