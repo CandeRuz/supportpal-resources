@@ -81,7 +81,7 @@ return array(
 
     "too_many_ticket_reqs"  => "Demasiadas solicitudes de tickets hechas por :email. El límite son :max en :decay minutos.",
 
-    "not_operator"          => "Algo no ha ido bien. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
+    "not_operator"          => "Algo no ha ido bien. El operador seleccionado no es válido, por favor, asegúrate de que pertenece a un grupo de operadores y de que el grupo tiene un papel asociado.",
 
     // The error message is appended using JavaScript...
     "datatable_error"       => "<strong>¡Ups! Algo no ha ido bien.</strong><br />Se ha producido un error al cargar los datos de la tabla. Por favor, notifícaselo al administrador del sistema si el error persiste.",
