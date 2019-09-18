@@ -306,7 +306,7 @@ return array(
     "show_count_more"           => "Mostrar :count más...",
     "manual"                    => "Manual",
     "automatic"                 => "Automático",
-    "hook"                      => "Hook",
+    "hook"                      => "Enlace",
     "event"                     => "Evento|Eventos",
     "test"                      => "Test",
 
