@@ -130,7 +130,7 @@ return array(
      * 2.3.1
      */
     "sent_email"            => "Éxito - el correo se ha enviado.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
+    "task_already_running"  => "Las tareas programadas se están actualmente ejecutando automáticamente. Por favor, inténtalo de nuevo en breve.",
     "linked_account"        => "La cuenta social se ha asociado con tu cuenta con total éxito.",
     "already_linked"        => "La cuenta social ya está asociada con otra cuenta. Por favor, inicia sesión con la otra cuenta y desasóciala.",
 
