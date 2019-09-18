@@ -104,7 +104,7 @@ return array(
     "unable_to_connect_db"  => "<strong>Servicio no disponible en este momento.</strong><br />Imposible conectarse a la base de datos.",
     "category_required"     => "El artículo tiene que pertenecer a una o más categorías.",
     "warning"               => "Advertencia",
-    "note"                  => "Note",
+    "note"                  => "Ten en cuenta",
     "brand_invalid_dept"    => "La acción no se ha podido completar del todo. El departamento no ha podido actualizar algunos tickets debido a su marca.",
 
     /*
