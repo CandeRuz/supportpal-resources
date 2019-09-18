@@ -77,56 +77,56 @@ return array(
     "ticket_tag_updated"                => "Actualizó las etiquetas en el ticket #:rel.",
     "ticket_tag_removed"                => "Eliminó etiqueta :new_value del ticket #:rel.",
     "ticket_slaplan_updated"            => "Actualizó el plan SLA en el ticket #:rel de :old_value a :new_value.",
-    "ticket_duetime_updated"            => "Actualizó la Updated the due time on ticket #:rel to :new_value.",
-    "ticket_duetime_paused"             => "Paused the due time on ticket #:rel until next user reply.",
-    "ticket_customfield_updated"        => "Updated custom fields on ticket #:rel.",
-    "ticket_converted_user"             => "Converted internal ticket #:rel to user ticket.",
-    "ticket_converted_internal"         => "Converted user ticket #:rel to internal ticket.",
+    "ticket_duetime_updated"            => "Actualizó la hora de entrega en el ticket #:rel a :new_value.",
+    "ticket_duetime_paused"             => "Pausó la hora de entrega en el ticket #:rel hasta la respuesta del siguiente usuario.",
+    "ticket_customfield_updated"        => "Actualizó los campos personalizados en el ticket #:rel.",
+    "ticket_converted_user"             => "Convirtió el ticket interno #:rel a ticket del usuario.",
+    "ticket_converted_internal"         => "Convirtió el ticket del usuario #:rel a ticket interno.",
 
-    "ticket_assigned_operator"          => "Assigned :new_value to ticket #:rel.",
-    "ticket_unassigned_operator"        => "Unassigned :new_value from ticket #:rel.",
-    "ticket_assigned_self"              => "Assigned self to ticket #:rel.",
-    "ticket_assigned_updated"           => "Updated assigned operators on ticket #:rel.",
+    "ticket_assigned_operator"          => "Asignó :new_value al ticket #:rel.",
+    "ticket_unassigned_operator"        => "Desasignó :new_value del ticket #:rel.",
+    "ticket_assigned_self"              => "Se asignó a sí mismo al ticket #:rel.",
+    "ticket_assigned_updated"           => "Actualizó operadores asignados en el ticket #:rel.",
 
-    "ticket_locked"                     => "Locked ticket #:rel.",
-    "ticket_unlocked"                   => "Unlocked ticket #:rel.",
-    "ticket_locked_reply"               => "Reply could not be added to locked ticket #:rel.",
+    "ticket_locked"                     => "Bloqueó el ticket #:rel.",
+    "ticket_unlocked"                   => "Desbloqueó el ticket #:rel.",
+    "ticket_locked_reply"               => "La respuesta no se pudo añadir al ticket bloqueado #:rel.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value merged into ticket #:rel.",
-    "ticket_unmerged"                   => "Ticket :rel has been unmerged.",
+    "ticket_merged"                     => "Ticket(s) :new_value se combinó en el ticket #:rel.",
+    "ticket_unmerged"                   => "Ticket :rel se ha descombinado.",
 
-    "ticket_user_blocked"               => "Blocked email :new_value (from user on ticket #:rel).",
+    "ticket_user_blocked"               => "Correo bloqueado :new_value (del usuario en el ticket #:rel).",
 
-    "ticket_closed"                     => "Ticket #:rel has been closed.",
-    "ticket_inactive_closed"            => "Closed inactive ticket #:rel from status :old_value.",
-    "ticket_awaiting_response"          => "Sent waiting for response email to user on ticket #:rel.",
+    "ticket_closed"                     => "El ticket #:rel se ha cerrado.",
+    "ticket_inactive_closed"            => "Cerró el ticket inactivo #:rel con estado :old_value.",
+    "ticket_awaiting_response"          => "Envió un mensaje de espera de respuesta al usuario en el ticket #:rel.",
 
     "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
     "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
 
-    "ticket_email_user"                 => "Sent email to user.",
-    "ticket_email_operators"            => "Sent email to operators.",
+    "ticket_email_user"                 => "Envió un correo al usuario.",
+    "ticket_email_operators"            => "Envió un correo a los operadores.",
 
     "ticket_feedback_dequeued"          => "Removed feedback form request for ticket #:rel from queue.",
     "ticket_feedback_form_sent"         => "Sent feedback form request for ticket #:rel.",
 
-    "ticket_attachment_saved"           => "Added attachment to ticket #:rel.",
-    "ticket_attachment_deleted"         => "Deleted attachment from ticket #:rel.",
+    "ticket_attachment_saved"           => "Añadir archivo adjunto al ticket #:rel.",
+    "ticket_attachment_deleted"         => "Eliminó archivo adjunto del ticket #:rel.",
 
     "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
 
     /*
      * 2.0.2
      */
-    "ticket_email_operator_group"       => "Sent email to operator group :new_value.",
-    "ticket_email_user_group"           => "Sent email to user group :new_value.",
+    "ticket_email_operator_group"       => "Envió correo al grupo de operadores :new_value.",
+    "ticket_email_user_group"           => "Envió correo al grupo de usuarios :new_value.",
 
     /*
      * 2.0.3
      */
     "selfservice_attachment_saved"      => "Added attachment ':new_value' to article ID :rel.",
     "selfservice_attachment_deleted"    => "Deleted attachment ':new_value' from to article ID :rel.",
-    "ticket_unassigned_self"            => "Unassigned self from ticket #:rel.",
+    "ticket_unassigned_self"            => "Se desasignó a sí mismo del ticket #:rel.",
 
     /*
      * 2.1.0
