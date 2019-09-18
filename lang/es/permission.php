@@ -37,13 +37,13 @@ return array(
     "cannedresponse"    => "Administrar respuestas predefinidas",
     "channel"           => "Administrar canales",
     "department"        => "Administrar departamentos",
-    "feedback"          => "Manage Feedback",
-    "feedbackform"      => "Manage Feedback Forms",
+    "feedback"          => "Administrar valoración",
+    "feedbackform"      => "Administrar formularios de valoración",
     "filter"            => "Administrar filtros",
     "holiday"           => "Administrar vacaciones",
     "macro"             => "Administrar macros",
     "priority"          => "Administrar prioridades",
-    "schedule"          => "Manage Schedules",
+    "schedule"          => "Administrar horarios",
     "slaplan"           => "Administrar planes SLA",
     "status"            => "Administrar estados",
     "ticket_view"       => "Ver Tickets",
@@ -99,6 +99,6 @@ return array(
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Manage Social Login",
+    "sociallogin"       => "Administrar inicio de sesión de redes sociales",
 
 );
