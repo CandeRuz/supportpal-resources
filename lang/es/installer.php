@@ -12,7 +12,7 @@ return array(
     "install_type"              => "Tipo de instalación",
     "install"                   => "Instalado reciente",
     "upgrade"                   => "Actualizar una instalación existente",
-    "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
+    "support"                   => "El código de licencia utilizado para esta instalación no tiene un soporte válido ni una suscripción de actualizaciones, y como tal, no es válido para instalar esta versión de Supportpal. Por favor, <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renueva</a> tu soporta y suscripción de actualizaciones o revierte tus archivos de instalación.",
 
     // Upgrade
     "successfully_updated"      => "Enhorabuena, SupportPal se ha actualizado con éxito.",
@@ -37,7 +37,7 @@ return array(
     "step_3_desc"               => "Por favor, introduce los detalles de la base de datos que has configurado para SupportPal.",
     "hostname"                  => "Nombre de host",
     "port"                      => "Puerto",
-    "port_desc"                 => "(Only change if not default port 3306)",
+    "port_desc"                 => "(Cambiar sólo si no es el puerto predeterminado 3306)",
     "database"                  => "Base de datos",
     "database_not_empty"        => "La base de datos no puede contener tablas.",
 
@@ -97,13 +97,13 @@ return array(
     /*
      * 2.1.0
      */
-    "ipv6_failure"              => "If your server has IPv6 networking support, please install the php-sockets extension.",
+    "ipv6_failure"              => "Si tu servidor tiene compatibilidad de red IPv6, por favor, instala la extensión php-sockets.",
     "email_address_desc"        => "Introduce la principal dirección de correo electrónico de tu compañía. Esta se configurará como la dirección de correo electrónico por defecto y la de tu primer departamento. department. Podrás añadir otras direcciones de correo electrónico más tarde.",
 
     /*
      * 2.2.0
      */
-    "ioncube_version"           => "ionCube Loaders version :required or greater required. Found: ':version'.",
+    "ioncube_version"           => "ionCube Loaders versión :required o superior se requiere. Hemos encontrado: ':version'.",
 
     /*
      * 2.3.0
@@ -118,7 +118,7 @@ return array(
      * 2.4.0
      */
     "mysql_server_version"      => "Versión del servidor >= :min",
-    "mysql_server_version_desc" => "MySQL :min o más se requieren para ejecutar SupportPal. Found: ':version'.",
+    "mysql_server_version_desc" => "MySQL :min o superior se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
     "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min for MySQLnd)",
     "mysql_client_version_desc" => "MySQL versión del cliente :min o más (:mysqlnd_min for MySQLnd) se requieren para ejecutar SupportPal. Found: ':version'.",
 
