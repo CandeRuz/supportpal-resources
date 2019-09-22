@@ -182,19 +182,19 @@ return array(
     /*
      * 2.3.1
      */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
-    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
+    "selfservice_comment_updated"       => "Actualizó :rel por :extra_rel1.",
+    "selfservice_comment_status"        => "Cambió el estado de :rel por :extra_rel1 de :old_value a :new_value.",
+    "selfservice_comment_deleted"       => "Eliminó el comentario de :extra_rel1.",
+    "ticket_message_posted"             => "Publicó un nuevo :extra_rel1 para el ticket #:rel.",
+    "ticket_message_edited"             => "Editó un :extra_rel1 en el ticket #:rel.",
+    "email_send_failed"                 => "Error al enviar el correo.",
+    "ticket_brand_updated"              => "Actualizó la marca del ticket #:rel de :old_value a :new_value.",
+    "export_scheduled"                  => "Una exportación del usuario :rel ha sido programado.",
+    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y almacenado en el sistema.",
+    "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
     "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+    "deleted_old_records"               => "Se han eliminado automáticamente registros antiguos de :rel.",
+    "sent_email_to_user_group"          => "Correo en cola para el grupo de usuarios ':new_value' para el ticket #:rel.",
 
     /*
      * 2.4.0
