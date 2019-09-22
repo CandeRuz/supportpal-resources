@@ -113,7 +113,7 @@ return array(
     "ticket_attachment_saved"           => "Añadir archivo adjunto al ticket #:rel.",
     "ticket_attachment_deleted"         => "Eliminó archivo adjunto del ticket #:rel.",
 
-    "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
+    "ticket_throttled"                  => "Rechazó un ticket nuevo de :rel debido a la limitación.",
 
     /*
      * 2.0.2
@@ -124,60 +124,60 @@ return array(
     /*
      * 2.0.3
      */
-    "selfservice_attachment_saved"      => "Added attachment ':new_value' to article ID :rel.",
-    "selfservice_attachment_deleted"    => "Deleted attachment ':new_value' from to article ID :rel.",
+    "selfservice_attachment_saved"      => "Añadió archivo adjunto ':new_value' al artículo con ID :rel.",
+    "selfservice_attachment_deleted"    => "Eliminó archivo adjunto':new_value' del artículo con ID :rel.",
     "ticket_unassigned_self"            => "Se desasignó a sí mismo del ticket #:rel.",
 
     /*
      * 2.1.0
      */
-    "ticket_brand_disabled_reply"       => "Reply could not be added due to ticket belonging to a disabled brand #:rel.",
-    "personal_signatures_updated"       => "Updated personal signatures.",
-    "operator_signatures_updated"       => "Updated :rel's signatures.",
-    "check_email_failed"                => "Error: Failed to download email from account :old_value: ':rel'.",
-    "ticket_added_cc"                   => "Email(s) :new_value added to CC address list for ticket #:rel.",
-    "ticket_removed_cc"                 => "Email(s) :old_value removed from CC address list for ticket #:rel.",
-    "invalid_department_brand"          => "Failed to set department to ':new_value' on ticket #:rel, department does not belong to ticket brand.",
+    "ticket_brand_disabled_reply"       => "La respuesta puede que no se añada debido a que el ticket pertenece a una marca deshabilitada #:rel.",
+    "personal_signatures_updated"       => "Actualizó las firmas personales.",
+    "operator_signatures_updated"       => "Actualizó las firmas de :rel.",
+    "check_email_failed"                => "Error: Fallo al descargar correo de la cuenta :old_value: ':rel'.",
+    "ticket_added_cc"                   => "Correo(s) :new_value añadidos a la lista de direcciones CC para el ticket #:rel.",
+    "ticket_removed_cc"                 => "Correo(s) :old_value eliminados de la lista de direcciones CC para el ticket #:rel.",
+    "invalid_department_brand"          => "Error al establecer el departamento a ':new_value' en el ticket #:rel, el departamento no pertenece a la marca del ticket.",
 
     /*
      * 2.1.1
      */
-    "ticket_message_updated"            => "Updated message :message_id in ticket #:rel.",
+    "ticket_message_updated"            => "Actualizó el mensaje :message_id en el ticket #:rel.",
 
     /*
      * 2.1.2
      */
-    "sent_email_to"                     => "Sent an email with subject ':extra_rel1' to :rel.",
-    "sent_template_email_to"            => "Sent ':extra_rel1' email to :rel.",
-    "sent_ticket_email_to_user"         => "Sent ':extra_rel1' email to user for ticket #:rel.",
-    "sent_email_to_operators"           => "Sent ':extra_rel1' email to operators.",
-    "sent_ticket_email_to_operators"    => "Sent ':extra_rel1' email to operators for ticket #:rel.",
-    "sent_email_to_operator_group"      => "Sent ':extra_rel1' email to operator group ':new_value' for ticket #:rel.",
-    "ticket_macro_applied"              => "The macro ':new_value' was ran on ticket #:rel.",
-    "ticket_macro_automatic"            => "The macro ':new_value' automatically ran on ticket #:rel.",
-    "email_template_not_found"          => "Email template ID ':new_value' not found, aborted sending email.",
-    "ticket_duetime_unset"              => "Unset the due time on ticket #:rel.",
-    "private_conversation_started"      => "Started a conversation with :rel.",
-    "private_message_sent"              => "Sent a message to :rel.",
-    "not_imported_replies_disabled"     => "An email :extra_rel1 was received for ticket #:rel, but was not imported as ticket email replies are disabled.",
-    "not_imported_ticket_locked"        => "An email :extra_rel1 was received for ticket #:rel, but was not imported as the ticket is locked.",
+    "sent_email_to"                     => "Envió un correo con asunto ':extra_rel1' a :rel.",
+    "sent_template_email_to"            => "Envió un correo ':extra_rel1' a :rel.",
+    "sent_ticket_email_to_user"         => "Envió un correo ':extra_rel1' al usuario para el ticket #:rel.",
+    "sent_email_to_operators"           => "Envió un correo ':extra_rel1' a los operadores.",
+    "sent_ticket_email_to_operators"    => "Envió un correo ':extra_rel1' a los operadores para el ticket #:rel.",
+    "sent_email_to_operator_group"      => "Envió un correo ':extra_rel1' al grupo de operadores ':new_value' para el ticket #:rel.",
+    "ticket_macro_applied"              => "El macro ':new_value' se ejecutó en el ticket #:rel.",
+    "ticket_macro_automatic"            => "El macro ':new_value' se ejecutó automáticamente en el ticket #:rel.",
+    "email_template_not_found"          => "La plantilla de correo con ID ':new_value' no se ha podido encontrar, por lo que se ha cancelado el envío del correo.",
+    "ticket_duetime_unset"              => "Desactivó la hora de entrega en el ticket #:rel.",
+    "private_conversation_started"      => "Empezó una conversación con :rel.",
+    "private_message_sent"              => "Envió un mensaje a :rel.",
+    "not_imported_replies_disabled"     => "Se recibió un correo :extra_rel1 para el ticket #:rel, pero no se importó ya que las respuestas de correo del ticket están desactivadas.",
+    "not_imported_ticket_locked"        => "Se recibió un correo :extra_rel1 para el ticket #:rel, pero no se importó ya que el ticket está bloqueado.",
 
     /*
      * 2.2.0
      */
-    "ticket_user_added_to_group"        => "Ticket user added to user group :new_value.",
-    "ticket_user_removed_from_group"    => "Ticket user removed from user group :old_value.",
-    "email_on_behalf"                   => "Forwarded :extra_rel2 on behalf of ':extra_rel1' in ticket #:rel.",
+    "ticket_user_added_to_group"        => "El usuario del Ticket se añadió al grupo de usuarios :new_value.",
+    "ticket_user_removed_from_group"    => "El usuario del Ticket user fue eliminado del grupo de usuarios :old_value.",
+    "email_on_behalf"                   => "Reenvió :extra_rel2 en nombre de ':extra_rel1' en el ticket #:rel.",
 
     /*
      * 2.3.0
      */
-    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
-    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
-    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
-    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
-    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
-    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
+    "registered_users_only"             => "Envió un correo ':extra_rel1' a :new_value, el departamento no acepta correos de usuarios que no están registrados.",
+    "deleted_user"                      => "Eliminó :item ':rel' con correo del correo ':email_address' (ID :user_id).",
+    "linked_ticket"                     => "Vinculó el ticket #:rel con el ticket :extra_rel1.",
+    "unlinked_ticket"                   => "Desvinculó el ticket #:rel del ticket :extra_rel1.",
+    "email_queue_attachment_deleted"    => "Eliminó archivo adjunto ':old_value' del correo en cola ':rel'.",
+    "forward_ticket_email"              => "Reenvió ticket #:rel a un tercero, ver ':extra_rel1' email.",
 
     /*
      * 2.3.1
