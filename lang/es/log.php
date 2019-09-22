@@ -101,8 +101,8 @@ return array(
     "ticket_inactive_closed"            => "Cerró el ticket inactivo #:rel con estado :old_value.",
     "ticket_awaiting_response"          => "Envió un mensaje de espera de respuesta al usuario en el ticket #:rel.",
 
-    "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
-    "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
+    "ticket_split_from"                 => "Mensajes separados del ticket antiguo #:rel al ticket nuevo #:new_value.",
+    "ticket_split_to"                   => "Mensajes separados del ticket antiguo #:old_value al ticket nuevo #:rel.",
 
     "ticket_email_user"                 => "Envió un correo al usuario.",
     "ticket_email_operators"            => "Envió un correo a los operadores.",
