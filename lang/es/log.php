@@ -107,8 +107,8 @@ return array(
     "ticket_email_user"                 => "Envió un correo al usuario.",
     "ticket_email_operators"            => "Envió un correo a los operadores.",
 
-    "ticket_feedback_dequeued"          => "Removed feedback form request for ticket #:rel from queue.",
-    "ticket_feedback_form_sent"         => "Sent feedback form request for ticket #:rel.",
+    "ticket_feedback_dequeued"          => "Eliminó la petición del formulario de valoración del ticket #:rel de la cola.",
+    "ticket_feedback_form_sent"         => "Envió la petición del formulario de valoración para el ticket #:rel.",
 
     "ticket_attachment_saved"           => "Añadir archivo adjunto al ticket #:rel.",
     "ticket_attachment_deleted"         => "Eliminó archivo adjunto del ticket #:rel.",
