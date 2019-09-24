@@ -79,7 +79,7 @@ return array(
     "ticket_format"             => "Formato del número del ticket",
 
     // Departments
-    "department_public_desc"    => "If the department is visible to users on the web help desk.",
+    "department_public_desc"    => "Si el departamento es visible para los usuarios en la web help desk.",
     "department_parent_desc"    => "If the department is a subdepartment, please select a parent. Subdepartments are intended for internal escalation and management, therefore setting this will remove some of the options below.",
     "department_priority"       => "Department Priorities",
     "department_priority_desc"  => "The priorities that will be available to users when opening a ticket in this department, at least one needs to be selected. By default, all priorities will be available in the department.",
