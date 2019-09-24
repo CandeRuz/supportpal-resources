@@ -65,7 +65,7 @@ return array(
 
     "tag"                       => "Etiqueta|Etiquetas",
 
-    "track_ticket"              => "Track Ticket",
+    "track_ticket"              => "Comprobar el estado del Ticket",
     "view_ticket"               => "Ver Ticket",
 
     // Recent activity
