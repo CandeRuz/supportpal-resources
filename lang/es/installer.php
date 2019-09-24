@@ -120,7 +120,7 @@ return array(
     "mysql_server_version"      => "Versión del servidor >= :min",
     "mysql_server_version_desc" => "MySQL :min o superior se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
     "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL versión del cliente :min o más (:mysqlnd_min for MySQLnd) se requieren para ejecutar SupportPal. Found: ':version'.",
+    "mysql_client_version_desc" => "MySQL versión del cliente :min o superior (:mysqlnd_min for MySQLnd) se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
 
     "upgrade_step"              => "Paso :num de :total: ",
     "accept_eula"               => "Aceptar EULA",
