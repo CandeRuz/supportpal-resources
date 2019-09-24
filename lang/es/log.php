@@ -17,7 +17,7 @@ return array(
     "ip_whitelist_updated"              => "Actualizó IP :rel a la lista blanca.",
     "ip_whitelist_deleted"              => "Eliminó IP :rel de la lista blanca.",
 
-    "system_cleanup"                    => "Limpieza del sistema ejecutada el :rel.",
+    "system_cleanup"                    => "Limpieza del sistema ejecutada en :rel.",
 
     "api_failed_login"                  => "IP :rel fallo al autenticar al API.",
 
