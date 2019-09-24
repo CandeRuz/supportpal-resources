@@ -80,17 +80,17 @@ return array(
 
     // Departments
     "department_public_desc"    => "Si el departamento es visible para los usuarios en la web help desk.",
-    "department_parent_desc"    => "If the department is a subdepartment, please select a parent. Subdepartments are intended for internal escalation and management, therefore setting this will remove some of the options below.",
-    "department_priority"       => "Department Priorities",
-    "department_priority_desc"  => "The priorities that will be available to users when opening a ticket in this department, at least one needs to be selected. By default, all priorities will be available in the department.",
+    "department_parent_desc"    => "Si el departamento es un subdepartamento, por favor, selecciona uno principal. Los subdepartamentos están pensados para escalación y administración internas, por lo que al establecer esto se eliminarán algunas de las opciones más abajo.",
+    "department_priority"       => "Prioridades del departamento",
+    "department_priority_desc"  => "Las prioridades que estarán disponibles para los usuarios cuando abran un ticket en este departamento. Se debe seleccionar al menos una. Por defecto, todas las prioridades estarán disponibles en el departamento.",
     "department_no_format"      => "Optional, only set to override the default ticket number format, leave blank otherwise.",
-    "department_operator"       => "Department Operators",
-    "department_default_assign" => "Default Assigned To",
-    "dept_default_assign_desc"  => "Use this if you wish for tickets that are opened in this department to be automatically assigned to one or more operators.",
+    "department_operator"       => "Operadores del departamento",
+    "department_default_assign" => "Asignado por defecto a",
+    "dept_default_assign_desc"  => "Usa esto si quieres que los tickets que están abiertos en este departamento se asignen automáticamente a uno o más operadores.",
 
     // Department emails
-    "email_accounts_desc"       => "Set up email addresses for the department, any incoming email to these email addresses will open tickets in this department. The first email address is used as the default sender email address for outgoing email.",
-    "department_password"       => "Only enter a password to replace existing saved password or to validate email account details.",
+    "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciban estas direcciones abrirán tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
+    "department_password"       => "Solo introduce una contraseña para reemplazar contraseñas guardadas existentes o para validar datos de las cuentas de correo.",
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Some email providers require SSL or TLS encryption in order to connect, if you are unsure leave this setting as None.",
     "department_delete_mail"    => "If using IMAP, you can choose to not delete emails on the server after they've been imported as tickets.",
