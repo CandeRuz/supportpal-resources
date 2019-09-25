@@ -83,7 +83,7 @@ return array(
     "department_parent_desc"    => "Si el departamento es un subdepartamento, por favor, selecciona uno principal. Los subdepartamentos están pensados para escalación y administración internas, por lo que al establecer esto se eliminarán algunas de las opciones más abajo.",
     "department_priority"       => "Prioridades del departamento",
     "department_priority_desc"  => "Las prioridades que estarán disponibles para los usuarios cuando abran un ticket en este departamento. Se debe seleccionar al menos una. Por defecto, todas las prioridades estarán disponibles en el departamento.",
-    "department_no_format"      => "Optional, only set to override the default ticket number format, leave blank otherwise.",
+    "department_no_format"      => "Opcional. Establécelo solo para reemplazar el formato del número del ticket por defecto. Si no, déjalo en blanco.",
     "department_operator"       => "Operadores del departamento",
     "department_default_assign" => "Asignado por defecto a",
     "dept_default_assign_desc"  => "Usa esto si quieres que los tickets que están abiertos en este departamento se asignen automáticamente a uno o más operadores.",
@@ -112,7 +112,7 @@ return array(
     "email_user_on_email"       => "Mandar correo a los usuarios de tickets abiertos por correo",
     "email_user_on_email_desc"  => "Selecciona si se debería notificar por correo a cuando envíen un correo que resulte en la apertura de un nuevo ticket.",
     "email_operators"           => "Notificar operadores",
-    "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
+    "email_operators_desc"      => "Selecciona si quieres reenviar las respuestas del operador a otros operadores. Por defecto, se marca la opción \"enviar correo a los operadores\" en el panel del operador, y se enviará automáticamente un correo de respuestas de los operadores.",
     // Department email templates
     "new_ticket_opened"         => "Nuevo ticket abierto",
     "reply_to_locked"           => "Responder al ticket bloqueado",
@@ -412,7 +412,7 @@ return array(
      */
     "not_registered_user"       => "Not a registered user. Email channel settings set to only import emails from registered users.",
     "display_name"              => "Email Display Name",
-    "display_name_desc"         => "Optional, only set to override the display name used on outgoing emails from this department, leave blank otherwise.",
+    "display_name_desc"         => "Opcional. Establécelo solo para reemplazar Optional, only set to override the display name used on outgoing emails from this department, leave blank otherwise.",
     "display_name_options"      => "The following Twig variables may be used:<br >{{ brand.name }} - Brand name<br />{{ department.name }} - Department Name<br />{{ department.frontend_name }} - Shows the parent department name, if ticket belongs to a sub-department.<br />{{ operator.formatted_name }} - Operator Name<br /><em>The operator name won't always be available, so wrap it in a 'not empty' conditional i.e. {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
     "attachment_rejected"       => "Attachment Rejected",
     "enable_subaddresses"       => "Enable Sub-addresses",
