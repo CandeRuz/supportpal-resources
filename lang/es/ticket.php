@@ -102,23 +102,23 @@ return array(
     "encryption"                => "Cifrado",
     "delete_downloaded"         => "Eliminar correos descargados",
     "consume_all"               => "Consumir todo el correo",
-    "email_download"            => "Email Download",
+    "email_download"            => "Descarga de correos",
     "email_piping"              => "Canalización de correos",
     "email_piping_desc"         => "Configura un reenviador de correos como el siguiente. La ruta de acceso ejecutable PHP puede ser diferente en tu servidor.",
     "remote_email_piping"       => "Canalización de correos remota",
 
     // Department email options
-    "email_options"             => "Email Options",
-    "email_user_on_email"       => "Email Users on Tickets Opened by Email",
-    "email_user_on_email_desc"  => "Select whether users should be notified by email when an email they send results in a new ticket being opened.",
-    "email_operators"           => "Notify Operators",
+    "email_options"             => "Opciones de correos",
+    "email_user_on_email"       => "Mandar correo a los usuarios de tickets abiertos por correo",
+    "email_user_on_email_desc"  => "Selecciona si se debería notificar por correo a cuando envíen un correo que resulte en la apertura de un nuevo ticket.",
+    "email_operators"           => "Notificar operadores",
     "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
     // Department email templates
-    "new_ticket_opened"         => "New Ticket Opened",
-    "reply_to_locked"           => "Reply to Locked Ticket",
-    "waiting_for_response"      => "Waiting for Response",
+    "new_ticket_opened"         => "Nuevo ticket abierto",
+    "reply_to_locked"           => "Responder al ticket bloqueado",
+    "waiting_for_response"      => "Esperando una respuesta",
     "ticket_auto_closed"        => "Ticket Auto Closed",
-    "closed_by_operator"        => "Closed By Operator",
+    "closed_by_operator"        => "Cerrado por el operador",
 
     // Feedback
     "feedback"                  => "Feedback",
