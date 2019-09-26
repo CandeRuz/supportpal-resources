@@ -303,7 +303,7 @@ return array(
     "close_and_lock"            => "Cerrar & Bloquear",
     "delete_and_block"          => "Eliminar & Bloquear",
 
-    "block_warning"             => "The user's email will also be blocked and no longer able to open tickets.",
+    "block_warning"             => "El correo del usuario también se bloqueará y no podrá abrir tickets.",
 
     "mass_reply"                => "Mass Reply",
 
@@ -314,16 +314,16 @@ return array(
     "pause_duetime_desc"        => "If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
     "delete_follow_up"          => "Delete Follow Up",
 
-    "add_cc"                    => "Add CC",
-    "reply_above_line"          => "Please reply above this line",
+    "add_cc"                    => "Añadir CC",
+    "reply_above_line"          => "Por favor, responde por encima de esta línea",
 
-    "email_settings"            => "Email Settings",
-    "web_settings"              => "Web Settings",
+    "email_settings"            => "Ajustes de correo",
+    "web_settings"              => "Ajustes de Web",
     "split_selected_replies"    => "Split Selected Replies",
 
-    "track_ticket_not_found"    => "Could not find ticket with ticket number and user email address entered.",
+    "track_ticket_not_found"    => "No se ha podido encontrar el ticket con ese número y dirección de correo electrónico.",
 
-    "channel_deactivated"       => "The ticket channel is currently deactivated, a reply cannot be posted.",
+    "channel_deactivated"       => "El canal del ticket está actualmente desactivado. No se ha podido publicar la respuesta.",
 
     "type_in_tags"              => "Type in tags",
 
@@ -335,9 +335,9 @@ return array(
     /*
      * 2.0.2
      */
-    "no_operator_groups"        => "No operator groups found. Click <a href=':route'>here</a> to create one.",
-    "no_user_groups"            => "No user groups found. Click <a href=':route'>here</a> to create one.",
-    "opened_by"                 => "(Opened by :name)",
+    "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click en <a href=':route'>here</a> para crear uno.",
+    "no_user_groups"            => "No se han encontrado grupos de usuarios. Haz click en <a href=':route'>here</a> para crear uno.",
+    "opened_by"                 => "(Abierto por :name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
 
     /*
