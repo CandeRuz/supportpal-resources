@@ -146,7 +146,7 @@ return array(
     "feedback_not_found"        => "Tu valoración no ha podido ser aceptada. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
     "feedback_malformed_token"  => "Tu valoración no ha podido ser aceptada por un problema de con el formato del token. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
     "feedback_already_done"     => "Ya has ofrecido una valoración para este ticket. Gracias.",
-    "feedback_expired"          => "El ticket ya lleva un tiempo resuelto y, por desgracia, ya no se puede valorar.",
+    "feedback_expired"          => "El ticket lleva un tiempo resuelto y, por desgracia, ya no se puede valorar.",
     "feedback_questions"        => "Si tienes unos minutos, por favor, ¿te importaría contestar a las siguientes preguntas para ayudarnos a mejorar la asistencia que ofrecemos?.",
     "feedback_thank_you"        => "Gracias por ofrecernos tu valoración de este ticket.",
     "feedback_for_ticket"       => "Valoración para el Ticket #:number",
@@ -229,7 +229,7 @@ return array(
     "reply_options"             => "Opciones de respuesta",
     "send_email_to_users"       => "Enviar correo a el/los usuario(s)",
     "send_email_to_operators"   => "Enviar correo a el/los operador(es)",
-    "back_to_grid"              => "Go Back to Ticket Grid",
+    "back_to_grid"              => "Volver a la cuadrícula de los tickets",
     "take"                      => "Take",
     "take_ownership"            => "Take Ownership",
     "pause_duetime"             => "Pausar la hora de entrega",
@@ -264,7 +264,7 @@ return array(
     "ticket_notes_top"          => "Solo en la parte superior",
     "ticket_notes_messages"     => "Solo en mensajes",
 
-    "captcha_desc"              => "Cuando el capcha debería mostrarse a los usuarios abriendo nuevos tickets.",
+    "captcha_desc"              => "Cuando el captcha debería mostrarse a los usuarios abriendo nuevos tickets.",
     "unregistered_only"         => "Solo usuarios no registrados",
 
     "allow_unauth_users"        => "Permitir usuarios sin autenticar",
@@ -297,9 +297,9 @@ return array(
     "add_tag"                   => "Añadir etiqueta",
 
     "unlock"                    => "Desbloquear",
-    "merge"                     => "Merge",
-    "merged"                    => "Merged",
-    "unmerge"                   => "Unmerge",
+    "merge"                     => "Combinar",
+    "merged"                    => "Combinados",
+    "unmerge"                   => "Descombinar",
     "close_and_lock"            => "Cerrar & Bloquear",
     "delete_and_block"          => "Eliminar & Bloquear",
 
