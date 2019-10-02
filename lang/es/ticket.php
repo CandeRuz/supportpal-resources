@@ -307,11 +307,11 @@ return array(
 
     "mass_reply"                => "Mass Reply",
 
-    "due_today"                 => "Due Today",
-    "overdue"                   => "Overdue",
-    "unassigned"                => "Unassigned",
+    "due_today"                 => "Pendiente para hoy",
+    "overdue"                   => "Vencido",
+    "unassigned"                => "Desasignado",
 
-    "pause_duetime_desc"        => "If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
+    "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa la hora de entrega  If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
     "delete_follow_up"          => "Delete Follow Up",
 
     "add_cc"                    => "Añadir CC",
