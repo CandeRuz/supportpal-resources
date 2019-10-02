@@ -195,7 +195,7 @@ return array(
     "time_from_now"             => "Time from now",
 
     // Schedule
-    "schedule"                  => "Schedule|Schedules",
+    "schedule"                  => "Horario|Horarios",
     "business_hour"             => "Horario comercial",
     "business_hour_desc"        => "El horario comercial indica las horas en las que el personal está disponible para responder consultas for the schedule. Las horas se tienen en cuenta cuando se calculan las horas de entrega del ticket.",
 
