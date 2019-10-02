@@ -189,15 +189,15 @@ return array(
     "error_ticket_locked"       => "Este ticket se ha bloqueado y no se puede actualizar de nuevo. Por favor, abre un ticket nuevo si necesitas más asistencia.",
 
     // Ticket Followups
-    "follow_up"                 => "Follow Up",
-    "follow_up_status_desc"     => "Set the ticket to a different status until the follow up date.",
+    "follow_up"                 => "Seguimiento",
+    "follow_up_status_desc"     => "Establece el ticket con un estado diferente hasta la fecha del seguimiento.",
     "exact_date_time"           => "Fecha & hora exacta",
-    "time_from_now"             => "Time from now",
+    "time_from_now"             => "Tiempo desde ahora",
 
     // Schedule
     "schedule"                  => "Horario|Horarios",
     "business_hour"             => "Horario comercial",
-    "business_hour_desc"        => "El horario comercial indica las horas en las que el personal está disponible para responder consultas for the schedule. Las horas se tienen en cuenta cuando se calculan las horas de entrega del ticket.",
+    "business_hour_desc"        => "El horario comercial indica las horas en las que el personal está disponible para responder consultas por el horario. Las horas se tienen en cuenta cuando se calculan las horas de entrega del ticket.",
 
     // Holidays
     "holiday"                   => "Holiday|Holidays",
@@ -206,7 +206,7 @@ return array(
 
     // SLA Plans
     "sla_plan"                  => "Plan SLA|Planes SLA",
-    "specific_schedule"         => "Specific Schedules",
+    "specific_schedule"         => "Horarios específicos",
     "calendar_hours_24"         => "Horas del calendario (24 Horas)",
     "resolution_time"           => "Horaas de resolución",
     "resolution_time_desc"      => "Establece unas horas límite para las que un ticket debe sido respondido y resuelto por prioridad. El tiempo solo se contará durante las horas comerciales basadas en los schedule(S) elegidos. Se pueden utilizar valores decimales.",
