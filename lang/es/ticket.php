@@ -312,14 +312,14 @@ return array(
     "unassigned"                => "Desasignado",
 
     "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa la hora de entrega  If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
-    "delete_follow_up"          => "Delete Follow Up",
+    "delete_follow_up"          => "Eliminar seguimiento",
 
     "add_cc"                    => "Añadir CC",
     "reply_above_line"          => "Por favor, responde por encima de esta línea",
 
     "email_settings"            => "Ajustes de correo",
     "web_settings"              => "Ajustes de Web",
-    "split_selected_replies"    => "Split Selected Replies",
+    "split_selected_replies"    => "Dividir respuestas seleccionadas",
 
     "track_ticket_not_found"    => "No se ha podido encontrar el ticket con ese número y dirección de correo electrónico.",
 
@@ -330,7 +330,7 @@ return array(
     /*
      * 2.0.1
      */
-    "allowed_files_desc"        => "A list of file extensions, separated by the pipe | character, that are permitted as attachments. For example: txt|png|jpg. To allow all attachments, input: ?.*",
+    "allowed_files_desc"        => "Una lista de extensiones de arcivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
 
     /*
      * 2.0.2
@@ -343,26 +343,26 @@ return array(
     /*
      * 2.0.3
      */
-    "department_consume_all"    => "By default, SupportPal has email alias support and will check the TO address on incoming email to see which department the ticket should be opened in, a ticket is not opened if a matching department email address cannot be found. Enabling this setting will mean all emails without a matching department email address are imported as tickets in this department.",
-    "default_reply_options"     => "Default Reply Options",
-    "default_reply_options_desc" => "Select the default reply options to be set when opening or replying to a ticket. The ':reply_option' option will be ticked based on the ':department_option' department setting.",
-    "associate_response_tag"    => "Associate canned response with a tag...",
-    "canned_response_tags_desc" => "Add tags which may help finding a canned response when replying to a ticket.",
-    "loading_tags"              => "Loading tags",
-    "append_ip_address"         => "Append IP Address",
-    "append_ip_address_desc"    => "Append the IP address of users to their messages when they are opening and replying to tickets from the frontend.",
-    "unassign_operator"         => "Unassign Operator",
-    "remove_tag"                => "Remove Tag",
-    "message_clipped"           => "[Message Clipped]",
-    "view_entire_message"       => "View entire message",
-    "no_custom_fields"          => "No custom fields found. Click <a href=':route'>here</a> to create one.",
-    "follow_up_active"          => "A <a class='view-followup' style='text-decoration: underline;'>follow up</a> is currently active on this ticket and will run <strong>:time</strong>.",
-    "disable_user_email_replies" => "Disable User Email Replies",
+    "department_consume_all"    => "Por defecto, SupportPal tiene asistencia de alias de correo electrónico y comprobará el destinatario de los correos entrantes para ver en qué departamento debería abrirse el ticket. El ticket no se abre si no se encuentra el departamento correspondiente. Al habilitar este ajuste, todos los correos sin una dirección de correo de departamento correspondiente se importarán como tickets en este departamento.",
+    "default_reply_options"     => "Opciones de respuesta por defecto",
+    "default_reply_options_desc" => "Selecciona las opciones de respuesta por defecto que se establezcan cuando se abra o se responda a un ticket. La opción ':reply_option' option will be ticked based on the ':department_option' department setting.",
+    "associate_response_tag"    => "Asociar respuesta predefinida con una etiqueta...",
+    "canned_response_tags_desc" => "Añadir etiquetas que puedan ayudar a encontrar una respuesta predefinida cuando se conteste a un ticket.",
+    "loading_tags"              => "Cargando etiquetas",
+    "append_ip_address"         => "Anexar dirección IP",
+    "append_ip_address_desc"    => "Anexar la dirección IP de los usuarios a sus mensajes cuando estén abriendo y respondiendo a tickets del frontend.",
+    "unassign_operator"         => "Desasignar operador",
+    "remove_tag"                => "Eliminar etiqueta",
+    "message_clipped"           => "[Mensaje acortado]",
+    "view_entire_message"       => "Ver todo el mensaje",
+    "no_custom_fields"          => "No se han encontrado campos personalizados. Haz click en <a href=':route'>here</a> para crear uno.",
+    "follow_up_active"          => "Un <a class='view-followup' style='text-decoration: underline;'>seguimiento</a> está actualmente activo en este ticket y se ejecutará <strong>:time</strong>.",
+    "disable_user_email_replies" => "Deshabilitar respuestas de correo del usuario",
 
     /*
      * 2.1.0
      */
-    "default_ticket_filter"     => "Default Ticket Filter",
+    "default_ticket_filter"     => "Filtro de ticket por defecto",
     "default_ticket_filter_desc" => "The ticket filter that is used by default when clicking the 'Manage Tickets' link. Can be set to 'None', the default option, which will show all unresolved tickets.",
     "recent_filters"            => "Recent Filters",
     "inactive_tickets"          => "Inactive Tickets",
