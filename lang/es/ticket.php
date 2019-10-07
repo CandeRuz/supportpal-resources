@@ -410,7 +410,7 @@ return array(
     /*
      * 2.1.2
      */
-    "not_registered_user"       => "Not a registered user. Email channel settings set to only import emails from registered users.",
+    "not_registered_user"       => "No es un usuario registrado. Los ajustes de canales de correo están establecidos para solo importar correos de usuarios registrados.",
     "display_name"              => "Email Display Name",
     "display_name_desc"         => "Opcional. Establécelo solo para reemplazar Optional, only set to override the display name used on outgoing emails from this department, leave blank otherwise.",
     "display_name_options"      => "The following Twig variables may be used:<br >{{ brand.name }} - Brand name<br />{{ department.name }} - Department Name<br />{{ department.frontend_name }} - Shows the parent department name, if ticket belongs to a sub-department.<br />{{ operator.formatted_name }} - Operator Name<br /><em>The operator name won't always be available, so wrap it in a 'not empty' conditional i.e. {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
