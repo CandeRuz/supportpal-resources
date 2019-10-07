@@ -410,12 +410,12 @@ return array(
     /*
      * 2.1.2
      */
-    "not_registered_user"       => "No es un usuario registrado. Los ajustes de canales de correo están establecidos para solo importar correos de usuarios registrados.",
-    "display_name"              => "Email Display Name",
-    "display_name_desc"         => "Opcional. Establécelo solo para reemplazar Optional, only set to override the display name used on outgoing emails from this department, leave blank otherwise.",
+    "not_registered_user"       => "Usuario no registrado. Los ajustes de canales de correo están establecidos para solo importar correos de usuarios registrados.",
+    "display_name"              => "Nombre de correo que se muestra",
+    "display_name_desc"         => "Opcional. Establécelo solo para reemplazar el nombre que se muestra usado en correos salientes desde este departamento. Si no, déjalo en blanco.",
     "display_name_options"      => "The following Twig variables may be used:<br >{{ brand.name }} - Brand name<br />{{ department.name }} - Department Name<br />{{ department.frontend_name }} - Shows the parent department name, if ticket belongs to a sub-department.<br />{{ operator.formatted_name }} - Operator Name<br /><em>The operator name won't always be available, so wrap it in a 'not empty' conditional i.e. {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
-    "attachment_rejected"       => "Attachment Rejected",
-    "enable_subaddresses"       => "Enable Sub-addresses",
+    "attachment_rejected"       => "Archivo adjunto rechazado",
+    "enable_subaddresses"       => "Habilitar sub-direcciones",
     "enable_subaddresses_desc"  => "Toggle to enable using email sub-addressing for all departments. This will create a unique sub-address for each ticket that is set as the Reply-To address on all outgoing email. Your mail server must be able to handle sub-addressing, additional steps may be required if you are using email piping to ensure emails to these addresses are forwarded correctly. Enabling this will allow you to remove the ticket number from the subject of email templates.",
     "email_replies_disabled"    => "Email Replies Disabled",
     "disable_user_email_replies_desc" => "Enable to block email replies from users, and also remove the reply clipping line from outbound ticket emails. By default, the email will be silently ignored, but you can set an email to be sent to the user by changing the selected email template for the 'Email Replies Disabled' option below.",
