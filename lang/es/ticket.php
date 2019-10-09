@@ -482,26 +482,26 @@ return array(
     "move_ticket"               => "Mover Ticket",
     "move_ticket_step1"         => "Paso 1: Elige una marca nueva a donde mover el ticket",
     "move_ticket_step2"         => "Paso 2: Elige un departameno Choose a department from new brand",
-    "current_record"            => "Current :record",
+    "current_record"            => "Actual :record",
     "new_record"                => "Nuevo :record",
-    "department_email"          => "Department Email",
-    "select_a_department_email" => "Select a department email...",
-    "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
-    "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups, leave blank to make visible to all operators.",
+    "department_email"          => "Correo de departamento",
+    "select_a_department_email" => "Selecciona un correo de departamento...",
+    "record_public_desc"        => "Alterna para que el :record sea solamente accesible por ti.",
+    "record_group_desc"         => "Si quieres que el :record sea visible solo para un determinado grupo de operadores. Déjalo en blanco para hacerlo visible a todos los operadores.",
     "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
      */
-    "macro_enabled_desc"        => "Toggle to disable the macro and prevent it from running automatically or showing in the ticket interface.",
-    "macro_order_drag"          => "Drag the rows to change the order of the macros.",
-    "macro_order_processed"     => ":type macros are processed in the order they appear.",
-    "macro_type"                => "Macro Type",
+    "macro_enabled_desc"        => "Alterna para desactivar el macro y evitar que se ejecute automáticamente o se muestre en la interfaz del ticket.",
+    "macro_order_drag"          => "Arrastra las filas para cambiar el orden de los macros.",
+    "macro_order_processed"     => ":type macros son procesados en el orden en el que aparecen.",
+    "macro_type"                => "Tipo de macro",
     "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on non-resolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
     "macro_run_at_most"         => "Run At Most",
-    "macro_run_times"           => "times", // As in '5 times'
-    "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
-    "macro_events_desc"         => "Select one or more events that the macro should run on. The conditions set below will be checked before the macro runs.",
+    "macro_run_times"           => "veces", // As in '5 times'
+    "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede eejcutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
+    "macro_events_desc"         => "Selecciona uno o más eventos en los que el macro se debería ejecutar. Las condiciones que se establezcan abajo se comprobarán antes de que se ejecute el macro.",
     "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
     "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets. At least one condition must be defined for automatic macros.",
     "add_remove_headers"        => "Add/Remove Headers",
