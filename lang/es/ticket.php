@@ -502,16 +502,16 @@ return array(
     "macro_run_times"           => "veces", // As in '5 times'
     "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede eejcutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
     "macro_events_desc"         => "Selecciona uno o más eventos en los que el macro se debería ejecutar. Las condiciones que se establezcan abajo se comprobarán antes de que se ejecute el macro.",
-    "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
-    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets. At least one condition must be defined for automatic macros.",
-    "add_remove_headers"        => "Add/Remove Headers",
-    "webhook_merge_fields"      => "Merge fields can be used in the URL and content field, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
-    "webhook_ticket_required"   => "A ticket must exist for this functionality to work.",
-    "not_permitted"             => "Sorry, you're not permitted to view the requested ticket(s). If you think this has been shown in error, please contact your administrator.",
+    "macro_schedules_desc"      => "Por defecto, el macro se ejecutará 24/7, pero tú puedes seleccionar uno o más horarios del help desk para que el macro solo esté activo durante esas horas.",
+    "macro_condition_desc"      => "Define las condiciones para qué tickets estará disponible este macro. Por defecto, sin condiciones, se aplicará a todos los tickets. Al menos debes definir una condición para los macros automáticos.",
+    "add_remove_headers"        => "Añadir/Eliminar cabeceras",
+    "webhook_merge_fields"      => "Los campos de combinación se pueden utilizar en la URL y en el campo de contenido, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
+    "webhook_ticket_required"   => "Debe existir un ticket para que funcione esta característica.",
+    "not_permitted"             => "Lo sentimos, pero no tienes permiso para ver el/los ticket(s) solicitados. Si crees que esto es un error, por favor, ponte en contacto con tu administrador.",
     "watch"                     => "Watch",
     "unwatch"                   => "Unwatch",
     "watching"                  => "Watching",
-    "internal_ticket"           => "Internal Ticket|Internal Tickets",
+    "internal_ticket"           => "Ticket Interno|Tickets Internos",
 
     /*
      * 2.4.1
