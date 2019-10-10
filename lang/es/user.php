@@ -217,12 +217,12 @@ return array(
     /*
      * 2.1.0
      */
-    "organisation_customfield"      => "Organisation Custom Field|Organisation Custom Fields",
-    "recent_users"                  => "Recent Users",
-    "recent_organisations"          => "Recent Organisations",
+    "organisation_customfield"      => "Campo personalizado de la organización|Campos personalizados de la organización",
+    "recent_users"                  => "Usuarios recientes",
+    "recent_organisations"          => "Organizaciones recientes",
     "group_brand_desc"              => "Select which brands the operators in this group will be able to view, create and delete (depending on permissions) tickets and other content.",
-    "select_operators"              => "Select operator(s)...",
-    "select_groups"                 => "Select group(s)...",
+    "select_operators"              => "Seleccionar operador(es)...",
+    "select_groups"                 => "Seleccionar grupo(s)...",
     "group_department_desc"         => "Assign all members of this group to departments, operators can also be assigned individually in the department settings.",
     "op_settings_group_dept"        => "Assigned to via operator groups:",
     "op_settings_group_dept_desc"   => "These departments are inherited automatically from the operator groups selected above. To assign via an operator group, edit the operator group or department settings.",
