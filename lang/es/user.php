@@ -171,48 +171,48 @@ return array(
     "password_reset_expired"        => "El Token ha expirado, por favor intenta restablecerlo de nuevo.",
     "password_reset_invalid"        => "Token inválido, por favor, verifica que los detalles son correctos o intenta restablecerlo de nuevo.",
     "password_reset_success"        => "¡Contraseña restablecida con éxito!",
-    "password_reset_already"        => "You have already confirmed your account, you may proceed to login.",
+    "password_reset_already"        => "Ya has confirmado tu cuenta, por lo que puedes iniciar sesión.",
 
-    "simpleauth_token_expired"      => "The access token has expired.",
-    "simpleauth_token_invalid"      => "The access token provided is invalid.",
-    "simpleauth_invalid_guard"      => "Cannot login as not a valid user.",
-    "simpleauth_not_allowed"        => "Operators cannot currently login with SimpleAuth.",
+    "simpleauth_token_expired"      => "El token de acceso ha expirado.",
+    "simpleauth_token_invalid"      => "El token de acceso proporcionado es inválido.",
+    "simpleauth_invalid_guard"      => "No se puede iniciar sesión por no ser un usuario válido.",
+    "simpleauth_not_allowed"        => "Los operadores no pueden iniciar sesión con SimpleAuth actualmente.",
 
     /*
      * 2.0.2
      */
 
-    "email_history"                 => "Email History",
-    "view_email"                    => "View Email",
+    "email_history"                 => "Historial de correos",
+    "view_email"                    => "Ver correo",
 
-    "ban_after_count"               => "Ban IP after Failed Logins",
-    "ban_after_count_user"          => "The number of failed logins after which the user IP is banned, and they are no longer able to login to the frontend for the configured amount of time. Setting to 0 will disable IP bans completely.",
-    "ban_after_count_operator"      => "The number of failed logins after which the user IP is banned, and they are no longer able to login to the operator panel or API for the configured amount of time. Setting to 0 will disable IP bans completely.",
-    "ban_length"                    => "Length of IP Ban",
-    "ban_length_desc"               => "The length of the IP ban when they reach the configured number of failed logins in a single day.",
-    "n_failed_logins"               => ":count failed logins within 24 hours",
+    "ban_after_count"               => "Banear IP después de intentos fallidos de inicio de sesión",
+    "ban_after_count_user"          => "El número de intentos de inicio de sesión fallidos previos a que la IP del usuario se banee, con lo que ya no pueden iniciar sesión en el frontend durante el tiempo que se configure. Al establecerlo a 0, se deshabilitará cualquier baneo de IP por completo.",
+    "ban_after_count_operator"      => "El número de intentos de inicio de sesión fallidos previos a que la IP del usuario se banee, con lo que ya no pueden iniciar sesión en el panel del operador o API durante el tiempo que se configure. Al establecerlo a 0, se deshabilitará cualquier baneo de IP por completo.",
+    "ban_length"                    => "Duración del baneo de la IP",
+    "ban_length_desc"               => "La duración del baneo de la IP cuando se alcanza el número de intentos fallidos de inicio de sesión en un solo día.",
+    "n_failed_logins"               => ":count intentos fallidos de inicio de sesión en 24 horas",
 
     /*
      * 2.0.3
      */
-    "taking_a_break"                => "Taking a break...",
-    "operator_session_expired"      => "You were inactive for a while or logged in on another device so I took a quick nap. Please wake me up by logging back in.",
-    "log_back_in"                   => "Log Back In",
-    "all_users"                     => "All Users",
-    "all_operators"                 => "All Operators",
-    "email_per_batch"               => "Emails Per Batch",
-    "email_per_batch_desc"          => "The number of emails that are sent together at a time.",
+    "taking_a_break"                => "Descansando...",
+    "operator_session_expired"      => "Llevas un rato inactivo o has iniciado sesión en otro dispositivo, así que me he echado una pequeña siesta. Por favor, despiértame volviendo a iniciar sesión.",
+    "log_back_in"                   => "Volver a iniciar sesión",
+    "all_users"                     => "Todos los usuarios",
+    "all_operators"                 => "Todos los operadores",
+    "email_per_batch"               => "Correos por lote",
+    "email_per_batch_desc"          => "El número de correos que se envían juntos al mismo tiempo.",
     "batch_interval"                => "Batch Interval",
     "batch_interval_desc"           => "The gap between the email batches in minutes, 1 minute is the minimum.",
-    "select_user_groups"            => "Select user/operator groups or type in email addresses...",
-    "mass_email_sending_time"       => "It will take approximately :time to send all emails.",
-    "organisations_enabled"         => "Organisations Enabled",
-    "organisations_enabled_desc"    => "By default, users can add an organisation to their profile and add other users to that organisation. If you are only dealing with consumers, you can disable the organisation option and hide it from the interface.",
-    "manager_notifications"         => "Organisation Manager Notifications",
-    "manager_notifications_desc"    => "If managers of organisations should receive email updates of tickets opened by other users in the organisation by default. Each manager will have their own personal option for this in their profile and can override this setting.",
-    "manager_email_notifications_desc" => "If they should receive email notifications of updates to tickets opened by other users in the organisation.",
-    "organisation_notifications_desc" => "If you'd like to receive email notifications of updates to tickets opened by other users in your organisation.",
-    "select_operator_group_desc"    => "Please select at least one operator group for this operator.",
+    "select_user_groups"            => "Selecciona los grupos de usuarios/operadores o introduce direcciones de correos electrónicos...",
+    "mass_email_sending_time"       => "Se tardará aproximadamente :time en enviar todos los correos.",
+    "organisations_enabled"         => "Organizaciones habilitadas",
+    "organisations_enabled_desc"    => "Por defecto, los usuarios pueden añadir una organización a su perfil y añadir otros usuarios a esa organización. Si solo tratas con consumidores, puedes deshabilitar la opción de la organización y ocultarla de la interfaz.",
+    "manager_notifications"         => "Notificaciones del manager de la organización",
+    "manager_notifications_desc"    => "Si los managers de las organizaciones deberían recibir actualizaciones por correo de tickets abiertos por otros usuarios en la organización por defecto. Cada manager tendrá su opción personal para esto en su perfil y puede anular/remplazar/invalidar este ajuste.",
+    "manager_email_notifications_desc" => "Si deberían recibir notificaciones por correo de novedades de los tickets abiertos por otros usuarios en la organización.",
+    "organisation_notifications_desc" => "Si te gustaría recibir notificaciones por correo de novedades de los tickets abiertos por otros usuarios en tu organización.",
+    "select_operator_group_desc"    => "Por favor, selecciona al menos un grupo de operadores para este operador.",
 
     /*
      * 2.1.0
