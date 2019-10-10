@@ -305,7 +305,7 @@ return array(
 
     "block_warning"             => "El correo del usuario también se bloqueará y no podrá abrir tickets.",
 
-    "mass_reply"                => "Mass Reply",
+    "mass_reply"                => "Respuesta masiva",
 
     "due_today"                 => "Pendiente para hoy",
     "overdue"                   => "Vencido",
