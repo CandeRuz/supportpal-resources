@@ -154,7 +154,7 @@ return array(
     "two_fa_code"                   => "Código 2FA",
     "two_fa_secret"                 => "Secreto 2FA",
     "two_fa_secret_desc"            => "Por favor, almacena esto en algún lugar seguro ya que lo necesitarás para re-añadir la cuenta autenticadora a tu teléfono si perdieras el acceso.",
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_verify_desc"            => "Descarga e instala una de las siguientes aplicaciones y escanea el código QR o introduce la clave secreta. Esto servirá para establecer tu cuenta en tu dispositivo. Una vez realizado, podrás ver la cuenta y se generará un código de 6 dígitos que debes introducir arriba para verificar y completar la configuración. Por favor, asegúrate de hacer click en verificar antes de  que expire el código. La hora de tu servidor necesitará estar en sincronía con un servidor NTP para funcionar correctamente.",
     "display_notifications"         => "Mostrar notificaciones",
     "display_notifications_desc"    => "The system will poll for new tickets, replies and other operators logging in while you have the operator panel open. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
     "desktop_notifications"         => "Notificaciones del escritorio",
@@ -223,98 +223,98 @@ return array(
     "group_brand_desc"              => "Select which brands the operators in this group will be able to view, create and delete (depending on permissions) tickets and other content.",
     "select_operators"              => "Seleccionar operador(es)...",
     "select_groups"                 => "Seleccionar grupo(s)...",
-    "group_department_desc"         => "Assign all members of this group to departments, operators can also be assigned individually in the department settings.",
+    "group_department_desc"         => "Asignar todos los miembros de este grupo a departamentos. Los operadores también pueden ser asignados individualmente en los ajustes del departamento.",
     "op_settings_group_dept"        => "Assigned to via operator groups:",
-    "op_settings_group_dept_desc"   => "These departments are inherited automatically from the operator groups selected above. To assign via an operator group, edit the operator group or department settings.",
+    "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. To assign via an operator group, edit the operator group or department settings.",
     "op_settings_individual_dept"   => "Assigned to individually:",
-    "op_settings_individual_dept_desc" => "These departments are in addition to any departments the operator is assigned to via their groups above.",
-    "also_registered_other_brand"   => "This user is also registered in the :brands brand.|This user is also registered in the :brands brands.",
-    "signature"                     => "Signature|Signatures",
-    "signature_desc"                => "Create personal ticket signatures, with the option to customise based on the brand/department of the ticket. The default signature is used when a signature for a specific department and/or brand cannot be found.",
-    "operator_signature"            => "Operator Signature|Operator Signatures",
-    "ticket_signature_desc"         => "Set the operator's default ticket signature.",
-    "operator_signature_desc"       => "Further signatures for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Signatures</a> section.",
-    "view_organisation"             => "View Organisation",
-    "new_owner"                     => "New Owner",
-    "operator_role"                 => "Operator Role|Operator Roles",
-    "manage_users"                  => "Manage Users",
-    "manage_organisations"          => "Manage Organisations",
-    "manage_operators"              => "Manage Operators",
-    "user_profile"                  => "User Profile",
-    "organisation_access_level"     => "Organisation Access Level",
-    "organisation_notifications"    => "Organisation Notifications",
-    "organisation_users"            => "Organisation Users",
-    "organisation_users_ticket"     => "Above is a list of your organisation's managers that will be also emailed updates about this ticket.",
+    "op_settings_individual_dept_desc" => "Estos departamentos son una adición a cualquiera de los departamentos a los que el operador este asignado a través de sus grupos arriba. These departments are in addition to any departments the operator is assigned to via their groups above.",
+    "also_registered_other_brand"   => "Este usuario también está registrado en la marca :brands.|Este usuario también está registrado en las marcas :brands.",
+    "signature"                     => "Firma|Firmas",
+    "signature_desc"                => "Crear firmas personales del ticket, con opción a personalizarla basada en la marca/departamento del ticket. La firma por defecto se utiliza cuando no se puede encontrar una firma para un departamento y/o marca específicos.",
+    "operator_signature"            => "Firma del operador|Firmas del operador",
+    "ticket_signature_desc"         => "Establecer la firma por defecto del ticket del operador.",
+    "operator_signature_desc"       => "Firmas adicionales para departamentos específicos y/o marcas se pueden establecer en la sección <a href=':route' target='_blank'>Firmas del operador</a>.",
+    "view_organisation"             => "Ver organización",
+    "new_owner"                     => "Nuevo propietario",
+    "operator_role"                 => "Función del operador|Funciones del operador",
+    "manage_users"                  => "Administrar usuarios",
+    "manage_organisations"          => "Administrar organizaciones",
+    "manage_operators"              => "Administrar operadores",
+    "user_profile"                  => "Perfil de usuario",
+    "organisation_access_level"     => "Nivel de acceso de la organización",
+    "organisation_notifications"    => "Notificaciones de la organización",
+    "organisation_users"            => "Usuarios de la organización",
+    "organisation_users_ticket"     => "Arriba se encuentra una lista de los managers de tu organización a los que se les enviarán actualizaciones sobre este ticket.",
 
     /*
      * 2.1.1
      */
-    "change_password"               => "Change Password",
-    "current_password"              => "Current Password",
-    "new_password"                  => "New Password",
-    "personal_confirm_password"     => "Please confirm your current password to set a new password.",
-    "operator_confirm_password"     => "Please confirm your password to make changes to the operator account.",
+    "change_password"               => "Cambiar contraseña",
+    "current_password"              => "Contraseña actual",
+    "new_password"                  => "Nueva contraseña",
+    "personal_confirm_password"     => "Por favor, confirma tu contraseña actual para establecer una nueva contraseña.",
+    "operator_confirm_password"     => "Por favor, confirma tu contraseña para hacer cambios en la cuenta de la operador. to make changes to the operator account.",
 
     /*
      * 2.1.2
      */
-    "search_for_user_operator"      => "Search for user/operator...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
+    "search_for_user_operator"      => "Buscar un usuario/operador...",
+    "two_fa_personal_settings"      => "El operador puede habilitar 2FA en sus ajustes personales.",
 
     /*
      * 2.2.0
      */
-    "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
-    "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
+    "user_name_format_desc"         => "El formato que se utiliza para mostrar nombres de usuarios en el sistema.",
+    "operator_name_format_desc"     => "El formato que se utiliza para mostrar nombres de operadores en el sistema.",
 
     /*
      * 2.3.0
      */
     "remove_from"                   => "Remove From :record?",
-    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
+    "remove_from_warn"              => "Esto eliminará para siempre al usuario <strong>:name</strong> del :record.",
 
     /*
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "social_login_provider_desc"    => "Allow users to register and log in using their :provider account.",
+    "social_login_provider_desc"    => "Permitir a los usuarios registrarse e iniciar sesión usando su cuenta de :provider.",
     "social_login_provider_docs"    => "Please check over our documentation for setting up <a href=':link'>:provider Login</a>.",
-    "facebook_app_id"               => "App ID",
-    "facebook_app_secret"           => "App Secret",
-    "facebook_redirect_url"         => "The following URL <strong>must</strong> be entered for the Facebook Login 'Valid OAuth redirect URIs':",
-    "google_client_id"              => "Client ID",
-    "google_client_secret"          => "Client Secret",
-    "google_redirect_url"           => "The following URL <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
-    "steam_api_key"                 => "API Key",
-    "twitter_consumer_key"          => "Consumer Key",
-    "twitter_consumer_secret"       => "Consumer Secret",
-    "twitter_redirect_url"          => "The following URL <strong>must</strong> be entered for the Twitter Application 'Callback URL':",
-    "login_via"                     => "Log in via :provider",
-    "register_with"                 => "Register with :provider",
+    "facebook_app_id"               => "ID de aplicación",
+    "facebook_app_secret"           => "Secreto de aplicación",
+    "facebook_redirect_url"         => "La siguiente URL <strong>debe</strong> introducirse para el inicio de sesión en Facebook (be entered for the Facebook Login 'Valid OAuth redirect URIs':",
+    "google_client_id"              => "ID del cliente",
+    "google_client_secret"          => "Secreto del cliente",
+    "google_redirect_url"           => "La siguiente URL <strong>debe</strong> introducirse para (be entered for the Google 'Authorized redirect URIs':",
+    "steam_api_key"                 => "Clave de API",
+    "twitter_consumer_key"          => "Clave de consumidor",
+    "twitter_consumer_secret"       => "Secreto de consumidor",
+    "twitter_redirect_url"          => "La siguiente URL <strong>debe</strong> introducirse para la aplicación de Twitter (be entered for the Twitter Application 'Callback URL':",
+    "login_via"                     => "Iniciar sesión a través de :provider",
+    "register_with"                 => "Registrarse con :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Please log in to complete linking of your social account.",
-    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
-    "already_registered"            => "Already registered?",
-    "linked_accounts"               => "Linked Accounts",
-    "unlink_account"                => "Unlink :record Account",
-    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
+    "social_linking_login"          => "Por favor, inicia sesión para completar la vinculación con tu cuenta social.",
+    "social_linking_register"       => "Por favor, completa los detalles más abajo para completar el registro de tu cuenta. Tu cuenta social se vinculará automáticamente.",
+    "already_registered"            => "¿Ya estás registrado/a?",
+    "linked_accounts"               => "Cuentas vinculadas",
+    "unlink_account"                => "Desvincular cuenta :record",
+    "unlink_account_warning"        => "Al desvincular la cuenta social no podrás utilizarla para iniciar sesión directamente en la cuenta.",
     "failed_login"                  => "Failed Login|Failed Logins",
-    "confirmaton_token_expired"     => "Token has expired, please try to register again.",
-    "confirmaton_token_invalid"     => "Invalid token, please verify details are correct or try to register again.",
-    "unconfirmed_account"           => "Your account is currently unconfirmed, please check your email for a confirmation link to complete your account registration.",
-    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+    "confirmaton_token_expired"     => "El Token ha expirado. Por favor, intenta registrar please try to register again.",
+    "confirmaton_token_invalid"     => "Token inválido, por favor, verifica que los detalles son correctos o intenta  please verify details are correct or try to register again.",
+    "unconfirmed_account"           => "Tu cuenta se encuentra actualmente sin confirmar. Por favor, comprueba tu correo para un enlace de confirmación para completar el registro de tu cuenta.",
+    "resend_confirmation"           => "<strong><a href=':link'>Haz click aquí</a></strong> para que te enviemos un nuevo correo de confirmación.",
     "resend_confirmation_sent"      => "A new confirmation email has been queued and will be sent to you shortly.",
 
     /*
      * 2.4.0
      */
     "must_have_permission"          => "must have \":permission\" permission",
-    "deleted_user"                  => "Deleted User",
-    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+    "deleted_user"                  => "Usuario eliminado",
+    "access_level_not_owner"        => "No es posible cambiar el nivel de acceso de los propietarios de la organización. Transfiere la propiedad de la organización a otro usuario primero ...(viendo) la organización y haciendo click en la pestaña 'Usuarios' Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
 
     /*
      * 2.4.1
      */
-    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+    "select_or_new_organisation"    => "Selecciona una organización existente o introduce una nueva...",
 
 );
