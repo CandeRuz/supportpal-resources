@@ -91,7 +91,7 @@ return array(
     // Department emails
     "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciban estas direcciones abrirán tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
     "department_password"       => "Solo introduce una contraseña para reemplazar contraseñas guardadas existentes o para validar datos de las cuentas de correo.",
-    "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
+    "department_port"           => "Los valores por defecto son: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Déjalo en blanco para utilizar el valor por defecto.",
     "department_encryption"     => "Algunos proveedores de correo electrónico requieren cifrado SSL o TLS para conectarse. Si no estás seguro, deja este ajuste como Ninguno/a.",
     "department_delete_mail"    => "Si utilizas IMAP, puedes elegir no eliminar correos en el servidor después de que hayan sido importados como tickets.",
     "protocol"                  => "Protocolo",
@@ -287,12 +287,12 @@ return array(
 
     "change_department"         => "Cambiar departamento",
     "change_status"             => "Cambiar estado",
-    "no_statuses"               => "No se han encontrado estados. Haz click en <a href=':route'>here</a> para crear uno.",
-    "no_priorities"             => "No se han encontrado prioridades. Haz click en <a href=':route'>here</a> para crear una.",
+    "no_statuses"               => "No se han encontrado estados. Haz click <a href=':route'>aquí</a> para crear uno.",
+    "no_priorities"             => "No se han encontrado prioridades. Haz click <a href=':route'>aquí</a> para crear una.",
     "no_templates"              => "No custom email templates found. Click <a href=':route'>here</a> to create one.",
-    "no_tags"                   => "No se han encontrado etiquetas del ticket. Haz click en <a href=':route'>here</a> para crear una.",
-    "no_departments_found"      => "No se han encontrado departamentos. Haz click en <a href=':route'>here</a> para crear uno.",
-    "no_operators_found"        => "No se han encontrado operadores. Haz click en <a href=':route'>here</a> para crear uno.",
+    "no_tags"                   => "No se han encontrado etiquetas del ticket. Haz click <a href=':route'>aquí</a> para crear una.",
+    "no_departments_found"      => "No se han encontrado departamentos. Haz click <a href=':route'>aquí</a> para crear uno.",
+    "no_operators_found"        => "No se han encontrado operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
     "change_priority"           => "Cambiar prioridad",
     "add_tag"                   => "Añadir etiqueta",
 
@@ -404,7 +404,7 @@ return array(
     "edited_message"            => ":user at :date",
     "prioritise_reply-to"       => "Prioritise Reply-To",
     "prioritise_reply-to_desc"  => "Toggle to prioritise the Reply-To header over the From header. If enabled, tickets opened via email will be opened on behalf of the Reply-To name and address.",
-    "note_options"              => "Note Options",
+    "note_options"              => "Opciones de notas",
     "escalation_rules_desc"     => "The below SLA plan escalation rules are scheduled to run after the times listed. These times may change or the rules may be removed if an operator replies to this ticket.",
 
     /*
