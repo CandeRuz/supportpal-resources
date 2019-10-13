@@ -335,8 +335,8 @@ return array(
     /*
      * 2.0.2
      */
-    "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click en <a href=':route'>here</a> para crear uno.",
-    "no_user_groups"            => "No se han encontrado grupos de usuarios. Haz click en <a href=':route'>here</a> para crear uno.",
+    "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
+    "no_user_groups"            => "No se han encontrado grupos de usuarios. Haz click <a href=':route'>aquí</a> para crear uno.",
     "opened_by"                 => "(Abierto por :name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
 
@@ -355,7 +355,7 @@ return array(
     "remove_tag"                => "Eliminar etiqueta",
     "message_clipped"           => "[Mensaje acortado]",
     "view_entire_message"       => "Ver todo el mensaje",
-    "no_custom_fields"          => "No se han encontrado campos personalizados. Haz click en <a href=':route'>here</a> para crear uno.",
+    "no_custom_fields"          => "No se han encontrado campos personalizados. Haz click <a href=':route'>aquí</a> para crear uno.",
     "follow_up_active"          => "Un <a class='view-followup' style='text-decoration: underline;'>seguimiento</a> está actualmente activo en este ticket y se ejecutará <strong>:time</strong>.",
     "disable_user_email_replies" => "Deshabilitar respuestas de correo del usuario",
 
@@ -443,7 +443,7 @@ return array(
     "canned_response_tag"       => "Etiqueta de respuestas predefinidas|Etiquetas de respuestas predefinidas",
     "response"                  => "Respuesta|Respuestas",
     "response_desc"             => "La respuesta predefinida se puede escribir en varias lenguas. La respuesta adecuada se utilizará automáticamente basada en la preferencia de lenguas del usuario.",
-    "no_slaplans"               => "No se han encontrado planes SLA. Haz click en <a href=':route'>here</a> para crear uno.",
+    "no_slaplans"               => "No se han encontrado planes SLA. Haz click <a href=':route'>aquí</a> para crear uno.",
     "filter_performance"        => "Performance considerations and recommendations",
     "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
     "run_macro"                 => "Ejecutar Macro",
