@@ -33,7 +33,7 @@ return array(
     "existing_user"             => "Usuario existente",
     "new_user"                  => "Usuario nuevo",
     "internal"                  => "Interno",
-    "internal_ticket_desc"      => "Abrir un ticket solo para uso interno. Este ticket se te asociará a ti en vez de a un usuario.",
+    "internal_ticket_desc"      => "Abrir un ticket solo para uso interno. Este ticket se vinculará a ti en vez de a un usuario.",
     "ticket_opened"             => "Tu ticket se ha abierto con éxito.",
     "enter_user_details"        => "Por favor, introduce tus datos o inicia sesión con tu cuenta si ya tienes una.",
     "already_have_account"      => "Si ya tienes una cuenta, por favor inicia sesión y abre el ticket. Utiliza la opción olvidar contraseña si no puedes recordarla.",
