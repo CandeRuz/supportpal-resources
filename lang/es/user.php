@@ -298,7 +298,7 @@ return array(
     "linked_accounts"               => "Cuentas vinculadas",
     "unlink_account"                => "Desvincular cuenta :record",
     "unlink_account_warning"        => "Al desvincular la cuenta de redes sociales no podrás utilizarla para iniciar sesión directamente en la cuenta.",
-    "failed_login"                  => "Failed Login|Failed Logins",
+    "failed_login"                  => "Inicio de sesión fallido|Inicios de sesión fallidos",
     "confirmaton_token_expired"     => "El Token ha expirado. Por favor, intenta registrar please try to register again.",
     "confirmaton_token_invalid"     => "Token inválido, por favor, verifica que los detalles son correctos o intenta  please verify details are correct or try to register again.",
     "unconfirmed_account"           => "Tu cuenta se encuentra actualmente sin confirmar. Por favor, comprueba tu correo para un enlace de confirmación para completar el registro de tu cuenta.",
