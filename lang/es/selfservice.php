@@ -28,7 +28,7 @@ return array(
     "list"                      => "Lista",
 
     "show_on_dashboard"         => "Mostrar artículos en el inicio del frontend.",
-    "show_on_dashboard_desc"    => "Muestra algunos artículos en el panel del frontend.Si estableces la vista como <strong>jerárquica</strong>, mostrará los 5 artículos más vistos, si la estableces como <strong>lista</strong>, mostrará los últimos 5 artículos.",
+    "show_on_dashboard_desc"    => "Muestra algunos artículos en el panel del frontend. Si estableces la vista como <strong>jerárquica</strong>, mostrará los 5 artículos más vistos, si la estableces como <strong>lista</strong>, mostrará los últimos 5 artículos.",
 
     "title"                     => "Título",
     "author"                    => "Autor",
