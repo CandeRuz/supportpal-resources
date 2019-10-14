@@ -57,7 +57,7 @@ return array(
 
     "department"                => "Departamento|Departamentos",
     "change_department_order"   => "Arrastra las filas para cambiar el orden en el que los departamentos se muestran a los usuarios cuando se abre un nuevo ticket.",
-    "department_applicable"     => "Applicable Departments",
+    "department_applicable"     => "Departamentos aplicables",
     "department_applicable_desc" => "Los departamentos en los que los usuarios podrán seleccionar la prioridad. Solo se aplica en el frontend. Todas las prioridades estarán disponbiles para los operadores para todos los departamentos.",
 
     "due_to_be_sent"            => "Pendiente de ser enviado",
@@ -91,7 +91,7 @@ return array(
     // Department emails
     "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciban estas direcciones abrirán tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
     "department_password"       => "Solo introduce una contraseña para reemplazar contraseñas guardadas existentes o para validar datos de las cuentas de correo.",
-    "department_port"           => "Los valores por defecto son: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Déjalo en blanco para utilizar el valor por defecto.",
+    "department_port"           => "Los valores por defecto son: 110 para el POP3, 995 para el POP3 seguro, 143 para el IMAP, y 993 para el IMAP seguro. Déjalo en blanco para utilizar el valor por defecto.",
     "department_encryption"     => "Algunos proveedores de correo electrónico requieren cifrado SSL o TLS para conectarse. Si no estás seguro, deja este ajuste como Ninguno/a.",
     "department_delete_mail"    => "Si utilizas IMAP, puedes elegir no eliminar correos en el servidor después de que hayan sido importados como tickets.",
     "protocol"                  => "Protocolo",
@@ -117,7 +117,7 @@ return array(
     "new_ticket_opened"         => "Nuevo ticket abierto",
     "reply_to_locked"           => "Responder al ticket bloqueado",
     "waiting_for_response"      => "Esperando una respuesta",
-    "ticket_auto_closed"        => "Ticket Auto Closed",
+    "ticket_auto_closed"        => "Ticket cerrado automáticamente",
     "closed_by_operator"        => "Cerrado por el operador",
 
     // Feedback
@@ -162,7 +162,7 @@ return array(
     // Filters
     "filter"                    => "Filtro|Filtros",
     "filter_condition"          => "Condiciones de filtro",
-    "filter_condition_desc"     => "Define the ticket conditions for which tickets are listed under this filter.",
+    "filter_condition_desc"     => "Define las condiciones por las que los tickets se alistan con este filtro.",
 
     // Macros
     "macro"                     => "Macro|Macros",
@@ -200,8 +200,8 @@ return array(
     "business_hour_desc"        => "El horario comercial indica las horas en las que el personal está disponible para responder consultas por el horario. Las horas se tienen en cuenta cuando se calculan las horas de entrega del ticket.",
 
     // Holidays
-    "holiday"                   => "Holiday|Holidays",
-    "holiday_or_on_the"         => "or, on the",
+    "holiday"                   => "Vacaciones|Vacaciones",
+    "holiday_or_on_the"         => "o, el",
     "holiday_month_year_desc"   => "El año es opcional si las vacaciones son recurrentes. Selecciona un año solo si las vacaciones ocurren en esta fecha en un año en particular.",
 
     // SLA Plans
@@ -215,7 +215,7 @@ return array(
     "plan"                      => "Plan",
     "sla_condition"             => "Condiciones SLA",
     "sla_condition_desc"        => "Define las condiciones del ticket por las que los tickets nuevos se comprueban para ver si cumplen con este plan. Si un nuevo ticket cumple con varios planes SLA, se seleccionará en la prioridad del plan, lo cual se puede modificar a través de una lista de planes y reorganizándolo.",
-    "escalation_rule"           => "Escalation Rules",
+    "escalation_rule"           => "Reglas de escalación",
     "escalation_rule_desc"      => "Define acciones que se llevan a cabo cuando un ticket bajo este plan SLA está cerca de la fecha de vencimiento o está vencido. Por favor, asegúrate de que las reglas son válidas para el departamento en el que se encuentra el ticket, ya que de lo contrario no tendrán ningún efecto.",
     "condition"                 => "Condición",
     "condition_group"           => "Condiciones del grupo",
@@ -230,8 +230,8 @@ return array(
     "send_email_to_users"       => "Enviar correo a el/los usuario(s)",
     "send_email_to_operators"   => "Enviar correo a el/los operador(es)",
     "back_to_grid"              => "Volver a la cuadrícula de los tickets",
-    "take"                      => "Take",
-    "take_ownership"            => "Take Ownership",
+    "take"                      => "Tomar",
+    "take_ownership"            => "Tomar la propiedad",
     "pause_duetime"             => "Pausar la hora de entrega",
     "add_to_canned_responses"   => "Añadir a respuestas predefinidas",
     "visible_to_all_operators"  => "Hacer visible a todos los operadores",
@@ -244,9 +244,9 @@ return array(
 
     "ticket_signature"          => "Firma del ticket",
 
-    "default_open_status"       => "Default Open Status",
+    "default_open_status"       => "Estado abierto por defecto",
 
-    "default_resolve_status"    => "Default Resolved Status",
+    "default_resolve_status"    => "Estado resuelto por defecto",
     "default_resolve_status_desc" => "Selecciona el estado por defecto que se utiliza para los tickets que se han resuelto.",
 
     "waiting_response_time"      => "Esperando una respuesta de correo",
@@ -283,13 +283,13 @@ return array(
 
     "adjust_columns"            => "Ajustar columnas",
     "last_reply"                => "Última respuesta",
-    "opened_at"                 => "Abierto a",
+    "opened_at"                 => "Abierto a las",
 
     "change_department"         => "Cambiar departamento",
     "change_status"             => "Cambiar estado",
     "no_statuses"               => "No se han encontrado estados. Haz click <a href=':route'>aquí</a> para crear uno.",
     "no_priorities"             => "No se han encontrado prioridades. Haz click <a href=':route'>aquí</a> para crear una.",
-    "no_templates"              => "No custom email templates found. Click <a href=':route'>here</a> to create one.",
+    "no_templates"              => "No se han encontrado plantillas de correos personalizadas. Haz click <a href=':route'>aquí</a> para crear una.",
     "no_tags"                   => "No se han encontrado etiquetas del ticket. Haz click <a href=':route'>aquí</a> para crear una.",
     "no_departments_found"      => "No se han encontrado departamentos. Haz click <a href=':route'>aquí</a> para crear uno.",
     "no_operators_found"        => "No se han encontrado operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
@@ -311,7 +311,7 @@ return array(
     "overdue"                   => "Vencido",
     "unassigned"                => "Desasignado",
 
-    "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa la hora de entrega  If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
+    "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
     "delete_follow_up"          => "Eliminar seguimiento",
 
     "add_cc"                    => "Añadir CC",
@@ -325,7 +325,7 @@ return array(
 
     "channel_deactivated"       => "El canal del ticket está actualmente desactivado. No se ha podido publicar la respuesta.",
 
-    "type_in_tags"              => "Type in tags",
+    "type_in_tags"              => "Escribir en etiquetas",
 
     /*
      * 2.0.1
@@ -345,7 +345,7 @@ return array(
      */
     "department_consume_all"    => "Por defecto, SupportPal tiene asistencia de alias de correo electrónico y comprobará el destinatario de los correos entrantes para ver en qué departamento debería abrirse el ticket. El ticket no se abre si no se encuentra el departamento correspondiente. Al habilitar este ajuste, todos los correos sin una dirección de correo de departamento correspondiente se importarán como tickets en este departamento.",
     "default_reply_options"     => "Opciones de respuesta por defecto",
-    "default_reply_options_desc" => "Selecciona las opciones de respuesta por defecto que se establezcan cuando se abra o se responda a un ticket. La opción ':reply_option' option will be ticked based on the ':department_option' department setting.",
+    "default_reply_options_desc" => "Selecciona las opciones de respuesta por defecto que se establezcan cuando se abra o se responda a un ticket. La opción ':reply_option' se basará en el ticket en los ajustes de departamento ':department_option'.",
     "associate_response_tag"    => "Asociar respuesta predefinida con una etiqueta...",
     "canned_response_tags_desc" => "Añadir etiquetas que puedan ayudar a encontrar una respuesta predefinida cuando se conteste a un ticket.",
     "loading_tags"              => "Cargando etiquetas",
@@ -377,7 +377,7 @@ return array(
     "department_group"          => "Grupos de departamento",
     "department_group_desc"     => "Puedes asignar grupos de operadores completos al departamento, lo cual es recomendable si tu lista de operadores es grande y/o cambia con frecuencia.",
     "ticket_other_brands"       => "Tickets en otras marcas",
-    "add_for_department"        => "Add for department...",
+    "add_for_department"        => "Añadir para el departamento...",
     "record_order"              => "Arrastra las filas para cambiar el orden de los registros.",
     "ticket_token"              => "Token del Ticket",
     "reply_all"                 => "Responder a todo",
@@ -393,19 +393,19 @@ return array(
     "manage_tickets"            => "Administrar Tickets",
     "via_channel"               => "a través de :channel",
     "department_parent"         => "Departamento principal",
-    "department_brands"         => "Department Brands",
+    "department_brands"         => "Marcas de los departamentos",
     "email_item"                => "Correo :item",
-    "from_name"                 => "From Name",
-    "from_address"              => "From Address",
+    "from_name"                 => "Del nombre",
+    "from_address"              => "De la dirección",
 
     /*
      * 2.1.1
      */
-    "edited_message"            => ":user at :date",
-    "prioritise_reply-to"       => "Prioritise Reply-To",
-    "prioritise_reply-to_desc"  => "Toggle to prioritise the Reply-To header over the From header. If enabled, tickets opened via email will be opened on behalf of the Reply-To name and address.",
+    "edited_message"            => ":user el :date",
+    "prioritise_reply-to"       => "Priorizar Responder a",
+    "prioritise_reply-to_desc"  => "Alterna para priorizar la cabecera 'Responder a' en vez de la cabecera 'De'. Al activarse, los tickets abiertos a través del correo electrónico se abrirán en nombre de la dirección y el nombre del Responder a.",
     "note_options"              => "Opciones de notas",
-    "escalation_rules_desc"     => "The below SLA plan escalation rules are scheduled to run after the times listed. These times may change or the rules may be removed if an operator replies to this ticket.",
+    "escalation_rules_desc"     => "Las reglas de escalación de plan SLA más abajo están programadas para ejecutarse después de las horas que aparecen. Estas horas pueden cambiar o las reglas pueden eliminarse si un operador responde a este ticket.",
 
     /*
      * 2.1.2
@@ -431,7 +431,7 @@ return array(
     "convert_user_ticket_desc"  => "El ticket se convertirá de ticket interno a ticket de usuario.",
     "user_reply_internal_ticket" => "No es un operador. Solo los operadores pueden responder a ticket internos.",
     "enter_email_address"       => "Introducir dirección de correo...",
-    "email_user_frontend"       => "Email Users on Tickets Opened at Frontend",
+    "email_user_frontend"       => "Enviar correo a los usuarios en los tickets abiertos del frontend.",
     "email_user_frontend_desc"  => "Selecciona si se debería notificar a los usuarios por correo cuando ellos mismos abren un ticket en el frontend.",
     "department_template_disabled" => "La plantilla de correo del departamento relevante está desactivada, por lo que no se puede enviar este correo.",
     "verbose_email_log_desc"    => "If email collection should be logged on file, recommended to keep disabled unless instructed by support for debugging. Five days worth of logs are stored, older log files will be purged automatically by the system.",
@@ -444,7 +444,7 @@ return array(
     "response"                  => "Respuesta|Respuestas",
     "response_desc"             => "La respuesta predefinida se puede escribir en varias lenguas. La respuesta adecuada se utilizará automáticamente basada en la preferencia de lenguas del usuario.",
     "no_slaplans"               => "No se han encontrado planes SLA. Haz click <a href=':route'>aquí</a> para crear uno.",
-    "filter_performance"        => "Performance considerations and recommendations",
+    "filter_performance"        => "Recomendaciones y consideraciones para el rendimiento",
     "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
     "run_macro"                 => "Ejecutar Macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
@@ -453,9 +453,9 @@ return array(
      * 2.3.0
      */
     "registered_users_desc"     => "Toggle to only show the department to logged in users and only accept emails from users actively registered in the help desk. If enabled, a bounce back email will be sent to unregistered users who email this department, to change or disable the email please see the 'Registered Users Only' template option below.",
-    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here. The field type will be locked once the form has been completed by a user.",
+    "form_fields_desc"          => "Si te gustaría recopilar información adicional cuando el usuario proporcione su valoración, puedes establecer campos personalizados para que se muestren en el formulario. El campo no se podrá cambiar una vez que el formulario haya sido completado por un usuario.",
     "feedback_ratings"          => "Valoración de la Satisfacción del Cliente (que afecta a tu puntuación de Satisfacción del Cliente)",
-    "email_and_other_accounts"  => "Email and other channel accounts",
+    "email_and_other_accounts"  => "Correo y cuentas de otros canales",
     "delete_message"            => "Eliminar mensaje",
     "linked_tickets"            => "Tickets vinculados",
     "add_linked_ticket"         => "Añadir ticket vinculado",
@@ -471,7 +471,7 @@ return array(
     "new_user_reply"            => "Nueva respuesta del usuario",
     "add_bcc"                   => "Añadir BCC",
     "at_least_one_recipient"    => "Por favor, indica al menos un destinatario.",
-    "forwarded_message"         => "---------- Forwarded message ----------",
+    "forwarded_message"         => "---------- Mensaje reenviado ----------",
 
     /*
      * 2.3.1
@@ -481,7 +481,7 @@ return array(
     "from_header_missing"       => "From: header missing from email.",
     "move_ticket"               => "Mover Ticket",
     "move_ticket_step1"         => "Paso 1: Elige una marca nueva a donde mover el ticket",
-    "move_ticket_step2"         => "Paso 2: Elige un departameno Choose a department from new brand",
+    "move_ticket_step2"         => "Paso 2: Elige un departamento de una nueva marca",
     "current_record"            => "Actual :record",
     "new_record"                => "Nuevo :record",
     "department_email"          => "Correo de departamento",
@@ -498,14 +498,14 @@ return array(
     "macro_order_processed"     => ":type macros son procesados en el orden en el que aparecen.",
     "macro_type"                => "Tipo de macro",
     "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on non-resolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
-    "macro_run_at_most"         => "Run At Most",
+    "macro_run_at_most"         => "Ejecutar máximo",
     "macro_run_times"           => "veces", // As in '5 times'
     "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede eejcutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
     "macro_events_desc"         => "Selecciona uno o más eventos en los que el macro se debería ejecutar. Las condiciones que se establezcan abajo se comprobarán antes de que se ejecute el macro.",
     "macro_schedules_desc"      => "Por defecto, el macro se ejecutará 24/7, pero tú puedes seleccionar uno o más horarios del help desk para que el macro solo esté activo durante esas horas.",
     "macro_condition_desc"      => "Define las condiciones para qué tickets estará disponible este macro. Por defecto, sin condiciones, se aplicará a todos los tickets. Al menos debes definir una condición para los macros automáticos.",
     "add_remove_headers"        => "Añadir/Eliminar cabeceras",
-    "webhook_merge_fields"      => "Los campos de combinación se pueden utilizar en la URL y en el campo de contenido, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
+    "webhook_merge_fields"      => "Los campos de combinación se pueden utilizar en la URL y en el campo de contenido, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">saber más</a>.",
     "webhook_ticket_required"   => "Debe existir un ticket para que funcione esta característica.",
     "not_permitted"             => "Lo sentimos, pero no tienes permiso para ver el/los ticket(s) solicitados. Si crees que esto es un error, por favor, ponte en contacto con tu administrador.",
     "watch"                     => "Watch",
