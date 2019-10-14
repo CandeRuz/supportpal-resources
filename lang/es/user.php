@@ -253,7 +253,7 @@ return array(
     "current_password"              => "Contraseña actual",
     "new_password"                  => "Nueva contraseña",
     "personal_confirm_password"     => "Por favor, confirma tu contraseña actual para establecer una nueva contraseña.",
-    "operator_confirm_password"     => "Por favor, confirma tu contraseña para hacer cambios en la cuenta de la operador. to make changes to the operator account.",
+    "operator_confirm_password"     => "Por favor, confirma tu contraseña para hacer cambios en la cuenta de la operador.",
 
     /*
      * 2.1.2
