@@ -18,7 +18,7 @@ return array(
     "textarea"                  => "Área de texto",
 
     "public"                    => "Público",
-    "public_desc"               => "Si el campo personalizado se muestra públicamente en el front-end o es solo visible para el personal.",
+    "public_desc"               => "Si el campo personalizado se muestra públicamente en el frontend o es solo visible para el personal.",
     "encrypted"                 => "Encriptado",
     "purge_desc"                => "Si el valor del campo personalizado debería ser automáticamente eliminado cuando se resuelve el ticket.",
     "locked"                    => "Bloqueado",
