@@ -31,7 +31,7 @@ return array(
     "massemail"         => "Enviar correo masivo",
     "ldapaccount"       => "Administrar cuentas LDAP",
     "activitylog"       => "Ver registro de la actividad del sistema",
-    "operatorlog"       => "Ver registro del acceso del operador",
+    "operatorlog"       => "Ver registro de inicio de sesiones del operador",
 
     // Ticket
     "cannedresponse"    => "Administrar respuestas predefinidas",
