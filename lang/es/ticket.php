@@ -476,7 +476,7 @@ return array(
     /*
      * 2.3.1
      */
-    "inactive_ticket_note"      => "Note: solo afecta a los tickets que tienen un estado en el que la opción 'Cerrar tickets inactivos' está habilitada.",
+    "inactive_ticket_note"      => "Nota: solo afecta a los tickets que tienen un estado en el que la opción 'Cerrar tickets inactivos' está habilitada.",
     "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
     "from_header_missing"       => "From: header missing from email.",
     "move_ticket"               => "Mover Ticket",
