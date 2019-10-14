@@ -50,7 +50,7 @@ return array(
     "api_token"                 => "API Token|API Tokens",
     "token"                     => "Token",
     "regenerate_token"          => "Regenerar token",
-    "access_level"              => "Acceso al nivel",
+    "access_level"              => "Nivel de acceso",
     "read_write"                => "Lectura y escritura",
     "read_only"                 => "Solo lectura",
 
