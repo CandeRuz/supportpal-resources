@@ -6,7 +6,7 @@ return array(
     "merge_fields"              => "Campos de combinación",
     "strings"                   => "Cadenas",
     "collections"               => "Colecciones",
-    "frontend_url"              => "URL del front-end",
+    "frontend_url"              => "URL del frontend",
     "operator_url"              => "URL del operador",
 
     /*
