@@ -5,7 +5,7 @@ return array(
     "new_ticket"            => "Nuevo Ticket abierto",
     "new_ticket_text"       => "Un nuevo Ticket #:item ha sido abierto por :name.",
 
-    "new_reply"             => "New Ticket Reply",
+    "new_reply"             => "Nueva respuesta del ticket",
     "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
 
     "operator_login"        => "Inicio de sesión del operador",
