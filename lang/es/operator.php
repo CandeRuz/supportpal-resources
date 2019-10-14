@@ -12,7 +12,7 @@ return array(
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Los campos de combinación de correos y respuestas más usados se encuentran más abajo. Para más detalles de cómo utilizar los campos de combinación, por favor, dirígete a <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentation</a>.",
+    "merge_fields_desc"         => "Los campos de combinación de correos y respuestas más usados se encuentran más abajo. Para más detalles de cómo utilizar los campos de combinación, por favor, dirígete a <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentación</a>.",
 
     /*
      * 2.4.0
