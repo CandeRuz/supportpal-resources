@@ -57,7 +57,7 @@ return array(
     "article_rated_success"     => "El artículo ha sido valorado con éxito.",
     "article_rated_error"       => "El artículo no se ha podido valorar.",
 
-    "comment_below_threshold"   => "(Este comentario se encuentra bajo el umbral de puntuación, haz click para mostrar)",
+    "comment_below_threshold"   => "(Este comentario se encuentra por debajo del umbral de puntuación, haz click para mostrar)",
     "view_all_replies"          => "Ver todas las respuestas",
     "show_more_comments"        => "Mostrar más comentarios",
     "highest_rated"             => "Mejor valorados",
