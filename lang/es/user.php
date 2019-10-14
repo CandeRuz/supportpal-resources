@@ -276,9 +276,9 @@ return array(
     /*
      * 2.3.1
      */
-    "social_login"                  => "Social Login",
+    "social_login"                  => "Inicio de sesión de redes sociales",
     "social_login_provider_desc"    => "Permitir a los usuarios registrarse e iniciar sesión usando su cuenta de :provider.",
-    "social_login_provider_docs"    => "Please check over our documentation for setting up <a href=':link'>:provider Login</a>.",
+    "social_login_provider_docs"    => "Por favor, comprueba nuestra documentación para configurar un <a href=':link'>inicio de sesión :provider</a>.",
     "facebook_app_id"               => "ID de aplicación",
     "facebook_app_secret"           => "Secreto de aplicación",
     "facebook_redirect_url"         => "La siguiente URL <strong>debe</strong> introducirse para el inicio de sesión en Facebook (be entered for the Facebook Login 'Valid OAuth redirect URIs':",
@@ -292,12 +292,12 @@ return array(
     "login_via"                     => "Iniciar sesión a través de :provider",
     "register_with"                 => "Registrarse con :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Por favor, inicia sesión para completar la vinculación con tu cuenta social.",
-    "social_linking_register"       => "Por favor, completa los detalles más abajo para completar el registro de tu cuenta. Tu cuenta social se vinculará automáticamente.",
+    "social_linking_login"          => "Por favor, inicia sesión para completar la vinculación con tu cuenta de redes sociales.",
+    "social_linking_register"       => "Por favor, completa los detalles más abajo para completar el registro de tu cuenta. Tu cuenta de redes sociales se vinculará automáticamente.",
     "already_registered"            => "¿Ya estás registrado/a?",
     "linked_accounts"               => "Cuentas vinculadas",
     "unlink_account"                => "Desvincular cuenta :record",
-    "unlink_account_warning"        => "Al desvincular la cuenta social no podrás utilizarla para iniciar sesión directamente en la cuenta.",
+    "unlink_account_warning"        => "Al desvincular la cuenta de redes sociales no podrás utilizarla para iniciar sesión directamente en la cuenta.",
     "failed_login"                  => "Failed Login|Failed Logins",
     "confirmaton_token_expired"     => "El Token ha expirado. Por favor, intenta registrar please try to register again.",
     "confirmaton_token_invalid"     => "Token inválido, por favor, verifica que los detalles son correctos o intenta  please verify details are correct or try to register again.",
