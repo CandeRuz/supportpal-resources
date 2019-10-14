@@ -7,7 +7,7 @@ return array(
      */
     "new_ticket"            => "Nuevo ticket abierto",
     "user_reply"            => "Respuesta del usuario publicada",
-    "operator_reply"        => "Respueta del operador publicada",
+    "operator_reply"        => "Respuesta del operador publicada",
     "operator_note"         => "Nota del operador publicada",
     "operator_forward"      => "Reenvío del operador publicado",
     "update_department"     => "Departamento actualizado",
