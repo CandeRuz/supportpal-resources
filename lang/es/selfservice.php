@@ -81,7 +81,7 @@ return array(
     "registered_users"          => "Solo usuarios registrados",
     "unregistered_users"        => "Solo usuarios no registrados",
     "show_captcha"              => "Mostrar Captcha",
-    "show_captcha_desc"         => "Cuando se debería mostrar captcha a los usuarios escribiendo comentarios..",
+    "show_captcha_desc"         => "Cuando se debería mostrar captcha a los usuarios escribiendo comentarios.",
     "comment_moderation"        => "Moderación de comentarios",
     "comment_moderation_desc"   => "Si los comentarios deben ser moderados cuando se envían, antes de ser publicados, o si se publican automáticamente.",
     "moderated"                 => "Moderado",
