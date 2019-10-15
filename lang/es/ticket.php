@@ -219,10 +219,10 @@ return array(
     "escalation_rule_desc"      => "Define acciones que se llevan a cabo cuando un ticket bajo este plan SLA está cerca de la fecha de vencimiento o está vencido. Por favor, asegúrate de que las reglas son válidas para el departamento en el que se encuentra el ticket, ya que de lo contrario no tendrán ningún efecto.",
     "condition"                 => "Condición",
     "condition_group"           => "Condiciones del grupo",
-    "all_groups"                => "ALL groups must be true",
-    "any_group"                 => "ANY group can be true",
-    "all_conditions"            => "ALL conditions in group must be true",
-    "any_condition"             => "ANY condition in group can be true",
+    "all_groups"                => "TODOS los grupos deben ser verdaderos",
+    "any_group"                 => "CUALQUIER grupo puede ser verdadero",
+    "all_conditions"            => "TODAS las condiciones en el grupo deben ser verdaderas",
+    "any_condition"             => "CUALQUIER condición en el grupo puede ser verdadera",
     "sla_plan_desc"             => "Los planes SLA son procesados en el orden en el que aparecen. Arrastra las filas para reorganizar y ajustar la prioridad de los planes SLA.",
 
     // Reply options
