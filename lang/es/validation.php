@@ -13,56 +13,56 @@ return array(
 	|
 	*/
 
-    "accepted"                  => "The :attribute debe ser aceptadx.",
+    "accepted"                  => "El campo de :attribute debe ser aceptado.",
     "active_url"                => "The :attribute no es una URL válida.",
-    "after"                     => "The :attribute must be a date after :date.",
-    "alpha"                     => "The :attribute solo puede contener letras.",
-    "alpha_dash"                => "The :attribute solo puede contener letras, números y guiones.",
-    "alpha_num"                 => "The :attribute solo puede contener letras y números.",
-    "array"                     => "The :attribute debe ser una matriz.",
-    "before"                    => "The :attribute must be a date before :date.",
+    "after"                     => "El campo de :attribute debe ser una fecha posterior a :date.",
+    "alpha"                     => "El campo de :attribute solo puede contener letras.",
+    "alpha_dash"                => "El campo de :attribute solo puede contener letras, números y guiones.",
+    "alpha_num"                 => "El campo de :attribute solo puede contener letras y números.",
+    "array"                     => "El campo de :attribute debe ser una matriz.",
+    "before"                    => "El campo de :attribute debe ser una fecha anterior a :date.",
     "between"                   => array(
-        "numeric" => "The :attribute must be between :min and :max.",
-        "file"    => "The :attribute debe tener entre :min y :max kilobytes.",
-        "string"  => "The :attribute debe tener entre :min y :max caracteres.",
-        "array"   => "The :attribute debe tener entre :min y :max items.",
+        "numeric" => "El campo de :attribute debe estar entre :min y :max.",
+        "file"    => "El campo de :attribute debe tener entre :min y :max kilobytes.",
+        "string"  => "El campo de :attribute debe tener entre :min y :max caracteres.",
+        "array"   => "El campo de :attribute debe tener entre :min y :max items.",
     ),
-    "boolean"                   => "The :attribute field must be true or false.",
+    "boolean"                   => "El campo de :attribute debe ser verdadero o falso.",
     "confirmed"                 => "The :attribute confirmation does not match.",
-    "date"                      => "The :attribute no es una fecha válida.",
-    "date_format"               => "The :attribute no se corresponde con el formato :format.",
-    "different"                 => "The :attribute y :other tienen que ser diferentes.",
-    "digits"                    => "The :attribute debe tener :digits dígitos.",
-    "digits_between"            => "The :attribute debe tener entre :min y :max dígitos.",
-    "email"                     => "The :attribute debe ser una dirección de correo electrónico válida.",
-    "exists"                    => "The selected :attribute is invalid.",
-    "image"                     => "The :attribute debe ser una imagen.",
+    "date"                      => "El campo de :attribute no es una fecha válida.",
+    "date_format"               => "El campo de :attribute no se corresponde con el formato :format.",
+    "different"                 => "El campo de :attribute y de :other tienen que ser diferentes.",
+    "digits"                    => "El campo de :attribute debe tener :digits dígitos.",
+    "digits_between"            => "El campo de :attribute debe tener entre :min y :max dígitos.",
+    "email"                     => "El campo de :attribute debe ser una dirección de correo electrónico válida.",
+    "exists"                    => "El campo de :attribute seleccionado es inválido.",
+    "image"                     => "EL campo de :attribute debe ser una imagen.",
     "in"                        => "The selected :attribute is invalid.",
-    "integer"                   => "The :attribute must be an integer.",
-    "ip"                        => "The :attribute debe ser una dirección IP válida.",
+    "integer"                   => "El campo de :attribute debe ser un entero.",
+    "ip"                        => "El campo de :attribute debe ser una dirección IP válida.",
     "max"                       => array(
-        "numeric" => "The :attribute may not be greater than :max.",
-        "file"    => "The :attribute no debe tener más de :max kilobytes.",
-        "string"  => "The :attribute no debe tener más de :max caracteres.",
-        "array"   => "The :attribute no debe tener más de :max items.",
+        "numeric" => "El campo de :attribute no debe ser más grande que :max.",
+        "file"    => "El campo de :attribute no debe tener más de :max kilobytes.",
+        "string"  => "El campo de :attribute no debe tener más de :max caracteres.",
+        "array"   => "El campo de :attribute no debe tener más de :max items.",
     ),
     "mimes"                     => "The :attribute must be a file of type: :values.",
     "min"                       => array(
         "numeric" => "The :attribute must be at least :min.",
-        "file"    => "The :attribute debe tener al menos :min kilobytes.",
-        "string"  => "The :attribute debe tener al menos :min caracteres.",
-        "array"   => "The :attribute debe tener al menos :min items.",
+        "file"    => "El campo de :attribute debe tener al menos :min kilobytes.",
+        "string"  => "El campo de :attribute debe tener al menos :min caracteres.",
+        "array"   => "El campo de :attribute debe tener al menos :min items.",
     ),
     "not_in"                    => "The selected :attribute is invalid.",
-    "numeric"                   => "The :attribute debe ser un número.",
+    "numeric"                   => "El campo de :attribute debe ser un número.",
     "regex"                     => "The :attribute format is invalid.",
-    "required"                  => "The :attribute field is required.",
-    "required_if"               => "The :attribute field is required when :other is :value.",
-    "required_with"             => "The :attribute field is required when :values is present.",
-    "required_with_all"         => "The :attribute field is required when :values is present.",
-    "required_without"          => "The :attribute field is required when :values is not present.",
-    "required_without_all"      => "The :attribute field is required when none of :values are present.",
-    "same"                      => "The :attribute y :other deben corresponderse.",
+    "required"                  => "El campo de :attribute es obligatorio.",
+    "required_if"               => "El campo de :attribute es obligatorio cuando :other es :value.",
+    "required_with"             => "El campo de :attribute es obligatorio cuando :values está presente.",
+    "required_with_all"         => "El campo de :attribute es obligatorio cuando :values está presente.",
+    "required_without"          => "El campo de :attribute es obligatorio cuando :values no está presente.",
+    "required_without_all"      => "El campo de :attribute es obligatorio cuando ninguno de :values están presentes.",
+    "same"                      => "El campo de :attribute y de :other deben corresponderse.",
     "size"                      => array(
         "numeric" => "The :attribute must be :size.",
         "file"    => "The :attribute debe tener :size kilobytes.",
@@ -77,34 +77,34 @@ return array(
     "user_password_length"      => "La contraseña debe ser igual o más larga que :user_password_length caracteres.",
     "operator_password_length"  => "La contraseña debe ser igual o más larga que :operator_password_length caracteres.",
     "json"                      => "The :attribute debe ser un JSON válido.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "user_password_strength"    => "El campo de :attribute debe contener: :user_password_strength.",
+    "operator_password_strength" => "El campo de :attribute debe contener: :operator_password_strength.",
     "twig_lint"                 => "The :attribute must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
      */
-    "in_array"                  => "The :attribute field does not exist in :other.",
+    "in_array"                  => "El campo de :attribute no existe en :other.",
     "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
 
     /*
      * 2.1.1
      */
-    "old_password"              => "The :attribute field is invalid.",
+    "old_password"              => "El campo de :attribute es inválido.",
     
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => "La traducción en :translation para el campo de :attribute es obligatoria cuando :values está presente.",
+    "max_translation"           => "La traduccón en :translation para el campo de :attribute no debe tener más de :max caracteres.",
+    "unique_translation"        => "La traducción en :translation para el campo de :attribute ya se está usando.",
     
     /*
      * 2.3.0
      */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
+    "required_translation"      => "La traducción en :translation para el campo de :attribute es obligatoria.",
     "customfield_not_cyclic"    => "The field cannot depend on one of it's children.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
+    "distinct"                  => "El campo de :attribute tiene un valor duplicado.",
     
     /*
      * 2.3.1
@@ -121,12 +121,12 @@ return array(
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
+    "after_or_equal"            => "El campo de :attribute debe ser una fecha posterior o igual a :date.",
+    "before_or_equal"           => "El campo de :attribute debe ser una fecha anterior o igual a :date.",
     "dimensions"                => "The :attribute tiene dimensiones de imagen inválidas.",
-    "distinct"                  => 'The :attribute field has a duplicate value.',
+    "distinct"                  => 'El campo de :attribute tiene un valor duplicado.',
     "file"                      => "The :attribute debe ser un archivo.",
-    "filled"                    => "The :attribute field must have a value.",
+    "filled"                    => "El campo de :attribute debe tener un valor.",
     "gt"                        => array(
         "numeric" => "The :attribute must be greater than :value.",
         "file"    => "The :attribute must be greater than :value kilobytes.",
@@ -139,12 +139,12 @@ return array(
         "string"  => "The :attribute must be greater than or equal :value characters.",
         "array"   => "The :attribute must have :value items or more.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => "El campo de :attribute no existe en :other.",
+    "ipv4"                      => "El campo de :attribute debe ser una dirección IPv4 válida.",
+    "ipv6"                      => "El campo de :attribute debe ser una dirección IPv6 válida.",
+    "json"                      => "El campo de :attribute debe ser una cadena JSON válida.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
+        "numeric" => "El campo de :attribute debe ser más pequeño que :value.",
         "file"    => "The :attribute must be less than :value kilobytes.",
         "string"  => "The :attribute must be less than :value characters.",
         "array"   => "The :attribute must have less than :value items.",
@@ -156,11 +156,11 @@ return array(
         "array"   => "The :attribute must not have more than :value items.",
     ),
     "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
+    "not_regex"                 => "El formato del campo de :attribute es inválido..",
+    "present"                   => "El campo de :attribute debe estar presente.",
+    "required_unless"           => "El campo de :attribute es obligatorio a no ser que :other esté en :values.",
+    "string"                    => "El campo de :attribute debe ser una cadena.",
+    "timezone"                  => "El campo de :attribute debe ser una zona válida.",
     "uploaded"                  => "The :attribute failed to upload.",
 
     /*
