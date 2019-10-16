@@ -279,7 +279,7 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Prioridad por defecto",
     "default_priority_desc"     => "La prioridad por defecto establecida en todos los tickets entrantes a través de este canal.",
-    "verbose_email_log"         => "Verbose Email Log",
+    "verbose_email_log"         => "Registro de correos detallado",
 
     "adjust_columns"            => "Ajustar columnas",
     "last_reply"                => "Última respuesta",
@@ -369,7 +369,7 @@ return array(
     "default_open_status_desc"  => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario abre un ticket nuevo o responde a un ticket sin la respuesta de un operador.",
     "default_reply_status"      => "Estado de la respuesta por defecto",
     "default_reply_status_desc" => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario responde a un ticket. Solo se aplica si un operador ya ha respondido al ticket.",
-    "drafting_reply"            => "<strong>:name</strong> comenzó a hacer un borrador :type :time:",
+    "drafting_reply"            => "<strong>:name</strong> comenzó a hacer un borrador de :type :time:",
     "ticket_reply_order_default" => "el sisetma por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
     "select_a_parent"           => "Selecciona un departamento principal...",
     "select_a_department"       => "Selecciona un departamento...",
@@ -413,12 +413,12 @@ return array(
     "not_registered_user"       => "Usuario no registrado. Los ajustes de canales de correo están establecidos para solo importar correos de usuarios registrados.",
     "display_name"              => "Nombre de correo que se muestra",
     "display_name_desc"         => "Opcional. Establécelo solo para reemplazar el nombre que se muestra usado en correos salientes desde este departamento. Si no, déjalo en blanco.",
-    "display_name_options"      => "The following Twig variables may be used:<br >{{ brand.name }} - Brand name<br />{{ department.name }} - Department Name<br />{{ department.frontend_name }} - Shows the parent department name, if ticket belongs to a sub-department.<br />{{ operator.formatted_name }} - Operator Name<br /><em>The operator name won't always be available, so wrap it in a 'not empty' conditional i.e. {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
+    "display_name_options"      => "Las siguientes variables de Twig pueden ser usadas:<br >{{ brand.name }} - Nombre de marca<br />{{ department.name }} - Nombre del departamento<br />{{ department.frontend_name }} - Muestra el nombre del departamento principal si el ticket pertenece a un sub-departamento.<br />{{ operator.formatted_name }} - Nombre del operador<br /><em>EL nombre del operador no siempre estará disponible, así que encapsúlalo en un condicional 'no vacío', por ejemplo {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
     "attachment_rejected"       => "Archivo adjunto rechazado",
     "enable_subaddresses"       => "Habilitar sub-direcciones",
-    "enable_subaddresses_desc"  => "Toggle to enable using email sub-addressing for all departments. This will create a unique sub-address for each ticket that is set as the Reply-To address on all outgoing email. Your mail server must be able to handle sub-addressing, additional steps may be required if you are using email piping to ensure emails to these addresses are forwarded correctly. Enabling this will allow you to remove the ticket number from the subject of email templates.",
+    "enable_subaddresses_desc"  => "Alterna para habilitar el uso de sub-direcciones de correo para todos los departamentos. Esto creará una única sub-dirección para cada ticket que se establece como la dirección de 'Responder a' en todo el correo saliente. Tu servidor de correo tiene que poder administrar sub-direcciones. Puede que se requieran pasos adicionales si estás utilizando una canalización de correos para asegurar que los correos se envían correctamente a estas direcciones. Al habilitar esto, podrás eliminar el número del ticket del asunto de las plantillas de correo.",
     "email_replies_disabled"    => "Respuestas de correo desactivadas",
-    "disable_user_email_replies_desc" => "Enable to block email replies from users, and also remove the reply clipping line from outbound ticket emails. By default, the email will be silently ignored, but you can set an email to be sent to the user by changing the selected email template for the 'Email Replies Disabled' option below.",
+    "disable_user_email_replies_desc" => "Habilita para bloquear respuestas de correos de usuarios, y también eliminar la línea de respuesta de los correos de tickets salientes. Por defecto, el correo se silenciará y se ignorará, pero puedes establecer que se envíe un correo al usuario cambiando la plantilla de correo seleccionada para la opción de 'Respuestas de correo desactivadas' más abajo.",
     "bcc"                       => "BCC",
     "assigned_to_ticket"        => "Asignado al ticket",
     "user_ticket_reply"         => "Respuesta de usuario del ticket",
@@ -434,7 +434,7 @@ return array(
     "email_user_frontend"       => "Enviar correo a los usuarios en los tickets abiertos del frontend.",
     "email_user_frontend_desc"  => "Selecciona si se debería notificar a los usuarios por correo cuando ellos mismos abren un ticket en el frontend.",
     "department_template_disabled" => "La plantilla de correo del departamento relevante está desactivada, por lo que no se puede enviar este correo.",
-    "verbose_email_log_desc"    => "If email collection should be logged on file, recommended to keep disabled unless instructed by support for debugging. Five days worth of logs are stored, older log files will be purged automatically by the system.",
+    "verbose_email_log_desc"    => "Si la recopilación de correos debería ser almacenada en archivos. Se recomienda mantener desactivado a no ser que ordene por la asistencia para depurar. Se almacenan cinco días de registros, ya que el sistema eliminará automáticamente archivos de registros que sean más antiguos.",
 
     /*
      * 2.2.0
@@ -445,7 +445,7 @@ return array(
     "response_desc"             => "La respuesta predefinida se puede escribir en varias lenguas. La respuesta adecuada se utilizará automáticamente basada en la preferencia de lenguas del usuario.",
     "no_slaplans"               => "No se han encontrado planes SLA. Haz click <a href=':route'>aquí</a> para crear uno.",
     "filter_performance"        => "Recomendaciones y consideraciones para el rendimiento",
-    "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
+    "filter_performance_desc"   => "<li>Los filtros que se correspondan con más tickets serán más lentos, en la mayoría de los casos intenta excluir tickets resueltos.</li><li>Los filtros que utilicen las condiciones 'no es' normalmente serán más lentos que los que usan las condiciones 'es'.</li><li>Los filtros que comprueben los valores NULL (por ejemplo, la etiqueta del ticket es Ninguno/a) serán más lentos.</li><li>Evita múltiples condiciones que impliquen comprobar cadenas/palabras, ya que lo hace más complejo.</li><li>Los filtros que utilizan las condiciones 'comienza con' o 'contiene' serán generalmente más lentos que los que utilizan 'equivale a' o 'termina con'.</li><li>Los tickets resueltos se excluyen de los recuentos que se muestran en la barra lateral.</li>",
     "run_macro"                 => "Ejecutar Macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
 
@@ -488,7 +488,7 @@ return array(
     "select_a_department_email" => "Selecciona un correo de departamento...",
     "record_public_desc"        => "Alterna para que el :record sea solamente accesible por ti.",
     "record_group_desc"         => "Si quieres que el :record sea visible solo para un determinado grupo de operadores. Déjalo en blanco para hacerlo visible a todos los operadores.",
-    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+    "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parámentros prefijados con % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
