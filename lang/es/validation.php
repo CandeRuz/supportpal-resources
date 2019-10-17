@@ -85,7 +85,7 @@ return array(
      * 2.1.0
      */
     "in_array"                  => "El campo de :attribute no existe en :other.",
-    "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
+    "logo"                      => "El logo debe apuntar a un archivo de imagen válida file (una URL directa o una ruta de acceso al directorio base relativa al archivo).",
 
     /*
      * 2.1.1
