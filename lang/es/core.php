@@ -287,9 +287,9 @@ return array(
     "additional_brands"         => "Marcas adicionales",
     "purchase_more"             => "Comprar más",
     "brand_limit_allowed"       => "Tu licencia actual puede utilizar :allowed marca de manera simultánea.|Tu licencia actual puede utilizar :allowed marcas de manera simultánea.",
-    "brand_limit_purchase"      => "Si esto no es correcto, por favor <strong>reissue</strong> tu licencia en nuestro <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> y visita la página <a href=':route'>License Information</a> para sincronizar tu Help Desk con nuestro servidor de licencia.<br />Para comprar marcas adicionales, por favor <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
+    "brand_limit_purchase"      => "Si esto no es correcto, por favor <strong>reemite</strong> tu licencia en nuestro <a href='http://www.supportpal.com/manage/' target='_blank'>área del cliente</a> y visita la página <a href=':route'>Información de la licencia</a> para sincronizar tu Help Desk con nuestro servidor de licencia.<br />Para comprar marcas adicionales, por favor <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>actualiza tu licencia</a>.",
     "support_expiry"            => "Tu suscripción de asistencia y actualizaciones es válida hasta :date.",
-    "support_status_desc"       => "Por favor <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> para conseguir las actualizaciones y asistencia más recientes de SupportPal.",
+    "support_status_desc"       => "Por favor <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renueva tu suscripción de asistencia</a> para conseguir las actualizaciones y asistencia más recientes de SupportPal.",
     "ip_ban"                    => "Baneo de IP|Baneos de IP",
     "ip_whitelist"              => "Lista blanca de IP",
     "whitelisted_ip"            => "IP de la lista blanca",
@@ -326,7 +326,7 @@ return array(
     "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes), otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del Help Desk.",
     "attachment_limit_reached"  => "Se ha alcanzado el límite de tamaño de archivos adjuntos (:size). Por favor, considera otros medios para enviar los archivos (como por ejemplo una URL para descargar).",
     "upload_unknown_error"      => "El archivo \":file\" no se ha actualizado debido a un error del lado del servidor.",
-    "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
+    "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renovar</a>",
     "translations"              => "Traducciones",
     "no_existing_translations"  => "No existen traducciones",
     "add_translation"           => "Añadir traducción",
@@ -406,6 +406,6 @@ return array(
     "multi_ip"                  => "Asistencia multi-IP",
     "multi_ip_desc"             => "Permite asociar SupportPal a más de una IP interna/externa.",
     "purchase"                  => "Comprar",
-    "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
+    "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>sub-direcciones de correo electrónico</a>.",
 
 );
