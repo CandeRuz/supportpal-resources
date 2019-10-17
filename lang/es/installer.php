@@ -12,7 +12,7 @@ return array(
     "install_type"              => "Tipo de instalación",
     "install"                   => "Instalado reciente",
     "upgrade"                   => "Actualizar una instalación existente",
-    "support"                   => "El código de licencia utilizado para esta instalación no tiene un soporte válido ni una suscripción de actualizaciones, y como tal, no es válido para instalar esta versión de Supportpal. Por favor, <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renueva</a> tu soporta y suscripción de actualizaciones o revierte tus archivos de instalación.",
+    "support"                   => "El código de licencia utilizado para esta instalación no tiene un soporte válido ni una suscripción de actualizaciones, y como tal, no es válido para instalar esta versión de Supportpal. Por favor, <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renueva</a> tu soporte y suscripción de actualizaciones o revierte tus archivos de instalación.",
 
     // Upgrade
     "successfully_updated"      => "Enhorabuena, SupportPal se ha actualizado con éxito.",
@@ -69,7 +69,7 @@ return array(
      * 2.0.1
      */
 
-    "post_install"              => "Para que el sistema funcione correctamente, se debe configurar un Cron Job. Por favor, lee nuestro <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> para más detalles sobre este tema y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
+    "post_install"              => "Para que el sistema funcione correctamente, se debe configurar un Cron Job. Por favor, lee nuestro <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post de pasos para la instalación</a> para más detalles sobre este tema y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
 
     /*
      * 2.0.2
@@ -112,7 +112,7 @@ return array(
     "allow_url_fopen"           => "'allow_url_fopen' Habilitado",
     "allow_url_fopen_failure"   => "Habilitar 'allow_url_fopen' en tu archivo php.ini para usar Gravatar y otras características.",
     "allowed_methods"           => "Métodos permitidos HTTP",
-    "help_allowed_methods"      => "Tu servidor web debe permitir todos los métodos HTTP de abajo. Por favor, comprueba nuestra documentación <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> para más información.",
+    "help_allowed_methods"      => "Tu servidor web debe permitir todos los métodos HTTP de abajo. Por favor, comprueba nuestra documentación <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nueva instalación</a> para más información.",
 
     /*
      * 2.4.0
