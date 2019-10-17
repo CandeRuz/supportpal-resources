@@ -508,9 +508,9 @@ return array(
     "webhook_merge_fields"      => "Los campos de combinación se pueden utilizar en la URL y en el campo de contenido, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">saber más</a>.",
     "webhook_ticket_required"   => "Debe existir un ticket para que funcione esta característica.",
     "not_permitted"             => "Lo sentimos, pero no tienes permiso para ver el/los ticket(s) solicitados. Si crees que esto es un error, por favor, ponte en contacto con tu administrador.",
-    "watch"                     => "Watch",
-    "unwatch"                   => "Unwatch",
-    "watching"                  => "Watching",
+    "watch"                     => "Seguir",
+    "unwatch"                   => "Dejar de seguir",
+    "watching"                  => "Siguiendo",
     "internal_ticket"           => "Ticket Interno|Tickets Internos",
 
     /*
