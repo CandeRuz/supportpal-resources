@@ -199,9 +199,9 @@ return array(
     /*
      * 2.4.0
      */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
+    "ticket_watching"                   => "Siguiendo el ticket #:rel.",
+    "ticket_unwatching"                 => "Ya no #:rel.",
+    "ticket_watch_operator"             => "Establece :new_value para seguir el ticket #:rel.",
     "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
 
 );
