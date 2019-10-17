@@ -79,7 +79,7 @@ return array(
     "json"                      => "The :attribute debe ser un JSON válido.",
     "user_password_strength"    => "El campo de :attribute debe contener: :user_password_strength.",
     "operator_password_strength" => "El campo de :attribute debe contener: :operator_password_strength.",
-    "twig_lint"                 => "The :attribute must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
+    "twig_lint"                 => "El campo de :attribute debe ser sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
@@ -189,7 +189,7 @@ return array(
             "exists" => "La marca seleccionada no es válida.",
         ),
         "signature.*.*.contents" => array(
-            "twig_lint" => "Each signature must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
+            "twig_lint" => "Cada firma debe ser sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html"
         ),
         "template.*.*.subject" => array(
             "required" => "El campo del asunto es obligatorio para cada correo.",
@@ -199,7 +199,7 @@ return array(
         "template.*.*.contents" => array(
             "required" => "El campo de contenidos es neccesario para cada correo.",
             "min" => "Cada campo de contenidos debe tener más de 1 caracter.",
-            "twig_lint" => "Each contents field must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
+            "twig_lint" => "Cada campo de contenidos debe ser una sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html"
         ),
     ),
 
