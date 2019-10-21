@@ -109,11 +109,11 @@ return array(
     /*
      * 2.3.1
      */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_type_slug_unique"  => "The slug has already been taken.",
-    "article_tag_slug_unique"   => "The slug has already been taken.",
-    "article_category_slug_unique" => "The slug has already been taken.",
-    "article_slug_unique"       => "The slug has already been taken.",
+    "is_slug"                   => "El campo de slug solo puede contener caracteres alfanuméricos. can only contain alphanumeric characters, please percent encode any special characters.",
+    "article_type_slug_unique"  => "El slug ya se está usando.",
+    "article_tag_slug_unique"   => "El slug ya se está usando.",
+    "article_category_slug_unique" => "El slug ya se está usando.",
+    "article_slug_unique"       => "El slug ya se está usando.",
     "department_exists"         => "El departamento seleccionado es inválido.",
     "captcha_required"          => "Se requiere el captcha.",
     "ticket_number_format"      => "El formato del número del ticket es inválido.",
