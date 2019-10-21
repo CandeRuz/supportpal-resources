@@ -176,17 +176,17 @@ return array(
 
     "custom" => array(
         "roles.*" => array(
-            "exists" => "La función seleccionada no es válida.",
+            "exists" => "La función seleccionada es inválida.",
         ),
         "category.*.type" => array(
             "required" => "Se deben seleccionar uno o más tipos de auto-servicio.",
         ),
         "category.*.categories" => array(
             'required' => "Se requieren una o más categorías cuando se ha seleccionado un tipo de auto-servicio.",
-            "exists"   => "Una o más de las categorías seleccionadas no es válida.",
+            "exists"   => "Una o más de las categorías seleccionadas son inválidas.",
         ),
         "brand.*" => array(
-            "exists" => "La marca seleccionada no es válida.",
+            "exists" => "La marca seleccionada es inválida.",
         ),
         "signature.*.*.contents" => array(
             "twig_lint" => "Cada firma debe ser sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html"
