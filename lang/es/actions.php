@@ -38,7 +38,7 @@ return array(
     "update_subject"            => "Actualizar asunto",
     "add_user_to_group"         => "Añadir usuario al grupo de usuarios",
     "remove_user_from_group"    => "Eliminar usuario del grupo de usuarios",
-    "authenticated_operator"    => "Operador autentificado",
+    "authenticated_operator"    => "Operador autenticado",
     "all_assigned_operators"    => "Todos los operadores designados",
     "all_tags"                  => "Todas las etiquetas",
     "subject_placeholder"       => "{{ ticket.subject }} es el campo para el asunto del ticket existente si desea añadir algo antes o después.",
