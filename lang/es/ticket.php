@@ -338,7 +338,7 @@ return array(
     "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
     "no_user_groups"            => "No se han encontrado grupos de usuarios. Haz click <a href=':route'>aquí</a> para crear uno.",
     "opened_by"                 => "(Abierto por :name)",
-    "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
+    "remote_email_piping_desc"  => "Descárgate el <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>script de canalización de correos remotos</a> y sigue la <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentación</a> para configurarlo en tu servidor de correo.",
 
     /*
      * 2.0.3
@@ -452,7 +452,7 @@ return array(
     /*
      * 2.3.0
      */
-    "registered_users_desc"     => "Toggle to only show the department to logged in users and only accept emails from users actively registered in the help desk. If enabled, a bounce back email will be sent to unregistered users who email this department, to change or disable the email please see the 'Registered Users Only' template option below.",
+    "registered_users_desc"     => "Alterna para solo mostrar el departamento a usuarios con la sesión iniciada y solo aceptar correos de usuarios activamente registrados en el help desk. Si está habilitado, se enviará un correo a los usuarios sin registrar que manden correos a este departamento. Para cambiar o deshabilitar el correo, por favor, vea la opción de plantilla de 'Solo usuarios registrados' más abajo.",
     "form_fields_desc"          => "Si te gustaría recopilar información adicional cuando el usuario proporcione su valoración, puedes establecer campos personalizados para que se muestren en el formulario. El campo no se podrá cambiar una vez que el formulario haya sido completado por un usuario.",
     "feedback_ratings"          => "Valoración de la Satisfacción del Cliente (que afecta a tu puntuación de Satisfacción del Cliente)",
     "email_and_other_accounts"  => "Correo y cuentas de otros canales",
@@ -488,7 +488,7 @@ return array(
     "select_a_department_email" => "Selecciona un correo de departamento...",
     "record_public_desc"        => "Alterna para que el :record sea solamente accesible por ti.",
     "record_group_desc"         => "Si quieres que el :record sea visible solo para un determinado grupo de operadores. Déjalo en blanco para hacerlo visible a todos los operadores.",
-    "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parámentros prefijados con % Y,y,m,d,j,g,G,h,H,i,s",
+    "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />Los siguientes parámetros <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> prefijados con % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
