@@ -65,8 +65,8 @@ return array(
      */
     "trigger_webhook"           => "Activar webhook",
     "forward_ticket"            => "Reenviar ticket",
-    "watch_ticket"              => "Habilitar operador para ver el ticket",
-    "unwatch_ticket"            => "Deshabilitar operador para ver el ticket",
-    "all_watching_operators"    => "Todos los operadores habilitados para ver",
+    "watch_ticket"              => "Establecer operador para seguir el ticket",
+    "unwatch_ticket"            => "Desestablecer operador para seguir el ticket",
+    "all_watching_operators"    => "Todos los operadores que siguen el ticket",
 
 );
