@@ -202,6 +202,6 @@ return array(
     "ticket_watching"                   => "Siguiendo el ticket #:rel.",
     "ticket_unwatching"                 => "Ya no #:rel.",
     "ticket_watch_operator"             => "Establece :new_value para seguir el ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+    "ticket_unwatch_operator"           => "Desestablece :new_value de seguir el ticket #:rel.",
 
 );
