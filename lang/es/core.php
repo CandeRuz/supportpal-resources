@@ -245,7 +245,7 @@ return array(
     /*
      * 2.0.2
      */
-    "cron_makesure"             => "Para ayuda al registrar el Cron Job, vea por favor <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Cron Job Help</a>.",
+    "cron_makesure"             => "Para ayuda al registrar el Cron Job, vea por favor <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Ayuda para el Cron Job</a>.",
     "widget"                    => "Widget|Widgets",
 
     /*
