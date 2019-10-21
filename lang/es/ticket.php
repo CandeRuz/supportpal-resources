@@ -495,12 +495,12 @@ return array(
      */
     "macro_enabled_desc"        => "Alterna para desactivar el macro y evitar que se ejecute automáticamente o se muestre en la interfaz del ticket.",
     "macro_order_drag"          => "Arrastra las filas para cambiar el orden de los macros.",
-    "macro_order_processed"     => ":type macros son procesados en el orden en el que aparecen.",
+    "macro_order_processed"     => "Los macros :type son procesados en el orden en el que aparecen.",
     "macro_type"                => "Tipo de macro",
     "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on non-resolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
     "macro_run_at_most"         => "Ejecutar máximo",
     "macro_run_times"           => "veces", // As in '5 times'
-    "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede eejcutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
+    "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede ejecutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
     "macro_events_desc"         => "Selecciona uno o más eventos en los que el macro se debería ejecutar. Las condiciones que se establezcan abajo se comprobarán antes de que se ejecute el macro.",
     "macro_schedules_desc"      => "Por defecto, el macro se ejecutará 24/7, pero tú puedes seleccionar uno o más horarios del help desk para que el macro solo esté activo durante esas horas.",
     "macro_condition_desc"      => "Define las condiciones para qué tickets estará disponible este macro. Por defecto, sin condiciones, se aplicará a todos los tickets. Al menos debes definir una condición para los macros automáticos.",
