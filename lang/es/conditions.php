@@ -74,7 +74,7 @@ return array(
      * 2.4.0
      */
     "watching_operator"                 => "Operador siguiendo el ticket",
-    "exact_search_quotes"               => "Para realizar una búsqueda exacta de la frase, insértelo en comillas como \"my phrase\".",
+    "exact_search_quotes"               => "Para realizar una búsqueda exacta de la frase, insértelo en comillas como \"mi frase\".",
 
     /*
      * 2.4.1
