@@ -15,7 +15,7 @@ return array(
     "owner"                         => "Propietario",
     "manager"                       => "Manager",
     "access_level"                  => "Nivel de acceso",
-    "access_level_desc"             => "Define el nivel de acceso para el usuario en la organización, basado en el siguiente horario:<br /><strong>Manager</strong> - Puede ver tickets abiertos por todos los usuarios en la organización y administrar usuarios en la organización<br /><strong>User</strong> - Puede ver tickets solo abiertos por sí mismo",
+    "access_level_desc"             => "Define el nivel de acceso para el usuario en la organización, basado en la siguiente información:<br /><strong>Manager</strong> - Puede ver tickets abiertos por todos los usuarios en la organización y administrar usuarios en la organización<br /><strong>User</strong> - Puede ver tickets solo abiertos por sí mismo",
     "manage_organisation"           => "Administrar organización",
     "leave_organisation"            => "Dejar organización",
     "user_membership"               => "Suscripción del usuario",
@@ -49,7 +49,7 @@ return array(
     "confirmation_success"          => "¡La confirmación se ha completado con éxito!",
     "confirmation_unsuccessful"     => "la confirmación no se ha podido completar con éxito.",
     "thank_you_confirm"             => "TGracias por confirmar tu cuenta. Por favor, continua a <a href=':route'>iniciar sesión</a>.",
-    "signed_up"                     => "Signed up",
+    "signed_up"                     => "Registrado",
     "last_active"                   => "Activo por última vez",
 
     "reset_request"                 => "Petición de restablecer la contraseña recibida",
