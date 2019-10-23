@@ -19,7 +19,7 @@ return array(
 
     // Install
     // Step 1
-    "step_1"                    => "Paso 1 de 7: Aceptar EULA",
+    "step_1"                    => "Paso 1 de 7: Aceptar CLUF",
     "step_1_desc"               => "Por favor, lee nuestro contrato de licencia de software más abajo. Al continuar, estarás aceptando el contrato.",
     "i_accept_and_continue"     => "Acepto y continúo",
 
@@ -27,7 +27,7 @@ return array(
     "step_2"                    => "Paso 2 de 7: Requisitos del sistema",
     "not_available"             => "No está disponible",
     "php_version"               => "Versión PHP",
-    "php_version_not_found"     => "No está disponible, encontrada versión PHP: :version",
+    "php_version_not_found"     => "No está disponible, versión PHP encontrada: :version",
     "php_extensions"            => "Extensiones PHP",
     "file_writeable"            => "Permisos de archivo",
     "file_writeable_desc"       => "Todo lo de abajo debería poder ser editado por el servidor web. Recomendamos utilizar permisos de archivo 755, aunque algunos sistemas puede que requieran 777 si el usuario del servidor web no es el dueño de los archivos. Los directorios deberían ser editables de manera recurrente.",
@@ -43,7 +43,7 @@ return array(
 
     // Step 4
     "step_4"                    => "Paso 4 de 7: Crear tablas",
-    "step_4_desc"               => "La migración se llevará a cabo en segundo plano y se hará un registro detallado escrito abajo. Esto puede tardar various minutos. Una vez completado, haz click en el botón de continuar que aparecerá.",
+    "step_4_desc"               => "La migración se llevará a cabo en segundo plano y se hará un registro detallado escrito abajo. Esto puede tardar varios minutos. Una vez completado, haz click en el botón de continuar que aparecerá.",
 
     // Step 5
     "step_5"                    => "Paso 5 de 7: Cuenta del operador",
@@ -76,7 +76,7 @@ return array(
      */
     "required_requirements"     => "Cumples :required de los :total requisitos necesarios.",
     "optional_requirements"     => "Cumples :optional de los :total requisitos opcionales.",
-    "both_requirements"         => "Cumples :required de los :total_required requisitos necesarios y :optional de :total_optional requisitos opcionales.",
+    "both_requirements"         => "Cumples :required de los :total_required requisitos necesarios y :optional de los :total_optional requisitos opcionales.",
     "php_version_is"            => "Tu versión PHP es :version.",
     "enabled"                   => "Habilitado",
     "disabled"                  => "Deshabilitado",
@@ -88,22 +88,22 @@ return array(
     "writable"                  => "Editable",
     "help_php_version"          => "Para asistencia al instalar una versión nueva de PHP, por favor, contacta con tu proveedor de host o el administrador de servidor.",
     "help_php_extensions"       => "Las extensiones PHP pueden ser diferentes dependiendo de tu servidor, tu host y otras variables del sistema. Para asistencia al instalar missing extensions, por favor, contacta con tu proveedor de host o el administrador de servidor.",
-    "help_php_settings"         => "Para asistencia adicional, por favor, lee <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
+    "help_php_settings"         => "Para asistencia adicional, por favor, lee <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Ayuda para los ajustes de PHP</a>.",
     "disabled_functions"        => "Funciones deshabilitadas",
     "help_mysql_version"        => "Para asistencia al instalar una versión nueva de MySQL, por favor, contacta con tu proveedor de host o el administrador de servidor.",
     "mysql_version"             => "Versión MySQL",
-    "mysql_version_not_found"   => "No está disponible, encontrada versión MySQL: :version",
+    "mysql_version_not_found"   => "No está disponible, versión MySQL encontrada: :version",
 
     /*
      * 2.1.0
      */
     "ipv6_failure"              => "Si tu servidor tiene compatibilidad de red IPv6, por favor, instala la extensión php-sockets.",
-    "email_address_desc"        => "Introduce la principal dirección de correo electrónico de tu compañía. Esta se configurará como la dirección de correo electrónico por defecto y la de tu primer departamento. department. Podrás añadir otras direcciones de correo electrónico más tarde.",
+    "email_address_desc"        => "Introduce la principal dirección de correo electrónico de tu compañía. Esta se configurará como la dirección de correo electrónico por defecto y la de tu primer departamento. Podrás añadir otras direcciones de correo electrónico más tarde.",
 
     /*
      * 2.2.0
      */
-    "ioncube_version"           => "ionCube Loaders versión :required o superior se requiere. Hemos encontrado: ':version'.",
+    "ioncube_version"           => "Se requiere una versión ionCube Loaders :required o superior. Hemos encontrado: ':version'.",
 
     /*
      * 2.3.0
@@ -123,7 +123,7 @@ return array(
     "mysql_client_version_desc" => "MySQL versión del cliente :min o superior (:mysqlnd_min for MySQLnd) se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
 
     "upgrade_step"              => "Paso :num de :total: ",
-    "accept_eula"               => "Aceptar EULA",
+    "accept_eula"               => "Aceptar CLUF",
     "system_requirements"       => "Requisitos del sistema",
     "update_database"           => "Actualizar base de datos",
     "upgrade_complete"          => "Actualización completada",
