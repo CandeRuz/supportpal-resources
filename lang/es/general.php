@@ -246,7 +246,7 @@ return array(
     "days_ago"                  => "hace :number día|hace :number días",
     "months_ago"                => "hace :number mes|hace :number meses",
     "years_ago"                 => "hace :number año|hace :number años",
-    "shortly"                   => "rápidamente",
+    "shortly"                   => "en breves",
     "in_minutes"                => "en :number minuto|en :number minutos",
     "in_hours"                  => "en :number hora|en :number horas",
     "in_days"                   => "en :number día|en :number días",
