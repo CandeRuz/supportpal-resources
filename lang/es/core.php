@@ -24,7 +24,7 @@ return array(
 
     // Maintenance
     "maintenance"               => "Ahora mismo estamos trabajando en el mantenimiento de la página",
-    "maintenance_desc"          => "Nuestro Help Desk no se encuentra disponible en este momento debido a que estamos realizando tareas de mantenimiento. Le agradecemos su paciencia mientras las llevamos a cabo. ¡Volveremos enseguida!.",
+    "maintenance_desc"          => "Nuestro Help Desk no se encuentra disponible en este momento debido a que estamos realizando tareas de mantenimiento. Te agradecemos tu paciencia mientras las llevamos a cabo. ¡Volveremos enseguida!.",
     "maintenance_active"        => "El modo de mantenimiento se encuentra activo",
 
     // About
