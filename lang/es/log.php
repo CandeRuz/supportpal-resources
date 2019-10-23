@@ -14,7 +14,7 @@ return array(
     "banned_ip_on_login"                => "Baneo de IP :rel durante 15 minutos.",
 
     "ip_whitelist_created"              => "Añadió IP :rel a la lista blanca.",
-    "ip_whitelist_updated"              => "Actualizó IP :rel a la lista blanca.",
+    "ip_whitelist_updated"              => "Actualizó IP :rel en la lista blanca.",
     "ip_whitelist_deleted"              => "Eliminó IP :rel de la lista blanca.",
 
     "system_cleanup"                    => "Limpieza del sistema ejecutada en :rel.",
@@ -42,7 +42,7 @@ return array(
 
     "user_emailed"                      => "Envió un correo a :rel.",
 
-    "mass_email_queued"                 => "Puso en cola correos :new_value en secciones para ser enviados.",
+    "mass_email_queued"                 => "Puso en cola correos :new_value en lotes para ser enviados.",
     "mass_email_sent"                   => "Envió correos :new_value en cola.",
 
     "email_queue_deleted"               => "Eliminó correos en cola a :rel.",
@@ -65,15 +65,15 @@ return array(
     "ticket_followup_deleted"           => "El seguimiento en el Ticket #:rel se ha eliminado.",
 
     "ticket_message_reply"              => "Publicó una nueva respuesta al ticket #:rel.",
-    "ticket_message_note"               => "Publicó una nota nueva al tickett #:rel.",
+    "ticket_message_note"               => "Publicó una nota nueva al ticket #:rel.",
     "ticket_message_deleted"            => "Eliminó un mensaje en el ticket #:rel.",
 
     "ticket_user_updated"               => "Actualizó el usuario en el ticket #:rel de :old_value a :new_value.",
-    "ticket_subject_updated"            => "Actualizó el asunto en el ticket #:rel.",
+    "ticket_subject_updated"            => "Actualizó el asunto del ticket #:rel.",
     "ticket_department_updated"         => "Actualizó el departamento en el ticket #:rel de :old_value a :new_value.",
-    "ticket_status_updated"             => "Actualizó el estado en el ticket #:rel de :old_value a :new_value.",
-    "ticket_priority_updated"           => "Actualizó la propridad del ticket #:rel de :old_value a :new_value.",
-    "ticket_tag_added"                  => "Actualizó la etiqueta :new_value al ticket #:rel.",
+    "ticket_status_updated"             => "Actualizó el estado del ticket #:rel de :old_value a :new_value.",
+    "ticket_priority_updated"           => "Actualizó la prioridad del ticket #:rel de :old_value a :new_value.",
+    "ticket_tag_added"                  => "Añadió la etiqueta :new_value al ticket #:rel.",
     "ticket_tag_updated"                => "Actualizó las etiquetas en el ticket #:rel.",
     "ticket_tag_removed"                => "Eliminó etiqueta :new_value del ticket #:rel.",
     "ticket_slaplan_updated"            => "Actualizó el plan SLA en el ticket #:rel de :old_value a :new_value.",
@@ -93,7 +93,7 @@ return array(
     "ticket_locked_reply"               => "La respuesta no se pudo añadir al ticket bloqueado #:rel.",
 
     "ticket_merged"                     => "Ticket(s) :new_value se combinó en el ticket #:rel.",
-    "ticket_unmerged"                   => "Ticket :rel se ha descombinado.",
+    "ticket_unmerged"                   => "El Ticket :rel se ha descombinado.",
 
     "ticket_user_blocked"               => "Correo bloqueado :new_value (del usuario en el ticket #:rel).",
 
