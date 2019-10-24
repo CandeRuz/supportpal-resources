@@ -88,7 +88,7 @@ return array(
 
     "missing_extension"     => "Extensión ausente",
     "php_ldap_missing"      => "Se requiere la extensión php-ldap para usar la autenticación LDAP. Por favor, habilítala y actualiza la página.",
-    "php_imap_missing"      => "Se requiere la extensión php-imap para utilizar Email Download. Si deseas utilizar Email Download, por favor, habilita la extensión y actualiza la página.",
+    "php_imap_missing"      => "Se requiere la extensión php-imap para utilizar Descarga de correos. Si deseas utilizar Descarga de correos, por favor, habilita la extensión y actualiza la página.",
 
     /*
      * 2.0.3
@@ -131,8 +131,8 @@ return array(
      */
     "sent_email"            => "Éxito - el correo se ha enviado.",
     "task_already_running"  => "Las tareas programadas se están actualmente ejecutándo automáticamente. Por favor, inténtalo de nuevo en breve.",
-    "linked_account"        => "La cuenta social se ha asociado con tu cuenta con total éxito.",
-    "already_linked"        => "La cuenta social ya está asociada con otra cuenta. Por favor, inicia sesión con la otra cuenta y desasóciala.",
+    "linked_account"        => "La cuenta de redes sociales se ha asociado con tu cuenta con total éxito.",
+    "already_linked"        => "La cuenta de redes sociales ya está asociada con otra cuenta. Por favor, inicia sesión con la otra cuenta y desasóciala.",
 
     /*
      * 2.4.0
