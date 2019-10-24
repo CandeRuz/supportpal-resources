@@ -7,7 +7,7 @@ return array(
     "error"                 => "Error",
     "in_progress"           => "En progreso",
 
-    "save_order"            => "Intentando guardar el orden actualizado de los items",
+    "save_order"            => "Intentando guardar el orden actualizado de los elementos",
 
     "show_all_results"      => "Mostrar todos los resultados &raquo;",
 
@@ -81,7 +81,7 @@ return array(
 
     "too_many_ticket_reqs"  => "Demasiadas solicitudes de tickets hechas por :email. El límite son :max en :decay minutos.",
 
-    "not_operator"          => "Algo no ha ido bien. El operador seleccionado no es válido, por favor, asegúrate de que pertenece a un grupo de operadores y de que el grupo tiene un papel asociado.",
+    "not_operator"          => "Algo no ha ido bien. El operador seleccionado no es válido. Por favor, asegúrate de que pertenece a un grupo de operadores y de que el grupo tiene un papel asociado.",
 
     // The error message is appended using JavaScript...
     "datatable_error"       => "<strong>¡Ups! Algo no ha ido bien.</strong><br />Se ha producido un error al cargar los datos de la tabla. Por favor, notifícaselo al administrador del sistema si el error persiste.",
@@ -117,7 +117,7 @@ return array(
     /*
      * 2.3.0
      */
-    "delete_record"         => "Eliminar :record?",
+    "delete_record"         => "¿Eliminar :record?",
     "cannot_be_undone"      => "Esta acción no se puede deshacer.",
     "warn_delete"           => "Esto eliminará permanentemente el <strong>:name</strong> :record del sistema.",
     "delete_confirm"        => "Sí, eliminar :record",
@@ -130,7 +130,7 @@ return array(
      * 2.3.1
      */
     "sent_email"            => "Éxito - el correo se ha enviado.",
-    "task_already_running"  => "Las tareas programadas se están actualmente ejecutando automáticamente. Por favor, inténtalo de nuevo en breve.",
+    "task_already_running"  => "Las tareas programadas se están actualmente ejecutándo automáticamente. Por favor, inténtalo de nuevo en breve.",
     "linked_account"        => "La cuenta social se ha asociado con tu cuenta con total éxito.",
     "already_linked"        => "La cuenta social ya está asociada con otra cuenta. Por favor, inicia sesión con la otra cuenta y desasóciala.",
 
