@@ -486,8 +486,8 @@ return array(
     "new_record"                => "Nuevo :record",
     "department_email"          => "Correo de departamento",
     "select_a_department_email" => "Selecciona un correo de departamento...",
-    "record_public_desc"        => "Alterna para que el :record sea solamente accesible por ti.",
-    "record_group_desc"         => "Si quieres que el :record sea visible solo para un determinado grupo de operadores. Déjalo en blanco para hacerlo visible a todos los operadores.",
+    "record_public_desc"        => "Alterna para que el/la :record sea solamente accesible por ti.",
+    "record_group_desc"         => "Si quieres que el/la :record sea visible solo para un determinado grupo de operadores. Déjalo en blanco para hacerlo visible a todos los operadores.",
     "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />Los siguientes parámetros <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> prefijados con % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
