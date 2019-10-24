@@ -21,9 +21,9 @@ return array(
 
     "api_failed_login"                  => "IP :rel fallo al autenticar al API.",
 
-    "user_successful_login"             => "Sesión iniciada en el Help Desk.",
-    "user_failed_login"                 => "Error al autenticar.",
-    "user_successful_logout"            => "Sesión cerrada del Help Desk.",
+    "user_successful_login"             => "Inició sesión en el Help Desk.",
+    "user_failed_login"                 => "Falló al autenticar.",
+    "user_successful_logout"            => "Cerró sesión del Help Desk.",
 
     "user_registered"                   => "Registró una cuenta.",
     "user_confirmed"                    => "Confirmó su cuenta.",
@@ -32,7 +32,7 @@ return array(
 
     "user_added_to_organisation"        => "Usuario :rel añadido a la organización :new_value.",
     "user_removed_from_organisation"    => "Usuario :rel eliminado de la organización :old_value.",
-    "user_profile_updated"              => "Perfil de cuenta actualizado.",
+    "user_profile_updated"              => "Actualizó el perfil de la cuenta.",
     "user_left_organisation"            => "Dejó la organización :rel.",
     "user_organisation_emptied"         => "Eliminó todos los usuarios de la organización :rel.",
     "user_organisation_updated"         => "El nivel de acceso de la organización de :rel ha cambiado de :old_value a :new_value.",
@@ -110,7 +110,7 @@ return array(
     "ticket_feedback_dequeued"          => "Eliminó la petición del formulario de valoración del ticket #:rel de la cola.",
     "ticket_feedback_form_sent"         => "Envió la petición del formulario de valoración para el ticket #:rel.",
 
-    "ticket_attachment_saved"           => "Añadir archivo adjunto al ticket #:rel.",
+    "ticket_attachment_saved"           => "Añadió archivo adjunto al ticket #:rel.",
     "ticket_attachment_deleted"         => "Eliminó archivo adjunto del ticket #:rel.",
 
     "ticket_throttled"                  => "Rechazó un ticket nuevo de :rel debido a la limitación.",
@@ -166,18 +166,18 @@ return array(
      * 2.2.0
      */
     "ticket_user_added_to_group"        => "El usuario del Ticket se añadió al grupo de usuarios :new_value.",
-    "ticket_user_removed_from_group"    => "El usuario del Ticket user fue eliminado del grupo de usuarios :old_value.",
+    "ticket_user_removed_from_group"    => "El usuario del Ticket fue eliminado del grupo de usuarios :old_value.",
     "email_on_behalf"                   => "Reenvió :extra_rel2 en nombre de ':extra_rel1' en el ticket #:rel.",
 
     /*
      * 2.3.0
      */
     "registered_users_only"             => "Envió un correo ':extra_rel1' a :new_value, el departamento no acepta correos de usuarios que no están registrados.",
-    "deleted_user"                      => "Eliminó :item ':rel' con correo del correo ':email_address' (ID :user_id).",
+    "deleted_user"                      => "Eliminó :item ':rel' con dirección de correo ':email_address' (ID :user_id).",
     "linked_ticket"                     => "Vinculó el ticket #:rel con el ticket :extra_rel1.",
     "unlinked_ticket"                   => "Desvinculó el ticket #:rel del ticket :extra_rel1.",
     "email_queue_attachment_deleted"    => "Eliminó archivo adjunto ':old_value' del correo en cola ':rel'.",
-    "forward_ticket_email"              => "Reenvió ticket #:rel a un tercero, ver ':extra_rel1' email.",
+    "forward_ticket_email"              => "Reenvió ticket #:rel a un tercero, ver correo ':extra_rel1'.",
 
     /*
      * 2.3.1
@@ -189,8 +189,8 @@ return array(
     "ticket_message_edited"             => "Editó un :extra_rel1 en el ticket #:rel.",
     "email_send_failed"                 => "Error al enviar el correo.",
     "ticket_brand_updated"              => "Actualizó la marca del ticket #:rel de :old_value a :new_value.",
-    "export_scheduled"                  => "Una exportación del usuario :rel ha sido programado.",
-    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y almacenado en el sistema.",
+    "export_scheduled"                  => "Una exportación del usuario :rel ha sido programada.",
+    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y ha sido almacenada en el sistema.",
     "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
     "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
     "deleted_old_records"               => "Se han eliminado automáticamente registros antiguos de :rel.",
@@ -200,7 +200,7 @@ return array(
      * 2.4.0
      */
     "ticket_watching"                   => "Siguiendo el ticket #:rel.",
-    "ticket_unwatching"                 => "Ya no #:rel.",
+    "ticket_unwatching"                 => "Ya no sigue el ticket #:rel.",
     "ticket_watch_operator"             => "Establece :new_value para seguir el ticket #:rel.",
     "ticket_unwatch_operator"           => "Desestablece :new_value de seguir el ticket #:rel.",
 
