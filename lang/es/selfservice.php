@@ -140,7 +140,7 @@ return array(
     "most_recent"               => "Más reciente",
     "type_order"                => "Puedes cambiar el orden en el que se muestran a los usuarios los tipos de auto-servicio arrastrando y soltando las filas.",
     "type_enabled_desc"         => "Al habilitar el tipo no se mostrará.",
-    "internal"                  => "Interno",
+    "internal"                  => "Interna",
     "internal_desc"             => "Alterna para establecer el tipo para ser solo visible internamente a operadores en el panel del operador.",
     "login_to_comment"          => "Por favor, inicia sesión para enviar un comentario.",
     "article_rating"            => "Valoración de artículos|Valoraciones de artículos",
