@@ -205,7 +205,7 @@ return array(
     "permanent"                 => "Permanente",
 
     // Languages
-    "no_enabled_languages"      => "Error al intentar actualizar el :item. Siempre debe haber una lengua habilitada como mínimo.",
+    "no_enabled_languages"      => "Error al intentar actualizar la :item. Siempre debe haber una lengua habilitada como mínimo.",
 
     // General Settings
     "locale"                    => "Localización",
@@ -361,7 +361,7 @@ return array(
     "operator_icon_desc"        => "Cambia el icono por defecto de la interfaz del operador para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes tu logo en resources/assets/folder) o una URL directa a la imagen. Recomendamos un icono blanco que sea transparente y que tenga un tamaño de 32x32px a 80x80px.",
     "view_original"             => "Ver original",
     "download_original"         => "Descargar original",
-    "consume_all"               => "Opcionalmente, introduce una dirección de correo electrónico de departamento con \"Consume All\" habilitado.",
+    "consume_all"               => "Opcionalmente, introduce una dirección de correo electrónico de departamento con \"Consumir todo\" habilitado.",
     "reprocess_email"           => "Reprocesar correo electrónico ",
     "reprocess_email_desc"      => "Te recomendamos que revises lo que originalmente bloqueó el correo y que hagas los cambios necesarios antes de intentar reprocesarlo.",
     "email_blocked_desc"        => "Tras varios intentos no se puedo enviar el mensaje, por lo que deberá enviarse manualmente.",
