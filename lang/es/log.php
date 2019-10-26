@@ -19,7 +19,7 @@ return array(
 
     "system_cleanup"                    => "Limpieza del sistema ejecutada en :rel.",
 
-    "api_failed_login"                  => "IP :rel fallo al autenticar al API.",
+    "api_failed_login"                  => "IP :rel falló al autenticar con el API.",
 
     "user_successful_login"             => "Inició sesión en el Help Desk.",
     "user_failed_login"                 => "Falló al autenticar.",
@@ -42,7 +42,7 @@ return array(
 
     "user_emailed"                      => "Envió un correo a :rel.",
 
-    "mass_email_queued"                 => "Puso en cola correos :new_value en lotes para ser enviados.",
+    "mass_email_queued"                 => "Puso en cola :new_value correos en lotes para ser enviados.",
     "mass_email_sent"                   => "Envió correos :new_value en cola.",
 
     "email_queue_deleted"               => "Eliminó correos en cola a :rel.",
@@ -92,7 +92,7 @@ return array(
     "ticket_unlocked"                   => "Desbloqueó el ticket #:rel.",
     "ticket_locked_reply"               => "La respuesta no se pudo añadir al ticket bloqueado #:rel.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value se combinó en el ticket #:rel.",
+    "ticket_merged"                     => "Ticket(s) :new_value combinado(s) en el ticket #:rel.",
     "ticket_unmerged"                   => "El Ticket :rel se ha descombinado.",
 
     "ticket_user_blocked"               => "Correo bloqueado :new_value (del usuario en el ticket #:rel).",
@@ -192,7 +192,7 @@ return array(
     "export_scheduled"                  => "Una exportación del usuario :rel ha sido programada.",
     "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y ha sido almacenada en el sistema.",
     "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
+    "deleted_inactive_records"          => "Se eliminó automáticamente :old_value :rel inactivo(s).",
     "deleted_old_records"               => "Se han eliminado automáticamente registros antiguos de :rel.",
     "sent_email_to_user_group"          => "Correo en cola para el grupo de usuarios ':new_value' para el ticket #:rel.",
 
