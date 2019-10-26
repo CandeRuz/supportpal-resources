@@ -477,7 +477,7 @@ return array(
      * 2.3.1
      */
     "inactive_ticket_note"      => "Nota: solo afecta a los tickets que tienen un estado en el que la opción 'Cerrar tickets inactivos' está habilitada.",
-    "close_inactive_status_desc" => "Alterna para habilitar/deshabilitar el cierre automático de los tickets inactivos y recordatorios de inactividad de correos (plantillas de ('Waiting For Response' and 'Ticket Auto Closed' templates). Al habilitarlo, el tiempo que transcurre antes de que se manden los recordatorios se puede configurar a través de los ajustes de tickets generales.",
+    "close_inactive_status_desc" => "Alterna para habilitar/deshabilitar el cierre automático de los tickets inactivos y recordatorios de inactividad de correos (plantillas de 'Esperando una respuesta' y 'Ticket cerrado automáticamente'). Al habilitarlo, el tiempo que transcurre antes de que se manden los recordatorios se puede configurar a través de los ajustes de tickets generales.",
     "from_header_missing"       => "La cabecera De: no se encuentra en el correo.",
     "move_ticket"               => "Mover Ticket",
     "move_ticket_step1"         => "Paso 1: Elige una marca nueva a donde mover el ticket",
