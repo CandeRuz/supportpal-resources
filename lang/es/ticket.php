@@ -101,7 +101,7 @@ return array(
     "password"                  => "Contraseña",
     "encryption"                => "Cifrado",
     "delete_downloaded"         => "Eliminar correos descargados",
-    "consume_all"               => "Consumir todo el correo",
+    "consume_all"               => "Consumir todo",
     "email_download"            => "Descarga de correos",
     "email_piping"              => "Canalización de correos",
     "email_piping_desc"         => "Configura un reenviador de correos como el siguiente. La ruta de acceso ejecutable PHP puede ser diferente en tu servidor.",
