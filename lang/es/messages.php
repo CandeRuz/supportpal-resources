@@ -2,7 +2,7 @@
 
 return array(
 
-    "deleted"               => "¡Eliminado!",
+    "deleted"               => "¡Eliminado/a!",
     "success"               => "Éxito",
     "error"                 => "Error",
     "in_progress"           => "En progreso",
@@ -14,17 +14,17 @@ return array(
     "are_you_sure"          => "¿Estás seguro/a?",
     "yes_im_sure"           => "Sí, estoy seguro/a",
 
-    "success_created"       => "¡Éxito al crear nuevo :item!",
-    "error_created"         => "Error al intentar crear nuevo :item.",
+    "success_created"       => "¡Éxito al crear nuevo/a :item!",
+    "error_created"         => "Error al intentar crear nuevo/a :item.",
 
-    "success_deleted"       => "¡Éxito al eliminar el :item!",
-    "error_deleted"         => "Error al intentar eliminar el :item.",
+    "success_deleted"       => "¡Éxito al eliminar el/la :item!",
+    "error_deleted"         => "Error al intentar eliminar el/la :item.",
 
-    "success_updated"       => "¡Éxito al actualizar el :item!",
-    "error_updated"         => "Error al intentar actualizar el :item.",
+    "success_updated"       => "¡Éxito al actualizar el/la :item!",
+    "error_updated"         => "Error al intentar actualizar el/la :item.",
 
-    "error_notfound"        => "El :item con ese ID no se ha podido encontrar.",
-    "error_notfound_name"   => "El :item con ese nombre no se ha podido encontrar.",
+    "error_notfound"        => "El/la :item con ese ID no se ha podido encontrar.",
+    "error_notfound_name"   => "El/la :item con ese nombre no se ha podido encontrar.",
     "report_notfound"       => "El informe con esa categoría y nombre no se ha podido encontrar.",
 
     "success_ordering"      => "¡Orden actualizado con éxito!",
@@ -41,8 +41,8 @@ return array(
     "success_action"        => "¡Acción llevada a cabo con éxito!",
     "error_action"          => "Error al llevar a cabo la acción.",
 
-    "success_sending"       => "Éxito al enviar el :item!",
-    "error_sending"         => "Error al intentar enviar el :item.",
+    "success_sending"       => "Éxito al enviar el/la :item!",
+    "error_sending"         => "Error al intentar enviar el/la :item.",
 
     "error_embed_image"     => "Error al intentar subir la imagen.",
 
@@ -119,10 +119,10 @@ return array(
      */
     "delete_record"         => "¿Eliminar :record?",
     "cannot_be_undone"      => "Esta acción no se puede deshacer.",
-    "warn_delete"           => "Esto eliminará permanentemente el <strong>:name</strong> :record del sistema.",
+    "warn_delete"           => "Esto eliminará permanentemente el/la <strong>:name</strong> :record del sistema.",
     "delete_confirm"        => "Sí, eliminar :record",
     "keep_record"           => "No, mantener :record",
-    "delete_relations"      => "Al eliminar el <strong>:name</strong> :record también se eliminará permanentemente toda esta información relacionada:",
+    "delete_relations"      => "Al eliminar el/la <strong>:name</strong> :record también se eliminará permanentemente toda esta información relacionada:",
     "please_check"          => "Debes marcar todas las casillas arriba para confirmar que comprendes el resultado de esta acción irreversible.",
     "failed_attachments"    => "Error al adjuntar algunos archivos.",
 
