@@ -87,7 +87,7 @@ return array(
     "permission_denied"         => "Permiso denegado",
     "writable"                  => "Editable",
     "help_php_version"          => "Para asistencia al instalar una versión nueva de PHP, por favor, contacta con tu proveedor de host o el administrador de servidor.",
-    "help_php_extensions"       => "Las extensiones PHP pueden ser diferentes dependiendo de tu servidor, tu host y otras variables del sistema. Para asistencia al instalar missing extensions, por favor, contacta con tu proveedor de host o el administrador de servidor.",
+    "help_php_extensions"       => "Las extensiones PHP pueden ser diferentes dependiendo de tu servidor, tu host y otras variables del sistema. Para asistencia al instalar las extensiones que faltan, por favor, contacta con tu proveedor de host o el administrador de servidor.",
     "help_php_settings"         => "Para asistencia adicional, por favor, lee <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Ayuda para los ajustes de PHP</a>.",
     "disabled_functions"        => "Funciones deshabilitadas",
     "help_mysql_version"        => "Para asistencia al instalar una versión nueva de MySQL, por favor, contacta con tu proveedor de host o el administrador de servidor.",
@@ -119,8 +119,8 @@ return array(
      */
     "mysql_server_version"      => "Versión del servidor >= :min",
     "mysql_server_version_desc" => "MySQL :min o superior se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
-    "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL versión del cliente :min o superior (:mysqlnd_min for MySQLnd) se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
+    "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min para MySQLnd)",
+    "mysql_client_version_desc" => "MySQL versión del cliente :min o superior (:mysqlnd_min para MySQLnd) se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
 
     "upgrade_step"              => "Paso :num de :total: ",
     "accept_eula"               => "Aceptar CLUF",
