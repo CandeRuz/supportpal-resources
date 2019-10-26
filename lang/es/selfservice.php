@@ -3,9 +3,9 @@
 return array(
 
     "popular_items"             => "Elementos populares",
-    "type_popular_items"        => ":type: Popular",
-    "latest_items"              => "Últimos elementos",
-    "type_latest_items"         => ":type: Latest",
+    "type_popular_items"        => ":type: Populares",
+    "latest_items"              => "Elementos más recientes",
+    "type_latest_items"         => ":type: Más recientes",
 
     "selfservice"               => "Auto-servicio",
     "article"                   => "Artículo|Artículos",
