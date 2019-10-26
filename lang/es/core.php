@@ -99,7 +99,7 @@ return array(
     "tls"                       => "TLS",
     "validate_smtp"             => "Validar SMTP",
     "email_content"             => "Contenido del correo",
-    "email_content_desc"        => "Insertar un asunto por defecto y contenido del correo para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará la información por defecto.",
+    "email_content_desc"        => "Insertar un asunto y contenido del correo por defecto para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará la información por defecto.",
     "outgoing"                  => "Enviados",
     "incoming"                  => "Recibidos",
     "incoming_spam"             => "Recibidos (Rechazados - Spam)",
@@ -205,13 +205,13 @@ return array(
     "permanent"                 => "Permanente",
 
     // Languages
-    "no_enabled_languages"      => "Error al intentar actualizar el/la :item. Siempre debe haber una lengua habilitada como mínimo.",
+    "no_enabled_languages"      => "Error al intentar actualizar el :item. Siempre debe haber una lengua habilitada como mínimo.",
 
     // General Settings
     "locale"                    => "Localización",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Carpeta del administrador",
-    "admin_folder_desc"         => "Establece el nombre de la carpeta para el panel del operador. Por motivos de seguridad, se recomienda cambiarle el nombre por defecto \"admin\".",
+    "admin_folder_desc"         => "Establece el nombre de la carpeta para el panel del operador. Por motivos de seguridad, se recomienda cambiarle el nombre \"admin\" por defecto.",
     "enable_ssl"                => "Habilitar SSL",
     "frontend_template"         => "Plantilla de Front-end",
     "operator_template"         => "Plantilla del operador",
@@ -315,7 +315,7 @@ return array(
      * 2.1.2
      */
     "reply_to"                  => "Responder a",
-    "and_number_others"         => "and :number other|and :number others",
+    "and_number_others"         => "y :number otra|y otras :number",
     "user_templates"            => "Plantillas del usuario",
     "operator_templates"        => "Plantillas del operador",
 
