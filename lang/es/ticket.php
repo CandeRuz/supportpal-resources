@@ -9,7 +9,7 @@ return array(
     "no_departments"            => "No se han encontrado departamentos.",
     "department_user_details"   => "Detalles del departamento y el usuario",
     "enter_your_details"        => "Introduce tus datos",
-    "enter_ticket_details"      => "introducir datos",
+    "enter_ticket_details"      => "Introducir datos",
     "enter_subject_message"     => "Introducir asunto y mensaje",
     "invalid_user"              => "Por favor, asegúrate que los datos del usuario que has introducido sean válidos para continuar.",
 
@@ -58,7 +58,7 @@ return array(
     "department"                => "Departamento|Departamentos",
     "change_department_order"   => "Arrastra las filas para cambiar el orden en el que los departamentos se muestran a los usuarios cuando se abre un nuevo ticket.",
     "department_applicable"     => "Departamentos aplicables",
-    "department_applicable_desc" => "Los departamentos en los que los usuarios podrán seleccionar la prioridad. Solo se aplica en el frontend. Todas las prioridades estarán disponbiles para los operadores para todos los departamentos.",
+    "department_applicable_desc" => "Los departamentos en los que los usuarios podrán seleccionar la prioridad. Solo se aplica en el frontend. Todas las prioridades estarán disponbiles para los operadores de todos los departamentos.",
 
     "due_to_be_sent"            => "Pendiente de ser enviado",
     "send_now"                  => "Enviar ahora",
@@ -79,7 +79,7 @@ return array(
     "ticket_format"             => "Formato del número del ticket",
 
     // Departments
-    "department_public_desc"    => "Si el departamento es visible para los usuarios en la web help desk.",
+    "department_public_desc"    => "Si el departamento es visible para los usuarios en la web Help Desk.",
     "department_parent_desc"    => "Si el departamento es un subdepartamento, por favor, selecciona uno principal. Los subdepartamentos están pensados para escalación y administración internas, por lo que al establecer esto se eliminarán algunas de las opciones más abajo.",
     "department_priority"       => "Prioridades del departamento",
     "department_priority_desc"  => "Las prioridades que estarán disponibles para los usuarios cuando abran un ticket en este departamento. Se debe seleccionar al menos una. Por defecto, todas las prioridades estarán disponibles en el departamento.",
@@ -89,7 +89,7 @@ return array(
     "dept_default_assign_desc"  => "Usa esto si quieres que los tickets que están abiertos en este departamento se asignen automáticamente a uno o más operadores.",
 
     // Department emails
-    "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciban estas direcciones abrirán tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
+    "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciba estas direcciones abrirá tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
     "department_password"       => "Solo introduce una contraseña para reemplazar contraseñas guardadas existentes o para validar datos de las cuentas de correo.",
     "department_port"           => "Los valores por defecto son: 110 para el POP3, 995 para el POP3 seguro, 143 para el IMAP, y 993 para el IMAP seguro. Déjalo en blanco para utilizar el valor por defecto.",
     "department_encryption"     => "Algunos proveedores de correo electrónico requieren cifrado SSL o TLS para conectarse. Si no estás seguro, deja este ajuste como Ninguno/a.",
@@ -110,7 +110,7 @@ return array(
     // Department email options
     "email_options"             => "Opciones de correos",
     "email_user_on_email"       => "Mandar correo a los usuarios de tickets abiertos por correo",
-    "email_user_on_email_desc"  => "Selecciona si se debería notificar por correo a cuando envíen un correo que resulte en la apertura de un nuevo ticket.",
+    "email_user_on_email_desc"  => "Selecciona si se debería notificar por correo a los usuarios cuando envíen un correo que resulte en la apertura de un nuevo ticket.",
     "email_operators"           => "Notificar operadores",
     "email_operators_desc"      => "Selecciona si quieres reenviar las respuestas del operador a otros operadores. Por defecto, se marca la opción \"enviar correo a los operadores\" en el panel del operador, y se enviará automáticamente un correo de respuestas de los operadores.",
     // Department email templates
@@ -144,7 +144,7 @@ return array(
     "good_satisfied"            => "Buena, estoy satisfecho/a",
     "bad_not_satisfied"         => "Mala, no estoy satisfecho/a",
     "feedback_not_found"        => "Tu valoración no ha podido ser aceptada. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
-    "feedback_malformed_token"  => "Tu valoración no ha podido ser aceptada por un problema de con el formato del token. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
+    "feedback_malformed_token"  => "Tu valoración no ha podido ser aceptada por un problema con el formato del token. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
     "feedback_already_done"     => "Ya has ofrecido una valoración para este ticket. Gracias.",
     "feedback_expired"          => "El ticket lleva un tiempo resuelto y, por desgracia, ya no se puede valorar.",
     "feedback_questions"        => "Si tienes unos minutos, por favor, ¿te importaría contestar a las siguientes preguntas para ayudarnos a mejorar la asistencia que ofrecemos?.",
@@ -208,8 +208,8 @@ return array(
     "sla_plan"                  => "Plan SLA|Planes SLA",
     "specific_schedule"         => "Horarios específicos",
     "calendar_hours_24"         => "Horas del calendario (24 Horas)",
-    "resolution_time"           => "Horaas de resolución",
-    "resolution_time_desc"      => "Establece unas horas límite para las que un ticket debe sido respondido y resuelto por prioridad. El tiempo solo se contará durante las horas comerciales basadas en los schedule(S) elegidos. Se pueden utilizar valores decimales.",
+    "resolution_time"           => "Horas de resolución",
+    "resolution_time_desc"      => "Establece unas horas límite para las que un ticket debe sido respondido y resuelto por prioridad. El tiempo solo se contará durante las horas comerciales basadas en los horarios elegidos. Se pueden utilizar valores decimales.",
     "reply_within"              => "Responder en",
     "resolve_within"            => "Resolver en",
     "plan"                      => "Plan",
@@ -274,7 +274,7 @@ return array(
     "default_department_desc"   => "El departamento por defecto establecido en todos los tickets entrantes a través de este canal.",
 
     "show_related_articles"     => "Mostrar artículos relacionados",
-    "show_related_articles_desc" => "Cuando el usuario está escribiendo el asunto, puede que se muestren artículos relacionados basados en lo que se ha introducido. Es necesario que la sección de auto-servicio esté habilitada y MySQL 5.6+.",
+    "show_related_articles_desc" => "Cuando el usuario está escribiendo el asunto, puede que se muestren artículos relacionados basados en lo que se ha introducido. Es necesario que la sección de auto-servicio y MySQL 5.6+ estén habilitados.",
 
     // Email Channel Settings
     "default_priority"          => "Prioridad por defecto",
@@ -330,7 +330,7 @@ return array(
     /*
      * 2.0.1
      */
-    "allowed_files_desc"        => "Una lista de extensiones de arcivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
+    "allowed_files_desc"        => "Una lista de extensiones de archivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
 
     /*
      * 2.0.2
@@ -370,7 +370,7 @@ return array(
     "default_reply_status"      => "Estado de la respuesta por defecto",
     "default_reply_status_desc" => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario responde a un ticket. Solo se aplica si un operador ya ha respondido al ticket.",
     "drafting_reply"            => "<strong>:name</strong> comenzó a hacer un borrador de :type :time:",
-    "ticket_reply_order_default" => "el sisetma por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
+    "ticket_reply_order_default" => "el sistema por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
     "select_a_parent"           => "Selecciona un departamento principal...",
     "select_a_department"       => "Selecciona un departamento...",
     "department_operator_desc"  => "También puedes asignar operadores individuales al departamento. Estos operadores se añadirán además de los grupos asignados arriba.",
@@ -426,11 +426,11 @@ return array(
     "department_changed"        => "Departamento cambiado",
     "operator_ticket_reply"     => "Respuesta de operador del ticket",
     "new_ticket_note"           => "Nueva nota del ticket",
-    "email_template_desc"       => "Puedes seleccionar una plantilla de correo diferente a la de por defecto para enviar a usuarios o operadores para cualquiera de las acciones más abajo. Esta plantilla se convertirá en la de por defecto solo para este departamento.",
+    "email_template_desc"       => "Puedes seleccionar una plantilla de correo diferente a la de por defecto para enviar a usuarios u operadores para cualquiera de las acciones más abajo. Esta plantilla se convertirá en la de por defecto solo para este departamento.",
     "create_new_user"           => "Crear nuevo usuario",
     "convert_user_ticket_desc"  => "El ticket se convertirá de ticket interno a ticket de usuario.",
     "user_reply_internal_ticket" => "No es un operador. Solo los operadores pueden responder a ticket internos.",
-    "enter_email_address"       => "Introducir dirección de correo...",
+    "enter_email_address"       => "Introducir dirección de correo electrónico...",
     "email_user_frontend"       => "Enviar correo a los usuarios en los tickets abiertos del frontend.",
     "email_user_frontend_desc"  => "Selecciona si se debería notificar a los usuarios por correo cuando ellos mismos abren un ticket en el frontend.",
     "department_template_disabled" => "La plantilla de correo del departamento relevante está desactivada, por lo que no se puede enviar este correo.",
@@ -452,7 +452,7 @@ return array(
     /*
      * 2.3.0
      */
-    "registered_users_desc"     => "Alterna para solo mostrar el departamento a usuarios con la sesión iniciada y solo aceptar correos de usuarios activamente registrados en el help desk. Si está habilitado, se enviará un correo a los usuarios sin registrar que manden correos a este departamento. Para cambiar o deshabilitar el correo, por favor, vea la opción de plantilla de 'Solo usuarios registrados' más abajo.",
+    "registered_users_desc"     => "Alterna para solo mostrar el departamento a usuarios con la sesión iniciada y solo aceptar correos de usuarios activamente registrados en el Help Desk. Si está habilitado, se enviará un correo a los usuarios sin registrar que manden correos a este departamento. Para cambiar o deshabilitar el correo, por favor, vea la opción de plantilla de 'Solo usuarios registrados' más abajo.",
     "form_fields_desc"          => "Si te gustaría recopilar información adicional cuando el usuario proporcione su valoración, puedes establecer campos personalizados para que se muestren en el formulario. El campo no se podrá cambiar una vez que el formulario haya sido completado por un usuario.",
     "feedback_ratings"          => "Valoración de la Satisfacción del Cliente (que afecta a tu puntuación de Satisfacción del Cliente)",
     "email_and_other_accounts"  => "Correo y cuentas de otros canales",
@@ -477,12 +477,12 @@ return array(
      * 2.3.1
      */
     "inactive_ticket_note"      => "Nota: solo afecta a los tickets que tienen un estado en el que la opción 'Cerrar tickets inactivos' está habilitada.",
-    "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
-    "from_header_missing"       => "From: header missing from email.",
+    "close_inactive_status_desc" => "Alterna para habilitar/deshabilitar el cierre automático de los tickets inactivos y recordatorios de inactividad de correos (plantillas de ('Waiting For Response' and 'Ticket Auto Closed' templates). Al habilitarlo, el tiempo que transcurre antes de que se manden los recordatorios se puede configurar a través de los ajustes de tickets generales.",
+    "from_header_missing"       => "La cabecera De: no se encuentra en el correo.",
     "move_ticket"               => "Mover Ticket",
     "move_ticket_step1"         => "Paso 1: Elige una marca nueva a donde mover el ticket",
     "move_ticket_step2"         => "Paso 2: Elige un departamento de una nueva marca",
-    "current_record"            => "Actual :record",
+    "current_record"            => ":record Actual",
     "new_record"                => "Nuevo :record",
     "department_email"          => "Correo de departamento",
     "select_a_department_email" => "Selecciona un correo de departamento...",
@@ -502,12 +502,12 @@ return array(
     "macro_run_times"           => "veces", // As in '5 times'
     "macro_run_at_most_desc"    => "Limita cuántas veces un macro automático se puede ejecutar en un solo ticket. Déjalo en blanco para que se ejecute sin ningún límite de veces.",
     "macro_events_desc"         => "Selecciona uno o más eventos en los que el macro se debería ejecutar. Las condiciones que se establezcan abajo se comprobarán antes de que se ejecute el macro.",
-    "macro_schedules_desc"      => "Por defecto, el macro se ejecutará 24/7, pero tú puedes seleccionar uno o más horarios del help desk para que el macro solo esté activo durante esas horas.",
+    "macro_schedules_desc"      => "Por defecto, el macro se ejecutará 24/7, pero tú puedes seleccionar uno o más horarios del Help Desk para que el macro solo esté activo durante esas horas.",
     "macro_condition_desc"      => "Define las condiciones para qué tickets estará disponible este macro. Por defecto, sin condiciones, se aplicará a todos los tickets. Al menos debes definir una condición para los macros automáticos.",
     "add_remove_headers"        => "Añadir/Eliminar cabeceras",
     "webhook_merge_fields"      => "Los campos de combinación se pueden utilizar en la URL y en el campo de contenido, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">saber más</a>.",
     "webhook_ticket_required"   => "Debe existir un ticket para que funcione esta característica.",
-    "not_permitted"             => "Lo sentimos, pero no tienes permiso para ver el/los ticket(s) solicitados. Si crees que esto es un error, por favor, ponte en contacto con tu administrador.",
+    "not_permitted"             => "Lo sentimos, pero no tienes permiso para ver el/los ticket(s) solicitado(s). Si crees que esto es un error, por favor, ponte en contacto con tu administrador.",
     "watch"                     => "Seguir",
     "unwatch"                   => "Dejar de seguir",
     "watching"                  => "Siguiendo",
