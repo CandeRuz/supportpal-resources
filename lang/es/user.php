@@ -225,7 +225,7 @@ return array(
     "select_groups"                 => "Seleccionar grupo(s)...",
     "group_department_desc"         => "Asignar todos los miembros de este grupo a departamentos. Los operadores también pueden ser asignados individualmente en los ajustes del departamento.",
     "op_settings_group_dept"        => "Asignados a través de grupos de operadores:",
-    "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. To assign via an operator group, edit the operator group or department settings.",
+    "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. Para asignarlo a través de un grupo de operadores, edita los ajustes del grupo de operadoreso de departamento.",
     "op_settings_individual_dept"   => "Asignados individualmente:",
     "op_settings_individual_dept_desc" => "Estos departamentos son una adición a cualquiera de los departamentos a los que el operador este asignado a través de sus grupos arriba.",
     "also_registered_other_brand"   => "Este usuario también está registrado en la marca :brands.|Este usuario también está registrado en las marcas :brands.",
@@ -278,17 +278,17 @@ return array(
      */
     "social_login"                  => "Inicio de sesión de redes sociales",
     "social_login_provider_desc"    => "Permitir a los usuarios registrarse e iniciar sesión usando su cuenta de :provider.",
-    "social_login_provider_docs"    => "Por favor, comprueba nuestra documentación para configurar un <a href=':link'>inicio de sesión :provider</a>.",
+    "social_login_provider_docs"    => "Por favor, comprueba nuestra documentación para configurar un <a href=':link'>inicio de sesión de :provider</a>.",
     "facebook_app_id"               => "ID de aplicación",
     "facebook_app_secret"           => "Secreto de aplicación",
-    "facebook_redirect_url"         => "La siguiente URL <strong>debe</strong> introducirse para el inicio de sesión en Facebook (ser introducida para el inicio de sesión de Facebook 'Valid OAuth redirect URIs':",
+    "facebook_redirect_url"         => "La siguiente URL <strong>debe</strong> introducirse para el inicio de sesión en Facebook 'URI de redireccionamiento de OAuth válidos':",
     "google_client_id"              => "ID del cliente",
     "google_client_secret"          => "Secreto del cliente",
-    "google_redirect_url"           => "La siguiente URL <strong>debe</strong> introducirse para (be entered for the Google 'Authorized redirect URIs':",
+    "google_redirect_url"           => "La siguiente URL <strong>debe</strong> introducirse para Google 'URIs de redirección autorizados':",
     "steam_api_key"                 => "Clave de API",
     "twitter_consumer_key"          => "Clave de consumidor",
     "twitter_consumer_secret"       => "Secreto de consumidor",
-    "twitter_redirect_url"          => "La siguiente URL <strong>debe</strong> introducirse para la aplicación de Twitter (be entered for the Twitter Application 'Callback URL':",
+    "twitter_redirect_url"          => "La siguiente URL <strong>debe</strong> introducirse para la aplicación de Twitter 'Callback URL':",
     "login_via"                     => "Iniciar sesión a través de :provider",
     "register_with"                 => "Registrarse con :provider",
     "idp"                           => "IdP",
@@ -308,7 +308,7 @@ return array(
     /*
      * 2.4.0
      */
-    "must_have_permission"          => "must have \":permission\" permission",
+    "must_have_permission"          => "debe tener permisos de \":permission\"",
     "deleted_user"                  => "Usuario eliminado",
     "access_level_not_owner"        => "No es posible cambiar el nivel de acceso de los propietarios de la organización. Transfiere la propiedad de la organización a otro usuario primero viendo la organización y después haciendo click en la pestaña 'Usuarios'.",
 
