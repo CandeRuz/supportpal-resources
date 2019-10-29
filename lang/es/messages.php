@@ -66,7 +66,7 @@ return array(
 
     "assign_incomplete"     => "La acción no se ha podido completar del todo. :names no se han podido asignar a algunos tickets.",
 
-    "maintenance_mode"      => "El modo de mantenimiento está activo. Los usuarios no pueden acceder al help desk. Por favor, recuerda desactivar el modo de mantenimiento cuando finalice.",
+    "maintenance_mode"      => "El modo de mantenimiento está activo. Los usuarios no pueden acceder al Help Desk. Por favor, recuerda desactivar el modo de mantenimiento cuando finalice.",
 
     "invalid_captcha"       => "El código captcha es inválido o incorrecto. Por favor, inténtalo de nuevo.",
     "blocked_as_spam"       => "Tu petición se ha identificado como spam. Por favor, ponte en contacto con un administrador si consideras que ha sido un error.",
