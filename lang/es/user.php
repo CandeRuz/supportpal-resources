@@ -127,7 +127,7 @@ return array(
     "password_strength"             => "Seguridad de la contraseña",
     "password_strength_desc"        => "Selecciona qué caracteres se requieren cuando registras una contraseña de usuario.",
     "password_str_must_contain"     => "Debe contener:",
-    "password_str_letters"          => "Al menos un caracter alfabético.",
+    "password_str_letters"          => "Al menos un carácter alfabético.",
     "password_str_digits"           => "Al menos un dígito.",
     "password_str_case"             => "Caracteres en mayúsculas y minúsculas.",
     "password_str_symbols"          => "Al menos un símbolo.",
