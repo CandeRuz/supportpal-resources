@@ -70,12 +70,12 @@ return array(
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
+    "move_to_trash"             => "Mover ticket a la papelera",
+    "block_user"                => "Bloquear usuario",
 
     /*
      * 2.6.0
      */
-    "clear_due_time"            => "Clear due time",
+    "clear_due_time"            => "Borrar hora de entrega",
 
 );
