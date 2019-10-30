@@ -149,6 +149,6 @@ return array(
     /*
      * 2.5.0
      */
-    "revision_history"          => "Revision History",
+    "revision_history"          => "Historial de revisiones",
 
 );
