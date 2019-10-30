@@ -45,7 +45,7 @@ return array(
      */
     "option_warning"            => "Al eliminar opciones existentes se borrarán los campos guardados que actualmente tienen esos valores seleccionados.",
     "regex_basic_desc"          => "Opcionalmente, especifica una expresión regular para validar el valor del campo personalizado.",
-    "regex_desc"                => "Las expresiones regulares (regex) hacen distinción entre mayúsculas y minúsculas, no es necesario especificar delimitadores regex, y el uso de barras (/) hará que automáticamente adopte carácter de escape. Por ejemplo: ^[a-z0-9_-]{6,18}$ implicaría que el valor fuera de 6 a 18 caracteres y contuviera solo una mezcla de caracteres alfanuméricos, guiones bajos y rayas.",
+    "regex_desc"                => "Las expresiones regulares (regex) hacen distinción entre mayúsculas y minúsculas, no es necesario especificar los delimitadores de la expresión regular, y las barras (/) se escapan de manera automática. Por ejemplo: ^[a-z0-9_-]{6,18}$ implicaría que el valor tuviera una longitud de 6 a 18 caracteres y contuviera solo una mezcla de caracteres alfanuméricos, guiones bajos y rayas.",
     "regex_error_message"       => "Mensaje de error de validación",
     "regex_error_message_desc"  => "Opcionalmente, especifica un mensaje de error personalizado que se mostrará si el valor no corresponde con la validación de expresiones regulares. Si no, se mostrará un mensaje genérico. El mensaje se mostrará exactamente como se introduzca, por lo que recomendamos incluir el nombre del campo personalizado para hacer el mensaje de error más obvio.",
     "custom_field_values"       => "Valores del campo personalizado",
