@@ -109,7 +109,7 @@ return array(
     /*
      * 2.3.1
      */
-    "is_slug"                   => "El campo de slug solo puede contener caracteres alfanuméricos. can only contain alphanumeric characters, please percent encode any special characters.",
+    "is_slug"                   => "El campo de slug solo puede contener caracteres alfanuméricos, por lo que por favor, codifique los caracteres especiales con %.",
     "article_type_slug_unique"  => "El slug ya se está usando.",
     "article_tag_slug_unique"   => "El slug ya se está usando.",
     "article_category_slug_unique" => "El slug ya se está usando.",
