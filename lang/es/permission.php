@@ -104,7 +104,7 @@ return array(
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
+    "ticket_delete"     => "Eliminar tickets permanentemente",
+    "ticket_trash"      => "Mover tickets a la papelera",
 
 );
