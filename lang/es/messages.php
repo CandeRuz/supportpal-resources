@@ -144,11 +144,11 @@ return array(
     /*
      * 2.5.0
      */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "account_closed"        => "Tu cuenta ha sido cerrada. Por favor, ponte en contacto con nosotros si piensas que ha habido un error.",
+    "leave_record"          => "¿Dejar :record?",
+    "leave_record_warn"     => "Esto te eliminará permanentemente de :record.",
     "success_trashed"       => "Successfully moved the :item to trash!",
     "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+    "blocked_by_rule"       => "La petición se ha bloqueado por la regla de spam ':text'.",
 
 );
