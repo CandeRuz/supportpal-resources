@@ -84,6 +84,6 @@ return array(
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "User email confirmed",
+    "user_email_confirmed"              => "Correo del usuario confirmado",
 
 );
