@@ -157,7 +157,7 @@ return array(
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Uno o más de los nombres de los dominios no son válidos.",
 
     /*
      * 2.5.1
