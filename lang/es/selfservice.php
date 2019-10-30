@@ -146,4 +146,9 @@ return array(
     "article_rating"            => "Valoración de artículos|Valoraciones de artículos",
     "comment_rating"            => "Valoración de comentarios|Valoraciones de comentarios",
 
+    /*
+     * 2.5.0
+     */
+    "revision_history"          => "Revision History",
+
 );

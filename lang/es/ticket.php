@@ -301,7 +301,6 @@ return array(
     "merged"                    => "Combinados",
     "unmerge"                   => "Descombinar",
     "close_and_lock"            => "Cerrar & Bloquear",
-    "delete_and_block"          => "Eliminar & Bloquear",
 
     "block_warning"             => "El correo del usuario también se bloqueará y no podrá abrir tickets.",
 
@@ -337,7 +336,6 @@ return array(
      */
     "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
     "no_user_groups"            => "No se han encontrado grupos de usuarios. Haz click <a href=':route'>aquí</a> para crear uno.",
-    "opened_by"                 => "(Abierto por :name)",
     "remote_email_piping_desc"  => "Descárgate el <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>script de canalización de correos remotos</a> y sigue la <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentación</a> para configurarlo en tu servidor de correo.",
 
     /*
@@ -428,7 +426,6 @@ return array(
     "new_ticket_note"           => "Nueva nota del ticket",
     "email_template_desc"       => "Puedes seleccionar una plantilla de correo diferente a la de por defecto para enviar a usuarios u operadores para cualquiera de las acciones más abajo. Esta plantilla se convertirá en la de por defecto solo para este departamento.",
     "create_new_user"           => "Crear nuevo usuario",
-    "convert_user_ticket_desc"  => "El ticket se convertirá de ticket interno a ticket de usuario.",
     "user_reply_internal_ticket" => "No es un operador. Solo los operadores pueden responder a ticket internos.",
     "enter_email_address"       => "Introducir dirección de correo electrónico...",
     "email_user_frontend"       => "Enviar correo a los usuarios en los tickets abiertos del frontend.",
@@ -518,5 +515,29 @@ return array(
      */
     "downloading"               => "Descargando...",
     "downloading_desc"          => "Si la descarga no empieza automáticamente en unos segundos, por favor, <a href=':href'>haz click aquí</a> para acceder directamente a la URL de descarga.",
+
+    /*
+     * 2.5.0
+     */
+    "belonging_to"              => "(Belonging to :name)",
+    "block_user"                => "Block User",
+    "merge_tickets"             => "Merge Tickets",
+    "merge_tickets_confirm"     => "Please confirm you'd like to merge the following tickets:",
+
+    /*
+     * 2.5.1
+     */
+    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
+
+    /*
+     * 2.6.0
+     */
+    "follow_ups"                => "Follow Ups",
+    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
+    "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
+    "status_after_running"      => "Status After Running",
+    "older_messages"            => ":count older messages",
+    "holiday_single_day"        => "Single Day",
+    "holiday_date_range"        => "Date Range",
 
 );

@@ -110,7 +110,6 @@ return array(
     "reply"                     => "Responder",
     "filter_results"            => "Resultados de filtro",
     "anyone"                    => "Cualquiera",
-    "everyone"                  => "Cualquiera",
     "text"                      => "Texto",
     "attachment"                => "Archivo adjunto|Archivos adjuntos",
     "add_attachment"            => "Añadir archivo adjunto",
@@ -310,4 +309,18 @@ return array(
     "event"                     => "Evento|Eventos",
     "test"                      => "Test",
 
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Domain|Domains",
+    "move_to_trash"             => "Move to Trash",
+    "trash"                     => "Trash",
+    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
+    "restore"                   => "Restore",
+    "delete_forever"            => "Delete Forever",
+
+    /*
+     * 2.6.0
+     */
+    "remove_all"                => "Remove All",
 );

@@ -141,4 +141,14 @@ return array(
     "no_revert"             => "¡No! Revertir",
     "attachment_not_found"  => "No se ha podido encontrar el archivo adjunto.",
 
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
+    "leave_record"          => "Leave :record?",
+    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "success_trashed"       => "Successfully moved the :item to trash!",
+    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+
 );

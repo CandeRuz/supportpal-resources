@@ -130,4 +130,25 @@ return array(
 
     "upgrade_support"           => "Si tuvieras algún problema o necesidad al utilizar las nuevas características de SupportPal, por favor, lee nuestra documentación o abre un ticket con nosotros.",
 
+    /*
+     * 2.5.0
+     */
+    "press_to_begin"            => "Please press the button below to start.",
+    "locked"                    => "Install/Upgrade In-Progress",
+    "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
+
+    "possible_permission_issue" => "[WARNING] It seems you are running this command as root or a different user to the owner of the files. The command must be ran by the right user so the web server can also read and write to the system afterwards.",
+    "wish_to_continue"          => "It is advised to change the user unless you are sure what you are doing. Do you wish to continue?",
+    "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
+    "login_with_details"        => "You can login using the details specified earlier.",
+    "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
+    "read_upgrade_guide"        => "Our Upgrade Guide contains useful information regarding breaking changes and best practices for upgrading:\nhttps://docs.supportpal.com/current/Upgrade+Guide",
+    "confirm_backup_taken"      => "[WARNING] Ensure you have taken a backup of your SupportPal database and application files before proceeding any further.\nPlease confirm you have taken a backup, verified it's not corrupt and are ready to proceed.",
+    "error_and_revert_database" => "There was an error. Please revert the database to your backup before starting again.",
+
+    /*
+     * 2.6.0
+     */
+    "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+
 );

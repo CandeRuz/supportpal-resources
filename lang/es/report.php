@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "El número de respuestas del ticket de un operador determinado durante un período de tiempo.",
     "first_response_time"       => "Hora de la primera respuesta",
     "first_response_time_desc"  => "El tiempo que tardaron los operadores en responder a un ticket.",
-    "first_reply_time"          => "Hora de la primera respuesta",
     "ticket_count"              => "Recuento de tickets",
     "lt_1_hour"                 => "<1 Hora",
     "1-3_hour"                  => "1-3 Horas",
@@ -59,7 +58,6 @@ return array(
     "7_plus_day"                => "7+ días",
     "user_feedback"             => "Valoración del usuario",
     "user_feedback_desc"        => "La valoración que aportan los usuarios sobre los tickets durante un período de tiempo determinado.",
-    "total_users_desc"          => "Este informe muestra cuántos usuarios hay en el sistema, divididos en cuántos están confirmados y cuántos no lo están.",
     "user_by_country"           => "Usuarios por país",
     "user_by_country_desc"      => "Este informe muestra el número de usuarios por país. Solo incluye usuarios que han establecido un país.",
     "user_count"                => "Recuento de usuarios",
@@ -91,5 +89,10 @@ return array(
     "busiest_month_desc"        => "El número de mensajes recibidos de usuarios durante cada mes del año.",
     "busiest_department"        => "Departamento más concurrido",
     "busiest_department_desc"   => "El número medio de mensajes de operador por departamento, cuenta todas las respuestas del operador y las divide por el número de operadores asignados por departamento.",
+
+    /*
+     * 2.5.0
+     */
+    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
 
 );

@@ -58,11 +58,6 @@ return array(
     "ticket_opened"                     => "Abrió un nuevo ticket #:rel.",
     "ticket_opened_on_behalf"           => "Abrió un nuevo ticket #:rel en nombre de :new_value.",
     "ticket_opened_email"               => "Importó correo como nuevo ticket #:rel.",
-    "ticket_deleted"                    => "Eliminó ticket ':old_value' (#:rel).",
-
-    "ticket_followup_set"               => "Se ha establecido un seguimiento en el Ticket #:rel.",
-    "ticket_followup_updated"           => "El seguimiento en el Ticket #:rel se ha actualizado.",
-    "ticket_followup_deleted"           => "El seguimiento en el Ticket #:rel se ha eliminado.",
 
     "ticket_message_reply"              => "Publicó una nueva respuesta al ticket #:rel.",
     "ticket_message_note"               => "Publicó una nota nueva al ticket #:rel.",
@@ -203,5 +198,23 @@ return array(
     "ticket_unwatching"                 => "Ya no sigue el ticket #:rel.",
     "ticket_watch_operator"             => "Establece :new_value para seguir el ticket #:rel.",
     "ticket_unwatch_operator"           => "Desestablece :new_value de seguir el ticket #:rel.",
+
+    /*
+     * 2.5.0
+     */
+    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
+    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
+    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
+    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
+    "ticket_restored"                   => "Restored ticket #:rel from trash.",
+    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+
+    /*
+     * 2.6.0
+     */
+    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
+    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
+    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
 
 );

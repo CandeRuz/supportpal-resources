@@ -71,50 +71,41 @@ return array(
     ),
     "unique"                    => "El/la :attribute ya se está utilizando.",
     "url"                       => "El formato del campo de :attribute es inválido..",
-    "timezone"                  => "The :attribute debe ser una zona válida.",
     "template_exists"           => "El/la :attribute seleccionado/a es inválido/a.",
     "is_valid_captcha"          => "El código captcha introducido es inválido o incorrecto. Por favor, inténtalo de nuevo.",
     "user_password_length"      => "La contraseña debe ser igual o más larga que :user_password_length caracteres.",
     "operator_password_length"  => "La contraseña debe ser igual o más larga que :operator_password_length caracteres.",
-    "json"                      => "El campo de :attribute debe ser un JSON válido.",
     "user_password_strength"    => "El campo de :attribute debe contener: :user_password_strength.",
     "operator_password_strength" => "El campo de :attribute debe contener: :operator_password_strength.",
-    "twig_lint"                 => "El campo de :attribute debe ser sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
      */
-    "in_array"                  => "El campo de :attribute no existe en :other.",
     "logo"                      => "El logo debe apuntar a un archivo de imagen válida (una URL directa o una ruta de acceso al directorio base relativa al archivo).",
 
     /*
      * 2.1.1
      */
     "old_password"              => "El campo de :attribute es inválido.",
-    
+
     /*
      * 2.2.0
      */
     "required_with_translation" => "La traducción en :translation para el campo de :attribute es obligatoria cuando :values está presente.",
     "max_translation"           => "La traduccón en :translation para el campo de :attribute no debe tener más de :max caracteres.",
     "unique_translation"        => "La traducción en :translation para el campo de :attribute ya se está usando.",
-    
+
     /*
      * 2.3.0
      */
     "required_translation"      => "La traducción en :translation para el campo de :attribute es obligatoria.",
     "customfield_not_cyclic"    => "El campo no puede depender de uno de sus hijos.",
-    "distinct"                  => "El campo de :attribute tiene un valor duplicado.",
-    
+
     /*
      * 2.3.1
      */
     "is_slug"                   => "El campo de slug solo puede contener caracteres alfanuméricos, por lo que por favor, codifique los caracteres especiales con %.",
-    "article_type_slug_unique"  => "El slug ya se está usando.",
-    "article_tag_slug_unique"   => "El slug ya se está usando.",
-    "article_category_slug_unique" => "El slug ya se está usando.",
     "article_slug_unique"       => "El slug ya se está usando.",
-    "department_exists"         => "El departamento seleccionado es inválido.",
     "captcha_required"          => "Se requiere el captcha.",
     "ticket_number_format"      => "El formato del número del ticket es inválido.",
 
@@ -164,6 +155,16 @@ return array(
     "uploaded"                  => "Hubo un error al intentar subir :attribute.",
 
     /*
+     * 2.5.0
+     */
+    "domain"                    => "One or more of the domain names are not valid.",
+
+    /*
+     * 2.5.1
+     */
+    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------
@@ -187,19 +188,6 @@ return array(
         ),
         "brand.*" => array(
             "exists" => "La marca seleccionada es inválida.",
-        ),
-        "signature.*.*.contents" => array(
-            "twig_lint" => "Cada firma debe ser sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html"
-        ),
-        "template.*.*.subject" => array(
-            "required" => "El campo del asunto es obligatorio para cada correo.",
-            "min" => "Cada campo de asunto debe tener más de 1 caracter.",
-            "max" => "Cada campo de asunto debe tener menos de 255 caracteres.",
-        ),
-        "template.*.*.contents" => array(
-            "required" => "El campo de contenidos es necesario para cada correo.",
-            "min" => "Cada campo de contenidos debe tener más de 1 caracter.",
-            "twig_lint" => "Cada campo de contenidos debe ser una sintaxis twig válida. Por favor, comprueba http://twig.sensiolabs.org/doc/templates.html"
         ),
     ),
 

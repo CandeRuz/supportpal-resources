@@ -26,8 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Eliminar ticket",
-    "delete_ticket_and_block"   => "Eliminar ticket y bloquear usuario",
     "increase_due_time"         => "Ampliar hora de entrega",
     "close_and_lock_ticket"     => "Cerrar y bloquear ticket",
     "pause_due_time"            => "Pausar hora de entrega",
@@ -68,5 +66,16 @@ return array(
     "watch_ticket"              => "Establecer operador para seguir el ticket",
     "unwatch_ticket"            => "Desestablecer operador para seguir el ticket",
     "all_watching_operators"    => "Todos los operadores que siguen el ticket",
+
+    /*
+     * 2.5.0
+     */
+    "move_to_trash"             => "Move ticket to trash",
+    "block_user"                => "Block user",
+
+    /*
+     * 2.6.0
+     */
+    "clear_due_time"            => "Clear due time",
 
 );

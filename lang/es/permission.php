@@ -49,7 +49,6 @@ return array(
     "ticket_view"       => "Ver Tickets",
     "ticket_add"        => "Abrir Tickets",
     "ticket_edit"       => "Actualizar Tickets",
-    "ticket_delete"     => "Eliminar Tickets",
     "ticketcustomfield" => "Administrar campos personalizados",
 
     // Self-service
@@ -76,7 +75,7 @@ return array(
      */
     // User
     "operator"          => "Administrar operadores",
-    
+
     /*
      * 2.1.0
      */
@@ -100,5 +99,12 @@ return array(
      */
     // User
     "sociallogin"       => "Administrar inicio de sesión de redes sociales",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Delete Tickets Permanently",
+    "ticket_trash"      => "Move Tickets to Trash",
 
 );

@@ -57,7 +57,6 @@ return array(
     // Spam Rules & Filtering
     "spam_rule"                 => "Regla de spam|Reglas de spam",
     "containing_text"           => "Que contenga el texto",
-    "containing_text_desc"      => "Por favor, introduzca una palabra o frase específica. En estas no se hará distinción entre mayúsculas y minúsculas. <br /> También pueden beneficiarse de <a href='http://www.regular-expressions.info/'>expresiones regulares</a>, un ejemplo sería: 's.{1,}p.{1,}a.{1,}m'. No hace falta tener en cuenta los delimitadores.",
     "filter_new_message"        => "Nuevo mensaje del ticket (del usuario)",
     "filter_new_comment"        => "Nuevo comentario de auto-servicio (del usuario)",
     "filter_user_login"         => "Acceso del usuario",
@@ -126,7 +125,6 @@ return array(
     "plugins"                   => "Plugin|Plugins",
     "installed_plugins"         => "Plugins instalados",
     "visit_plugin"              => "Visitar Plugin Site",
-    "uninstall_plugin_warning"  => "Al desinstalar el plugin se eliminarán todos los archivos y la información asociada, por lo que en su lugar recomendamos simplemente desactivarlo.",
 
     // Messages
     "last_activity"             => "Actividad reciente",
@@ -160,7 +158,7 @@ return array(
     "captcha"                   => "Captcha",
     "show_captcha"              => "Mostrar Captcha",
 
-    // Widgety
+    // Widgets
     "dashboard"                 => "Panel",
     "add_remove_widget"         => "Añadir / Eliminar Widgets",
     "enable_tour"               => "Habilitar el recorrido del producto",
@@ -233,7 +231,6 @@ return array(
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
     "debug"                     => "Depurar",
     "debug_mode"                => "Modo de depuración",
-    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores, con un único uso para corregir errores o instruído por asistencia. Si no, los errores se almacenan en los registros en /storage/logs.",
     "pretty_urls"               => "URLs amigables",
     "pretty_urls_desc"          => "La habilitación eliminará index.php de las URLs, habilítalo solo si puedes acceder al panel del operador sin index.php. Deshabilítalo si no tienes mod_rewrite instalado, si los archivos .htaccess no se permiten o no has convertido las reglas de reescritura de Apache .htaccess para funcionar con tu servidor de web alternativo.",
 
@@ -279,6 +276,7 @@ return array(
     "brand_timezone"            => "Zona horaria de la marca",
     "brand_timezone_desc"       => "La zona horaria utilizada por defecto en el front-end de esta marca. Los usuarios tendrán la opcion de seleccionar su propia zona horaria.",
     "brand_default_lang_desc"   => "La lengua utilizada por defecto en el front-end de esta marca.",
+    "brand_lang_toggle_desc"    => "If the language dropdown should show on this brand's frontend.",
     "brand_groups_desc"         => "Los operadores en los grupos seleccionados serán capaces de crear, actualizar y eliminar (dependiendo de los permisos que posean) tickets y otro contenido en esta marca.",
     "select_brand"              => "Selecciona una marca...",
     "add_another_language"      => "Añadir otra lengua...",
@@ -407,5 +405,19 @@ return array(
     "multi_ip_desc"             => "Permite asociar SupportPal a más de una IP interna/externa.",
     "purchase"                  => "Comprar",
     "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>sub-direcciones de correo electrónico</a>.",
+
+    /*
+     * 2.5.0
+     */
+    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
+    "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
+    "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
+    "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
+
+    /*
+     * 2.6.0
+     */
+    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insensitive.",
+    "spam_is_regex_desc"        => "Rules can take advantage of regular expressions; if you intend to do so please enable this setting. You do not need to include delimiters.",
 
 );

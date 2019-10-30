@@ -27,7 +27,6 @@ return array(
     "organisation_desc"             => "Cada organización puede tener <strong>managers</strong>, los cuales pueden administrar usuarios y leer y responder a tickets de otros, y <strong>usuarios</strong>, los cuales pueden abrir tickets pero no pueden leer o responder a tickets de otros.",
     "organisation_operator_desc"    => "Añade usuarios existentes a esta organización haciendo click en \"Añadir Usuario\" y buscando su nombre. Date cuenta de que al añadir un usuario se eliminará cualquier enlace que ellos tengan con otra organización.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Puede administrar otros usuarios así como ver y responder a los tickets de otros usuarios.<br /><strong>Usuario</strong> - Solo puede abrir tickets en nombre de la organización y responder a sus propios tickets.",
-    "send_confirmation_email"       => "Enviar correo de confirmación al usuario",
     "send_password_reset"           => "Enviar enlace para restablecer la contraseña",
 
     "profile"                       => "Perfil",
@@ -40,31 +39,18 @@ return array(
 
     "user_register_disabled"        => "Lo sentimos, el registro de usuarios públicos está actualmente desactivado.",
     "success_register"              => "¡Cuenta registrada con éxito!",
-    "success_register_desc"         => "Gracias por registrar tu cuenta. Ahora solo necesitas confirmar tu dirección de correo electrónico antes de iniciar sesión. En breves te enviaremos un correo que contiene un enlace de confirmación para finalizar el proceso.",
     "register_now"                  => "Registrar ahora",
     "register"                      => "Registrar",
     "register_account"              => "Registrar cuenta",
-    "register_confirm"              => "Confirmación del registro",
-    "register_confirm_desc"         => "Gracias por confirmar tu correo. Por favor, introduce una contraseña para tu cuenta más abajo para finalizar la configuración de tu cuenta.",
-    "confirmation_success"          => "¡La confirmación se ha completado con éxito!",
-    "confirmation_unsuccessful"     => "la confirmación no se ha podido completar con éxito.",
-    "thank_you_confirm"             => "TGracias por confirmar tu cuenta. Por favor, continua a <a href=':route'>iniciar sesión</a>.",
     "signed_up"                     => "Registrado",
     "last_active"                   => "Activo por última vez",
 
-    "reset_request"                 => "Petición de restablecer la contraseña recibida",
-    "reset_request_desc"            => "En breves te enviaremos un correo que contiene un enlace de confirmación que te permitirá restablecer la contraseña.",
     "forgot_password"               => "¿Olvidaste tu contraseña?",
-    "password_reset"                => "Resetear contraseña",
-    "password_reset_confirm"        => "Restablecer Confirmación",
     "reset_password"                => "Resetear contraseña",
     "password_reset_complete"       => "Restablecimiento completado",
     "set_password"                  => "Establece una contraseña",
     "only_enter_to_change"          => "Solo introduce para cambiar",
-    "success_pass_reset"            => "Tu contraseña ha sido reestablecida con éxito. Por favor, continua a <a href=':route'>iniciar sesión</a>.",
     "please_set_password"           => "Por favor, establece tu nueva contraseña más abajo.",
-    "emailed_pwd_reset_link"        => "Te hemos enviado un correo con un enlace de reestablecimiento.",
-    "operator_email_not_found"      => "No se ha podido encontrar la dirección de correo del operador.",
     "missing_email_or_reset"        => "Dirección de correo electrónica o reset token ausentes.",
 
     "firstname"                     => "Nombre",
@@ -166,12 +152,7 @@ return array(
     "select_group"                  => "Seleccionar un grupo...",
 
     "your_ip_has_been_banned"       => "Tu IP ha sido baneada.",
-    "password_reset_error"          => "No se ha podido encontrar la cuenta del usuario o el reset token. Por favor, verifica que los detalles sean correctos o intenta restablecerlo de nuevo.",
-    "password_reset_not_found"      => "Usuario no encontrado o la contraseña no se puede restablecer.",
-    "password_reset_expired"        => "El Token ha expirado, por favor, intenta restablecerlo de nuevo.",
-    "password_reset_invalid"        => "Token inválido, por favor, verifica que los detalles son correctos o intenta restablecerlo de nuevo.",
     "password_reset_success"        => "¡Contraseña restablecida con éxito!",
-    "password_reset_already"        => "Ya has confirmado tu cuenta, por lo que puedes iniciar sesión.",
 
     "simpleauth_token_expired"      => "El token de acceso ha expirado.",
     "simpleauth_token_invalid"      => "El token de acceso proporcionado es inválido.",
@@ -253,7 +234,6 @@ return array(
     "current_password"              => "Contraseña actual",
     "new_password"                  => "Nueva contraseña",
     "personal_confirm_password"     => "Por favor, confirma tu contraseña actual para establecer una nueva contraseña.",
-    "operator_confirm_password"     => "Por favor, confirma tu contraseña para hacer cambios en la cuenta de la operador.",
 
     /*
      * 2.1.2
@@ -299,11 +279,7 @@ return array(
     "unlink_account"                => "Desvincular cuenta :record",
     "unlink_account_warning"        => "Al desvincular la cuenta de redes sociales no podrás utilizarla para iniciar sesión directamente en la cuenta.",
     "failed_login"                  => "Inicio de sesión fallido|Inicios de sesión fallidos",
-    "confirmaton_token_expired"     => "El Token ha expirado. Por favor, intenta registrarte de nuevo.",
-    "confirmaton_token_invalid"     => "Token inválido, por favor, verifica que los detalles son correctos o intenta registrarte de nuevo.",
-    "unconfirmed_account"           => "Tu cuenta se encuentra actualmente sin confirmar. Por favor, comprueba tu correo para un enlace de confirmación para completar el registro de tu cuenta.",
     "resend_confirmation"           => "<strong><a href=':link'>Haz click aquí</a></strong> para que te enviemos un nuevo correo de confirmación.",
-    "resend_confirmation_sent"      => "En breves te enviaremos un correo de confirmación.",
 
     /*
      * 2.4.0
@@ -316,5 +292,34 @@ return array(
      * 2.4.1
      */
     "select_or_new_organisation"    => "Selecciona una organización existente o introduce una nueva...",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Enter each domain owned the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
+    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
+    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
+    "send_confirmation_email"       => "Send Confirmation Email",
+    "mark_as_confirmed"             => "Mark as Confirmed",
+    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
+    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
+    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
+    "reset_request_desc"            => "Please check your email to complete the password reset process.",
+    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
+    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
+    "use_gravatar"                  => "Use Gravatar",
+    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to it's registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "confirmation"                  => "Confirmation",
+    "confirmation_email_in_use"     => "The email address is already in use by another account.",
+    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
+    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
+    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
 
 );
