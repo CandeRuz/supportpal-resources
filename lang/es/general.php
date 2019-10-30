@@ -312,15 +312,15 @@ return array(
     /*
      * 2.5.0
      */
-    "domain"                    => "Domain|Domains",
-    "move_to_trash"             => "Move to Trash",
-    "trash"                     => "Trash",
-    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
-    "restore"                   => "Restore",
-    "delete_forever"            => "Delete Forever",
+    "domain"                    => "Dominio|Dominios",
+    "move_to_trash"             => "Mover a la papelera",
+    "trash"                     => "Papelera",
+    "trash_desc"                => "Los registros que hayan estado en la papelera más de :number días se eliminarán automáticamente.",
+    "restore"                   => "Restaurar",
+    "delete_forever"            => "Eliminar de forma permanente",
 
     /*
      * 2.6.0
      */
-    "remove_all"                => "Remove All",
+    "remove_all"                => "Eliminar todo",
 );
