@@ -1,7 +1,8 @@
 {% if overriddenViews|default is not empty and overriddenViews['message']|default is not empty %}
     {% include overriddenViews['message'] %}
 {% else %}
-    <div class="message message-{{ message.id }} {% if message.type == 1 %}note{% elseif message.type == 2 %}forward{% endif %} clear collapsed"
+    <div class="message message-{{ message.id }} {% if message.type == 1 %}note{% elseif message.type == 2 %}forward{% endif %}
+                {% if unread %}collapsible{% else %}collapsed{% endif %} clear"
          data-id="{{ message.id }}">
 
     	<div class="header">
@@ -84,7 +85,7 @@
                         ({{ Lang.get('general.edited') }})
                     </strong>
                 {% endif %}
-                &nbsp;&middot;&nbsp; {{ Lang.get('ticket.via_channel', {'channel': message.channel.name}) }}
+                &nbsp;&middot;&nbsp; {{ Lang.get('ticket.via_channel', {'channel': message.channel.formatted_name}) }}
                 {% set emaillog = message.emaillog.where('type', 1).first() %}
                 {% if emaillog is not null %}
                     <a class="show-email-details description">({{ Lang.get('general.show_details') }})</a>

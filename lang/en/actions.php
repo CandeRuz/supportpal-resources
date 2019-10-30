@@ -17,7 +17,7 @@ return array(
     "update_department"         => "Update department",
     "update_priority"           => "Update priority",
     "update_status"             => "Update status",
-    
+
     /*
      * 2.0.3
      */
@@ -26,8 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Delete ticket",
-    "delete_ticket_and_block"   => "Delete ticket and block user",
     "increase_due_time"         => "Increase due time",
     "close_and_lock_ticket"     => "Close and lock ticket",
     "pause_due_time"            => "Pause due time",
@@ -59,7 +57,7 @@ return array(
      * 2.3.1
      */
     "exclude_cc"                => "Exclude CC email addresses",
-    
+
     /*
      * 2.4.0
      */
@@ -68,5 +66,16 @@ return array(
     "watch_ticket"              => "Set operator to watch ticket",
     "unwatch_ticket"            => "Unset operator watching ticket",
     "all_watching_operators"    => "All watching operators",
+
+    /*
+     * 2.5.0
+     */
+    "move_to_trash"             => "Move ticket to trash",
+    "block_user"                => "Block user",
+
+    /*
+     * 2.6.0
+     */
+    "clear_due_time"            => "Clear due time",
 
 );

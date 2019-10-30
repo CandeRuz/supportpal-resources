@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "The number of ticket replies by a given operator over a timeframe.",
     "first_response_time"       => "First Response Time",
     "first_response_time_desc"  => "The amount of time it took operators to first reply to a ticket.",
-    "first_reply_time"          => "First Reply Time",
     "ticket_count"              => "Ticket Count",
     "lt_1_hour"                 => "<1 Hour",
     "1-3_hour"                  => "1-3 Hours",
@@ -51,7 +50,7 @@ return array(
     "ticket_by_status"          => "Tickets by Status",
     "ticket_by_status_desc"     => "The current status of tickets opened over a given time period.",
     "time_to_resolution"        => "Time to Resolution",
-    "time_to_resolution_desc"   => "The amount of time it took for a ticket be closed after being opened, only includes tickets that are currently closed.",
+    "time_to_resolution_desc"   => "The amount of time it took for a ticket to be closed after being opened, only includes tickets that are currently closed.",
     "lt_1_day"                  => "<1 Day",
     "1-2_day"                   => "1-2 Days",
     "2-4_day"                   => "2-4 Days",
@@ -59,7 +58,6 @@ return array(
     "7_plus_day"                => "7+ Days",
     "user_feedback"             => "User Feedback",
     "user_feedback_desc"        => "The feedback provided by users about tickets in a given time period.",
-    "total_users_desc"          => "This report shows how many users there are in the system, split by how many are confirmed and how many aren't.",
     "user_by_country"           => "Users By Country",
     "user_by_country_desc"      => "This report shows the number of users per country, only includes users who have set a country.",
     "user_count"                => "User Count",
@@ -91,5 +89,10 @@ return array(
     "busiest_month_desc"        => "The number of messages received from users across each month of the year.",
     "busiest_department"        => "Busiest Department",
     "busiest_department_desc"   => "The average number of operator messages per department, tallies all operator replies and divides by the number of assigned operators per department.",
+
+    /*
+     * 2.5.0
+     */
+    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
 
 );
