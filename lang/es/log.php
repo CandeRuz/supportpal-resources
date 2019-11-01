@@ -208,13 +208,13 @@ return array(
     "ticket_deleted"                    => "Eliminó permanentemente el ticket ':old_value' (#:rel).",
     "ticket_trashed"                    => "Trasladó ticket #:rel a la papelera.",
     "ticket_restored"                   => "Restauró ticket #:rel de la papelera.",
-    "emptied_ticket_trash"              => "Automaticamente se limpió la papelera de tickets de registros ':old_value'.",
+    "emptied_ticket_trash"              => "Automaticamente se vació la papelera de tickets de registros ':old_value'.",
 
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+    "ticket_followup_set"               => "Se ha establecido un nuevo seguimiento en el ticket #:rel.",
+    "ticket_followup_updated"           => "El seguimiento en el ticket #:rel se ha actualizado.",
+    "ticket_followup_deleted"           => "El seguimiento en el ticket #:rel se ha eliminado.",
 
 );
