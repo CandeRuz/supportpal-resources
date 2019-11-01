@@ -202,8 +202,8 @@ return array(
     /*
      * 2.5.0
      */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
+    "marked_user_as_confirmed"          => "Confirmó la propiedad del correo electrónico en nombre del usuario :rel.",
+    "ticket_department_email_updated"   => "Actualizó el correo de departamento en el ticket #:rel de :old_value a :new_value.",
     "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
     "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
     "ticket_trashed"                    => "Moved ticket #:rel to trash.",
