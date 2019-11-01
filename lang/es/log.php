@@ -204,11 +204,11 @@ return array(
      */
     "marked_user_as_confirmed"          => "Confirmó la propiedad del correo electrónico en nombre del usuario :rel.",
     "ticket_department_email_updated"   => "Actualizó el correo de departamento en el ticket #:rel de :old_value a :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+    "ticket_watching_updated"           => "Actualizó los operadores que siguen el ticket #:rel.",
+    "ticket_deleted"                    => "Eliminó permanentemente el ticket ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Trasladó ticket #:rel a la papelera.",
+    "ticket_restored"                   => "Restauró ticket #:rel de la papelera.",
+    "emptied_ticket_trash"              => "Automaticamente se limpió la papelera de tickets de registros ':old_value'.",
 
     /*
      * 2.6.0
