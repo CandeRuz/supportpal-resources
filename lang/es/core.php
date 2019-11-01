@@ -409,15 +409,15 @@ return array(
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
-    "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
-    "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
-    "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
+    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores. Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
+    "record_trash_relations"    => "Los registros se moverán a la papelera y serán eliminados permanentemente después de :number días junto con toda la información relacionada :relations. Esto tendrá un impacto en los informes.",
+    "uninstall_plugable_warning" => "Al desinstalar el/la :plugable se eleminarán todos los archivos y la información asociados. En su lugar, recomendamos desactivar el/la :plugable.",
+    "web_settings_desc"         => "Los ajustes del canal de la web se aplican en el frontend. Por defecto, cualquier persona que conozca una URL de ticket única puede acceder a los tickets. Puedes desactivar esto y solicitar que los usuarios inicien sesión antes de que puedan acceder a la información del ticket.",
 
     /*
      * 2.6.0
      */
-    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insensitive.",
-    "spam_is_regex_desc"        => "Rules can take advantage of regular expressions; if you intend to do so please enable this setting. You do not need to include delimiters.",
+    "containing_text_desc"      => "Por favor, introduce una cadena (una palabra o correo electrónico que prohibir). Ninguna de las cadenas distingue entre mayúsculas y minúsculas.",
+    "spam_is_regex_desc"        => "Las reglas se pueden aprovechar de las expresiones regulares; si quieres hacer eso, por favor, habilita este ajujste. No necesitas incluir delimitadores.",
 
 );
