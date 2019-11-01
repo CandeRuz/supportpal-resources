@@ -297,29 +297,29 @@ return array(
      * 2.5.0
      */
     "organisation_domain_desc"      => "Enter each domain owned the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
-    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
-    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
-    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
-    "send_confirmation_email"       => "Send Confirmation Email",
-    "mark_as_confirmed"             => "Mark as Confirmed",
-    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
-    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
-    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "reset_request_desc"            => "Please check your email to complete the password reset process.",
-    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
-    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
-    "use_gravatar"                  => "Use Gravatar",
+    "changing_email_desc"           => "Al cambiar la dirección de correo se requerirá que el usuario confirme la propiedad de su correo electrónico la próxima vez que inicien sesión.",
+    "unconfirmed_user_desc"         => "El usuario no ha confirmado la propiedad de este correo electrónico.",
+    "unregistered_user_desc"        => "Esta cuenta ha sido creada automáticamente sin una contraseña. Puedes enviar un correo de confirmación para dejarles configurar su propia cuenta o establecer una contraseña para ellos más abajo.",
+    "send_confirmation_email"       => "Enviar correo de confirmación",
+    "mark_as_confirmed"             => "Marcar como confirmado",
+    "password_reset_already"        => "Ya has confirmado la propiedad de este correo electrónico, por lo que puedes proceder a inicar sesión.",
+    "unconfirmed_account"           => "Por favor, comprueba tu correo para confirmar la propiedad de esta dirección de correo.",
+    "success_register_desc"         => "Gracias por registrar una cuenta. Por favor, comprueba tu correo para completar la configuración.",
+    "reset_request_desc"            => "Por favor, comprueba tu correo para completar el proceso de restablecimiento de la contraseña.",
+    "resend_confirmation_sent"      => "Se ha enviado un nuevo correo de confirmación y debería llegar en pocos minutos.",
+    "register_confirm_desc"         => "Gracias por confirmar la propiedad de tu correo. Por favor, introduce una contraseña más abajo para terminar la configuración de tu cuenta.",
+    "thank_you_confirm"             => "Gracias por confirmar la propiedad de tu dirección de correo electrónico.",
+    "use_gravatar"                  => "Usar Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to it's registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
 
     /*
      * 2.6.0
      */
-    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
-    "confirmation"                  => "Confirmation",
-    "confirmation_email_in_use"     => "The email address is already in use by another account.",
-    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
-    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
-    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
+    "updating_email_address"        => "Para completar la actualización de tu correo electrónico, por favor, haz click en el link enviado a :email para confirmar la propiedad de la nueva dirección de correo.",
+    "confirmation"                  => "Confirmación",
+    "confirmation_email_in_use"     => "La dirección de correo electrónico ya está siendo utilizada por otra cuenta.",
+    "continue_to_login"             => "Por favor, continúa a <a href=':route'>iniciar sesión</a>.",
+    "reset_request_desc"            => "Si se encontrase una cuenta correspondiente, se te enviará un correo en un breve período de tiempo para permitirte restablecer tu contraseña.",
+    "password_reset_error"          => "Puede que el link haya expirado. Si tu link no funciona por cualquier motivo, por favor, solicita uno nuevo.",
 
 );
