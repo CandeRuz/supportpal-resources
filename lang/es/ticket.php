@@ -519,25 +519,25 @@ return array(
     /*
      * 2.5.0
      */
-    "belonging_to"              => "(Belonging to :name)",
-    "block_user"                => "Block User",
-    "merge_tickets"             => "Merge Tickets",
-    "merge_tickets_confirm"     => "Please confirm you'd like to merge the following tickets:",
+    "belonging_to"              => "(Pertenece a :name)",
+    "block_user"                => "Bloquear usuario",
+    "merge_tickets"             => "Combinar tickets",
+    "merge_tickets_confirm"     => "Por favor, confirma que te gustaría combinar los siguientes tickets:",
 
     /*
      * 2.5.1
      */
-    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
+    "channel_account_removed"   => "La cuenta del canal del ticket ha sido desactivada o eliminada, por lo que no se puede publicar una respuesta.",
 
     /*
      * 2.6.0
      */
-    "follow_ups"                => "Follow Ups",
-    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
-    "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
+    "follow_ups"                => "Seguimientos",
+    "follow_up_multiple_active" => "Múltiples <a class='view-followup' style='text-decoration: underline;'>seguimientos</a> se encuentran actualmente activos en este ticket, y el próximo programado se ejecutará <strong>:time</strong>.",
+    "follow_up_no_actions"      => "El seguimiento no tiene ninguna acción programada. Por favor, confirma que quieres continuar.",
     "status_after_running"      => "Status After Running",
-    "older_messages"            => ":count older messages",
+    "older_messages"            => ":count mensajes antiguos",
     "holiday_single_day"        => "Single Day",
-    "holiday_date_range"        => "Date Range",
+    "holiday_date_range"        => "Intervalo de fechas",
 
 );
