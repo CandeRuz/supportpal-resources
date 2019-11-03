@@ -147,8 +147,8 @@ return array(
     "account_closed"        => "Tu cuenta ha sido cerrada. Por favor, ponte en contacto con nosotros si piensas que ha habido un error.",
     "leave_record"          => "¿Dejar :record?",
     "leave_record_warn"     => "Esto te eliminará permanentemente de :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "success_trashed"       => "Éxito al trasladar el :item a la papelera!",
+    "error_trashed"         => "Error al trasladar el :item a la papelera.",
     "blocked_by_rule"       => "La petición se ha bloqueado por la regla de spam ':text'.",
 
 );
