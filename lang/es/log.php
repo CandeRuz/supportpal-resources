@@ -208,7 +208,7 @@ return array(
     "ticket_deleted"                    => "Eliminó permanentemente el ticket ':old_value' (#:rel).",
     "ticket_trashed"                    => "Trasladó ticket #:rel a la papelera.",
     "ticket_restored"                   => "Restauró ticket #:rel de la papelera.",
-    "emptied_ticket_trash"              => "Automaticamente se vació la papelera de tickets de registros ':old_value'.",
+    "emptied_ticket_trash"              => "Automaticamente se vació la papelera de tickets de ':old_value' registros.",
 
     /*
      * 2.6.0
