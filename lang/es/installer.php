@@ -137,7 +137,7 @@ return array(
     "locked"                    => "Instalación/Actualización en curso",
     "locked_desc"               => "Detectado un archivo de bloqueo (:path).\nPor favor, comprueba que el instalador no se esté ejecutando todavía..\n\nPuedes eliminar este archivo cuando estés seguro de que no hay otra instalación o actualización en curso.",
 
-    "possible_permission_issue" => "[ADVERTENCIA] Parece que estás ejecutando este comando como raíz It seems you are running this command as root or a different user to the owner of the files. El comando debe ser ejecutado por el usuario correcto para que el servidor de web también pueda leer y escribir al sistema posteriormente.",
+    "possible_permission_issue" => "[ADVERTENCIA] Parece que estás ejecutando este comando como raíz o como un usuario diferente al propietario de los archivos. El comando debe ser ejecutado por el usuario correcto para que el servidor de web también pueda leer y escribir al sistema posteriormente.",
     "wish_to_continue"          => "Se recomienda que cambies el usuario a no ser que estés seguro de lo que estás haciendo. ¿Deseas continuar?",
     "error_and_empty_database"  => "Ha habido un error. Puede que necesites vaciar la base de datos antes de volver a comenzar.",
     "login_with_details"        => "Puedes iniciar sesión utilizando los detalles especificados previamente.",
