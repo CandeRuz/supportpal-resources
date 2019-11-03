@@ -535,9 +535,9 @@ return array(
     "follow_ups"                => "Seguimientos",
     "follow_up_multiple_active" => "Múltiples <a class='view-followup' style='text-decoration: underline;'>seguimientos</a> se encuentran actualmente activos en este ticket, y el próximo programado se ejecutará <strong>:time</strong>.",
     "follow_up_no_actions"      => "El seguimiento no tiene ninguna acción programada. Por favor, confirma que quieres continuar.",
-    "status_after_running"      => "Status After Running",
+    "status_after_running"      => "Estado después de la ejecución",
     "older_messages"            => ":count mensajes antiguos",
-    "holiday_single_day"        => "Single Day",
+    "holiday_single_day"        => "Solo un día",
     "holiday_date_range"        => "Intervalo de fechas",
 
 );
