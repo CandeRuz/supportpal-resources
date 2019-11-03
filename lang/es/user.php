@@ -296,7 +296,7 @@ return array(
     /*
      * 2.5.0
      */
-    "organisation_domain_desc"      => "Enter each domain owned the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "organisation_domain_desc"      => "Introduce cada dominio que posee la organización. Los usuarios que se registran con una dirección de correo electrónico que pertenece a uno de esos dominios se añadirán automáticamente a la organización. Recomendamos verificar que el usuario es realmente parte de la organización si no han confirmado la propiedad de su correo electrónico.",
     "changing_email_desc"           => "Al cambiar la dirección de correo se requerirá que el usuario confirme la propiedad de su correo electrónico la próxima vez que inicien sesión.",
     "unconfirmed_user_desc"         => "El usuario no ha confirmado la propiedad de este correo electrónico.",
     "unregistered_user_desc"        => "Esta cuenta ha sido creada automáticamente sin una contraseña. Puedes enviar un correo de confirmación para dejarles configurar su propia cuenta o establecer una contraseña para ellos más abajo.",
@@ -310,7 +310,7 @@ return array(
     "register_confirm_desc"         => "Gracias por confirmar la propiedad de tu correo. Por favor, introduce una contraseña más abajo para terminar la configuración de tu cuenta.",
     "thank_you_confirm"             => "Gracias por confirmar la propiedad de tu dirección de correo electrónico.",
     "use_gravatar"                  => "Usar Gravatar",
-    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to it's registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+    "use_gravatar_desc"             => "Gravatar es un servicio que ofrece un avatar globalmente reconocido a sus usuarios registrados. El Help Desk enviará automáticamente una petición a secure.gravatar.com con un Hash MD5 de cada dirección de correo electrónico del usuario para ayudar a mostrar un avatar. El Hash MD5 puede ser visible públicamente en el frontend HTML. Recomendamos que actualices tu política de privacidad si estableces esta función.",
 
     /*
      * 2.6.0
