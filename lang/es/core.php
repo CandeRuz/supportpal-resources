@@ -411,7 +411,7 @@ return array(
      */
     "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores. Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
     "record_trash_relations"    => "Los registros se moverán a la papelera y serán eliminados permanentemente después de :number días junto con toda la información relacionada :relations. Esto tendrá un impacto en los informes.",
-    "uninstall_plugable_warning" => "Al desinstalar el/la :plugable se eleminarán todos los archivos y la información asociados. En su lugar, recomendamos desactivar el/la :plugable.",
+    "uninstall_plugable_warning" => "Al desinstalar el :plugable se eleminarán todos los archivos y la información asociados. En su lugar, recomendamos desactivar el :plugable.",
     "web_settings_desc"         => "Los ajustes del canal de la web se aplican en el frontend. Por defecto, cualquier persona que conozca una URL de ticket única puede acceder a los tickets. Puedes desactivar esto y solicitar que los usuarios inicien sesión antes de que puedan acceder a la información del ticket.",
 
     /*
