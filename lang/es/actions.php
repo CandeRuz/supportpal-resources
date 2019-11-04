@@ -32,7 +32,7 @@ return array(
     "reduce_due_time"           => "Reducir hora de entrega",
     "set_due_time"              => "Establecer hora de entrega",
     "unlock_ticket"             => "Desbloquear ticket",
-    "update_sla_plan"           => "Actualizar plan ANS",
+    "update_sla_plan"           => "Actualizar plan SLA",
     "update_subject"            => "Actualizar asunto",
     "add_user_to_group"         => "Añadir usuario al grupo de usuarios",
     "remove_user_from_group"    => "Eliminar usuario del grupo de usuarios",
