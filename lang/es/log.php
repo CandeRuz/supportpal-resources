@@ -28,7 +28,7 @@ return array(
     "user_registered"                   => "Registró una cuenta.",
     "user_confirmed"                    => "Confirmó su cuenta.",
     "user_password_set"                 => "Estableció una contraseña para su cuenta.",
-    "user_password_reset"               => "Reestableció la contraseña de su cuenta.",
+    "user_password_reset"               => "Restableció la contraseña de su cuenta.",
 
     "user_added_to_organisation"        => "Usuario :rel añadido a la organización :new_value.",
     "user_removed_from_organisation"    => "Usuario :rel eliminado de la organización :old_value.",
