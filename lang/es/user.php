@@ -46,7 +46,7 @@ return array(
     "last_active"                   => "Activo por última vez",
 
     "forgot_password"               => "¿Olvidaste tu contraseña?",
-    "reset_password"                => "Resetear contraseña",
+    "reset_password"                => "Restablecer contraseña",
     "password_reset_complete"       => "Restablecimiento completado",
     "set_password"                  => "Establece una contraseña",
     "only_enter_to_change"          => "Solo introduce para cambiar",
