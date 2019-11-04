@@ -93,6 +93,6 @@ return array(
     /*
      * 2.5.0
      */
-    "total_users_desc"          => "Este informe muestra cuántos usuarios hay en el sistema, divididos en cuántos han confirmado la propiedad de su dirección de correo electrónico.",
+    "total_users_desc"          => "Este informe muestra cuántos usuarios hay en el sistema, divididos en cuántos han confirmado la propiedad de su dirección de correo electrónico y cuántos no.",
 
 );
