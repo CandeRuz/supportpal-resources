@@ -276,7 +276,7 @@ return array(
     "brand_timezone"            => "Zona horaria de la marca",
     "brand_timezone_desc"       => "La zona horaria utilizada por defecto en el front-end de esta marca. Los usuarios tendrán la opcion de seleccionar su propia zona horaria.",
     "brand_default_lang_desc"   => "La lengua utilizada por defecto en el front-end de esta marca.",
-    "brand_lang_toggle_desc"    => "If the language dropdown should show on this brand's frontend.",
+    "brand_lang_toggle_desc"    => "Si el menú desplegable de lenguas se debería mostrar en el frontend de esta marca.",
     "brand_groups_desc"         => "Los operadores en los grupos seleccionados serán capaces de crear, actualizar y eliminar (dependiendo de los permisos que posean) tickets y otro contenido en esta marca.",
     "select_brand"              => "Selecciona una marca...",
     "add_another_language"      => "Añadir otra lengua...",
