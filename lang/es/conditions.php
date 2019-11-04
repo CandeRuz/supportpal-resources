@@ -19,7 +19,7 @@ return array(
     "ticket_message_content"            => "Contenido del mensaje del ticket",
     "ticket_message_count"              => "Número de mensajes del ticket",
     "ticket_priority"                   => "Prioridad del ticket",
-    "ticket_sla_plan"                   => "Plan ANS del ticket",
+    "ticket_sla_plan"                   => "Plan SLA del ticket",
     "ticket_status"                     => "Estado del ticket",
     "ticket_subject"                    => "Asunto del ticket",
     "ticket_tag"                        => "Etiqueta del ticket",
