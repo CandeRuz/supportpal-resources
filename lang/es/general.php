@@ -119,7 +119,7 @@ return array(
     "form"                      => "Formulario",
     "support_portal"            => "Portal de asistencia",
     "previous_page"             => "Página anterior",
-    "reset"                     => "Resetear",
+    "reset"                     => "Restablecer",
     "interval"                  => "Intervalo",
     "content"                   => "Contenido",
     "sender"                    => "Remitente",
