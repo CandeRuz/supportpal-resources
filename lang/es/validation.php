@@ -162,7 +162,7 @@ return array(
     /*
      * 2.5.1
      */
-    "valid_twig"                => "El formato del campo de :attribute es inválido. Por favor, utiliza el botón de 'Preview' para los detalles de error.",
+    "valid_twig"                => "El formato del campo de :attribute es inválido. Por favor, utiliza el botón de 'Previsualizar' para los detalles de error.",
 
     /*
     |--------------------------------------------------------------------------
