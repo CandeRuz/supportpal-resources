@@ -172,7 +172,7 @@ return array(
     "company_name_desc"         => "El nombre de tu compañía se usa para toda la correspondencia con los usuarios.",
     "default_email"             => "Dirección de correo electrónico por defecto",
     "default_email_desc"        => "La dirección de correo electrónico por defecto que se utiliza para toda la correspondencia saliente para los usuarios.",
-    "dept_settings_desc"        => "Nos hemos dado cuenta de que los departamentos dentro de tu organización funcionan de manera diferente. Los ajustes de departamento te permiten cancelar los ajustes globales.",
+    "dept_settings_desc"        => "A veces, puede que los departamentos dentro de tu organización funcionen de manera diferente. Los ajustes de departamento te permiten cancelar los ajustes globales.",
     "department_desc"           => "Los departamentos son exactamente iguales que los de tu organización. Son útiles para asegurar que las consultas de los clientes se dirigen al personal adecuado rápidamente.",
     "department_email"          => "Direcciones de correo electrónico de departamento",
     "dept_email_desc"           => "Múltiples direcciones de correo se pueden asignar a un departamento determinado. Los correos electrónicos se descargarán de cada dirección y se importarán al Help Desk.",
