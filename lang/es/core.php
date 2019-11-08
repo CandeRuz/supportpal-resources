@@ -182,7 +182,7 @@ return array(
     "schedule_task_2"           => "Las tareas programadas necesitan que se cree un Cron Job para funcionar. El intervalo para cada tarea llevada a cabo por el Cron Job se puede ajustar a través del formulario para editar.",
     "schedule_task_cron"        => "Cron Job",
     "schedule_task_3"           => "Crea un Cron Job similar al ejemplo mostrado abajo en tu servidor para que las tareas programadas se ejecuten automáticamente.",
-    "ticket_channel_desc"       => "Los canales de ticket son métodos de creación de ticket. Estos se pueden extender fácilmente para inlcuir tus propios canales, por ejemplo tickets abiertos a través de Instagram.",
+    "ticket_channel_desc"       => "Los canales de ticket son métodos de creación de ticket. Estos se pueden extender fácilmente para incluir tus propios canales, por ejemplo, tickets abiertos a través de Instagram.",
     "ticket_channel_2"          => "Nosotros ofrecemos una serie de canales por defecto. Puedes activar y configurar los canales de Facebook y Twitter para recopilar tickets generados a través de las redes sociales.",
     "user_desc"                 => "Los usuarios que interactúan con tu sistema se muestran aquí. Puedes añadir, editar y eliminar usuarios como desees.",
     "organisation_desc"         => "Los usuarios se pueden asignar a organizaciones, permitiéndoles acceder a los tickets abiertos por otros usuarios dentro de su misma organización.",
