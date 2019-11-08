@@ -8,7 +8,7 @@ return array(
     "operator_panel"            => "Panel del operador",
     "carefully_crafted"         => "Cuidadosamente elaborado por",
     "welcome"                   => "Bienvenido a SupportPal",
-    "welcome_desc"              => "Has tomado la mejor decisión. Pulsa comenzar para disfrutar de un recorrido a través de las prestaciones y características de nuestro producto.",
+    "welcome_desc"              => "¡Has tomado la mejor decisión! Pulsa comenzar para disfrutar de un recorrido a través de las prestaciones y características de nuestro producto.",
 
     // Dashboard
     "search_placeholder"        => "Busca en nuestro Help Desk...",
