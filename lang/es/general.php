@@ -23,7 +23,7 @@ return array(
     "unanswered"                => "Sin respuesta",
     "in_queue"                  => "En cola",
     "open"                      => "Abierto(s)",
-    "pending"                   => "Pendiente",
+    "pending"                   => "Pendiente(s)",
     "continue"                  => "Continuar",
     "retry"                     => "Reintentar",
     "submit"                    => "Enviar|Enviado",
