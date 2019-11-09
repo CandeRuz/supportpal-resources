@@ -82,7 +82,7 @@ return array(
     "column"                    => "Columna|Columnas",
     "action"                    => "Acción|Acciones",
     "value"                     => "Valor",
-    "when"                      => "Cuando",
+    "when"                      => "Cuándo",
     "timezone"                  => "Zona horaria",
     "api"                       => "API",
     "system"                    => "Sistema",
