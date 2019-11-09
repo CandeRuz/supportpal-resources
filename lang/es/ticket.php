@@ -306,9 +306,9 @@ return array(
 
     "mass_reply"                => "Respuesta masiva",
 
-    "due_today"                 => "Pendiente para hoy",
-    "overdue"                   => "Vencido",
-    "unassigned"                => "Desasignado",
+    "due_today"                 => "Pendiente(s) para hoy",
+    "overdue"                   => "Vencido(s)",
+    "unassigned"                => "Desasignado(s)",
 
     "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
     "delete_follow_up"          => "Eliminar seguimiento",
