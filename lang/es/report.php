@@ -46,7 +46,7 @@ return array(
     "ticket_by_department"      => "Tickets por departamento",
     "ticket_by_department_desc" => "El departamento en el que se abren los tickets durante un período de tiempo determinado.",
     "ticket_by_priority"        => "Tickets por prioridades",
-    "ticket_by_priority_desc"   => "La prioridad de los tickets abiertos durante un periodo de tiempo determinado.",
+    "ticket_by_priority_desc"   => "La prioridad de los tickets abiertos durante un período de tiempo determinado.",
     "ticket_by_status"          => "Tickets por estados",
     "ticket_by_status_desc"     => "El estado actual de Tickets abiertos durante un período de tiempo determinado.",
     "time_to_resolution"        => "Tiempo de resolución",
