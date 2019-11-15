@@ -209,7 +209,7 @@ return array(
     "specific_schedule"         => "Horarios específicos",
     "calendar_hours_24"         => "Horas del calendario (24 Horas)",
     "resolution_time"           => "Horas de resolución",
-    "resolution_time_desc"      => "Establece unas horas límite para las que un ticket debe sido respondido y resuelto por prioridad. El tiempo solo se contará durante las horas comerciales basadas en los horarios elegidos. Se pueden utilizar valores decimales.",
+    "resolution_time_desc"      => "Establece unas horas límite para las que un ticket debe haber sido respondido y resuelto por prioridad. El tiempo solo se contará durante las horas comerciales basadas en los horarios elegidos. Se pueden utilizar valores decimales.",
     "reply_within"              => "Responder en",
     "resolve_within"            => "Resolver en",
     "plan"                      => "Plan",
