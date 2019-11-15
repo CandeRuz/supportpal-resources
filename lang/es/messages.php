@@ -17,11 +17,11 @@ return array(
     "success_created"       => "¡Éxito al crear nuevo/a :item!",
     "error_created"         => "Error al intentar crear nuevo/a :item.",
 
-    "success_deleted"       => "¡Éxito al eliminar el/la :item!",
-    "error_deleted"         => "Error al intentar eliminar el/la :item.",
+    "success_deleted"       => "¡Éxito al eliminar :item!",
+    "error_deleted"         => "Error al intentar eliminar :item.",
 
-    "success_updated"       => "¡Éxito al actualizar el/la :item!",
-    "error_updated"         => "Error al intentar actualizar el/la :item.",
+    "success_updated"       => "¡Éxito al actualizar :item!",
+    "error_updated"         => "Error al intentar actualizar :item.",
 
     "error_notfound"        => "El/la :item con ese ID no se ha podido encontrar.",
     "error_notfound_name"   => "El/la :item con ese nombre no se ha podido encontrar.",
@@ -41,8 +41,8 @@ return array(
     "success_action"        => "¡Acción llevada a cabo con éxito!",
     "error_action"          => "Error al llevar a cabo la acción.",
 
-    "success_sending"       => "Éxito al enviar el/la :item!",
-    "error_sending"         => "Error al intentar enviar el/la :item.",
+    "success_sending"       => "Éxito al enviar :item!",
+    "error_sending"         => "Error al intentar enviar :item.",
 
     "error_embed_image"     => "Error al intentar subir la imagen.",
 
