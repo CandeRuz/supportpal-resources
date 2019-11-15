@@ -37,7 +37,7 @@ return array(
     "associate_tag"             => "Asociar artículo con una etiqueta...",
     "associate_category"        => "Asociar artículo con una categoría...",
     "published_desc"            => "Si el artículo puede verse públicamente. Si no está publicado, todavía podría verse a través de una URL directa siempre que una de las categorías sea pública.",
-    "registered_users_desc"     => "Alterna para mostrar el artículo solo a usuarios conectados.",
+    "registered_users_desc"     => "Alterna para mostrar el artículo solo a usuarios registrados.",
 
     "comment_by"                => "Comentario de",
     "replying_to"               => "Respondiendo a",
