@@ -224,7 +224,7 @@ return array(
     "time_format"               => "Formato de hora",
     "time_format_desc"          => "El formato de hora que se usa globalmente.",
     "simpleauth_key"            => "Clave de SimpleAuth",
-    "simpleauth_key_desc"       => "la clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
+    "simpleauth_key_desc"       => "La clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
     "simpleauth_operators"      => "Permitir para operadores",
     "frontend_logo"             => "Logo del Front-end",
     "base_url"                  => "URL del sistema",
