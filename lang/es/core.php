@@ -410,7 +410,7 @@ return array(
      * 2.5.0
      */
     "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores. Utilízalo solo para depuración o instruído por asistencia. De otra manera, los errores y otros mensajes de registro útiles se almacenan en los registros de la aplicación, y se pueden descargar en Utilidades -> Registros -> Archivos de registro.",
-    "record_trash_relations"    => "Los registros se moverán a la papelera y serán eliminados permanentemente después de :number días junto con toda la información relacionada :relations. Esto tendrá un impacto en los informes.",
+    "record_trash_relations"    => "Los registros se moverán a la papelera y serán eliminados permanentemente después de :number días junto con toda la información relacionada: :relations. Esto tendrá un impacto en los informes.",
     "uninstall_plugable_warning" => "Al desinstalar el :plugable se eliminarán todos los archivos y la información asociados. En su lugar, recomendamos desactivar el :plugable.",
     "web_settings_desc"         => "Los ajustes del canal de la web se aplican en el frontend. Por defecto, cualquier persona que conozca una URL de ticket única puede acceder a los tickets. Puedes desactivar esto y solicitar que los usuarios inicien sesión antes de que puedan acceder a la información del ticket.",
 
