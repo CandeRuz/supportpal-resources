@@ -417,7 +417,7 @@ return array(
     "enable_subaddresses_desc"  => "Alterna para habilitar el uso de sub-direcciones de correo para todos los departamentos. Esto creará una única sub-dirección para cada ticket que se establece como la dirección de 'Responder a' en todo el correo saliente. Tu servidor de correo tiene que poder administrar sub-direcciones. Puede que se requieran pasos adicionales si estás utilizando una canalización de correos para asegurar que los correos se envían correctamente a estas direcciones. Al habilitar esto, podrás eliminar el número del ticket del asunto de las plantillas de correo.",
     "email_replies_disabled"    => "Respuestas de correo desactivadas",
     "disable_user_email_replies_desc" => "Habilita para bloquear respuestas de correos de usuarios, y también eliminar la línea de respuesta de los correos de tickets salientes. Por defecto, el correo se silenciará y se ignorará, pero puedes establecer que se envíe un correo al usuario cambiando la plantilla de correo seleccionada para la opción de 'Respuestas de correo desactivadas' más abajo.",
-    "bcc"                       => "BCC",
+    "bcc"                       => "CCO",
     "assigned_to_ticket"        => "Asignado al ticket",
     "user_ticket_reply"         => "Respuesta de usuario del ticket",
     "new_internal_ticket"       => "Nuevo ticket interno",
@@ -466,7 +466,7 @@ return array(
     "forwarded_to"              => "Reenviado a",
     "new_operator_reply"        => "Nueva respuesta del operador",
     "new_user_reply"            => "Nueva respuesta del usuario",
-    "add_bcc"                   => "Añadir BCC",
+    "add_bcc"                   => "Añadir CCO",
     "at_least_one_recipient"    => "Por favor, indica al menos un destinatario.",
     "forwarded_message"         => "---------- Mensaje reenviado ----------",
 
