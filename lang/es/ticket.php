@@ -431,7 +431,7 @@ return array(
     "email_user_frontend"       => "Enviar correo a los usuarios en los tickets abiertos del frontend.",
     "email_user_frontend_desc"  => "Selecciona si se debería notificar a los usuarios por correo cuando ellos mismos abren un ticket en el frontend.",
     "department_template_disabled" => "La plantilla de correo del departamento relevante está desactivada, por lo que no se puede enviar este correo.",
-    "verbose_email_log_desc"    => "Si la recopilación de correos debería ser almacenada en archivos. Se recomienda mantener desactivado a no ser que ordene por la asistencia para depurar. Se almacenan cinco días de registros, ya que el sistema eliminará automáticamente archivos de registros que sean más antiguos.",
+    "verbose_email_log_desc"    => "Si la recopilación de correos debería ser almacenada en archivos. Se recomienda mantener desactivado a no ser que se ordene por la asistencia para depurar. Se almacenan cinco días de registros, ya que el sistema eliminará automáticamente archivos de registros que sean más antiguos.",
 
     /*
      * 2.2.0
