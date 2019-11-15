@@ -122,7 +122,7 @@ return array(
     "warn_delete"           => "Esto eliminará permanentemente el/la <strong>:name</strong> :record del sistema.",
     "delete_confirm"        => "Sí, eliminar :record",
     "keep_record"           => "No, mantener :record",
-    "delete_relations"      => "Al eliminar el/la <strong>:name</strong> :record también se eliminará permanentemente toda esta información relacionada:",
+    "delete_relations"      => "Al eliminar el/la :record <strong>:name</strong> también se eliminará permanentemente toda esta información relacionada:",
     "please_check"          => "Debes marcar todas las casillas arriba para confirmar que comprendes el resultado de esta acción irreversible.",
     "failed_attachments"    => "Error al adjuntar algunos archivos.",
 
