@@ -34,7 +34,7 @@ return array(
 
     "login"                         => "Iniciar sesión",
     "remember_me"                   => "Recordarme",
-    "logout"                        => "cerrar sesión",
+    "logout"                        => "Cerrar sesión",
     "return_to_login"               => "Volver al inicio de sesión",
 
     "user_register_disabled"        => "Lo sentimos, el registro de usuarios públicos está actualmente desactivado.",
