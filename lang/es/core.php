@@ -142,7 +142,7 @@ return array(
     "files_desc"                => "Los siguientes elementos están almacenados como archivos en el sistema de archivos.",
     "logs"                      => "Registros",
     "logs_desc"                 => "Los siguientes elementos están registrados en la base de datos.",
-    "empty"                     => "Vacío",
+    "empty"                     => "Vaciar",
     "prune"                     => "Eliminar",
     "total_records"             => "Total de registros",
     "system_cache"              => "Caché del sistema",
