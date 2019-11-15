@@ -418,6 +418,6 @@ return array(
      * 2.6.0
      */
     "containing_text_desc"      => "Por favor, introduce una cadena (una palabra o correo electrónico que prohibir). Ninguna de las cadenas distingue entre mayúsculas y minúsculas.",
-    "spam_is_regex_desc"        => "Las reglas se pueden aprovechar de las expresiones regulares; si quieres hacer eso, por favor, habilita este ajujste. No necesitas incluir delimitadores.",
+    "spam_is_regex_desc"        => "Las reglas se pueden aprovechar de las expresiones regulares; si quieres hacer eso, por favor, habilita este ajuste. No necesitas incluir delimitadores.",
 
 );
