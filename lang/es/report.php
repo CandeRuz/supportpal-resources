@@ -48,7 +48,7 @@ return array(
     "ticket_by_priority"        => "Tickets por prioridades",
     "ticket_by_priority_desc"   => "La prioridad de los tickets abiertos durante un período de tiempo determinado.",
     "ticket_by_status"          => "Tickets por estados",
-    "ticket_by_status_desc"     => "El estado actual de Tickets abiertos durante un período de tiempo determinado.",
+    "ticket_by_status_desc"     => "El estado actual de tickets abiertos durante un período de tiempo determinado.",
     "time_to_resolution"        => "Tiempo de resolución",
     "time_to_resolution_desc"   => "El tiempo que tardó en cerrarse un ticket después de abrirse. Solo incluye tickets que se encuentran cerrados actualmente.",
     "lt_1_day"                  => "<1 día",
