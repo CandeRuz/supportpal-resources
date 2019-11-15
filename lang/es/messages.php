@@ -119,7 +119,7 @@ return array(
      */
     "delete_record"         => "¿Eliminar :record?",
     "cannot_be_undone"      => "Esta acción no se puede deshacer.",
-    "warn_delete"           => "Esto eliminará permanentemente el/la <strong>:name</strong> :record del sistema.",
+    "warn_delete"           => "Esto eliminará permanentemente el/la :record <strong>:name</strong> del sistema.",
     "delete_confirm"        => "Sí, eliminar :record",
     "keep_record"           => "No, mantener :record",
     "delete_relations"      => "Al eliminar el/la :record <strong>:name</strong> también se eliminará permanentemente toda esta información relacionada:",
