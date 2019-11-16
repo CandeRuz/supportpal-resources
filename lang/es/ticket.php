@@ -368,7 +368,7 @@ return array(
     "default_reply_status"      => "Estado de la respuesta por defecto",
     "default_reply_status_desc" => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario responde a un ticket. Solo se aplica si un operador ya ha respondido al ticket.",
     "drafting_reply"            => "<strong>:name</strong> comenzó a hacer un borrador de :type :time:",
-    "ticket_reply_order_default" => "el sistema por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
+    "ticket_reply_order_default" => "El sistema por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
     "select_a_parent"           => "Selecciona un departamento principal...",
     "select_a_department"       => "Selecciona un departamento...",
     "department_operator_desc"  => "También puedes asignar operadores individuales al departamento. Estos operadores se añadirán además de los grupos asignados arriba.",
