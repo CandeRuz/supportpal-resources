@@ -206,7 +206,7 @@ return array(
     "select_groups"                 => "Seleccionar grupo(s)...",
     "group_department_desc"         => "Asignar todos los miembros de este grupo a departamentos. Los operadores también pueden ser asignados individualmente en los ajustes del departamento.",
     "op_settings_group_dept"        => "Asignados a través de grupos de operadores:",
-    "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. Para asignarlo a través de un grupo de operadores, edita los ajustes del grupo de operadoreso de departamento.",
+    "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. Para asignarlo a través de un grupo de operadores, edita los ajustes del grupo de operadores de departamento.",
     "op_settings_individual_dept"   => "Asignados individualmente:",
     "op_settings_individual_dept_desc" => "Estos departamentos son una adición a cualquiera de los departamentos a los que el operador este asignado a través de sus grupos arriba.",
     "also_registered_other_brand"   => "Este usuario también está registrado en la marca :brands.|Este usuario también está registrado en las marcas :brands.",
