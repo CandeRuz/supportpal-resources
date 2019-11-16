@@ -208,7 +208,7 @@ return array(
     "op_settings_group_dept"        => "Asignados a través de grupos de operadores:",
     "op_settings_group_dept_desc"   => "Estos departamentos son heredados automáticamente de los grupos de operadores seleccionados arriba. Para asignarlo a través de un grupo de operadores, edita los ajustes del grupo de operadores de departamento.",
     "op_settings_individual_dept"   => "Asignados individualmente:",
-    "op_settings_individual_dept_desc" => "Estos departamentos son una adición a cualquiera de los departamentos a los que el operador este asignado a través de sus grupos arriba.",
+    "op_settings_individual_dept_desc" => "Estos departamentos son una adición a cualquiera de los departamentos a los que el operador esté asignado a través de sus grupos arriba.",
     "also_registered_other_brand"   => "Este usuario también está registrado en la marca :brands.|Este usuario también está registrado en las marcas :brands.",
     "signature"                     => "Firma|Firmas",
     "signature_desc"                => "Crear firmas personales del ticket, con opción a personalizarla basada en la marca/departamento del ticket. La firma por defecto se utiliza cuando no se puede encontrar una firma para un departamento y/o marca específicos.",
