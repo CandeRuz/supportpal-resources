@@ -119,7 +119,7 @@ return array(
     "password_str_symbols"          => "Al menos un símbolo.",
 
     "load_template"                 => "Cargar plantilla",
-    "load_template_desc"            => "Al seleccionar una plantilla se reemplazará el actual asunto y mensaje del correo.",
+    "load_template_desc"            => "Al seleccionar una plantilla se reemplazarán el asunto asunto y mensaje del correo.",
     "clear_template"                => "Borrar plantilla",
 
     "personal_settings"             => "Ajustes personales",
